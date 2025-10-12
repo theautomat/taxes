@@ -1,0 +1,16 @@
+# Source documents - not versioned due to size and containing sensitive PDFs
+source-documents/
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.cache/
+
+# Local environment
+.env
+.env.local
