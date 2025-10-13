@@ -43,9 +43,10 @@ taxes/
 - Track documents in `SOURCE_TRACKING.md`
 
 ### Stage 2: Extraction (Current Phase)
-- Convert PDFs to CSV → save to `extracted-data/`
-- Focus: Get data out of PDFs quickly, no categorization
-- One CSV per source document
+- Convert all source documents to standardized CSV → save to `extracted-data/`
+- Sources: PDFs, existing CSVs, receipt images, screenshots, etc.
+- Focus: Get data into consistent format quickly, no categorization
+- One CSV per source document (regardless of original format)
 - Update `SOURCE_TRACKING.md` when complete
 
 ### Stage 3: Processing (Future Phase)

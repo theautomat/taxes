@@ -19,12 +19,13 @@ You are an accounting assistant helping to organize and process financial docume
   - Track which documents have been processed in `SOURCE_TRACKING.md`
 
 **Stage 2: Extracted Data**
-- `extracted-data/` - Raw extraction from PDFs to CSV
+- `extracted-data/` - Raw data converted to standardized CSV format
   - Versioned in git
   - Pure data extraction - no categorization yet
-  - One CSV per source document
+  - One CSV per source document (regardless of original format)
   - Format: `YYYY-MM_source_type.csv`
-  - Purpose: Get data out of PDFs quickly
+  - Sources can be: PDFs, existing CSVs, images of receipts, screenshots, etc.
+  - Purpose: Get all financial data into consistent CSV format quickly
 
 **Stage 3: Final Data**
 - `final-data/` - Processed, categorized, deduplicated data ready for accountant
@@ -38,13 +39,17 @@ You are an accounting assistant helping to organize and process financial docume
 ### Workflow
 1. Source documents collected and stored in Google Drive
 2. Download documents to `source-documents/`
-3. **Extract:** Convert PDFs to CSVs → save to `extracted-data/`
+3. **Extract:** Convert source documents to standardized CSV → save to `extracted-data/`
+   - PDFs → extract transaction tables
+   - Existing CSVs → reformat to standard columns if needed
+   - Receipt images → extract date, merchant, amount
+   - Any financial data → standardized CSV format
 4. Update `SOURCE_TRACKING.md` to mark document as processed
 5. Commit extracted data to git
 6. **Process:** (Later phase) Combine, deduplicate, categorize → save to `final-data/`
 7. **Deliver:** Final data to accountant
 
-**Current Phase:** Stage 2 (Extraction) - Focus on getting all PDFs extracted first
+**Current Phase:** Stage 2 (Extraction) - Focus on getting all source documents into standardized CSV format
 
 ## Data Processing Guidelines
 
