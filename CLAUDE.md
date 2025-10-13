@@ -16,10 +16,10 @@ You are an accounting assistant helping to organize and process financial docume
   - NOT versioned in git (gitignored - files can be large)
   - Synced with Google Drive for backup
   - Local copy refreshed periodically from Google Drive
-  - Track which documents have been processed in `SOURCE_TRACKING.md`
+  - Track which documents have been processed in `docs/SOURCE_TRACKING.md`
 
-**Stage 2: Extracted Data**
-- `extracted-data/` - Raw data converted to standardized CSV format
+**Stage 2: Generated Files - Extraction**
+- `generated-files/extracted/` - Raw data converted to standardized CSV format
   - Versioned in git
   - Pure data extraction - no categorization yet
   - One CSV per source document (regardless of original format)
@@ -27,8 +27,16 @@ You are an accounting assistant helping to organize and process financial docume
   - Sources can be: PDFs, existing CSVs, images of receipts, screenshots, etc.
   - Purpose: Get all financial data into consistent CSV format quickly
 
-**Stage 3: Final Data**
-- `final-data/` - Processed, categorized, deduplicated data ready for accountant
+**Stage 3: Generated Files - Merged**
+- `generated-files/merged/` - Combined data from all extracted files
+  - Versioned in git
+  - Contains duplicates (deduplication happens in final stage)
+  - Sorted by date
+  - Timestamped files for tracking different merge runs
+  - Purpose: Single file containing all transactions for review
+
+**Stage 4: Generated Files - Final**
+- `generated-files/final/` - Processed, categorized, deduplicated data ready for accountant
   - Versioned in git
   - Transactions deduplicated across sources
   - Business/Personal classification added
@@ -39,15 +47,16 @@ You are an accounting assistant helping to organize and process financial docume
 ### Workflow
 1. Source documents collected and stored in Google Drive
 2. Download documents to `source-documents/`
-3. **Extract:** Convert source documents to standardized CSV → save to `extracted-data/`
+3. **Extract:** Convert source documents to standardized CSV → save to `generated-files/extracted/`
    - PDFs → extract transaction tables
    - Existing CSVs → reformat to standard columns if needed
    - Receipt images → extract date, merchant, amount
    - Any financial data → standardized CSV format
-4. Update `SOURCE_TRACKING.md` to mark document as processed
+4. Update `docs/SOURCE_TRACKING.md` to mark document as processed
 5. Commit extracted data to git
-6. **Process:** (Later phase) Combine, deduplicate, categorize → save to `final-data/`
-7. **Deliver:** Final data to accountant
+6. **Merge:** (Later phase) Combine all extracted CSVs → save to `generated-files/merged/`
+7. **Process:** (Later phase) Deduplicate, categorize → save to `generated-files/final/`
+8. **Deliver:** Final data to accountant
 
 **Current Phase:** Stage 2 (Extraction) - Focus on getting all source documents into standardized CSV format
 
@@ -83,7 +92,7 @@ Focus on getting data out of PDFs first. Categorization comes later.
 - Keep consistent decimal formatting (2 decimal places for currency)
 - Use negative numbers for debits/expenses, positive for credits/income
 - **Always include Source field** with original document filename for audit trail
-- **Keep duplicates initially** - deduplication happens in a later phase (see DEDUPLICATION.md)
+- **Keep duplicates initially** - deduplication happens in a later phase (see docs/DEDUPLICATION.md)
 
 ## Bookkeeping & Tax Preparation
 

@@ -3,7 +3,7 @@
 Convert Privacy.com transaction CSV to standardized format.
 
 Input: source-documents/Privacy.com Transactions/Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-Output: extracted-data/2022_privacy-com_transactions.csv
+Output: generated-files/extracted/2022_privacy-com_transactions.csv
 
 This script converts Privacy.com transactions to match our standard CSV format:
 Date, Description, Deposits, Withdrawals, Balance, Type, Category, Notes
@@ -19,7 +19,7 @@ project_root = os.path.dirname(script_dir)
 
 # Define paths
 input_file = os.path.join(project_root, "source-documents/Privacy.com Transactions/Privacy.com Statement 2022-01-01 - 2022-12-31.csv")
-output_file = os.path.join(project_root, "extracted-data/2022_privacy-com_transactions.csv")
+output_file = os.path.join(project_root, "generated-files", "extracted", "2022_privacy-com_transactions.csv")
 
 print(f"Converting Privacy.com transactions...")
 print(f"Input:  {input_file}")

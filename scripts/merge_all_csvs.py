@@ -2,13 +2,13 @@
 """
 Merge all extracted CSV files into one master file.
 
-This script combines all individual CSV files from extracted-data/ into a single
+This script combines all individual CSV files from generated-files/extracted/ into a single
 merged CSV file, sorted by date. This creates the "monster CSV" ready for
 deduplication and categorization in Airtable or other tools.
 
-Output: merged-data/2022_all-transactions_merged_YYYY-MM-DD.csv
+Output: generated-files/merged/2022_all-transactions_merged_YYYY-MM-DD.csv
 
-The script only READS from extracted-data/ and never modifies those files.
+The script only READS from generated-files/extracted/ and never modifies those files.
 Each merge run creates a timestamped file so you can track different versions.
 """
 
@@ -22,10 +22,10 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
 
 # Define paths
-extracted_dir = os.path.join(project_root, "extracted-data")
-merged_dir = os.path.join(project_root, "merged-data")
+extracted_dir = os.path.join(project_root, "generated-files", "extracted")
+merged_dir = os.path.join(project_root, "generated-files", "merged")
 
-# Create merged-data directory if it doesn't exist
+# Create merged directory if it doesn't exist
 os.makedirs(merged_dir, exist_ok=True)
 
 # Generate timestamped output filename
@@ -141,4 +141,4 @@ print("Next steps:")
 print("1. Import this CSV into Airtable (or similar tool)")
 print("2. Use filters/grouping to identify duplicates visually")
 print("3. Mark duplicates and categorize transactions")
-print("4. Export clean version to final-data/")
+print("4. Export clean version to generated-files/final/")

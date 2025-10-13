@@ -35,7 +35,7 @@ python3 scripts/convert_privacy_com_to_standard_csv.py
 ```
 
 **Input:** `source-documents/Privacy.com Transactions/Privacy.com Statement 2022-01-01 - 2022-12-31.csv`
-**Output:** `extracted-data/2022_privacy-com_transactions.csv`
+**Output:** `generated-files/extracted/2022_privacy-com_transactions.csv`
 
 **Note:** Privacy.com provides both PDF and CSV files. Only process the CSV files - they contain identical data and are much faster to process. PDFs should be skipped.
 
@@ -55,8 +55,8 @@ When creating new conversion scripts:
 1. Read source document (CSV, PDF, etc.)
 2. Parse and extract transaction data
 3. Convert to standard CSV format
-4. Output to `extracted-data/` directory
-5. Update `SOURCE_TRACKING.md` to mark source as processed
+4. Output to `generated-files/extracted/` directory
+5. Update `docs/SOURCE_TRACKING.md` to mark source as processed
 
 ## Tips for AI Assistants
 

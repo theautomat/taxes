@@ -16,7 +16,7 @@ import os
 # Get the project root directory
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
-extracted_dir = os.path.join(project_root, "extracted-data")
+extracted_dir = os.path.join(project_root, "generated-files", "extracted")
 
 # Files to fix (Feb-Dec 2022)
 files_to_fix = [

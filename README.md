@@ -6,15 +6,18 @@ A system for converting unstructured financial documents (PDFs, receipts, statem
 
 ```
 taxes/
-├── source-documents/     # Stage 1: Original PDFs/documents (NOT versioned, synced with Google Drive)
-├── extracted-data/       # Stage 2: Raw CSV extractions (versioned in git)
-├── final-data/           # Stage 3: Processed, deduplicated, categorized data for accountant (versioned in git)
-├── scripts/              # Conversion scripts for processing source documents
-├── SOURCE_TRACKING.md   # Tracks which source documents have been processed
-├── CLAUDE.md            # Instructions for accounting assistant
-├── DEDUPLICATION.md     # Strategy for handling duplicate transactions
-├── CATEGORIES.md        # Reference guide for categorization
-└── README.md            # This file
+├── source-documents/           # Original unorganized source files (NOT versioned, synced with Google Drive)
+├── generated-files/            # All generated/processed files (versioned in git)
+│   ├── extracted/              # Stage 1: Raw CSV extractions from source documents
+│   ├── merged/                 # Stage 2: Combined data with duplicates
+│   └── final/                  # Stage 3: Clean, categorized, deduplicated data for accountant
+├── scripts/                    # Processing and conversion scripts
+├── docs/                       # Documentation files
+│   ├── SOURCE_TRACKING.md      # Tracks which source documents have been processed
+│   ├── DEDUPLICATION.md        # Strategy for handling duplicate transactions
+│   └── CATEGORIES.md           # Reference guide for categorization
+├── CLAUDE.md                   # Instructions for AI assistant
+└── README.md                   # This file (project overview)
 ```
 
 ## Setup on New Machine
@@ -41,22 +44,22 @@ taxes/
 ### Stage 1: Collection (Source Documents)
 - Collect financial documents in Google Drive
 - Download to `source-documents/` folder locally
-- Track documents in `SOURCE_TRACKING.md`
+- Track documents in `docs/SOURCE_TRACKING.md`
 
 ### Stage 2: Extraction (Current Phase)
-- Convert all source documents to standardized CSV → save to `extracted-data/`
+- Convert all source documents to standardized CSV → save to `generated-files/extracted/`
 - Sources: PDFs, existing CSVs, receipt images, screenshots, etc.
 - Focus: Get data into consistent format quickly, no categorization
 - One CSV per source document (regardless of original format)
 - **Check `scripts/` folder first** - conversion scripts may already exist
-- Update `SOURCE_TRACKING.md` when complete
+- Update `docs/SOURCE_TRACKING.md` when complete
 
 ### Stage 3: Processing (Future Phase)
-- Combine all extracted CSVs
-- Deduplicate transactions across sources (see `DEDUPLICATION.md`)
-- Categorize for tax purposes (see `CATEGORIES.md`)
+- Combine all extracted CSVs → `generated-files/merged/`
+- Deduplicate transactions across sources (see `docs/DEDUPLICATION.md`)
+- Categorize for tax purposes (see `docs/CATEGORIES.md`)
 - Filter to tax-relevant transactions only
-- Save final clean data to `final-data/` for accountant
+- Save final clean data to `generated-files/final/` for accountant
 
 ## File Naming Convention
 
