@@ -82,6 +82,61 @@ with open(output_file, 'w', newline='') as f:
 print(f"✅ Successfully merged {len(all_transactions)} transactions")
 print(f"   Output saved to: {output_file}")
 print()
+
+# Validation: Verify transaction counts
+print("=" * 60)
+print("VALIDATION CHECKS")
+print("=" * 60)
+
+# Count transactions per source file (excluding Balance rows)
+source_counts = {}
+total_expected = 0
+
+for csv_file in csv_files:
+    filename = os.path.basename(csv_file)
+    with open(csv_file, 'r') as f:
+        reader = csv.DictReader(f)
+        count = sum(1 for row in reader if row.get('Type') != 'Balance')
+        source_counts[filename] = count
+        total_expected += count
+
+print(f"\n📊 Source File Transaction Counts (excluding Balance rows):")
+for filename in sorted(source_counts.keys()):
+    print(f"   {filename:45} {source_counts[filename]:4} transactions")
+
+print(f"\n{'Total expected from source files:':48} {total_expected:4} transactions")
+print(f"{'Total in merged file:':48} {len(all_transactions):4} transactions")
+
+# Verification
+if len(all_transactions) == total_expected:
+    print(f"\n✅ VALIDATION PASSED: All transactions accounted for")
+else:
+    diff = total_expected - len(all_transactions)
+    print(f"\n⚠️  VALIDATION WARNING: {abs(diff)} transaction mismatch")
+    print(f"   Expected: {total_expected}, Got: {len(all_transactions)}")
+
+# Check for date range
+dates = [row['Date'] for row in all_transactions if row['Date']]
+if dates:
+    print(f"\n📅 Date Range: {min(dates)} to {max(dates)}")
+
+# Check for empty required fields
+empty_dates = sum(1 for row in all_transactions if not row.get('Date'))
+empty_descriptions = sum(1 for row in all_transactions if not row.get('Description'))
+missing_amount = sum(1 for row in all_transactions if not row.get('Deposits') and not row.get('Withdrawals'))
+
+if empty_dates or empty_descriptions or missing_amount:
+    print(f"\n⚠️  Data Quality Issues:")
+    if empty_dates:
+        print(f"   - {empty_dates} transactions with empty Date")
+    if empty_descriptions:
+        print(f"   - {empty_descriptions} transactions with empty Description")
+    if missing_amount:
+        print(f"   - {missing_amount} transactions with no Deposits or Withdrawals")
+else:
+    print(f"\n✅ Data Quality: All required fields populated")
+
+print("\n" + "=" * 60)
 print("Next steps:")
 print("1. Import this CSV into Airtable (or similar tool)")
 print("2. Use filters/grouping to identify duplicates visually")

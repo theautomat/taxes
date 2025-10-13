@@ -136,6 +136,20 @@ Convert unstructured financial data into organized transactions that can be:
 
 Document reasoning in Notes field when unclear.
 
+## Code Development Principles
+
+### Write Reusable, Maintainable Code
+- **Never write disposable code** - Always create scripts that can be reused
+- **Add validation and checks** - Scripts should verify their own output and report issues
+- **Improve existing scripts** - When a script needs modification, enhance it rather than writing throwaway commands
+- **Self-documenting output** - Scripts should print clear status messages and results
+- **Save all scripts** - Store utility scripts in `scripts/` directory for future use
+
+Examples:
+- Instead of one-off bash commands to check data, add validation to the processing script
+- Instead of manual verification, build automated checks into the workflow
+- Instead of ad-hoc queries, create reusable analysis scripts
+
 ## Version Control
 - Make frequent, atomic commits for each processed document
 - Clear commit messages describing what was processed
