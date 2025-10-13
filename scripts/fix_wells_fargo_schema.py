@@ -3,11 +3,10 @@
 Fix Wells Fargo CSV files that have the old schema.
 
 Old schema: Date,Description,Amount,Source,Balance,Notes
-New schema: Date,Description,Deposits,Withdrawals,Balance,Type,Category,Notes
+New schema: Date,Description,Amount,Balance,Type,Category,Source,Notes
 
 This script converts files in-place to match the standard schema.
-All transactions in Wells Fargo statements are expenses (withdrawals), except
-for deposits which have positive amounts.
+Amount is negative for expenses, positive for income.
 """
 
 import csv
@@ -54,31 +53,27 @@ for filename in files_to_fix:
             # Convert to new schema
             amount = float(row['Amount']) if row['Amount'] else 0
 
-            # Determine if deposit or withdrawal
-            if amount >= 0:
-                deposits = str(amount) if amount > 0 else ''
-                withdrawals = ''
-                trans_type = 'Credit'
-            else:
-                deposits = ''
-                withdrawals = str(abs(amount))
-                trans_type = 'Debit'
+            # Determine transaction type
+            trans_type = 'Credit' if amount >= 0 else 'Debit'
+
+            # Extract source from old schema or use filename as fallback
+            source = row.get('Source', filename)
 
             new_row = {
                 'Date': row['Date'],
                 'Description': row['Description'],
-                'Deposits': deposits,
-                'Withdrawals': withdrawals,
+                'Amount': str(amount) if amount != 0 else '',
                 'Balance': row['Balance'],
                 'Type': trans_type,
                 'Category': '',  # Empty for now
+                'Source': source,
                 'Notes': row['Notes']
             }
             rows.append(new_row)
 
     # Write back with new schema
     with open(filepath, 'w', newline='') as f:
-        fieldnames = ['Date', 'Description', 'Deposits', 'Withdrawals', 'Balance', 'Type', 'Category', 'Notes']
+        fieldnames = ['Date', 'Description', 'Amount', 'Balance', 'Type', 'Category', 'Source', 'Notes']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)

@@ -75,18 +75,18 @@ Examples:
 All extracted data must conform to this structure:
 
 ```csv
-Date,Description,Deposits,Withdrawals,Balance,Type,Category,Notes
+Date,Description,Amount,Balance,Type,Category,Source,Notes
 ```
 
 **Column Definitions:**
 - **Date**: Transaction date (YYYY-MM-DD format)
 - **Description**: Transaction description
-- **Deposits**: Money in (positive number, or empty)
-- **Withdrawals**: Money out (positive number, or empty)
+- **Amount**: Transaction amount (negative for expenses, positive for income)
 - **Balance**: Running balance (when available, otherwise empty)
 - **Type**: Credit/Debit/Balance/Payroll
 - **Category**: Transaction category (can be empty initially)
-- **Notes**: Additional details, source file references, etc.
+- **Source**: Original source document filename (for audit trail and deduplication)
+- **Notes**: Additional details, clarifications, etc.
 
 ## Scripts
 

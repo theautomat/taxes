@@ -6,7 +6,7 @@ Input: source-documents/Privacy.com Transactions/Privacy.com Statement 2022-01-0
 Output: generated-files/extracted/2022_privacy-com_transactions.csv
 
 This script converts Privacy.com transactions to match our standard CSV format:
-Date, Description, Deposits, Withdrawals, Balance, Type, Category, Notes
+Date, Description, Amount, Balance, Type, Category, Source, Notes
 """
 
 import csv
@@ -34,7 +34,7 @@ with open(input_file, 'r') as infile, open(output_file, 'w', newline='') as outf
     writer = csv.writer(outfile)
 
     # Write header matching our standard format
-    writer.writerow(['Date', 'Description', 'Deposits', 'Withdrawals', 'Balance', 'Type', 'Category', 'Notes'])
+    writer.writerow(['Date', 'Description', 'Amount', 'Balance', 'Type', 'Category', 'Source', 'Notes'])
 
     for row in reader:
         transaction_count += 1
@@ -46,23 +46,20 @@ with open(input_file, 'r') as infile, open(output_file, 'w', newline='') as outf
         # Description from descriptor field - add "Pwp" prefix to match Wells Fargo format
         description = f"Pwp {row['descriptor']}"
 
-        # Amount - check if it's a SALE (withdrawal) or REFUND (deposit)
-        amount = row['amount-usd']
+        # Amount - check if it's a SALE (withdrawal/negative) or REFUND (deposit/positive)
+        amount_value = row['amount-usd']
         trans_type = row['type']
 
         if trans_type == 'SALE':
-            deposits = ''
-            withdrawals = amount
+            amount = f"-{amount_value}"  # Negative for expenses
             type_col = 'Debit'
         elif trans_type == 'REFUND':
-            deposits = amount
-            withdrawals = ''
+            amount = amount_value  # Positive for income/refunds
             type_col = 'Credit'
             refund_count += 1
         else:
             # Unknown type, treat as sale
-            deposits = ''
-            withdrawals = amount
+            amount = f"-{amount_value}"
             type_col = 'Debit'
 
         # Balance column empty (not provided by Privacy.com)
@@ -71,10 +68,13 @@ with open(input_file, 'r') as infile, open(output_file, 'w', newline='') as outf
         # Category - leave empty for now, can be categorized later
         category = ''
 
-        # Notes - include card last 4 and source file
-        notes = f"Privacy.com card ending {row['card-last-four']} | Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv"
+        # Source - the original statement filename
+        source = "Privacy.com Statement 2022-01-01 - 2022-12-31.csv"
 
-        writer.writerow([date, description, deposits, withdrawals, balance, type_col, category, notes])
+        # Notes - include card last 4
+        notes = f"Privacy.com card ending {row['card-last-four']}"
+
+        writer.writerow([date, description, amount, balance, type_col, category, source, notes])
 
 print(f"✅ Successfully converted {transaction_count} transactions")
 print(f"   - Sales (withdrawals): {transaction_count - refund_count}")

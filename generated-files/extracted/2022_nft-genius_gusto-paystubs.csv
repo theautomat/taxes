@@ -1,25 +1,25 @@
-Date,Description,Deposits,Withdrawals,Balance,Type,Category,Notes
-2022-01-14,NFT Genius Payroll - Net Pay,5239.22,,,Credit,Payroll,Pay Period: Jan 1-15 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-01-31,NFT Genius Payroll - Net Pay,5239.22,,,Credit,Payroll,Pay Period: Jan 16-31 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-02-15,NFT Genius Payroll - Net Pay,5204.60,,,Credit,Payroll,Pay Period: Feb 1-15 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-03-01,NFT Genius Payroll - Net Pay,5204.60,,,Credit,Payroll,Pay Period: Feb 16-28 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-03-15,NFT Genius Payroll - Net Pay,5239.22,,,Credit,Payroll,Pay Period: Mar 1-15 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-03-31,NFT Genius Payroll - Net Pay,5204.60,,,Credit,Payroll,Pay Period: Mar 16-31 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-04-15,NFT Genius Payroll - Net Pay,5204.61,,,Credit,Payroll,Pay Period: Apr 1-15 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-04-29,NFT Genius Payroll - Net Pay,5204.60,,,Credit,Payroll,Pay Period: Apr 16-30 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-05-13,NFT Genius Payroll - Net Pay,5204.60,,,Credit,Payroll,Pay Period: May 1-15 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-05-31,NFT Genius Payroll - Net Pay + Reimbursement,5296.67,,,Credit,Payroll,Pay Period: May 16-31 | Includes $92.07 reimbursement | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-06-15,NFT Genius Payroll - Net Pay + Reimbursement,6567.47,,,Credit,Payroll,Pay Period: Jun 1-15 | Includes $1362.87 reimbursement (Vegas) | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-06-30,NFT Genius Payroll - Net Pay,5204.61,,,Credit,Payroll,Pay Period: Jun 16-30 | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-07-15,NFT Genius Payroll - Net Pay + Reimbursement,38954.60,,,Credit,Payroll,Pay Period: Jul 1-15 | Includes $33750 reimbursement (expenses before funding) | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-07-29,NFT Genius Payroll - Net Pay + Reimbursement,6454.61,,,Credit,Payroll,Pay Period: Jul 16-31 | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-08-15,NFT Genius Payroll - Net Pay + Reimbursement,6454.60,,,Credit,Payroll,Pay Period: Aug 1-15 | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-08-31,NFT Genius Payroll - Net Pay + Reimbursement,10282.42,,,Credit,Payroll,Pay Period: Aug 16-31 | Salary doubled | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-09-15,NFT Genius Payroll - Net Pay + Reimbursement,10524.70,,,Credit,Payroll,Pay Period: Sep 1-15 | 401k starts | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-09-30,NFT Genius Payroll - Net Pay + Reimbursement,10965.63,,,Credit,Payroll,Pay Period: Sep 16-30 | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-10-14,NFT Genius Payroll - Net Pay + Reimbursement,10965.63,,,Credit,Payroll,Pay Period: Oct 1-15 | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-10-31,NFT Genius Payroll - Net Pay + Reimbursement,14101.42,,,Credit,Payroll,Pay Period: Oct 16-31 | Includes $4450 reimbursement ($1250 HRA + $3200 office rent) | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-11-16,NFT Genius Payroll - Net Pay + Reimbursement,10816.27,,,Credit,Payroll,Pay Period: Nov 1-15 | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-11-30,NFT Genius Payroll - Net Pay + Reimbursement,10816.26,,,Credit,Payroll,Pay Period: Nov 16-30 | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-12-15,NFT Genius Payroll - Net Pay + Reimbursement,17216.26,,,Credit,Payroll,Pay Period: Dec 1-15 | Includes $7650 reimbursement ($1250 HRA + $6400 office rent) | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
-2022-12-30,NFT Genius Payroll - Net Pay + Reimbursement,10816.27,,,Credit,Payroll,Pay Period: Dec 16-31 | Includes $1250 HRA | Source: 2022 nft-genius-inc-paystubs-kurt-braget.pdf
+Date,Description,Amount,Balance,Type,Category,Source,Notes
+2022-01-14,NFT Genius Payroll - Net Pay,5239.22,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Jan 1-15
+2022-01-31,NFT Genius Payroll - Net Pay,5239.22,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Jan 16-31
+2022-02-15,NFT Genius Payroll - Net Pay,5204.60,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Feb 1-15
+2022-03-01,NFT Genius Payroll - Net Pay,5204.60,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Feb 16-28
+2022-03-15,NFT Genius Payroll - Net Pay,5239.22,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Mar 1-15
+2022-03-31,NFT Genius Payroll - Net Pay,5204.60,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Mar 16-31
+2022-04-15,NFT Genius Payroll - Net Pay,5204.61,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Apr 1-15
+2022-04-29,NFT Genius Payroll - Net Pay,5204.60,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Apr 16-30
+2022-05-13,NFT Genius Payroll - Net Pay,5204.60,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: May 1-15
+2022-05-31,NFT Genius Payroll - Net Pay + Reimbursement,5296.67,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: May 16-31 | Includes $92.07 reimbursement
+2022-06-15,NFT Genius Payroll - Net Pay + Reimbursement,6567.47,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Jun 1-15 | Includes $1362.87 reimbursement (Vegas)
+2022-06-30,NFT Genius Payroll - Net Pay,5204.61,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Jun 16-30
+2022-07-15,NFT Genius Payroll - Net Pay + Reimbursement,38954.60,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Jul 1-15 | Includes $33750 reimbursement (expenses before funding)
+2022-07-29,NFT Genius Payroll - Net Pay + Reimbursement,6454.61,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Jul 16-31 | Includes $1250 HRA
+2022-08-15,NFT Genius Payroll - Net Pay + Reimbursement,6454.60,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Aug 1-15 | Includes $1250 HRA
+2022-08-31,NFT Genius Payroll - Net Pay + Reimbursement,10282.42,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Aug 16-31 | Salary doubled | Includes $1250 HRA
+2022-09-15,NFT Genius Payroll - Net Pay + Reimbursement,10524.70,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Sep 1-15 | 401k starts | Includes $1250 HRA
+2022-09-30,NFT Genius Payroll - Net Pay + Reimbursement,10965.63,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Sep 16-30 | Includes $1250 HRA
+2022-10-14,NFT Genius Payroll - Net Pay + Reimbursement,10965.63,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Oct 1-15 | Includes $1250 HRA
+2022-10-31,NFT Genius Payroll - Net Pay + Reimbursement,14101.42,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Oct 16-31 | Includes $4450 reimbursement ($1250 HRA + $3200 office rent)
+2022-11-16,NFT Genius Payroll - Net Pay + Reimbursement,10816.27,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Nov 1-15 | Includes $1250 HRA
+2022-11-30,NFT Genius Payroll - Net Pay + Reimbursement,10816.26,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Nov 16-30 | Includes $1250 HRA
+2022-12-15,NFT Genius Payroll - Net Pay + Reimbursement,17216.26,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Dec 1-15 | Includes $7650 reimbursement ($1250 HRA + $6400 office rent)
+2022-12-30,NFT Genius Payroll - Net Pay + Reimbursement,10816.27,,Credit,Payroll,2022 nft-genius-inc-paystubs-kurt-braget.pdf,Pay Period: Dec 16-31 | Includes $1250 HRA

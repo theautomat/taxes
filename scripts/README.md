@@ -11,18 +11,18 @@ Scripts automate the extraction and conversion of financial data from various so
 All extracted data should conform to this column structure:
 
 ```csv
-Date,Description,Deposits,Withdrawals,Balance,Type,Category,Notes
+Date,Description,Amount,Balance,Type,Category,Source,Notes
 ```
 
 **Column Definitions:**
 - **Date**: Transaction date (YYYY-MM-DD format)
 - **Description**: Transaction description
-- **Deposits**: Money in (positive number, or empty)
-- **Withdrawals**: Money out (positive number, or empty)
+- **Amount**: Transaction amount (negative for expenses, positive for income)
 - **Balance**: Running balance (when available, otherwise empty)
 - **Type**: Credit/Debit/Balance/Payroll
 - **Category**: Transaction category (Food, Shopping, Payroll, etc.)
-- **Notes**: Additional details, source file, pay periods, etc.
+- **Source**: Original source document filename (for audit trail and deduplication)
+- **Notes**: Additional details, pay periods, clarifications, etc.
 
 ## Available Scripts
 

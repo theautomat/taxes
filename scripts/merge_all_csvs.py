@@ -73,7 +73,7 @@ print(f"Sorting by date...")
 # Write merged CSV
 with open(output_file, 'w', newline='') as f:
     # Use the standard column order
-    fieldnames = ['Date', 'Description', 'Deposits', 'Withdrawals', 'Balance', 'Type', 'Category', 'Notes']
+    fieldnames = ['Date', 'Description', 'Amount', 'Balance', 'Type', 'Category', 'Source', 'Notes']
     writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
 
     writer.writeheader()
@@ -123,7 +123,7 @@ if dates:
 # Check for empty required fields
 empty_dates = sum(1 for row in all_transactions if not row.get('Date'))
 empty_descriptions = sum(1 for row in all_transactions if not row.get('Description'))
-missing_amount = sum(1 for row in all_transactions if not row.get('Deposits') and not row.get('Withdrawals'))
+missing_amount = sum(1 for row in all_transactions if not row.get('Amount'))
 
 if empty_dates or empty_descriptions or missing_amount:
     print(f"\n⚠️  Data Quality Issues:")
@@ -132,7 +132,7 @@ if empty_dates or empty_descriptions or missing_amount:
     if empty_descriptions:
         print(f"   - {empty_descriptions} transactions with empty Description")
     if missing_amount:
-        print(f"   - {missing_amount} transactions with no Deposits or Withdrawals")
+        print(f"   - {missing_amount} transactions with no Amount")
 else:
     print(f"\n✅ Data Quality: All required fields populated")
 
