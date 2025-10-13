@@ -27,9 +27,14 @@ Location: `source-documents/Tax - Finance Documents/2022 Tax Info/Well Fargo Sta
 
 Location: `source-documents/Privacy.com Transactions/`
 
+**Note:** Privacy.com provides both PDF and CSV files. We only process the CSV files since they contain identical data and are faster to process. PDF files are ignored.
+
 | File | Status | Extracted To | Notes |
 |------|--------|--------------|-------|
-| ⏳ Need to catalog | | | |
+| Privacy.com Statement 2022-01-01 - 2022-12-31.csv | ✅ Done | extracted-data/2022_privacy-com_transactions.csv | 650 transactions (644 sales, 6 refunds) |
+| Privacy.com Statement 2022-01-01 - 2022-12-31.pdf | ⏭️ Skip | N/A | Skipped - CSV contains same data |
+
+**Total:** 1 CSV processed | **Done:** 1 | **Pending:** 0
 
 ## Other Source Documents
 
@@ -41,9 +46,14 @@ Location: `source-documents/Automatique/`
 Location: `source-documents/Estate - Probate/`
 - Status: ⏳ Not cataloged
 
-### NFT Genius
-Location: `source-documents/NFT Genius/`
-- Status: ⏳ Not cataloged
+### NFT Genius - 2022 Tax Info
+Location: `source-documents/Tax - Finance Documents/2022 Tax Info/NFT Genius/`
+
+| File | Status | Extracted To | Notes |
+|------|--------|--------------|-------|
+| 2022 nft-genius-inc-paystubs-kurt-braget.pdf | ✅ Done | extracted-data/2022_nft-genius_gusto-paystubs.csv | 24 paystubs (bi-monthly) |
+
+**Total:** 1 file | **Done:** 1 | **Pending:** 0
 
 ### Popstand
 Location: `source-documents/Popstand/`

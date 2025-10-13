@@ -9,6 +9,7 @@ taxes/
 ├── source-documents/     # Stage 1: Original PDFs/documents (NOT versioned, synced with Google Drive)
 ├── extracted-data/       # Stage 2: Raw CSV extractions (versioned in git)
 ├── final-data/           # Stage 3: Processed, deduplicated, categorized data for accountant (versioned in git)
+├── scripts/              # Conversion scripts for processing source documents
 ├── SOURCE_TRACKING.md   # Tracks which source documents have been processed
 ├── CLAUDE.md            # Instructions for accounting assistant
 ├── DEDUPLICATION.md     # Strategy for handling duplicate transactions
@@ -47,6 +48,7 @@ taxes/
 - Sources: PDFs, existing CSVs, receipt images, screenshots, etc.
 - Focus: Get data into consistent format quickly, no categorization
 - One CSV per source document (regardless of original format)
+- **Check `scripts/` folder first** - conversion scripts may already exist
 - Update `SOURCE_TRACKING.md` when complete
 
 ### Stage 3: Processing (Future Phase)
@@ -65,16 +67,29 @@ Examples:
 - `2022-01_receipts_business-expenses.csv`
 - `2022-Q1_credit-card_amex.csv`
 
-## CSV Format
+## Standard CSV Format
 
-Standard columns for bank statements:
-- Date (YYYY-MM-DD format)
-- Description
-- Amount
-- Type (debit/credit)
-- Balance (if available)
-- Category (optional, can be added later)
-- Notes (for clarifications)
+All extracted data must conform to this structure:
+
+```csv
+Date,Description,Deposits,Withdrawals,Balance,Type,Category,Notes
+```
+
+**Column Definitions:**
+- **Date**: Transaction date (YYYY-MM-DD format)
+- **Description**: Transaction description
+- **Deposits**: Money in (positive number, or empty)
+- **Withdrawals**: Money out (positive number, or empty)
+- **Balance**: Running balance (when available, otherwise empty)
+- **Type**: Credit/Debit/Balance/Payroll
+- **Category**: Transaction category (can be empty initially)
+- **Notes**: Additional details, source file references, etc.
+
+## Scripts
+
+The `scripts/` directory contains automation tools for converting various source formats to the standard CSV format. Always check for existing scripts before manually extracting data - they save time and ensure consistency.
+
+See `scripts/README.md` for available scripts and usage instructions.
 
 ## Source Documents
 
