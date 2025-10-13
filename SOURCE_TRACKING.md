@@ -14,14 +14,14 @@ Location: `source-documents/Tax - Finance Documents/2022 Tax Info/Well Fargo Sta
 | 043022 WellsFargo.pdf | ✅ Done | extracted-data/2022-04_wells-fargo_checking.csv | 175 transactions |
 | 053122 WellsFargo.pdf | ✅ Done | extracted-data/2022-05_wells-fargo_checking.csv | 176 transactions |
 | 063022 WellsFargo.pdf | ✅ Done | extracted-data/2022-06_wells-fargo_checking.csv | 177 transactions |
-| 073122 WellsFargo.pdf | ⏳ Pending | | |
-| 083122 WellsFargo.pdf | ⏳ Pending | | |
-| 093022 WellsFargo.pdf | ⏳ Pending | | |
-| 103122 WellsFargo.pdf | ⏳ Pending | | |
-| 113022 WellsFargo.pdf | ⏳ Pending | | |
-| 123122 WellsFargo.pdf | ⏳ Pending | | |
+| 073122 WellsFargo.pdf | ✅ Done | extracted-data/2022-07_wells-fargo_checking.csv | 134 transactions |
+| 083122 WellsFargo.pdf | ✅ Done | extracted-data/2022-08_wells-fargo_checking.csv | 191 transactions |
+| 093022 WellsFargo.pdf | ✅ Done | extracted-data/2022-09_wells-fargo_checking.csv | 201 transactions |
+| 103122 WellsFargo.pdf | ✅ Done | extracted-data/2022-10_wells-fargo_checking.csv | 219 transactions |
+| 113022 WellsFargo.pdf | ✅ Done | extracted-data/2022-11_wells-fargo_checking.csv | 199 transactions |
+| 123122 WellsFargo.pdf | ✅ Done | extracted-data/2022-12_wells-fargo_checking.csv | 218 transactions |
 
-**Total:** 12 statements | **Done:** 6 | **Pending:** 6
+**Total:** 12 statements | **Done:** 12 | **Pending:** 0
 
 ## Privacy.com Transactions
 
