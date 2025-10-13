@@ -6,9 +6,13 @@ A system for converting unstructured financial documents (PDFs, receipts, statem
 
 ```
 taxes/
-├── source-documents/     # Original PDFs/documents (NOT versioned, synced with Google Drive)
-├── processed-data/       # Normalized CSV files (versioned in git)
+├── source-documents/     # Stage 1: Original PDFs/documents (NOT versioned, synced with Google Drive)
+├── extracted-data/       # Stage 2: Raw CSV extractions (versioned in git)
+├── final-data/           # Stage 3: Processed, deduplicated, categorized data for accountant (versioned in git)
+├── SOURCE_TRACKING.md   # Tracks which source documents have been processed
 ├── CLAUDE.md            # Instructions for accounting assistant
+├── DEDUPLICATION.md     # Strategy for handling duplicate transactions
+├── CATEGORIES.md        # Reference guide for categorization
 └── README.md            # This file
 ```
 
@@ -31,14 +35,25 @@ taxes/
 
 4. Ready to process documents!
 
-## Workflow
+## Three-Stage Workflow
 
-1. **Collect**: Add new financial documents to Google Drive
-2. **Sync**: Periodically download documents to `source-documents/`
-3. **Process**: Use accounting assistant to convert PDFs to CSV
-4. **Save**: Output goes to `processed-data/` with standardized naming
-5. **Commit**: Frequent commits to track changes to processed data
-6. **Repeat**: Continue as new documents are added
+### Stage 1: Collection (Source Documents)
+- Collect financial documents in Google Drive
+- Download to `source-documents/` folder locally
+- Track documents in `SOURCE_TRACKING.md`
+
+### Stage 2: Extraction (Current Phase)
+- Convert PDFs to CSV → save to `extracted-data/`
+- Focus: Get data out of PDFs quickly, no categorization
+- One CSV per source document
+- Update `SOURCE_TRACKING.md` when complete
+
+### Stage 3: Processing (Future Phase)
+- Combine all extracted CSVs
+- Deduplicate transactions across sources (see `DEDUPLICATION.md`)
+- Categorize for tax purposes (see `CATEGORIES.md`)
+- Filter to tax-relevant transactions only
+- Save final clean data to `final-data/` for accountant
 
 ## File Naming Convention
 

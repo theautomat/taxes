@@ -9,24 +9,42 @@ You are an accounting assistant helping to organize and process financial docume
 - Repository name: `taxes`
 - Working directory: `/Users/beau/Projects/taxes`
 
-### Folders
-- `source-documents/` - Contains original financial documents (PDFs, images, etc.)
-  - NOT versioned in git (gitignored - files can be large and not suitable for version control)
-  - Synced with Google Drive for backup and easy retrieval
-  - Local copy already present and refreshed periodically by downloading from Google Drive
+### Three-Stage Pipeline
 
-- `processed-data/` - Contains normalized CSV files created from source documents
+**Stage 1: Source Documents**
+- `source-documents/` - Original financial documents (PDFs, images, etc.)
+  - NOT versioned in git (gitignored - files can be large)
+  - Synced with Google Drive for backup
+  - Local copy refreshed periodically from Google Drive
+  - Track which documents have been processed in `SOURCE_TRACKING.md`
+
+**Stage 2: Extracted Data**
+- `extracted-data/` - Raw extraction from PDFs to CSV
   - Versioned in git
-  - Each file should be clearly named with date and source
-  - Changes tracked to maintain audit trail
+  - Pure data extraction - no categorization yet
+  - One CSV per source document
+  - Format: `YYYY-MM_source_type.csv`
+  - Purpose: Get data out of PDFs quickly
+
+**Stage 3: Final Data**
+- `final-data/` - Processed, categorized, deduplicated data ready for accountant
+  - Versioned in git
+  - Transactions deduplicated across sources
+  - Business/Personal classification added
+  - Tax categories assigned
+  - Only tax-relevant transactions included
+  - Purpose: Clean data ready for tax preparation
 
 ### Workflow
-1. Source documents are collected and stored in Google Drive
-2. Periodically, download documents from Google Drive to `source-documents/`
-3. Process each document into standardized CSV format
-4. Save processed data to `processed-data/` with clear naming
-5. Commit changes to git with descriptive messages
-6. Repeat as new documents are added
+1. Source documents collected and stored in Google Drive
+2. Download documents to `source-documents/`
+3. **Extract:** Convert PDFs to CSVs → save to `extracted-data/`
+4. Update `SOURCE_TRACKING.md` to mark document as processed
+5. Commit extracted data to git
+6. **Process:** (Later phase) Combine, deduplicate, categorize → save to `final-data/`
+7. **Deliver:** Final data to accountant
+
+**Current Phase:** Stage 2 (Extraction) - Focus on getting all PDFs extracted first
 
 ## Data Processing Guidelines
 
