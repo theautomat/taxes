@@ -30,16 +30,20 @@ You are an accounting assistant helping to organize and process financial docume
 
 ## Data Processing Guidelines
 
-### CSV Format Standards
-- Use consistent column names across similar document types
-- Standard columns for bank statements:
-  - Date (YYYY-MM-DD format)
-  - Description
-  - Amount
-  - Type (debit/credit)
-  - Balance (if available)
-  - Category (can be added manually later)
-  - Notes (for any clarifications)
+### CSV Format Standards - Extraction Phase
+Focus on getting data out of PDFs first. Categorization comes later.
+
+**Required columns for initial extraction:**
+- **Date** (YYYY-MM-DD format)
+- **Description** (original transaction description - keep it exactly as shown)
+- **Amount** (negative for expenses/debits, positive for income/credits)
+- **Source** (original source document filename, e.g., "022822 WellsFargo.pdf")
+- **Notes** (optional - only for clarifications or questions)
+
+**Optional columns (useful for verification):**
+- **Balance** (ending daily balance - helps verify extraction accuracy)
+
+**Note:** Business/Personal classification, detailed categorization, and deductibility will be added in a later phase after all documents are extracted.
 
 ### File Naming Convention
 - Format: `YYYY-MM_source_type.csv`
@@ -55,6 +59,59 @@ You are an accounting assistant helping to organize and process financial docume
 - Note any ambiguities or unclear entries
 - Keep consistent decimal formatting (2 decimal places for currency)
 - Use negative numbers for debits/expenses, positive for credits/income
+- **Always include Source field** with original document filename for audit trail
+- **Keep duplicates initially** - deduplication happens in a later phase (see DEDUPLICATION.md)
+
+## Bookkeeping & Tax Preparation
+
+### Goal
+Convert unstructured financial data into organized transactions that can be:
+1. Reconciled across multiple sources
+2. Deduplicated to avoid double-counting
+3. Categorized for tax purposes
+4. Filtered to tax-relevant transactions only
+5. Delivered to accountant in easy-to-digest format
+
+### What Your Accountant Needs
+
+**Business Income:**
+- Wire transfers from clients/companies
+- Payroll deposits
+- 1099 income
+- Business revenue from any source
+
+**Business Deductions (Common Categories):**
+- Office expenses: Software subscriptions, SaaS services
+- Professional services: Hosting, domains, cloud services
+- Home office: Utilities (business portion), internet
+- Vehicle expenses: Auto payments, gas (business use percentage)
+- Business meals: 50% deductible
+- Equipment: Computer hardware, office furniture
+- Storage: Business-related storage fees
+- Professional development: Courses, training, subscriptions
+- Banking fees: Wire transfer fees, business account fees
+
+**NOT Needed for Tax Filing:**
+- Personal groceries, personal shopping
+- Personal entertainment (unless documented business purpose)
+- Credit card payments (the underlying expenses are what matter)
+- Internal transfers between your own accounts
+- Ending balances (useful for reconciliation only)
+
+### Business vs Personal Classification
+
+**Business:** Expenses directly related to business operations
+**Personal:** Personal living expenses, non-business purchases
+**Mixed:** Items used for both (document business use percentage in Notes)
+
+### Deductibility Guidelines
+
+**Yes:** Clearly business expense, fully deductible
+**No:** Personal expense, not deductible
+**Partial:** Mixed use, or limited deductibility (e.g., meals at 50%)
+**Unknown:** Needs clarification or research
+
+Document reasoning in Notes field when unclear.
 
 ## Version Control
 - Make frequent, atomic commits for each processed document
