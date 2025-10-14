@@ -397,8 +397,8 @@ def main():
 
     input_file = merged_files[-1]
 
-    # Generate output filenames with timestamp
-    timestamp = datetime.now().strftime('%Y-%m-%d')
+    # Generate output filenames with timestamp (includes time for multiple runs per day)
+    timestamp = datetime.now().strftime('%Y-%m-%d_%H%M%S')
     output_file = output_dir / f'2022_deduped_{timestamp}.csv'
     review_file = output_dir / f'2022_deduped_{timestamp}_review.md'
     log_file = output_dir / f'2022_deduped_{timestamp}.log'
