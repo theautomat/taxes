@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 Analyze Wells Fargo CSV files to find the top N largest credits/deposits.
+
+NOTE: Only reads from extracted/ directory by default - archived files are never accessed.
 """
 
 import csv
