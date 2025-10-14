@@ -10,6 +10,10 @@ This document tracks ongoing improvements and fixes for the taxes project docume
 - [ ] **Task 5: Create placeholder directories** - Add `generated-files/final/` with explanatory README
 - [ ] **Task 6: Remove hardcoded paths** - Replace `/Users/beau/Projects/taxes` with relative paths or placeholders in CLAUDE.md
 
+### Income Reconciliation
+
+- [ ] **Task 7: Resolve Popstand K-1 distribution discrepancy** - Reconcile $46,633 difference between K-1 reported distributions ($164,567) and Wells Fargo wire transfers ($211,200)
+
 ## Completed Tasks
 
 - [x] **Task 1: Standardize CSV format** - Migrated from Deposits/Withdrawals to single Amount column (negative for expenses, positive for income)
