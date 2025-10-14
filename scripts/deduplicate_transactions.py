@@ -12,6 +12,7 @@ See generated-files/merged-deduped/DEDUPLICATION_RULES.md for detailed rules.
 
 import csv
 import sys
+import logging
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict, Set, Tuple
@@ -116,16 +117,19 @@ class Transaction:
 class TransactionDeduplicator:
     """Main deduplication engine."""
 
-    def __init__(self, date_window_days: int = 5):
+    def __init__(self, date_window_days: int = 5, logger: logging.Logger = None):
         self.date_window_days = date_window_days
         self.transactions: List[Transaction] = []
         self.duplicates_found: Set[int] = set()  # Row numbers to remove
         self.match_count = 0
         self.ambiguous_matches: List[Tuple[Transaction, List[Transaction]]] = []
+        self.duplicate_pairs: List[Tuple[Transaction, Transaction]] = []  # Track what was removed
+        self.logger = logger or logging.getLogger(__name__)
 
     def load_transactions(self, csv_path: Path) -> None:
         """Load transactions from CSV file."""
         print(f"Loading transactions from: {csv_path}")
+        self.logger.info(f"Loading transactions from: {csv_path}")
 
         with open(csv_path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
@@ -134,10 +138,13 @@ class TransactionDeduplicator:
                     self.transactions.append(Transaction(row, row_num))
 
         print(f"Loaded {len(self.transactions)} transactions")
+        self.logger.info(f"Loaded {len(self.transactions)} transactions")
 
     def find_duplicates(self) -> None:
         """Find and mark duplicate transactions."""
         print(f"\nSearching for duplicates (date window: ±{self.date_window_days} days)...")
+        self.logger.info(f"\nSearching for duplicates (date window: ±{self.date_window_days} days)")
+        self.logger.info("="*80)
 
         # Group transactions by amount for faster matching
         by_amount = defaultdict(list)
@@ -160,17 +167,45 @@ class TransactionDeduplicator:
                 if len(matches) == 1:
                     # Perfect match - deduplicate
                     wf_txn = matches[0]
+                    date_diff = abs((privacy_txn.date - wf_txn.date).days)
+
+                    # Log the duplicate match
+                    self.logger.info(f"\n✓ DUPLICATE FOUND (#{self.match_count + 1})")
+                    self.logger.info(f"  Amount: ${amount:.2f}")
+                    self.logger.info(f"  Date difference: {date_diff} days")
+                    self.logger.info(f"  KEPT (Privacy.com):")
+                    self.logger.info(f"    Date: {privacy_txn.date_str}")
+                    self.logger.info(f"    Description: {privacy_txn.description}")
+                    self.logger.info(f"    Row: {privacy_txn.row_number}")
+                    self.logger.info(f"  REMOVED (Wells Fargo):")
+                    self.logger.info(f"    Date: {wf_txn.date_str}")
+                    self.logger.info(f"    Description: {wf_txn.description}")
+                    self.logger.info(f"    Row: {wf_txn.row_number}")
+
                     privacy_txn.merge_info_from(wf_txn)
                     self.duplicates_found.add(wf_txn.row_number)
+                    self.duplicate_pairs.append((privacy_txn, wf_txn))
                     self.match_count += 1
 
                 elif len(matches) > 1:
                     # Ambiguous - multiple possible matches
                     self.ambiguous_matches.append((privacy_txn, matches))
+                    self.logger.warning(f"\n⚠️  AMBIGUOUS MATCH")
+                    self.logger.warning(f"  Amount: ${amount:.2f}")
+                    self.logger.warning(f"  Privacy.com ({privacy_txn.date_str}): {privacy_txn.description}")
+                    for i, m in enumerate(matches, 1):
+                        self.logger.warning(f"  Possible WF match {i} ({m.date_str}): {m.description}")
+
                     print(f"  ⚠️  Ambiguous match for {privacy_txn.date_str} ${amount:.2f}")
                     print(f"      Privacy.com: {privacy_txn.description}")
                     for m in matches:
                         print(f"      Wells Fargo: {m.description} ({m.date_str})")
+
+        self.logger.info("\n" + "="*80)
+        self.logger.info(f"DEDUPLICATION PASS COMPLETE")
+        self.logger.info(f"Found {self.match_count} duplicate pairs")
+        self.logger.info(f"Found {len(self.ambiguous_matches)} ambiguous matches (need review)")
+        self.logger.info("="*80)
 
         print(f"\nFound {self.match_count} duplicate pairs")
         print(f"Found {len(self.ambiguous_matches)} ambiguous matches (need review)")
@@ -259,6 +294,24 @@ class TransactionDeduplicator:
         print("="*60)
 
 
+def setup_logging(log_file: Path) -> logging.Logger:
+    """Setup logging to file and console."""
+    logger = logging.getLogger('deduplicator')
+    logger.setLevel(logging.INFO)
+
+    # Clear any existing handlers
+    logger.handlers = []
+
+    # File handler - detailed logs
+    file_handler = logging.FileHandler(log_file, mode='w', encoding='utf-8')
+    file_handler.setLevel(logging.INFO)
+    file_formatter = logging.Formatter('%(message)s')
+    file_handler.setFormatter(file_formatter)
+    logger.addHandler(file_handler)
+
+    return logger
+
+
 def main():
     """Main entry point."""
     # Setup paths
@@ -274,29 +327,57 @@ def main():
 
     input_file = merged_files[-1]
 
-    # Generate output filename with timestamp
+    # Generate output filenames with timestamp
     timestamp = datetime.now().strftime('%Y-%m-%d')
     output_file = output_dir / f'2022_deduped_{timestamp}.csv'
     review_file = output_dir / f'2022_deduped_{timestamp}_review.md'
+    log_file = output_dir / f'2022_deduped_{timestamp}.log'
 
     # Create output directory
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Setup logging
+    logger = setup_logging(log_file)
+
+    # Log run metadata
+    logger.info("="*80)
+    logger.info("TRANSACTION DEDUPLICATION LOG")
+    logger.info("="*80)
+    logger.info(f"Run timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    logger.info(f"Input file: {input_file}")
+    logger.info(f"Output file: {output_file}")
+    logger.info(f"Review file: {review_file}")
+    logger.info(f"Log file: {log_file}")
+    logger.info("="*80)
 
     # Run deduplication
     print("="*60)
     print("TRANSACTION DEDUPLICATION")
     print("="*60)
 
-    deduplicator = TransactionDeduplicator(date_window_days=5)
+    deduplicator = TransactionDeduplicator(date_window_days=5, logger=logger)
     deduplicator.load_transactions(input_file)
     deduplicator.find_duplicates()
     deduplicator.write_deduplicated_csv(output_file)
     deduplicator.write_review_file(review_file)
     deduplicator.print_summary()
 
+    # Log summary
+    logger.info("\n" + "="*80)
+    logger.info("FINAL SUMMARY")
+    logger.info("="*80)
+    logger.info(f"Original transactions: {len(deduplicator.transactions)}")
+    logger.info(f"Duplicates removed: {len(deduplicator.duplicates_found)}")
+    logger.info(f"Final transactions: {len(deduplicator.get_deduplicated_transactions())}")
+    logger.info(f"Ambiguous matches: {len(deduplicator.ambiguous_matches)}")
+    logger.info("="*80)
+    logger.info(f"\n✅ Deduplication complete!")
+    logger.info(f"Log saved to: {log_file}")
+
     print(f"\n✅ Deduplication complete!")
     print(f"\nOutput files:")
     print(f"  - Deduplicated CSV: {output_file}")
+    print(f"  - Log file: {log_file}")
     if deduplicator.ambiguous_matches:
         print(f"  - Review file: {review_file}")
 
