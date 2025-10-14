@@ -166,6 +166,12 @@ Examples:
   - `feat: add Jan 2022 Wells Fargo statement`
   - `fix: correct amount in Dec 2021 transaction`
   - `docs: update processing instructions`
+- **DO NOT include Claude Code branding in commit messages** - No "Generated with Claude Code" footers or "Co-Authored-By: Claude" tags
+
+### What NOT to Commit
+- **Claude Code local settings** - `.claude/settings.local.json` is user-specific and should be gitignored
+- **Source documents** - Already gitignored, never commit PDFs or sensitive financial documents
+- **Temporary files** - Any `.tmp`, `.swp`, or cache files
 
 ## Setup on New Machine
 1. Clone repository
