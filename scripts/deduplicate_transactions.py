@@ -141,7 +141,13 @@ class TransactionDeduplicator:
         self.logger.info(f"Loaded {len(self.transactions)} transactions")
 
     def find_duplicates(self) -> None:
-        """Find and mark duplicate transactions."""
+        """
+        Find and mark duplicate transactions.
+
+        Uses two-pass approach:
+        1. Simple 1:1 matching (one Privacy.com → one Wells Fargo)
+        2. Subscription matching (equal count groups, match by closest date)
+        """
         print(f"\nSearching for duplicates (date window: ±{self.date_window_days} days)...")
         self.logger.info(f"\nSearching for duplicates (date window: ±{self.date_window_days} days)")
         self.logger.info("="*80)
@@ -151,12 +157,13 @@ class TransactionDeduplicator:
         for txn in self.transactions:
             by_amount[txn.amount].append(txn)
 
-        # Find duplicates
+        # PASS 1: Simple 1:1 matching
+        # Find duplicates where one Privacy.com matches one Wells Fargo
         for amount, txns in by_amount.items():
             if len(txns) < 2:
                 continue  # No possible duplicates
 
-            # Check each Privacy.com transaction against Wells Fargo transactions
+            # Separate Privacy.com and Wells Fargo transactions
             privacy_txns = [t for t in txns if t.is_privacy_com()]
             wells_fargo_txns = [t for t in txns if t.is_wells_fargo_privacy()]
 
@@ -165,7 +172,7 @@ class TransactionDeduplicator:
                 matches = [wf for wf in wells_fargo_txns if privacy_txn.matches(wf)]
 
                 if len(matches) == 1:
-                    # Perfect match - deduplicate
+                    # Perfect 1:1 match - deduplicate immediately
                     wf_txn = matches[0]
                     date_diff = abs((privacy_txn.date - wf_txn.date).days)
 
@@ -188,26 +195,89 @@ class TransactionDeduplicator:
                     self.match_count += 1
 
                 elif len(matches) > 1:
-                    # Ambiguous - multiple possible matches
+                    # Ambiguous - save for pass 2 (subscription matching)
                     self.ambiguous_matches.append((privacy_txn, matches))
-                    self.logger.warning(f"\n⚠️  AMBIGUOUS MATCH")
-                    self.logger.warning(f"  Amount: ${amount:.2f}")
-                    self.logger.warning(f"  Privacy.com ({privacy_txn.date_str}): {privacy_txn.description}")
-                    for i, m in enumerate(matches, 1):
-                        self.logger.warning(f"  Possible WF match {i} ({m.date_str}): {m.description}")
 
-                    print(f"  ⚠️  Ambiguous match for {privacy_txn.date_str} ${amount:.2f}")
-                    print(f"      Privacy.com: {privacy_txn.description}")
-                    for m in matches:
-                        print(f"      Wells Fargo: {m.description} ({m.date_str})")
+        # PASS 2: Subscription matching for equal-count groups
+        # Handle recurring subscriptions (e.g., Netflix $15.49 x 12 months)
+        subscription_resolved = 0
+        still_ambiguous = []
+
+        self.logger.info(f"\n{'='*80}")
+        self.logger.info("PASS 2: SUBSCRIPTION MATCHING (Equal Count Groups)")
+        self.logger.info(f"{'='*80}")
+
+        # Group ambiguous matches by amount
+        ambiguous_by_amount = defaultdict(list)
+        for privacy_txn, matches in self.ambiguous_matches:
+            ambiguous_by_amount[privacy_txn.amount].append((privacy_txn, matches))
+
+        for amount, ambiguous_group in ambiguous_by_amount.items():
+            # Get all Privacy.com and all Wells Fargo for this amount
+            all_privacy = [p for p, _ in ambiguous_group]
+            all_wf = list({m for _, matches in ambiguous_group for m in matches})
+
+            # Only apply subscription matching if counts are equal
+            if len(all_privacy) == len(all_wf):
+                self.logger.info(f"\n💰 Subscription detected: ${abs(amount):.2f}")
+                self.logger.info(f"   {len(all_privacy)} Privacy.com → {len(all_wf)} Wells Fargo (equal counts)")
+                self.logger.info(f"   Matching by closest date...")
+
+                # Sort both lists by date
+                privacy_sorted = sorted(all_privacy, key=lambda t: t.date)
+                wf_sorted = sorted(all_wf, key=lambda t: t.date)
+
+                # Match sequentially (closest dates)
+                for p_txn, wf_txn in zip(privacy_sorted, wf_sorted):
+                    date_diff = abs((p_txn.date - wf_txn.date).days)
+
+                    # Only match if within date window
+                    if date_diff <= self.date_window_days:
+                        self.logger.info(f"   ✓ Matched: {p_txn.date_str} → {wf_txn.date_str} ({date_diff} days)")
+
+                        p_txn.merge_info_from(wf_txn)
+                        self.duplicates_found.add(wf_txn.row_number)
+                        self.duplicate_pairs.append((p_txn, wf_txn))
+                        self.match_count += 1
+                        subscription_resolved += 1
+                    else:
+                        self.logger.warning(f"   ⚠️  Date gap too large: {p_txn.date_str} → {wf_txn.date_str} ({date_diff} days)")
+                        still_ambiguous.append((p_txn, [wf_txn]))
+
+            else:
+                # Unequal counts - can't use subscription matching
+                self.logger.warning(f"\n⚠️  ${abs(amount):.2f}: Unequal counts ({len(all_privacy)} vs {len(all_wf)}) - keeping as ambiguous")
+                still_ambiguous.extend(ambiguous_group)
+
+        # Update ambiguous matches to only include truly ambiguous ones
+        self.ambiguous_matches = still_ambiguous
+
+        # Log remaining ambiguous matches
+        if still_ambiguous:
+            self.logger.info(f"\n{'='*80}")
+            self.logger.info("REMAINING AMBIGUOUS MATCHES")
+            self.logger.info(f"{'='*80}")
+            for privacy_txn, matches in still_ambiguous:
+                self.logger.warning(f"\n⚠️  AMBIGUOUS MATCH")
+                self.logger.warning(f"  Amount: ${privacy_txn.amount:.2f}")
+                self.logger.warning(f"  Privacy.com ({privacy_txn.date_str}): {privacy_txn.description}")
+                for i, m in enumerate(matches, 1):
+                    self.logger.warning(f"  Possible WF match {i} ({m.date_str}): {m.description}")
+
+                print(f"  ⚠️  Ambiguous match for {privacy_txn.date_str} ${privacy_txn.amount:.2f}")
+                print(f"      Privacy.com: {privacy_txn.description}")
+                for m in matches:
+                    print(f"      Wells Fargo: {m.description} ({m.date_str})")
 
         self.logger.info("\n" + "="*80)
-        self.logger.info(f"DEDUPLICATION PASS COMPLETE")
-        self.logger.info(f"Found {self.match_count} duplicate pairs")
-        self.logger.info(f"Found {len(self.ambiguous_matches)} ambiguous matches (need review)")
+        self.logger.info(f"DEDUPLICATION PASSES COMPLETE")
+        self.logger.info(f"Pass 1 (1:1 matching): {self.match_count - subscription_resolved} duplicate pairs")
+        self.logger.info(f"Pass 2 (subscriptions): {subscription_resolved} duplicate pairs")
+        self.logger.info(f"Total matched: {self.match_count} duplicate pairs")
+        self.logger.info(f"Still ambiguous: {len(self.ambiguous_matches)} matches (need review)")
         self.logger.info("="*80)
 
-        print(f"\nFound {self.match_count} duplicate pairs")
+        print(f"\nFound {self.match_count} duplicate pairs ({subscription_resolved} from subscription matching)")
         print(f"Found {len(self.ambiguous_matches)} ambiguous matches (need review)")
 
     def get_deduplicated_transactions(self) -> List[Transaction]:

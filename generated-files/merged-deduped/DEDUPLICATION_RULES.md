@@ -168,9 +168,97 @@ The script should generate a review file for transactions that:
 - Have unusual patterns (same amount, same day, but different merchants)
 - Fall outside normal parameters (date gap > 5 days but otherwise matching)
 
+## Source Priority Hierarchy (Future: 3-Way Deduplication)
+
+### Current State (2-Way)
+Privacy.com → Wells Fargo
+
+### Future State (3-Way)
+Amazon Order History → Privacy.com → Wells Fargo
+
+### Why This Hierarchy?
+
+**Priority 1: Amazon Order History (BEST)**
+- Has actual product name and details
+- Shows what was purchased (e.g., "Logitech MX Master 3 Mouse")
+- Enables accurate business vs personal classification
+- Contains order IDs for audit trail
+
+**Priority 2: Privacy.com (GOOD)**
+- Has merchant name and partial order info (e.g., "Pwp AMAZON.COM*QM9EH6BI3")
+- Shows actual transaction date
+- Better than Wells Fargo, but less detail than Amazon
+
+**Priority 3: Wells Fargo (MINIMAL)**
+- Generic description (e.g., "Pwp Amazon.Com* Privacycom TN: 4454793")
+- Only shows posting date, not purchase date
+- Least useful for categorization
+
+### 3-Way Matching Algorithm (Future Implementation)
+
+```
+For each Amazon transaction:
+  1. Look for Privacy.com match (same amount, within ±5 days)
+     - If found: Mark Privacy.com as duplicate
+  2. Look for Wells Fargo match (same amount, within ±5 days)
+     - If found: Mark Wells Fargo as duplicate
+  3. Keep Amazon record, note which records were matched
+
+For remaining Privacy.com transactions (not matched to Amazon):
+  1. Look for Wells Fargo match (current 2-way logic)
+  2. Keep Privacy.com, remove Wells Fargo
+
+Result: One transaction per actual purchase, with the most detailed record kept
+```
+
+### Source Detection Rules
+
+**Amazon transactions:**
+- Source field contains "amazon" (case-insensitive)
+- Description has product details or order ID
+- Amount matches Privacy.com/Wells Fargo charges
+
+**Privacy.com transactions:**
+- Description starts with "Pwp"
+- Source contains "Privacy.com Statement"
+- Has Privacy.com card number in notes
+
+**Wells Fargo transactions:**
+- Description contains "Privacycom"
+- Source contains "wells-fargo"
+- Is the final destination (bank posting)
+
+### Special Case: Recurring Subscriptions (IMPORTANT)
+
+**Problem**: Multiple identical charges (same merchant, same amount) throughout the year.
+
+Examples:
+- Netflix: $15.49 monthly x 12 months
+- Google Domains: $12.00 for multiple domain renewals
+- QuickNode: $99.00 monthly subscription
+
+**Current Behavior**: Marked as "ambiguous" because algorithm can't determine which Privacy.com matches which Wells Fargo when there are multiple candidates.
+
+**Solution**: Sequential date matching for equal-count groups
+```python
+# When counts match (e.g., 10 Privacy.com, 10 Wells Fargo)
+# Sort both by date and match in order
+privacy_sorted = sorted(privacy_txns, key=lambda t: t.date)
+wf_sorted = sorted(wf_txns, key=lambda t: t.date)
+
+for p_txn, wf_txn in zip(privacy_sorted, wf_sorted):
+    if abs((p_txn.date - wf_txn.date).days) <= 5:
+        match_and_dedupe(p_txn, wf_txn)
+```
+
+This handles recurring subscriptions automatically without manual review.
+
 ## Future Enhancements
 
-1. **Machine Learning**: Train on manually reviewed duplicates to improve matching
-2. **Fuzzy Description Matching**: Sometimes merchant names vary slightly
-3. **Chase Account Integration**: If you add Chase statements, apply similar logic
-4. **Cross-year Deduplication**: Handle transactions that span year boundaries
+1. **3-Way Deduplication**: Amazon → Privacy.com → Wells Fargo with source priority
+2. **Subscription Detection**: Automatically identify and match recurring charges
+3. **Machine Learning**: Train on manually reviewed duplicates to improve matching
+4. **Fuzzy Description Matching**: Sometimes merchant names vary slightly
+5. **Chase Account Integration**: If you add Chase statements, apply similar logic
+6. **Cross-year Deduplication**: Handle transactions that span year boundaries
+7. **Product-Level Detail**: Use Amazon product names for better expense categorization

@@ -1,7 +1,7 @@
 ================================================================================
 TRANSACTION DEDUPLICATION LOG
 ================================================================================
-Run timestamp: 2025-10-14 02:10:19
+Run timestamp: 2025-10-14 14:55:42
 Input file: /home/kurt/Projects/taxes/generated-files/merged/2022_all-transactions_merged_2025-10-13.csv
 Output file: /home/kurt/Projects/taxes/generated-files/merged-deduped/2022_deduped_2025-10-14.csv
 Review file: /home/kurt/Projects/taxes/generated-files/merged-deduped/2022_deduped_2025-10-14_review.md
@@ -60,20 +60,6 @@ Searching for duplicates (date window: ±5 days)
     Date: 2022-01-06
     Description: Pwp Amazon.Com* Privacycom TN: 1903667
     Row: 69
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-230.48
-  Privacy.com (2022-01-02): Pwp AMAZON.COM*NG2ZV8OJ3
-  Possible WF match 1 (2022-01-03): Pwp Amazon.Com* Privacycom TN: 7781367
-  Possible WF match 2 (2022-01-04): Pwp Amazon.Com Privacycom TN: 8945885
-  Possible WF match 3 (2022-01-04): Pwp Amzn Mktp U Privacycom TN: 9478545
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-230.48
-  Privacy.com (2022-01-02): Pwp AMZN Mktp US*OD8N31E53
-  Possible WF match 1 (2022-01-03): Pwp Amazon.Com* Privacycom TN: 7781367
-  Possible WF match 2 (2022-01-04): Pwp Amazon.Com Privacycom TN: 8945885
-  Possible WF match 3 (2022-01-04): Pwp Amzn Mktp U Privacycom TN: 9478545
 
 ✓ DUPLICATE FOUND (#5)
   Amount: $-38.47
@@ -255,18 +241,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Dnh*Godaddy Privacycom TN: 9548168
     Row: 161
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-9.03
-  Privacy.com (2022-08-24): Pwp DNH*GODADDY.COM
-  Possible WF match 1 (2022-08-26): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 2 (2022-08-29): Pwp Dnh*Godaddy Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-9.03
-  Privacy.com (2022-08-25): Pwp DNH*GODADDY.COM
-  Possible WF match 1 (2022-08-26): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 2 (2022-08-29): Pwp Dnh*Godaddy Privacycom
-
 ✓ DUPLICATE FOUND (#20)
   Amount: $-655.91
   Date difference: 0 days
@@ -351,18 +325,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Prime Video Privacycom TN: 8126565
     Row: 73
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-2.99
-  Privacy.com (2022-01-19): Pwp APPLE.COM/BILL
-  Possible WF match 1 (2022-01-21): Pwp Apple.Com/B Privacycom TN: 1561475
-  Possible WF match 2 (2022-01-21): Pwp Apple.Com/B Privacycom TN: 6965253
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-2.99
-  Privacy.com (2022-01-19): Pwp APPLE.COM/BILL
-  Possible WF match 1 (2022-01-21): Pwp Apple.Com/B Privacycom TN: 1561475
-  Possible WF match 2 (2022-01-21): Pwp Apple.Com/B Privacycom TN: 6965253
-
 ✓ DUPLICATE FOUND (#27)
   Amount: $-24.99
   Date difference: 3 days
@@ -386,18 +348,6 @@ Searching for duplicates (date window: ±5 days)
     Date: 2022-01-24
     Description: Pwp Dnh*Godaddy Privacycom TN: 6999416
     Row: 223
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-24.99
-  Privacy.com (2022-08-27): Pwp DNH*GODADDY.COM
-  Possible WF match 1 (2022-08-29): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 2 (2022-09-01): Pwp Dnh*Godaddy Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-24.99
-  Privacy.com (2022-08-30): Pwp DNH*GODADDY.COM
-  Possible WF match 1 (2022-08-29): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 2 (2022-09-01): Pwp Dnh*Godaddy Privacycom
 
 ✓ DUPLICATE FOUND (#29)
   Amount: $-30.00
@@ -507,24 +457,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amazon Tips Privacycom TN: 5582321
     Row: 106
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-5.00
-  Privacy.com (2022-01-16): Pwp A MEDIUM CORPORATION
-  Possible WF match 1 (2022-01-11): Pwp Amazon Tips Privacycom TN: 5582321
-  Possible WF match 2 (2022-01-18): Pwp A Medium CO Privacycom TN: 8042622
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-5.00
-  Privacy.com (2022-02-17): Pwp Amazon Tips*281773AO3
-  Possible WF match 1 (2022-02-18): Pwp Amazon Tips Privacycom TN: 6724815
-  Possible WF match 2 (2022-02-22): Pwp Amazon Tips Privacycom TN: 1759215
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-5.00
-  Privacy.com (2022-02-20): Pwp Amazon Tips*FP2LC73V3
-  Possible WF match 1 (2022-02-18): Pwp Amazon Tips Privacycom TN: 6724815
-  Possible WF match 2 (2022-02-22): Pwp Amazon Tips Privacycom TN: 1759215
-
 ✓ DUPLICATE FOUND (#38)
   Amount: $-5.00
   Date difference: 1 days
@@ -573,20 +505,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amazon Tips Privacycom
     Row: 1510
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-5.00
-  Privacy.com (2022-07-27): Pwp Amazon Tips*I686K1QQ3
-  Possible WF match 1 (2022-07-25): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-28): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-5.00
-  Privacy.com (2022-07-30): Pwp Amazon Tips*6W2971SR3
-  Possible WF match 1 (2022-07-25): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-28): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
-
 ✓ DUPLICATE FOUND (#42)
   Amount: $-5.00
   Date difference: 2 days
@@ -622,26 +540,6 @@ Searching for duplicates (date window: ±5 days)
     Date: 2022-11-28
     Description: Pwp Amazon Tips Privacycom
     Row: 2422
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-5.00
-  Privacy.com (2022-11-30): Pwp Amazon Tips*J552N81W3
-  Possible WF match 1 (2022-11-28): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-01): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-12-05): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-5.00
-  Privacy.com (2022-12-03): Pwp Amazon Tips*RX4ZO0LA3
-  Possible WF match 1 (2022-11-28): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-01): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-12-05): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-5.00
-  Privacy.com (2022-12-09): Pwp Amazon Tips*Y448O1QS3
-  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-12): Pwp Amazon Tips Privacycom
 
 ✓ DUPLICATE FOUND (#45)
   Amount: $-24.00
@@ -738,19 +636,6 @@ Searching for duplicates (date window: ±5 days)
     Date: 2022-01-18
     Description: Pwp Apple.Com/B Privacycom TN: 3664925
     Row: 163
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-9.99
-  Privacy.com (2022-01-22): Pwp APPLE.COM/BILL
-  Possible WF match 1 (2022-01-18): Pwp Apple.Com/B Privacycom TN: 3664925
-  Possible WF match 2 (2022-01-24): Pwp Apple.Com/B Privacycom TN: 7721357
-  Possible WF match 3 (2022-01-27): Pwp Apple.Com/B Privacycom TN: 7161759
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-9.99
-  Privacy.com (2022-01-26): Pwp APPLE.COM/BILL
-  Possible WF match 1 (2022-01-24): Pwp Apple.Com/B Privacycom TN: 7721357
-  Possible WF match 2 (2022-01-27): Pwp Apple.Com/B Privacycom TN: 7161759
 
 ✓ DUPLICATE FOUND (#53)
   Amount: $-9.99
@@ -896,149 +781,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amazon Tips Privacycom TN: 4092438
     Row: 496
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-03-09): Pwp Amazon Tips*1W5G92HK2
-  Possible WF match 1 (2022-03-11): Pwp Amazon Tips Privacycom TN: 8156457
-  Possible WF match 2 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-03-11): Pwp Amazon Tips*1Z7ZN18L1
-  Possible WF match 1 (2022-03-11): Pwp Amazon Tips Privacycom TN: 8156457
-  Possible WF match 2 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-03-18): Pwp Amazon Tips*1Z0IF52J2
-  Possible WF match 1 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
-  Possible WF match 2 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
-  Possible WF match 3 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-03-22): Pwp Amazon Tips*1N6NA8WQ1
-  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
-  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-03-25): Pwp Amazon Tips*163VO3XA1
-  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
-  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
-  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
-  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
-  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-03-26): Pwp Amazon Tips*1692J04C0
-  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
-  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
-  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
-  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
-  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-03-26): Pwp Amazon Tips*1670X1BP1
-  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
-  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
-  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
-  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
-  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-04-02): Pwp Amazon Tips*1649C8YJ0
-  Possible WF match 1 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
-  Possible WF match 2 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
-  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
-  Possible WF match 4 (2022-04-04): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-04-07): Pwp Amazon Tips*1H2JU0AJ2
-  Possible WF match 1 (2022-04-04): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-04-08): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-04-12): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-04-10): Pwp Amazon Tips*1H17N2WY0
-  Possible WF match 1 (2022-04-08): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-04-12): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-04-13): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-04-12): Pwp Amazon Tips*1H1IV6RN2
-  Possible WF match 1 (2022-04-08): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-04-12): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-04-13): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-04-15): Pwp Amazon Tips*1A6CC3HX0
-  Possible WF match 1 (2022-04-12): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-04-13): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-04-18): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-04-28): Pwp Amazon Tips*1Q3FF0F50
-  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-04-30): Pwp Amazon Tips*1Q3IC2E10
-  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-05-04): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-05-02): Pwp Amazon Tips*1Q5Q52HY2
-  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-05-04): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-05-05): Pwp Amazon Tips*1Q3K16YS0
-  Possible WF match 1 (2022-05-02): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-05-04): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-05-09): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-05-17): Pwp Amazon Tips*1L7ZC51P0
-  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-05-17): Pwp Amazon Tips*1R3ML3QR1
-  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-05-20): Pwp Amazon Tips*1X6727OL1
-  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-05-23): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-05-24): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-05-22): Pwp Amazon Tips*1R6R06FK0
-  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-05-23): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-05-24): Pwp Amazon Tips Privacycom
-
 ✓ DUPLICATE FOUND (#65)
   Amount: $-7.00
   Date difference: 1 days
@@ -1051,156 +793,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amazon Tips Privacycom
     Row: 1140
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-02): Pwp Amazon Tips*Y21SH18Z3
-  Possible WF match 1 (2022-06-01): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-06): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-09): Pwp Amazon Tips*H20KZ1373
-  Possible WF match 1 (2022-06-06): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-10): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-06-13): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-12): Pwp Amazon Tips*8M16Q1Y23
-  Possible WF match 1 (2022-06-10): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-13): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-06-15): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-14): Pwp Amazon Tips*C17PQ9RA3
-  Possible WF match 1 (2022-06-10): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-13): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-06-15): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-18): Pwp Amazon Tips*3S59I0XZ3
-  Possible WF match 1 (2022-06-13): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-15): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 5 (2022-06-21): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-19): Pwp Amazon Tips*TS2CH5Q73
-  Possible WF match 1 (2022-06-15): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-20): Pwp Amazon Tips*BY41K5OT3
-  Possible WF match 1 (2022-06-15): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-26): Pwp Amazon Tips*169NQ0P33
-  Possible WF match 1 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-06-28): Pwp Amazon Tips Privacycom
-  Possible WF match 5 (2022-06-30): Pwp Amazon Tips Privacycom
-  Possible WF match 6 (2022-07-01): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-28): Pwp Amazon Tips*YG2TK00W3
-  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-06-29): Pwp Amazon Tips*PJ3JE6ED3
-  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-07-03): Pwp Amazon Tips*8J6CG1X23
-  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-07-05): Pwp Amazon Tips Privacycom
-  Possible WF match 5 (2022-07-08): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-07-07): Pwp Amazon Tips*H27I14853
-  Possible WF match 1 (2022-07-05): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-08): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-07-12): Pwp Amazon Tips*G55S03AG3
-  Possible WF match 1 (2022-07-08): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-13): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-07-16): Pwp Amazon Tips*S36302T43
-  Possible WF match 1 (2022-07-13): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-18): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-07-20): Pwp Amazon Tips*SL7G14Q03
-  Possible WF match 1 (2022-07-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-22): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-07-25): Pwp Amazon Tips*PZ6JS26T3
-  Possible WF match 1 (2022-07-22): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-27): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-07-29): Pwp Amazon Tips*3B1OR9JT3
-  Possible WF match 1 (2022-07-27): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-08-03): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-07-30): Pwp Amazon Tips*XK3BX7TV3
-  Possible WF match 1 (2022-07-27): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-08-03): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-08-02): Pwp Amazon Tips*QJ6C51ST3
-  Possible WF match 1 (2022-08-01): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-08-03): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-08-14): Pwp Amazon Tips*UM7CG2AI3
-  Possible WF match 1 (2022-08-15): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-08-17): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-08-16): Pwp Amazon Tips*QG9PE7WB3
-  Possible WF match 1 (2022-08-15): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-08-17): Pwp Amazon Tips Privacycom
-
 ✓ DUPLICATE FOUND (#66)
   Amount: $-7.00
   Date difference: 2 days
@@ -1212,32 +804,6 @@ Searching for duplicates (date window: ±5 days)
     Date: 2022-08-29
     Description: Pwp Amazon Tips Privacycom
     Row: 1733
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-09-02): Pwp Amazon Tips*1V8AK27N1
-  Possible WF match 1 (2022-08-29): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-09-06): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-09-14): Pwp Amazon Tips*1M42C8CP0
-  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-09-16): Pwp Amazon Tips*1M0FK1HP1
-  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-09-21): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-09-20): Pwp Amazon Tips*1U6Q07OW1
-  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-09-21): Pwp Amazon Tips Privacycom
 
 ✓ DUPLICATE FOUND (#67)
   Amount: $-7.00
@@ -1263,92 +829,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amazon Tips Privacycom
     Row: 2158
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-10-29): Pwp Amazon Tips*H87MR8RD2
-  Possible WF match 1 (2022-10-24): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-10-31): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-11-17): Pwp Amazon Tips*HB4N78922
-  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-11-20): Pwp Amazon Tips*HI33Q47K1
-  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-11-22): Pwp Amazon Tips*HI4SO7SO2
-  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-11-23): Pwp Amazon Tips*HI4993WI2
-  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-12-02): Pwp Amazon Tips*WF7734H73
-  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-12-06): Pwp Amazon Tips*YN75Q3WE3
-  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-12-07): Pwp Amazon Tips*6D4GY25N3
-  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-12-08): Pwp Amazon Tips*RF1TX26K3
-  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
-  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-12-15): Pwp Amazon Tips*2J8Q03BI3
-  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-12-17): Pwp Amazon Tips*EF4UD1MD3
-  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-12-21): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-7.00
-  Privacy.com (2022-12-20): Pwp Amazon Tips*4K19P7LH3
-  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-12-21): Pwp Amazon Tips Privacycom
-
 ✓ DUPLICATE FOUND (#69)
   Amount: $-19.99
   Date difference: 3 days
@@ -1373,18 +853,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Apple.Com/B Privacycom TN: 3089651
     Row: 162
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-12.00
-  Privacy.com (2022-01-15): Pwp GOOGLE*DOMAINS
-  Possible WF match 1 (2022-01-18): Pwp Google*Doma Privacycom TN: 8642344
-  Possible WF match 2 (2022-01-18): Pwp Google*Doma Privacycom TN: 8800741
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-12.00
-  Privacy.com (2022-01-16): Pwp GOOGLE*DOMAINS
-  Possible WF match 1 (2022-01-18): Pwp Google*Doma Privacycom TN: 8642344
-  Possible WF match 2 (2022-01-18): Pwp Google*Doma Privacycom TN: 8800741
-
 ✓ DUPLICATE FOUND (#71)
   Amount: $-12.00
   Date difference: 1 days
@@ -1396,18 +864,6 @@ Searching for duplicates (date window: ±5 days)
     Date: 2022-03-23
     Description: Pwp Google *Dom Privacycom TN: 1556455
     Row: 641
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-12.00
-  Privacy.com (2022-09-14): Pwp GOOGLE *Domains
-  Possible WF match 1 (2022-09-16): Pwp Google *Dom Privacycom
-  Possible WF match 2 (2022-09-16): Pwp Google *Dom Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-12.00
-  Privacy.com (2022-09-14): Pwp GOOGLE *Domains
-  Possible WF match 1 (2022-09-16): Pwp Google *Dom Privacycom
-  Possible WF match 2 (2022-09-16): Pwp Google *Dom Privacycom
 
 ✓ DUPLICATE FOUND (#72)
   Amount: $-101.83
@@ -1877,18 +1333,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Apple.Com/B Privacycom TN: 5979076
     Row: 248
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-40.00
-  Privacy.com (2022-01-26): Pwp GITBOOK
-  Possible WF match 1 (2022-01-27): Pwp Gitbook Privacycom TN: 9700873
-  Possible WF match 2 (2022-01-31): Pwp Terminal PR Privacycom TN: 1278439
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-40.00
-  Privacy.com (2022-01-29): Pwp TERMINAL PRO PLAN
-  Possible WF match 1 (2022-01-27): Pwp Gitbook Privacycom TN: 9700873
-  Possible WF match 2 (2022-01-31): Pwp Terminal PR Privacycom TN: 1278439
-
 ✓ DUPLICATE FOUND (#111)
   Amount: $-40.00
   Date difference: 1 days
@@ -2093,12 +1537,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amzn Mktp U Privacycom TN: 3579224
     Row: 286
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-19.29
-  Privacy.com (2022-02-05): Pwp AMZN Mktp US*4C1H99IG3
-  Possible WF match 1 (2022-02-02): Pwp Amzn Mktp U Privacycom TN: 3579224
-  Possible WF match 2 (2022-02-07): Pwp Amzn Mktp U Privacycom TN: 7937859
-
 ✓ DUPLICATE FOUND (#128)
   Amount: $-19.29
   Date difference: 3 days
@@ -2302,18 +1740,6 @@ Searching for duplicates (date window: ±5 days)
     Date: 2022-08-22
     Description: Pwp Amzn Mktp U Privacycom
     Row: 1685
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-21.44
-  Privacy.com (2022-09-10): Pwp AMAZON.COM*1F7AF4VU0 AMZN
-  Possible WF match 1 (2022-09-12): Pwp Amazon.Com* Privacycom
-  Possible WF match 2 (2022-09-12): Pwp Amazon.Com* Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-21.44
-  Privacy.com (2022-09-10): Pwp AMAZON.COM*1F4Z904W2 AMZN
-  Possible WF match 1 (2022-09-12): Pwp Amazon.Com* Privacycom
-  Possible WF match 2 (2022-09-12): Pwp Amazon.Com* Privacycom
 
 ✓ DUPLICATE FOUND (#145)
   Amount: $-21.44
@@ -2843,19 +2269,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amazon Tips Privacycom
     Row: 829
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-04-23): Pwp Amazon Tips*1Q7KJ21Q1
-  Possible WF match 1 (2022-04-18): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-04-25): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-04-25): Pwp Etsy.Com - Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-04-24): Pwp Etsy.com - goPlanBee
-  Possible WF match 1 (2022-04-25): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-04-25): Pwp Etsy.Com - Privacycom
-
 ✓ DUPLICATE FOUND (#189)
   Amount: $-10.00
   Date difference: 2 days
@@ -2892,12 +2305,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amazon Tips Privacycom
     Row: 1141
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-06-04): Pwp Amazon Tips*HF2DT1H43
-  Possible WF match 1 (2022-06-01): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-06-06): Pwp Amazon Tips Privacycom
-
 ✓ DUPLICATE FOUND (#192)
   Amount: $-10.00
   Date difference: 5 days
@@ -2922,26 +2329,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amazon Tips Privacycom
     Row: 1381
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-07-08): Pwp Amazon Tips*369GR5W03
-  Possible WF match 1 (2022-07-05): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-11): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-07-13): Pwp Amazon Tips*BW8EF2D53
-  Possible WF match 1 (2022-07-11): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-14): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-07-18): Pwp Blink Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-07-16): Pwp Blink
-  Possible WF match 1 (2022-07-11): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-07-14): Pwp Amazon Tips Privacycom
-  Possible WF match 3 (2022-07-18): Pwp Blink Privacycom
-
 ✓ DUPLICATE FOUND (#194)
   Amount: $-10.00
   Date difference: 3 days
@@ -2953,24 +2340,6 @@ Searching for duplicates (date window: ±5 days)
     Date: 2022-08-08
     Description: Pwp Amazon Tips Privacycom
     Row: 1605
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-08-10): Pwp Amazon Tips*SQ70Z6N33
-  Possible WF match 1 (2022-08-08): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-08-12): Pwp Amazon Tips Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-08-16): Pwp Blink
-  Possible WF match 1 (2022-08-12): Pwp Amazon Tips Privacycom
-  Possible WF match 2 (2022-08-18): Pwp Blink Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-10.00
-  Privacy.com (2022-08-19): Pwp Amazon Tips*5421L9XB3
-  Possible WF match 1 (2022-08-18): Pwp Blink Privacycom
-  Possible WF match 2 (2022-08-22): Pwp Amazon Tips Privacycom
 
 ✓ DUPLICATE FOUND (#195)
   Amount: $-10.00
@@ -5132,12 +4501,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Amzn Mktp U Privacycom
     Row: 2362
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-37.53
-  Privacy.com (2022-11-21): Pwp AMZN Mktp US*HI1GZ96N2
-  Possible WF match 1 (2022-11-21): Pwp Amzn Mktp U Privacycom
-  Possible WF match 2 (2022-11-23): Pwp Amzn Mktp U Privacycom
-
 ✓ DUPLICATE FOUND (#375)
   Amount: $-92.84
   Date difference: 3 days
@@ -6470,27 +5833,6 @@ Searching for duplicates (date window: ±5 days)
     Description: Pwp Dnh*Godaddy Privacycom
     Row: 2493
 
-⚠️  AMBIGUOUS MATCH
-  Amount: $-20.17
-  Privacy.com (2022-12-10): Pwp DNH*GODADDY.COM
-  Possible WF match 1 (2022-12-06): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 2 (2022-12-12): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 3 (2022-12-14): Pwp Dnh*Godaddy Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-20.17
-  Privacy.com (2022-12-12): Pwp DNH*GODADDY.COM
-  Possible WF match 1 (2022-12-12): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 2 (2022-12-14): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 3 (2022-12-16): Pwp Dnh*Godaddy Privacycom
-
-⚠️  AMBIGUOUS MATCH
-  Amount: $-20.17
-  Privacy.com (2022-12-14): Pwp DNH*GODADDY.COM
-  Possible WF match 1 (2022-12-12): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 2 (2022-12-14): Pwp Dnh*Godaddy Privacycom
-  Possible WF match 3 (2022-12-16): Pwp Dnh*Godaddy Privacycom
-
 ✓ DUPLICATE FOUND (#486)
   Amount: $-22.30
   Date difference: 3 days
@@ -7140,18 +6482,656 @@ Searching for duplicates (date window: ±5 days)
     Row: 2715
 
 ================================================================================
-DEDUPLICATION PASS COMPLETE
-Found 539 duplicate pairs
-Found 97 ambiguous matches (need review)
+PASS 2: SUBSCRIPTION MATCHING (Equal Count Groups)
+================================================================================
+
+⚠️  $230.48: Unequal counts (2 vs 3) - keeping as ambiguous
+
+💰 Subscription detected: $9.03
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-08-24 → 2022-08-26 (2 days)
+   ✓ Matched: 2022-08-25 → 2022-08-29 (4 days)
+
+💰 Subscription detected: $2.99
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-01-19 → 2022-01-21 (2 days)
+   ✓ Matched: 2022-01-19 → 2022-01-21 (2 days)
+
+💰 Subscription detected: $24.99
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-08-27 → 2022-08-29 (2 days)
+   ✓ Matched: 2022-08-30 → 2022-09-01 (2 days)
+
+⚠️  $5.00: Unequal counts (8 vs 11) - keeping as ambiguous
+
+⚠️  $9.99: Unequal counts (2 vs 3) - keeping as ambiguous
+
+⚠️  $7.00: Unequal counts (57 vs 60) - keeping as ambiguous
+
+💰 Subscription detected: $12.00
+   4 Privacy.com → 4 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-01-15 → 2022-01-18 (3 days)
+   ✓ Matched: 2022-01-16 → 2022-01-18 (2 days)
+   ✓ Matched: 2022-09-14 → 2022-09-16 (2 days)
+   ✓ Matched: 2022-09-14 → 2022-09-16 (2 days)
+
+💰 Subscription detected: $40.00
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-01-26 → 2022-01-27 (1 days)
+   ✓ Matched: 2022-01-29 → 2022-01-31 (2 days)
+
+⚠️  $19.29: Unequal counts (1 vs 2) - keeping as ambiguous
+
+💰 Subscription detected: $21.44
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-09-10 → 2022-09-12 (2 days)
+   ✓ Matched: 2022-09-10 → 2022-09-12 (2 days)
+
+⚠️  $10.00: Unequal counts (9 vs 13) - keeping as ambiguous
+
+⚠️  $37.53: Unequal counts (1 vs 2) - keeping as ambiguous
+
+⚠️  $20.17: Unequal counts (3 vs 4) - keeping as ambiguous
+
+================================================================================
+REMAINING AMBIGUOUS MATCHES
+================================================================================
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-230.48
+  Privacy.com (2022-01-02): Pwp AMAZON.COM*NG2ZV8OJ3
+  Possible WF match 1 (2022-01-03): Pwp Amazon.Com* Privacycom TN: 7781367
+  Possible WF match 2 (2022-01-04): Pwp Amazon.Com Privacycom TN: 8945885
+  Possible WF match 3 (2022-01-04): Pwp Amzn Mktp U Privacycom TN: 9478545
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-230.48
+  Privacy.com (2022-01-02): Pwp AMZN Mktp US*OD8N31E53
+  Possible WF match 1 (2022-01-03): Pwp Amazon.Com* Privacycom TN: 7781367
+  Possible WF match 2 (2022-01-04): Pwp Amazon.Com Privacycom TN: 8945885
+  Possible WF match 3 (2022-01-04): Pwp Amzn Mktp U Privacycom TN: 9478545
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-01-16): Pwp A MEDIUM CORPORATION
+  Possible WF match 1 (2022-01-11): Pwp Amazon Tips Privacycom TN: 5582321
+  Possible WF match 2 (2022-01-18): Pwp A Medium CO Privacycom TN: 8042622
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-02-17): Pwp Amazon Tips*281773AO3
+  Possible WF match 1 (2022-02-18): Pwp Amazon Tips Privacycom TN: 6724815
+  Possible WF match 2 (2022-02-22): Pwp Amazon Tips Privacycom TN: 1759215
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-02-20): Pwp Amazon Tips*FP2LC73V3
+  Possible WF match 1 (2022-02-18): Pwp Amazon Tips Privacycom TN: 6724815
+  Possible WF match 2 (2022-02-22): Pwp Amazon Tips Privacycom TN: 1759215
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-07-27): Pwp Amazon Tips*I686K1QQ3
+  Possible WF match 1 (2022-07-25): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-28): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-07-30): Pwp Amazon Tips*6W2971SR3
+  Possible WF match 1 (2022-07-25): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-28): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-11-30): Pwp Amazon Tips*J552N81W3
+  Possible WF match 1 (2022-11-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-05): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-12-03): Pwp Amazon Tips*RX4ZO0LA3
+  Possible WF match 1 (2022-11-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-05): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-12-09): Pwp Amazon Tips*Y448O1QS3
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-12): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-9.99
+  Privacy.com (2022-01-22): Pwp APPLE.COM/BILL
+  Possible WF match 1 (2022-01-18): Pwp Apple.Com/B Privacycom TN: 3664925
+  Possible WF match 2 (2022-01-24): Pwp Apple.Com/B Privacycom TN: 7721357
+  Possible WF match 3 (2022-01-27): Pwp Apple.Com/B Privacycom TN: 7161759
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-9.99
+  Privacy.com (2022-01-26): Pwp APPLE.COM/BILL
+  Possible WF match 1 (2022-01-24): Pwp Apple.Com/B Privacycom TN: 7721357
+  Possible WF match 2 (2022-01-27): Pwp Apple.Com/B Privacycom TN: 7161759
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-09): Pwp Amazon Tips*1W5G92HK2
+  Possible WF match 1 (2022-03-11): Pwp Amazon Tips Privacycom TN: 8156457
+  Possible WF match 2 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-11): Pwp Amazon Tips*1Z7ZN18L1
+  Possible WF match 1 (2022-03-11): Pwp Amazon Tips Privacycom TN: 8156457
+  Possible WF match 2 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-18): Pwp Amazon Tips*1Z0IF52J2
+  Possible WF match 1 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
+  Possible WF match 2 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 3 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-22): Pwp Amazon Tips*1N6NA8WQ1
+  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-25): Pwp Amazon Tips*163VO3XA1
+  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
+  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
+  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-26): Pwp Amazon Tips*1692J04C0
+  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
+  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
+  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-26): Pwp Amazon Tips*1670X1BP1
+  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
+  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
+  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-02): Pwp Amazon Tips*1649C8YJ0
+  Possible WF match 1 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
+  Possible WF match 2 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
+  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
+  Possible WF match 4 (2022-04-04): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-07): Pwp Amazon Tips*1H2JU0AJ2
+  Possible WF match 1 (2022-04-04): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-08): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-12): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-10): Pwp Amazon Tips*1H17N2WY0
+  Possible WF match 1 (2022-04-08): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-12): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-13): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-12): Pwp Amazon Tips*1H1IV6RN2
+  Possible WF match 1 (2022-04-08): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-12): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-13): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-15): Pwp Amazon Tips*1A6CC3HX0
+  Possible WF match 1 (2022-04-12): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-13): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-18): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-28): Pwp Amazon Tips*1Q3FF0F50
+  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-30): Pwp Amazon Tips*1Q3IC2E10
+  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-04): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-02): Pwp Amazon Tips*1Q5Q52HY2
+  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-04): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-05): Pwp Amazon Tips*1Q3K16YS0
+  Possible WF match 1 (2022-05-02): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-04): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-09): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-17): Pwp Amazon Tips*1L7ZC51P0
+  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-17): Pwp Amazon Tips*1R3ML3QR1
+  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-20): Pwp Amazon Tips*1X6727OL1
+  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-05-24): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-22): Pwp Amazon Tips*1R6R06FK0
+  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-05-24): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-02): Pwp Amazon Tips*Y21SH18Z3
+  Possible WF match 1 (2022-06-01): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-06): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-09): Pwp Amazon Tips*H20KZ1373
+  Possible WF match 1 (2022-06-06): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-10): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-13): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-12): Pwp Amazon Tips*8M16Q1Y23
+  Possible WF match 1 (2022-06-10): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-13): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-15): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-14): Pwp Amazon Tips*C17PQ9RA3
+  Possible WF match 1 (2022-06-10): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-13): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-15): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-18): Pwp Amazon Tips*3S59I0XZ3
+  Possible WF match 1 (2022-06-13): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-15): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 5 (2022-06-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-19): Pwp Amazon Tips*TS2CH5Q73
+  Possible WF match 1 (2022-06-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-20): Pwp Amazon Tips*BY41K5OT3
+  Possible WF match 1 (2022-06-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-26): Pwp Amazon Tips*169NQ0P33
+  Possible WF match 1 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-06-28): Pwp Amazon Tips Privacycom
+  Possible WF match 5 (2022-06-30): Pwp Amazon Tips Privacycom
+  Possible WF match 6 (2022-07-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-28): Pwp Amazon Tips*YG2TK00W3
+  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-29): Pwp Amazon Tips*PJ3JE6ED3
+  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-03): Pwp Amazon Tips*8J6CG1X23
+  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-07-05): Pwp Amazon Tips Privacycom
+  Possible WF match 5 (2022-07-08): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-07): Pwp Amazon Tips*H27I14853
+  Possible WF match 1 (2022-07-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-08): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-12): Pwp Amazon Tips*G55S03AG3
+  Possible WF match 1 (2022-07-08): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-13): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-16): Pwp Amazon Tips*S36302T43
+  Possible WF match 1 (2022-07-13): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-18): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-20): Pwp Amazon Tips*SL7G14Q03
+  Possible WF match 1 (2022-07-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-22): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-25): Pwp Amazon Tips*PZ6JS26T3
+  Possible WF match 1 (2022-07-22): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-27): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-29): Pwp Amazon Tips*3B1OR9JT3
+  Possible WF match 1 (2022-07-27): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-08-03): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-30): Pwp Amazon Tips*XK3BX7TV3
+  Possible WF match 1 (2022-07-27): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-08-03): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-08-02): Pwp Amazon Tips*QJ6C51ST3
+  Possible WF match 1 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-03): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-08-14): Pwp Amazon Tips*UM7CG2AI3
+  Possible WF match 1 (2022-08-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-17): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-08-16): Pwp Amazon Tips*QG9PE7WB3
+  Possible WF match 1 (2022-08-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-17): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-09-02): Pwp Amazon Tips*1V8AK27N1
+  Possible WF match 1 (2022-08-29): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-09-06): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-09-14): Pwp Amazon Tips*1M42C8CP0
+  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-09-16): Pwp Amazon Tips*1M0FK1HP1
+  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-09-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-09-20): Pwp Amazon Tips*1U6Q07OW1
+  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-09-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-10-29): Pwp Amazon Tips*H87MR8RD2
+  Possible WF match 1 (2022-10-24): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-10-31): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-11-17): Pwp Amazon Tips*HB4N78922
+  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-11-20): Pwp Amazon Tips*HI33Q47K1
+  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-11-22): Pwp Amazon Tips*HI4SO7SO2
+  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-11-23): Pwp Amazon Tips*HI4993WI2
+  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-02): Pwp Amazon Tips*WF7734H73
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-06): Pwp Amazon Tips*YN75Q3WE3
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-07): Pwp Amazon Tips*6D4GY25N3
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-08): Pwp Amazon Tips*RF1TX26K3
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-15): Pwp Amazon Tips*2J8Q03BI3
+  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-17): Pwp Amazon Tips*EF4UD1MD3
+  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-20): Pwp Amazon Tips*4K19P7LH3
+  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-19.29
+  Privacy.com (2022-02-05): Pwp AMZN Mktp US*4C1H99IG3
+  Possible WF match 1 (2022-02-02): Pwp Amzn Mktp U Privacycom TN: 3579224
+  Possible WF match 2 (2022-02-07): Pwp Amzn Mktp U Privacycom TN: 7937859
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-04-23): Pwp Amazon Tips*1Q7KJ21Q1
+  Possible WF match 1 (2022-04-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-25): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-25): Pwp Etsy.Com - Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-04-24): Pwp Etsy.com - goPlanBee
+  Possible WF match 1 (2022-04-25): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-25): Pwp Etsy.Com - Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-06-04): Pwp Amazon Tips*HF2DT1H43
+  Possible WF match 1 (2022-06-01): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-06): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-07-08): Pwp Amazon Tips*369GR5W03
+  Possible WF match 1 (2022-07-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-11): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-07-13): Pwp Amazon Tips*BW8EF2D53
+  Possible WF match 1 (2022-07-11): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-14): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-18): Pwp Blink Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-07-16): Pwp Blink
+  Possible WF match 1 (2022-07-11): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-14): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-18): Pwp Blink Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-08-10): Pwp Amazon Tips*SQ70Z6N33
+  Possible WF match 1 (2022-08-08): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-12): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-08-16): Pwp Blink
+  Possible WF match 1 (2022-08-12): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-18): Pwp Blink Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-08-19): Pwp Amazon Tips*5421L9XB3
+  Possible WF match 1 (2022-08-18): Pwp Blink Privacycom
+  Possible WF match 2 (2022-08-22): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-37.53
+  Privacy.com (2022-11-21): Pwp AMZN Mktp US*HI1GZ96N2
+  Possible WF match 1 (2022-11-21): Pwp Amzn Mktp U Privacycom
+  Possible WF match 2 (2022-11-23): Pwp Amzn Mktp U Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-20.17
+  Privacy.com (2022-12-10): Pwp DNH*GODADDY.COM
+  Possible WF match 1 (2022-12-06): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 2 (2022-12-12): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 3 (2022-12-14): Pwp Dnh*Godaddy Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-20.17
+  Privacy.com (2022-12-12): Pwp DNH*GODADDY.COM
+  Possible WF match 1 (2022-12-12): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 2 (2022-12-14): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 3 (2022-12-16): Pwp Dnh*Godaddy Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-20.17
+  Privacy.com (2022-12-14): Pwp DNH*GODADDY.COM
+  Possible WF match 1 (2022-12-12): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 2 (2022-12-14): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 3 (2022-12-16): Pwp Dnh*Godaddy Privacycom
+
+================================================================================
+DEDUPLICATION PASSES COMPLETE
+Pass 1 (1:1 matching): 539 duplicate pairs
+Pass 2 (subscriptions): 14 duplicate pairs
+Total matched: 553 duplicate pairs
+Still ambiguous: 83 matches (need review)
 ================================================================================
 
 ================================================================================
 FINAL SUMMARY
 ================================================================================
 Original transactions: 2719
-Duplicates removed: 538
-Final transactions: 2181
-Ambiguous matches: 97
+Duplicates removed: 552
+Final transactions: 2167
+Ambiguous matches: 83
 ================================================================================
 
 ✅ Deduplication complete!

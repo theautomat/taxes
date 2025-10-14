@@ -36,90 +36,6 @@ Please review manually and update the deduplication rules if needed.
 ## Match Group 3
 
 **Privacy.com Transaction:**
-- Date: 2022-08-24
-- Description: Pwp DNH*GODADDY.COM
-- Amount: $-9.03
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-08-26 | Pwp Dnh*Godaddy Privacycom | $-9.03
-2. Date: 2022-08-29 | Pwp Dnh*Godaddy Privacycom | $-9.03
-
----
-
-## Match Group 4
-
-**Privacy.com Transaction:**
-- Date: 2022-08-25
-- Description: Pwp DNH*GODADDY.COM
-- Amount: $-9.03
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-08-26 | Pwp Dnh*Godaddy Privacycom | $-9.03
-2. Date: 2022-08-29 | Pwp Dnh*Godaddy Privacycom | $-9.03
-
----
-
-## Match Group 5
-
-**Privacy.com Transaction:**
-- Date: 2022-01-19
-- Description: Pwp APPLE.COM/BILL
-- Amount: $-2.99
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-01-21 | Pwp Apple.Com/B Privacycom TN: 1561475 | $-2.99
-2. Date: 2022-01-21 | Pwp Apple.Com/B Privacycom TN: 6965253 | $-2.99
-
----
-
-## Match Group 6
-
-**Privacy.com Transaction:**
-- Date: 2022-01-19
-- Description: Pwp APPLE.COM/BILL
-- Amount: $-2.99
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-01-21 | Pwp Apple.Com/B Privacycom TN: 1561475 | $-2.99
-2. Date: 2022-01-21 | Pwp Apple.Com/B Privacycom TN: 6965253 | $-2.99
-
----
-
-## Match Group 7
-
-**Privacy.com Transaction:**
-- Date: 2022-08-27
-- Description: Pwp DNH*GODADDY.COM
-- Amount: $-24.99
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-08-29 | Pwp Dnh*Godaddy Privacycom | $-24.99
-2. Date: 2022-09-01 | Pwp Dnh*Godaddy Privacycom | $-24.99
-
----
-
-## Match Group 8
-
-**Privacy.com Transaction:**
-- Date: 2022-08-30
-- Description: Pwp DNH*GODADDY.COM
-- Amount: $-24.99
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-08-29 | Pwp Dnh*Godaddy Privacycom | $-24.99
-2. Date: 2022-09-01 | Pwp Dnh*Godaddy Privacycom | $-24.99
-
----
-
-## Match Group 9
-
-**Privacy.com Transaction:**
 - Date: 2022-01-16
 - Description: Pwp A MEDIUM CORPORATION
 - Amount: $-5.00
@@ -131,7 +47,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 10
+## Match Group 4
 
 **Privacy.com Transaction:**
 - Date: 2022-02-17
@@ -145,7 +61,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 11
+## Match Group 5
 
 **Privacy.com Transaction:**
 - Date: 2022-02-20
@@ -159,7 +75,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 12
+## Match Group 6
 
 **Privacy.com Transaction:**
 - Date: 2022-07-27
@@ -174,7 +90,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 13
+## Match Group 7
 
 **Privacy.com Transaction:**
 - Date: 2022-07-30
@@ -189,7 +105,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 14
+## Match Group 8
 
 **Privacy.com Transaction:**
 - Date: 2022-11-30
@@ -204,7 +120,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 15
+## Match Group 9
 
 **Privacy.com Transaction:**
 - Date: 2022-12-03
@@ -219,7 +135,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 16
+## Match Group 10
 
 **Privacy.com Transaction:**
 - Date: 2022-12-09
@@ -233,7 +149,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 17
+## Match Group 11
 
 **Privacy.com Transaction:**
 - Date: 2022-01-22
@@ -248,7 +164,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 18
+## Match Group 12
 
 **Privacy.com Transaction:**
 - Date: 2022-01-26
@@ -262,7 +178,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 19
+## Match Group 13
 
 **Privacy.com Transaction:**
 - Date: 2022-03-09
@@ -276,7 +192,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 20
+## Match Group 14
 
 **Privacy.com Transaction:**
 - Date: 2022-03-11
@@ -290,7 +206,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 21
+## Match Group 15
 
 **Privacy.com Transaction:**
 - Date: 2022-03-18
@@ -305,7 +221,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 22
+## Match Group 16
 
 **Privacy.com Transaction:**
 - Date: 2022-03-22
@@ -319,7 +235,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 23
+## Match Group 17
 
 **Privacy.com Transaction:**
 - Date: 2022-03-25
@@ -336,7 +252,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 24
+## Match Group 18
 
 **Privacy.com Transaction:**
 - Date: 2022-03-26
@@ -353,7 +269,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 25
+## Match Group 19
 
 **Privacy.com Transaction:**
 - Date: 2022-03-26
@@ -370,7 +286,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 26
+## Match Group 20
 
 **Privacy.com Transaction:**
 - Date: 2022-04-02
@@ -386,7 +302,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 27
+## Match Group 21
 
 **Privacy.com Transaction:**
 - Date: 2022-04-07
@@ -401,7 +317,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 28
+## Match Group 22
 
 **Privacy.com Transaction:**
 - Date: 2022-04-10
@@ -416,7 +332,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 29
+## Match Group 23
 
 **Privacy.com Transaction:**
 - Date: 2022-04-12
@@ -431,7 +347,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 30
+## Match Group 24
 
 **Privacy.com Transaction:**
 - Date: 2022-04-15
@@ -446,7 +362,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 31
+## Match Group 25
 
 **Privacy.com Transaction:**
 - Date: 2022-04-28
@@ -460,7 +376,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 32
+## Match Group 26
 
 **Privacy.com Transaction:**
 - Date: 2022-04-30
@@ -475,7 +391,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 33
+## Match Group 27
 
 **Privacy.com Transaction:**
 - Date: 2022-05-02
@@ -490,7 +406,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 34
+## Match Group 28
 
 **Privacy.com Transaction:**
 - Date: 2022-05-05
@@ -505,7 +421,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 35
+## Match Group 29
 
 **Privacy.com Transaction:**
 - Date: 2022-05-17
@@ -519,7 +435,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 36
+## Match Group 30
 
 **Privacy.com Transaction:**
 - Date: 2022-05-17
@@ -533,7 +449,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 37
+## Match Group 31
 
 **Privacy.com Transaction:**
 - Date: 2022-05-20
@@ -549,7 +465,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 38
+## Match Group 32
 
 **Privacy.com Transaction:**
 - Date: 2022-05-22
@@ -565,7 +481,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 39
+## Match Group 33
 
 **Privacy.com Transaction:**
 - Date: 2022-06-02
@@ -579,7 +495,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 40
+## Match Group 34
 
 **Privacy.com Transaction:**
 - Date: 2022-06-09
@@ -594,7 +510,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 41
+## Match Group 35
 
 **Privacy.com Transaction:**
 - Date: 2022-06-12
@@ -609,7 +525,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 42
+## Match Group 36
 
 **Privacy.com Transaction:**
 - Date: 2022-06-14
@@ -624,7 +540,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 43
+## Match Group 37
 
 **Privacy.com Transaction:**
 - Date: 2022-06-18
@@ -641,7 +557,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 44
+## Match Group 38
 
 **Privacy.com Transaction:**
 - Date: 2022-06-19
@@ -657,7 +573,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 45
+## Match Group 39
 
 **Privacy.com Transaction:**
 - Date: 2022-06-20
@@ -673,7 +589,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 46
+## Match Group 40
 
 **Privacy.com Transaction:**
 - Date: 2022-06-26
@@ -691,7 +607,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 47
+## Match Group 41
 
 **Privacy.com Transaction:**
 - Date: 2022-06-28
@@ -706,7 +622,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 48
+## Match Group 42
 
 **Privacy.com Transaction:**
 - Date: 2022-06-29
@@ -721,7 +637,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 49
+## Match Group 43
 
 **Privacy.com Transaction:**
 - Date: 2022-07-03
@@ -738,7 +654,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 50
+## Match Group 44
 
 **Privacy.com Transaction:**
 - Date: 2022-07-07
@@ -752,7 +668,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 51
+## Match Group 45
 
 **Privacy.com Transaction:**
 - Date: 2022-07-12
@@ -766,7 +682,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 52
+## Match Group 46
 
 **Privacy.com Transaction:**
 - Date: 2022-07-16
@@ -780,7 +696,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 53
+## Match Group 47
 
 **Privacy.com Transaction:**
 - Date: 2022-07-20
@@ -794,7 +710,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 54
+## Match Group 48
 
 **Privacy.com Transaction:**
 - Date: 2022-07-25
@@ -808,7 +724,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 55
+## Match Group 49
 
 **Privacy.com Transaction:**
 - Date: 2022-07-29
@@ -824,7 +740,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 56
+## Match Group 50
 
 **Privacy.com Transaction:**
 - Date: 2022-07-30
@@ -840,7 +756,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 57
+## Match Group 51
 
 **Privacy.com Transaction:**
 - Date: 2022-08-02
@@ -855,7 +771,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 58
+## Match Group 52
 
 **Privacy.com Transaction:**
 - Date: 2022-08-14
@@ -869,7 +785,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 59
+## Match Group 53
 
 **Privacy.com Transaction:**
 - Date: 2022-08-16
@@ -883,7 +799,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 60
+## Match Group 54
 
 **Privacy.com Transaction:**
 - Date: 2022-09-02
@@ -897,7 +813,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 61
+## Match Group 55
 
 **Privacy.com Transaction:**
 - Date: 2022-09-14
@@ -911,7 +827,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 62
+## Match Group 56
 
 **Privacy.com Transaction:**
 - Date: 2022-09-16
@@ -926,7 +842,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 63
+## Match Group 57
 
 **Privacy.com Transaction:**
 - Date: 2022-09-20
@@ -941,7 +857,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 64
+## Match Group 58
 
 **Privacy.com Transaction:**
 - Date: 2022-10-29
@@ -955,7 +871,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 65
+## Match Group 59
 
 **Privacy.com Transaction:**
 - Date: 2022-11-17
@@ -969,7 +885,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 66
+## Match Group 60
 
 **Privacy.com Transaction:**
 - Date: 2022-11-20
@@ -985,7 +901,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 67
+## Match Group 61
 
 **Privacy.com Transaction:**
 - Date: 2022-11-22
@@ -1001,7 +917,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 68
+## Match Group 62
 
 **Privacy.com Transaction:**
 - Date: 2022-11-23
@@ -1017,7 +933,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 69
+## Match Group 63
 
 **Privacy.com Transaction:**
 - Date: 2022-12-02
@@ -1031,7 +947,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 70
+## Match Group 64
 
 **Privacy.com Transaction:**
 - Date: 2022-12-06
@@ -1047,7 +963,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 71
+## Match Group 65
 
 **Privacy.com Transaction:**
 - Date: 2022-12-07
@@ -1063,7 +979,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 72
+## Match Group 66
 
 **Privacy.com Transaction:**
 - Date: 2022-12-08
@@ -1079,7 +995,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 73
+## Match Group 67
 
 **Privacy.com Transaction:**
 - Date: 2022-12-15
@@ -1093,7 +1009,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 74
+## Match Group 68
 
 **Privacy.com Transaction:**
 - Date: 2022-12-17
@@ -1108,7 +1024,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 75
+## Match Group 69
 
 **Privacy.com Transaction:**
 - Date: 2022-12-20
@@ -1123,91 +1039,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 76
-
-**Privacy.com Transaction:**
-- Date: 2022-01-15
-- Description: Pwp GOOGLE*DOMAINS
-- Amount: $-12.00
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-01-18 | Pwp Google*Doma Privacycom TN: 8642344 | $-12.00
-2. Date: 2022-01-18 | Pwp Google*Doma Privacycom TN: 8800741 | $-12.00
-
----
-
-## Match Group 77
-
-**Privacy.com Transaction:**
-- Date: 2022-01-16
-- Description: Pwp GOOGLE*DOMAINS
-- Amount: $-12.00
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-01-18 | Pwp Google*Doma Privacycom TN: 8642344 | $-12.00
-2. Date: 2022-01-18 | Pwp Google*Doma Privacycom TN: 8800741 | $-12.00
-
----
-
-## Match Group 78
-
-**Privacy.com Transaction:**
-- Date: 2022-09-14
-- Description: Pwp GOOGLE *Domains
-- Amount: $-12.00
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-09-16 | Pwp Google *Dom Privacycom | $-12.00
-2. Date: 2022-09-16 | Pwp Google *Dom Privacycom | $-12.00
-
----
-
-## Match Group 79
-
-**Privacy.com Transaction:**
-- Date: 2022-09-14
-- Description: Pwp GOOGLE *Domains
-- Amount: $-12.00
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-09-16 | Pwp Google *Dom Privacycom | $-12.00
-2. Date: 2022-09-16 | Pwp Google *Dom Privacycom | $-12.00
-
----
-
-## Match Group 80
-
-**Privacy.com Transaction:**
-- Date: 2022-01-26
-- Description: Pwp GITBOOK
-- Amount: $-40.00
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-01-27 | Pwp Gitbook Privacycom TN: 9700873 | $-40.00
-2. Date: 2022-01-31 | Pwp Terminal PR Privacycom TN: 1278439 | $-40.00
-
----
-
-## Match Group 81
-
-**Privacy.com Transaction:**
-- Date: 2022-01-29
-- Description: Pwp TERMINAL PRO PLAN
-- Amount: $-40.00
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-01-27 | Pwp Gitbook Privacycom TN: 9700873 | $-40.00
-2. Date: 2022-01-31 | Pwp Terminal PR Privacycom TN: 1278439 | $-40.00
-
----
-
-## Match Group 82
+## Match Group 70
 
 **Privacy.com Transaction:**
 - Date: 2022-02-05
@@ -1221,35 +1053,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 83
-
-**Privacy.com Transaction:**
-- Date: 2022-09-10
-- Description: Pwp AMAZON.COM*1F7AF4VU0 AMZN
-- Amount: $-21.44
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-09-12 | Pwp Amazon.Com* Privacycom | $-21.44
-2. Date: 2022-09-12 | Pwp Amazon.Com* Privacycom | $-21.44
-
----
-
-## Match Group 84
-
-**Privacy.com Transaction:**
-- Date: 2022-09-10
-- Description: Pwp AMAZON.COM*1F4Z904W2 AMZN
-- Amount: $-21.44
-- Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
-
-**Possible Wells Fargo Matches:**
-1. Date: 2022-09-12 | Pwp Amazon.Com* Privacycom | $-21.44
-2. Date: 2022-09-12 | Pwp Amazon.Com* Privacycom | $-21.44
-
----
-
-## Match Group 85
+## Match Group 71
 
 **Privacy.com Transaction:**
 - Date: 2022-04-23
@@ -1264,7 +1068,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 86
+## Match Group 72
 
 **Privacy.com Transaction:**
 - Date: 2022-04-24
@@ -1278,7 +1082,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 87
+## Match Group 73
 
 **Privacy.com Transaction:**
 - Date: 2022-06-04
@@ -1292,7 +1096,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 88
+## Match Group 74
 
 **Privacy.com Transaction:**
 - Date: 2022-07-08
@@ -1306,7 +1110,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 89
+## Match Group 75
 
 **Privacy.com Transaction:**
 - Date: 2022-07-13
@@ -1321,7 +1125,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 90
+## Match Group 76
 
 **Privacy.com Transaction:**
 - Date: 2022-07-16
@@ -1336,7 +1140,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 91
+## Match Group 77
 
 **Privacy.com Transaction:**
 - Date: 2022-08-10
@@ -1350,7 +1154,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 92
+## Match Group 78
 
 **Privacy.com Transaction:**
 - Date: 2022-08-16
@@ -1364,7 +1168,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 93
+## Match Group 79
 
 **Privacy.com Transaction:**
 - Date: 2022-08-19
@@ -1378,7 +1182,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 94
+## Match Group 80
 
 **Privacy.com Transaction:**
 - Date: 2022-11-21
@@ -1392,7 +1196,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 95
+## Match Group 81
 
 **Privacy.com Transaction:**
 - Date: 2022-12-10
@@ -1407,7 +1211,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 96
+## Match Group 82
 
 **Privacy.com Transaction:**
 - Date: 2022-12-12
@@ -1422,7 +1226,7 @@ Please review manually and update the deduplication rules if needed.
 
 ---
 
-## Match Group 97
+## Match Group 83
 
 **Privacy.com Transaction:**
 - Date: 2022-12-14
