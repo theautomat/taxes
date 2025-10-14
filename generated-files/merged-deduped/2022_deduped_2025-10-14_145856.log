@@ -1,0 +1,7138 @@
+================================================================================
+TRANSACTION DEDUPLICATION LOG
+================================================================================
+Run timestamp: 2025-10-14 14:58:56
+Input file: /home/kurt/Projects/taxes/generated-files/merged/2022_all-transactions_merged_2025-10-13.csv
+Output file: /home/kurt/Projects/taxes/generated-files/merged-deduped/2022_deduped_2025-10-14_145856.csv
+Review file: /home/kurt/Projects/taxes/generated-files/merged-deduped/2022_deduped_2025-10-14_145856_review.md
+Log file: /home/kurt/Projects/taxes/generated-files/merged-deduped/2022_deduped_2025-10-14_145856.log
+================================================================================
+Loading transactions from: /home/kurt/Projects/taxes/generated-files/merged/2022_all-transactions_merged_2025-10-13.csv
+Loaded 2719 transactions
+
+Searching for duplicates (date window: ±5 days)
+================================================================================
+
+✓ DUPLICATE FOUND (#1)
+  Amount: $-13.12
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-01
+    Description: Pwp AMAZON.COM*QM9EH6BI3
+    Row: 2
+  REMOVED (Wells Fargo):
+    Date: 2022-01-03
+    Description: Pwp Amazon.Com* Privacycom TN: 4454793
+    Row: 33
+
+✓ DUPLICATE FOUND (#2)
+  Amount: $-8.50
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-01
+    Description: Pwp AMZN Mktp US*8820R2183
+    Row: 3
+  REMOVED (Wells Fargo):
+    Date: 2022-01-03
+    Description: Pwp Amzn Mktp U Privacycom TN: 1412233
+    Row: 31
+
+✓ DUPLICATE FOUND (#3)
+  Amount: $-41.60
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-01
+    Description: Pwp AMAZON.COM*197810FZ3
+    Row: 4
+  REMOVED (Wells Fargo):
+    Date: 2022-01-03
+    Description: Pwp Amazon.Com* Privacycom TN: 9730906
+    Row: 36
+
+✓ DUPLICATE FOUND (#4)
+  Amount: $-53.81
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-02
+    Description: Pwp AMAZON.COM*PJ6H74FY3 AMZN
+    Row: 5
+  REMOVED (Wells Fargo):
+    Date: 2022-01-06
+    Description: Pwp Amazon.Com* Privacycom TN: 1903667
+    Row: 69
+
+✓ DUPLICATE FOUND (#5)
+  Amount: $-38.47
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-02
+    Description: Pwp AMZN Mktp US*859GX9RX3
+    Row: 7
+  REMOVED (Wells Fargo):
+    Date: 2022-01-05
+    Description: Pwp Amzn Mktp U Privacycom TN: 3437221
+    Row: 60
+
+✓ DUPLICATE FOUND (#6)
+  Amount: $-12.03
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-02
+    Description: Pwp Amazon.com*WY5OA1IP3
+    Row: 8
+  REMOVED (Wells Fargo):
+    Date: 2022-01-04
+    Description: Pwp Amazon.Com* Privacycom TN: 5074318
+    Row: 46
+
+✓ DUPLICATE FOUND (#7)
+  Amount: $-36.12
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-02
+    Description: Pwp AMZN Mktp US*H369C5YK3
+    Row: 10
+  REMOVED (Wells Fargo):
+    Date: 2022-01-04
+    Description: Pwp Amzn Mktp U Privacycom TN: 1466207
+    Row: 50
+
+✓ DUPLICATE FOUND (#8)
+  Amount: $-32.82
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-02
+    Description: Pwp AMAZON.COM*6L84P2LY3
+    Row: 11
+  REMOVED (Wells Fargo):
+    Date: 2022-01-03
+    Description: Pwp Amazon.Com* Privacycom TN: 5216067
+    Row: 34
+
+✓ DUPLICATE FOUND (#9)
+  Amount: $-37.12
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-02
+    Description: Pwp AMAZON.COM*WT4PE4IV3
+    Row: 13
+  REMOVED (Wells Fargo):
+    Date: 2022-01-03
+    Description: Pwp Amazon.Com* Privacycom TN: 3114085
+    Row: 35
+
+✓ DUPLICATE FOUND (#10)
+  Amount: $-65.69
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-02
+    Description: Pwp AMAZON.COM*9V76H7VJ3
+    Row: 14
+  REMOVED (Wells Fargo):
+    Date: 2022-01-03
+    Description: Pwp Amazon.Com* Privacycom TN: 3670551
+    Row: 37
+
+✓ DUPLICATE FOUND (#11)
+  Amount: $-65.69
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-01-08
+    Description: Pwp AMAZON.COM
+    Row: 76
+  REMOVED (Wells Fargo):
+    Date: 2022-01-03
+    Description: Pwp Amazon.Com* Privacycom TN: 3670551
+    Row: 37
+
+✓ DUPLICATE FOUND (#12)
+  Amount: $-19.18
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-03
+    Description: Pwp Amazon web services
+    Row: 15
+  REMOVED (Wells Fargo):
+    Date: 2022-01-04
+    Description: Pwp Amazon Web Privacycom TN: 5153350
+    Row: 47
+
+✓ DUPLICATE FOUND (#13)
+  Amount: $-19.18
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-03
+    Description: Pwp Amazon web services
+    Row: 291
+  REMOVED (Wells Fargo):
+    Date: 2022-02-04
+    Description: Pwp Amazon Web Privacycom TN: 6928258
+    Row: 297
+
+✓ DUPLICATE FOUND (#14)
+  Amount: $-34.20
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-03
+    Description: Pwp PINATA CLOUD
+    Row: 16
+  REMOVED (Wells Fargo):
+    Date: 2022-01-04
+    Description: Pwp Pinata Clou Privacycom TN: 9767026
+    Row: 49
+
+✓ DUPLICATE FOUND (#15)
+  Amount: $-20.79
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-03
+    Description: Pwp AMAZON.COM*6U79P0E43
+    Row: 17
+  REMOVED (Wells Fargo):
+    Date: 2022-01-04
+    Description: Pwp Amazon.Com* Privacycom TN: 3646662
+    Row: 48
+
+✓ DUPLICATE FOUND (#16)
+  Amount: $-26.24
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-03
+    Description: Pwp AMZN Mktp US*N86PY8RN3
+    Row: 18
+  REMOVED (Wells Fargo):
+    Date: 2022-01-05
+    Description: Pwp Amzn Mktp U Privacycom TN: 4390215
+    Row: 59
+
+✓ DUPLICATE FOUND (#17)
+  Amount: $-41.54
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-03
+    Description: Pwp AMZN Mktp US*NI1ST9WF3
+    Row: 19
+  REMOVED (Wells Fargo):
+    Date: 2022-01-04
+    Description: Pwp Amzn Mktp U Privacycom TN: 9006636
+    Row: 51
+
+✓ DUPLICATE FOUND (#18)
+  Amount: $-12.14
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-03
+    Description: Pwp AMZN Mktp US*UP6AO8DS3
+    Row: 20
+  REMOVED (Wells Fargo):
+    Date: 2022-01-05
+    Description: Pwp Amzn Mktp U Privacycom TN: 1230917
+    Row: 58
+
+✓ DUPLICATE FOUND (#19)
+  Amount: $-9.03
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-15
+    Description: Pwp DNH*GODADDY.COM
+    Row: 144
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Dnh*Godaddy Privacycom TN: 9548168
+    Row: 161
+
+✓ DUPLICATE FOUND (#20)
+  Amount: $-655.91
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-01-04
+    Description: Pwp AMAZON.COM*CY05J2MU3
+    Row: 39
+  REMOVED (Wells Fargo):
+    Date: 2022-01-04
+    Description: Pwp Amazon.Com* Privacycom TN: 7197111
+    Row: 53
+
+✓ DUPLICATE FOUND (#21)
+  Amount: $-15.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-23
+    Description: Pwp AMZN Mktp US*1Q6CU1XG1
+    Row: 863
+  REMOVED (Wells Fargo):
+    Date: 2022-04-25
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 877
+
+✓ DUPLICATE FOUND (#22)
+  Amount: $-15.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-31
+    Description: Pwp AMZN Mktp US*H29QE1OL0
+    Row: 2209
+  REMOVED (Wells Fargo):
+    Date: 2022-11-02
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2225
+
+✓ DUPLICATE FOUND (#23)
+  Amount: $-6.99
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-05
+    Description: Pwp HLU*Hulu 1910927651266-U
+    Row: 54
+  REMOVED (Wells Fargo):
+    Date: 2022-01-06
+    Description: Pwp Hlu*Hulu 19 Privacycom TN: 8280931
+    Row: 68
+
+✓ DUPLICATE FOUND (#24)
+  Amount: $-75.00
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-06
+    Description: Pwp HOO*HOOTSUITE INC
+    Row: 61
+  REMOVED (Wells Fargo):
+    Date: 2022-01-10
+    Description: Pwp Hoo*Hootsui Privacycom TN: 1180131
+    Row: 101
+
+✓ DUPLICATE FOUND (#25)
+  Amount: $-9.84
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-06
+    Description: Pwp AMZN Mktp US*V85H98JR3
+    Row: 62
+  REMOVED (Wells Fargo):
+    Date: 2022-01-10
+    Description: Pwp Amzn Mktp U Privacycom TN: 1176093
+    Row: 96
+
+✓ DUPLICATE FOUND (#26)
+  Amount: $-2.99
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-06
+    Description: Pwp Prime Video*QW38W6P73
+    Row: 63
+  REMOVED (Wells Fargo):
+    Date: 2022-01-07
+    Description: Pwp Prime Video Privacycom TN: 8126565
+    Row: 73
+
+✓ DUPLICATE FOUND (#27)
+  Amount: $-24.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-07
+    Description: Pwp DNH*GODADDY.COM
+    Row: 70
+  REMOVED (Wells Fargo):
+    Date: 2022-01-10
+    Description: Pwp Dnh*Godaddy Privacycom TN: 6964190
+    Row: 98
+
+✓ DUPLICATE FOUND (#28)
+  Amount: $-24.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-21
+    Description: Pwp DNH*GODADDY.COM
+    Row: 188
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Dnh*Godaddy Privacycom TN: 6999416
+    Row: 223
+
+✓ DUPLICATE FOUND (#29)
+  Amount: $-30.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-06
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 1389
+  REMOVED (Wells Fargo):
+    Date: 2022-07-08
+    Description: Pwp Google*Doma Privacycom
+    Row: 1419
+
+✓ DUPLICATE FOUND (#30)
+  Amount: $-32.97
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-08
+    Description: Pwp APPLE COM BILL
+    Row: 74
+  REMOVED (Wells Fargo):
+    Date: 2022-01-10
+    Description: Pwp Apple Com B Privacycom TN: 9021096
+    Row: 99
+
+✓ DUPLICATE FOUND (#31)
+  Amount: $-19.62
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-08
+    Description: Pwp Amazon.com*413ZF7FZ3
+    Row: 75
+  REMOVED (Wells Fargo):
+    Date: 2022-01-10
+    Description: Pwp Amazon.Com* Privacycom TN: 2830672
+    Row: 97
+
+✓ DUPLICATE FOUND (#32)
+  Amount: $-38.70
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-08
+    Description: Pwp AMAZON.COM*NV5ZS4GB3
+    Row: 77
+  REMOVED (Wells Fargo):
+    Date: 2022-01-10
+    Description: Pwp Amazon.Com* Privacycom TN: 4025244
+    Row: 100
+
+✓ DUPLICATE FOUND (#33)
+  Amount: $-4.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-09
+    Description: Pwp APPLE.COM/BILL
+    Row: 78
+  REMOVED (Wells Fargo):
+    Date: 2022-01-11
+    Description: Pwp Apple.Com/B Privacycom TN: 1849036
+    Row: 105
+
+✓ DUPLICATE FOUND (#34)
+  Amount: $-299.00
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-01-10
+    Description: Pwp QUICKNODE API
+    Row: 79
+  REMOVED (Wells Fargo):
+    Date: 2022-01-10
+    Description: Pwp Quicknode A Privacycom TN: 7627339
+    Row: 102
+
+✓ DUPLICATE FOUND (#35)
+  Amount: $-256.05
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-10
+    Description: Pwp AMZN Mktp US*IF8SH81P3
+    Row: 81
+  REMOVED (Wells Fargo):
+    Date: 2022-01-12
+    Description: Pwp Amzn Mktp U Privacycom TN: 2700218
+    Row: 116
+
+✓ DUPLICATE FOUND (#36)
+  Amount: $-35.17
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-10
+    Description: Pwp AMZN Mktp US*021302RP3
+    Row: 82
+  REMOVED (Wells Fargo):
+    Date: 2022-01-13
+    Description: Pwp Amzn Mktp U Privacycom TN: 8120694
+    Row: 124
+
+✓ DUPLICATE FOUND (#37)
+  Amount: $-5.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-10
+    Description: Pwp Amazon Tips*KQ1V84FW3
+    Row: 83
+  REMOVED (Wells Fargo):
+    Date: 2022-01-11
+    Description: Pwp Amazon Tips Privacycom TN: 5582321
+    Row: 106
+
+✓ DUPLICATE FOUND (#38)
+  Amount: $-5.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-28
+    Description: Pwp Amazon Tips*1W94Q04B1
+    Row: 504
+  REMOVED (Wells Fargo):
+    Date: 2022-03-01
+    Description: Pwp Amazon Tips Privacycom TN: 5564999
+    Row: 515
+
+✓ DUPLICATE FOUND (#39)
+  Amount: $-5.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-18
+    Description: Pwp Amazon Tips*1L0GJ2DW2
+    Row: 1043
+  REMOVED (Wells Fargo):
+    Date: 2022-05-20
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1066
+
+✓ DUPLICATE FOUND (#40)
+  Amount: $-5.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-22
+    Description: Pwp Amazon Tips*Z111V07S3
+    Row: 1292
+  REMOVED (Wells Fargo):
+    Date: 2022-06-23
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1295
+
+✓ DUPLICATE FOUND (#41)
+  Amount: $-5.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-07-22
+    Description: Pwp Amazon Tips*3T8DN0OD3
+    Row: 1502
+  REMOVED (Wells Fargo):
+    Date: 2022-07-25
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1510
+
+✓ DUPLICATE FOUND (#42)
+  Amount: $-5.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-10
+    Description: Pwp Amazon Tips*1F30T5XO0
+    Row: 1825
+  REMOVED (Wells Fargo):
+    Date: 2022-09-12
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1845
+
+✓ DUPLICATE FOUND (#43)
+  Amount: $-5.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-27
+    Description: Pwp Amazon Tips*1U4PQ9IB1
+    Row: 1943
+  REMOVED (Wells Fargo):
+    Date: 2022-09-29
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1962
+
+✓ DUPLICATE FOUND (#44)
+  Amount: $-5.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-11-25
+    Description: Pwp Amazon Tips*HW2385XU1
+    Row: 2387
+  REMOVED (Wells Fargo):
+    Date: 2022-11-28
+    Description: Pwp Amazon Tips Privacycom
+    Row: 2422
+
+✓ DUPLICATE FOUND (#45)
+  Amount: $-24.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-10
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 84
+  REMOVED (Wells Fargo):
+    Date: 2022-01-12
+    Description: Pwp Google*Doma Privacycom TN: 2925197
+    Row: 115
+
+✓ DUPLICATE FOUND (#46)
+  Amount: $-24.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-03-25
+    Description: Pwp GOOGLE *Domains
+    Row: 651
+  REMOVED (Wells Fargo):
+    Date: 2022-03-28
+    Description: Pwp Google *Dom Privacycom TN: 5238531
+    Row: 672
+
+✓ DUPLICATE FOUND (#47)
+  Amount: $-24.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-19
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 831
+  REMOVED (Wells Fargo):
+    Date: 2022-04-21
+    Description: Pwp Google*Doma Privacycom
+    Row: 851
+
+✓ DUPLICATE FOUND (#48)
+  Amount: $-181.19
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-10
+    Description: Pwp Amazon.com*EA73H3GS3
+    Row: 85
+  REMOVED (Wells Fargo):
+    Date: 2022-01-14
+    Description: Pwp Amazon.Com* Privacycom TN: 1290441
+    Row: 135
+
+✓ DUPLICATE FOUND (#49)
+  Amount: $-514.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-11
+    Description: Pwp HEROKU DEC-60135249
+    Row: 103
+  REMOVED (Wells Fargo):
+    Date: 2022-01-12
+    Description: Pwp Heroku Dec- Privacycom TN: 5656574
+    Row: 117
+
+✓ DUPLICATE FOUND (#50)
+  Amount: $-348.54
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-12
+    Description: Pwp HEROKU DEC-59293411
+    Row: 107
+  REMOVED (Wells Fargo):
+    Date: 2022-01-13
+    Description: Pwp Heroku Dec- Privacycom TN: 5020017
+    Row: 126
+
+✓ DUPLICATE FOUND (#51)
+  Amount: $-348.53
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-12
+    Description: Pwp HEROKU NOV-57636800
+    Row: 108
+  REMOVED (Wells Fargo):
+    Date: 2022-01-13
+    Description: Pwp Heroku Nov- Privacycom TN: 4215265
+    Row: 125
+
+✓ DUPLICATE FOUND (#52)
+  Amount: $-9.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-15
+    Description: Pwp APPLE.COM/BILL
+    Row: 143
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Apple.Com/B Privacycom TN: 3664925
+    Row: 163
+
+✓ DUPLICATE FOUND (#53)
+  Amount: $-9.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-02
+    Description: Pwp AMZN Digital*165X18BN2
+    Row: 707
+  REMOVED (Wells Fargo):
+    Date: 2022-04-05
+    Description: Pwp Amzn Digita Privacycom
+    Row: 732
+
+✓ DUPLICATE FOUND (#54)
+  Amount: $-9.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-11
+    Description: Pwp HEROKU MAR-64247326
+    Row: 762
+  REMOVED (Wells Fargo):
+    Date: 2022-04-13
+    Description: Pwp Heroku Mar- Privacycom
+    Row: 795
+
+✓ DUPLICATE FOUND (#55)
+  Amount: $-42.89
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-01-13
+    Description: Pwp AMZN Mktp US*V894K5VJ3
+    Row: 118
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Amzn Mktp U Privacycom TN: 4337107
+    Row: 171
+
+✓ DUPLICATE FOUND (#56)
+  Amount: $-42.89
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-05-26
+    Description: Pwp AMAZON.COM*1R5G02SZ0 AMZN
+    Row: 1092
+  REMOVED (Wells Fargo):
+    Date: 2022-05-31
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1134
+
+✓ DUPLICATE FOUND (#57)
+  Amount: $-42.89
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-07
+    Description: Pwp AMZN Mktp US*O788C2073
+    Row: 1172
+  REMOVED (Wells Fargo):
+    Date: 2022-06-08
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1185
+
+✓ DUPLICATE FOUND (#58)
+  Amount: $-42.89
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-21
+    Description: Pwp AMZN Mktp US*9R0QP7SB3
+    Row: 1674
+  REMOVED (Wells Fargo):
+    Date: 2022-08-23
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1692
+
+✓ DUPLICATE FOUND (#59)
+  Amount: $-5.99
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-14
+    Description: Pwp APPLE.COM/BILL
+    Row: 127
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Apple.Com/B Privacycom TN: 2911208
+    Row: 159
+
+✓ DUPLICATE FOUND (#60)
+  Amount: $-5.99
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-27
+    Description: Pwp APPLE.COM/BILL
+    Row: 241
+  REMOVED (Wells Fargo):
+    Date: 2022-01-28
+    Description: Pwp Apple.Com/B Privacycom TN: 2747954
+    Row: 256
+
+✓ DUPLICATE FOUND (#61)
+  Amount: $-6.41
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-14
+    Description: Pwp Amazon.com*AS1BY0YQ3
+    Row: 128
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Amazon.Com* Privacycom TN: 9668745
+    Row: 160
+
+✓ DUPLICATE FOUND (#62)
+  Amount: $-10.70
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-14
+    Description: Pwp AMZN Mktp US*5H37U5GN3
+    Row: 129
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Amzn Mktp U Privacycom TN: 4275909
+    Row: 164
+
+✓ DUPLICATE FOUND (#63)
+  Amount: $-55.39
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-14
+    Description: Pwp AMZN Mktp US*AC69T31Z3
+    Row: 130
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Amzn Mktp U Privacycom TN: 8823284
+    Row: 172
+
+✓ DUPLICATE FOUND (#64)
+  Amount: $-7.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-26
+    Description: Pwp Amazon Tips*1I1IE1W21
+    Row: 479
+  REMOVED (Wells Fargo):
+    Date: 2022-02-28
+    Description: Pwp Amazon Tips Privacycom TN: 4092438
+    Row: 496
+
+✓ DUPLICATE FOUND (#65)
+  Amount: $-7.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-31
+    Description: Pwp Amazon Tips*5Z1P220E3
+    Row: 1118
+  REMOVED (Wells Fargo):
+    Date: 2022-06-01
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1140
+
+✓ DUPLICATE FOUND (#66)
+  Amount: $-7.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-27
+    Description: Pwp Amazon Tips*A10OL3NN3
+    Row: 1721
+  REMOVED (Wells Fargo):
+    Date: 2022-08-29
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1733
+
+✓ DUPLICATE FOUND (#67)
+  Amount: $-7.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-10-04
+    Description: Pwp Amazon Tips*147W63SY1
+    Row: 2009
+  REMOVED (Wells Fargo):
+    Date: 2022-10-05
+    Description: Pwp Amazon Tips Privacycom
+    Row: 2014
+
+✓ DUPLICATE FOUND (#68)
+  Amount: $-7.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-22
+    Description: Pwp Amazon Tips*H883X0SP0
+    Row: 2144
+  REMOVED (Wells Fargo):
+    Date: 2022-10-24
+    Description: Pwp Amazon Tips Privacycom
+    Row: 2158
+
+✓ DUPLICATE FOUND (#69)
+  Amount: $-19.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-15
+    Description: Pwp APPLE.COM/BILL
+    Row: 138
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Apple.Com/B Privacycom TN: 9877983
+    Row: 167
+
+✓ DUPLICATE FOUND (#70)
+  Amount: $-9.98
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-15
+    Description: Pwp APPLE.COM/BILL
+    Row: 139
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Apple.Com/B Privacycom TN: 3089651
+    Row: 162
+
+✓ DUPLICATE FOUND (#71)
+  Amount: $-12.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-03-22
+    Description: Pwp GOOGLE *Domains
+    Row: 628
+  REMOVED (Wells Fargo):
+    Date: 2022-03-23
+    Description: Pwp Google *Dom Privacycom TN: 1556455
+    Row: 641
+
+✓ DUPLICATE FOUND (#72)
+  Amount: $-101.83
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-15
+    Description: Pwp AMZN Mktp US*XM0SR39C3
+    Row: 141
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Amzn Mktp U Privacycom TN: 7954152
+    Row: 173
+
+✓ DUPLICATE FOUND (#73)
+  Amount: $-284.05
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-15
+    Description: Pwp HIVELOCITY, INC.
+    Row: 142
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Hivelocity Privacycom TN: 1719957
+    Row: 174
+
+✓ DUPLICATE FOUND (#74)
+  Amount: $-35.37
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-16
+    Description: Pwp Amazon.com*II70J88A3
+    Row: 146
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Amazon.Com* Privacycom TN: 9663020
+    Row: 169
+
+✓ DUPLICATE FOUND (#75)
+  Amount: $-36.20
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-16
+    Description: Pwp AMZN Mktp US*BT62V3713
+    Row: 147
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Amzn Mktp U Privacycom TN: 5712472
+    Row: 170
+
+✓ DUPLICATE FOUND (#76)
+  Amount: $-26.37
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-16
+    Description: Pwp AMZN Mktp US*H27OV48H3
+    Row: 148
+  REMOVED (Wells Fargo):
+    Date: 2022-01-18
+    Description: Pwp Amzn Mktp U Privacycom TN: 8220915
+    Row: 168
+
+✓ DUPLICATE FOUND (#77)
+  Amount: $-43.91
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-18
+    Description: Pwp AMZN Mktp US*AT69M7VW3
+    Row: 150
+  REMOVED (Wells Fargo):
+    Date: 2022-01-19
+    Description: Pwp Amzn Mktp U Privacycom TN: 1970692
+    Row: 179
+
+✓ DUPLICATE FOUND (#78)
+  Amount: $-188.71
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-18
+    Description: Pwp AMZN Mktp US*TM6046RM3
+    Row: 151
+  REMOVED (Wells Fargo):
+    Date: 2022-01-20
+    Description: Pwp Amzn Mktp U Privacycom TN: 6935127
+    Row: 183
+
+✓ DUPLICATE FOUND (#79)
+  Amount: $-99.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-02
+    Description: Pwp QUICKNODE API
+    Row: 522
+  REMOVED (Wells Fargo):
+    Date: 2022-03-04
+    Description: Pwp Quicknode A Privacycom TN: 2732147
+    Row: 535
+
+✓ DUPLICATE FOUND (#80)
+  Amount: $-99.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-02
+    Description: Pwp QUICKNODE API
+    Row: 708
+  REMOVED (Wells Fargo):
+    Date: 2022-04-05
+    Description: Pwp Quicknode A Privacycom
+    Row: 736
+
+✓ DUPLICATE FOUND (#81)
+  Amount: $-99.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-02
+    Description: Pwp QUICKNODE API
+    Row: 931
+  REMOVED (Wells Fargo):
+    Date: 2022-05-04
+    Description: Pwp Quicknode A Privacycom
+    Row: 955
+
+✓ DUPLICATE FOUND (#82)
+  Amount: $-99.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-15
+    Description: Pwp QUICKNODE API
+    Row: 1017
+  REMOVED (Wells Fargo):
+    Date: 2022-05-17
+    Description: Pwp Quicknode A Privacycom
+    Row: 1040
+
+✓ DUPLICATE FOUND (#83)
+  Amount: $-99.00
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-06-02
+    Description: Pwp QUICKNODE API
+    Row: 1148
+  REMOVED (Wells Fargo):
+    Date: 2022-06-06
+    Description: Pwp Quicknode A Privacycom
+    Row: 1166
+
+✓ DUPLICATE FOUND (#84)
+  Amount: $-99.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-07-02
+    Description: Pwp QUICKNODE API
+    Row: 1360
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Quicknode A Privacycom
+    Row: 1384
+
+✓ DUPLICATE FOUND (#85)
+  Amount: $-99.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-02
+    Description: Pwp QUICKNODE API
+    Row: 1571
+  REMOVED (Wells Fargo):
+    Date: 2022-08-04
+    Description: Pwp Quicknode A Privacycom
+    Row: 1587
+
+✓ DUPLICATE FOUND (#86)
+  Amount: $-99.00
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-09-02
+    Description: Pwp QUICKNODE API
+    Row: 1763
+  REMOVED (Wells Fargo):
+    Date: 2022-09-06
+    Description: Pwp Quicknode A Privacycom
+    Row: 1791
+
+✓ DUPLICATE FOUND (#87)
+  Amount: $-321.74
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-19
+    Description: Pwp AMZN Mktp US*6K3A08CS3
+    Row: 177
+  REMOVED (Wells Fargo):
+    Date: 2022-01-21
+    Description: Pwp Amzn Mktp U Privacycom TN: 4974223
+    Row: 195
+
+✓ DUPLICATE FOUND (#88)
+  Amount: $-321.74
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-08
+    Description: Pwp AMZN Mktp US*H09CB6913
+    Row: 338
+  REMOVED (Wells Fargo):
+    Date: 2022-02-10
+    Description: Pwp Amzn Mktp U Privacycom TN: 8592002
+    Row: 364
+
+✓ DUPLICATE FOUND (#89)
+  Amount: $-148.99
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-20
+    Description: Pwp AMZN Mktp US*MF1P87RE3
+    Row: 180
+  REMOVED (Wells Fargo):
+    Date: 2022-01-21
+    Description: Pwp Amzn Mktp U Privacycom TN: 2849432
+    Row: 194
+
+✓ DUPLICATE FOUND (#90)
+  Amount: $-18.06
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-20
+    Description: Pwp DNH*GODADDY.COM
+    Row: 181
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Dnh*Godaddy Privacycom TN: 6165485
+    Row: 219
+
+✓ DUPLICATE FOUND (#91)
+  Amount: $-9.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-21
+    Description: Pwp KRAKEN.IO
+    Row: 184
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Kraken.Io Privacycom TN: 4772194
+    Row: 215
+
+✓ DUPLICATE FOUND (#92)
+  Amount: $-52.18
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-21
+    Description: Pwp AMAZON.COM*PL0DV8543 AMZN
+    Row: 185
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amazon.Com* Privacycom TN: 1762721
+    Row: 227
+
+✓ DUPLICATE FOUND (#93)
+  Amount: $-10.69
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-21
+    Description: Pwp AMZN Mktp US*EU4351YR3
+    Row: 186
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amzn Mktp U Privacycom TN: 1018470
+    Row: 217
+
+✓ DUPLICATE FOUND (#94)
+  Amount: $-13.48
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-21
+    Description: Pwp Amazon.com*F427K9YS3
+    Row: 187
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amazon.Com* Privacycom TN: 2805957
+    Row: 218
+
+✓ DUPLICATE FOUND (#95)
+  Amount: $-40.54
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-22
+    Description: Pwp AMZN Mktp US*UJ55O34I3
+    Row: 196
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amzn Mktp U Privacycom TN: 1462053
+    Row: 226
+
+✓ DUPLICATE FOUND (#96)
+  Amount: $-3.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-22
+    Description: Pwp APPLE.COM/BILL
+    Row: 197
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Apple.Com/B Privacycom TN: 8711261
+    Row: 214
+
+✓ DUPLICATE FOUND (#97)
+  Amount: $-26.86
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-22
+    Description: Pwp AMAZON.COM*BQ1E38QP3 AMZN
+    Row: 199
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amazon.Com* Privacycom TN: 6897245
+    Row: 224
+
+✓ DUPLICATE FOUND (#98)
+  Amount: $-118.52
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-01-22
+    Description: Pwp AMAZON.COM*P51L92M53 AMZN
+    Row: 200
+  REMOVED (Wells Fargo):
+    Date: 2022-01-26
+    Description: Pwp Amazon.Com* Privacycom TN: 6239926
+    Row: 238
+
+✓ DUPLICATE FOUND (#99)
+  Amount: $-27.12
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-22
+    Description: Pwp AMAZON.COM*RH0B244N3 AMZN
+    Row: 201
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amazon.Com* Privacycom TN: 7609645
+    Row: 225
+
+✓ DUPLICATE FOUND (#100)
+  Amount: $-22.49
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-22
+    Description: Pwp AMAZON.COM*QO6YS5113 AMZN
+    Row: 202
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amazon.Com* Privacycom TN: 7832086
+    Row: 221
+
+✓ DUPLICATE FOUND (#101)
+  Amount: $-19.69
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-22
+    Description: Pwp Amazon.com*5H3CX9UF3
+    Row: 203
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amazon.Com* Privacycom TN: 3454967
+    Row: 220
+
+✓ DUPLICATE FOUND (#102)
+  Amount: $-24.10
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-22
+    Description: Pwp AMAZON.COM*C117W7C63 AMZN
+    Row: 204
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amazon.Com* Privacycom TN: 8937071
+    Row: 222
+
+✓ DUPLICATE FOUND (#103)
+  Amount: $-90.49
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-23
+    Description: Pwp AMZN Mktp US*LM4H993T3
+    Row: 205
+  REMOVED (Wells Fargo):
+    Date: 2022-01-26
+    Description: Pwp Amzn Mktp U Privacycom TN: 8214319
+    Row: 237
+
+✓ DUPLICATE FOUND (#104)
+  Amount: $-8.14
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-24
+    Description: Pwp AMZN Mktp US*MQ76D1Z23
+    Row: 206
+  REMOVED (Wells Fargo):
+    Date: 2022-01-25
+    Description: Pwp Amzn Mktp U Privacycom TN: 6983250
+    Row: 229
+
+✓ DUPLICATE FOUND (#105)
+  Amount: $-112.79
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-01-24
+    Description: Pwp AMZN Mktp US*A33NW4E03
+    Row: 207
+  REMOVED (Wells Fargo):
+    Date: 2022-01-24
+    Description: Pwp Amzn Mktp U Privacycom TN: 9553305
+    Row: 228
+
+✓ DUPLICATE FOUND (#106)
+  Amount: $-67.45
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-24
+    Description: Pwp AMZN Mktp US*NO59L33T3
+    Row: 208
+  REMOVED (Wells Fargo):
+    Date: 2022-01-25
+    Description: Pwp Amzn Mktp U Privacycom TN: 8158756
+    Row: 230
+
+✓ DUPLICATE FOUND (#107)
+  Amount: $-44.98
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-30
+    Description: Pwp AMAZON.COM*2Q0IT5Y83 AMZN
+    Row: 263
+  REMOVED (Wells Fargo):
+    Date: 2022-02-01
+    Description: Pwp Amazon.Com* Privacycom TN: 1154201
+    Row: 282
+
+✓ DUPLICATE FOUND (#108)
+  Amount: $-423.64
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-01-26
+    Description: Pwp AMZN Mktp US*4942V0L63
+    Row: 231
+  REMOVED (Wells Fargo):
+    Date: 2022-01-26
+    Description: Pwp Amzn Mktp U Privacycom TN: 8265827
+    Row: 239
+
+✓ DUPLICATE FOUND (#109)
+  Amount: $-13.99
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-26
+    Description: Pwp NETFLIX.COM
+    Row: 232
+  REMOVED (Wells Fargo):
+    Date: 2022-01-27
+    Description: Pwp Netflix.Com Privacycom TN: 8579994
+    Row: 247
+
+✓ DUPLICATE FOUND (#110)
+  Amount: $-15.99
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-26
+    Description: Pwp APPLE.COM/BILL
+    Row: 233
+  REMOVED (Wells Fargo):
+    Date: 2022-01-27
+    Description: Pwp Apple.Com/B Privacycom TN: 5979076
+    Row: 248
+
+✓ DUPLICATE FOUND (#111)
+  Amount: $-40.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-08-29
+    Description: Pwp GOOGLE *Domains
+    Row: 1723
+  REMOVED (Wells Fargo):
+    Date: 2022-08-30
+    Description: Pwp Google *Dom Privacycom
+    Row: 1743
+
+✓ DUPLICATE FOUND (#112)
+  Amount: $-6.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-26
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 236
+  REMOVED (Wells Fargo):
+    Date: 2022-01-28
+    Description: Pwp Google*Doma Privacycom TN: 5721115
+    Row: 257
+
+✓ DUPLICATE FOUND (#113)
+  Amount: $-6.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-27
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 481
+  REMOVED (Wells Fargo):
+    Date: 2022-03-01
+    Description: Pwp Google*Doma Privacycom TN: 3792512
+    Row: 516
+
+✓ DUPLICATE FOUND (#114)
+  Amount: $-6.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-26
+    Description: Pwp GOOGLE *Domains
+    Row: 657
+  REMOVED (Wells Fargo):
+    Date: 2022-03-28
+    Description: Pwp Google *Dom Privacycom TN: 1464070
+    Row: 667
+
+✓ DUPLICATE FOUND (#115)
+  Amount: $-6.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-05-06
+    Description: Pwp Google Domains
+    Row: 963
+  REMOVED (Wells Fargo):
+    Date: 2022-05-09
+    Description: Pwp Google Doma Privacycom
+    Row: 986
+
+✓ DUPLICATE FOUND (#116)
+  Amount: $-47.84
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-27
+    Description: Pwp Amazon.com*D72146VA3
+    Row: 240
+  REMOVED (Wells Fargo):
+    Date: 2022-01-28
+    Description: Pwp Amazon.Com* Privacycom TN: 6894412
+    Row: 258
+
+✓ DUPLICATE FOUND (#117)
+  Amount: $-8.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-28
+    Description: Pwp SLACK T0265NE2YH3
+    Row: 250
+  REMOVED (Wells Fargo):
+    Date: 2022-01-31
+    Description: Pwp Slack T0265 Privacycom TN: 8678453
+    Row: 271
+
+✓ DUPLICATE FOUND (#118)
+  Amount: $-8.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-03-01
+    Description: Pwp SLACK T0265NE2YH3
+    Row: 507
+  REMOVED (Wells Fargo):
+    Date: 2022-03-02
+    Description: Pwp Slack T0265 Privacycom TN: 2365926
+    Row: 524
+
+✓ DUPLICATE FOUND (#119)
+  Amount: $-8.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-28
+    Description: Pwp SLACK T0265NE2YH3
+    Row: 1333
+  REMOVED (Wells Fargo):
+    Date: 2022-06-29
+    Description: Pwp Slack T0265 Privacycom
+    Row: 1338
+
+✓ DUPLICATE FOUND (#120)
+  Amount: $-8.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-28
+    Description: Pwp SLACK T0265NE2YH3
+    Row: 1527
+  REMOVED (Wells Fargo):
+    Date: 2022-07-29
+    Description: Pwp Slack T0265 Privacycom
+    Row: 1534
+
+✓ DUPLICATE FOUND (#121)
+  Amount: $-36.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-28
+    Description: Pwp GITHUB
+    Row: 251
+  REMOVED (Wells Fargo):
+    Date: 2022-01-31
+    Description: Pwp Github Privacycom TN: 6991907
+    Row: 273
+
+✓ DUPLICATE FOUND (#122)
+  Amount: $-36.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-30
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 1542
+  REMOVED (Wells Fargo):
+    Date: 2022-08-01
+    Description: Pwp Google*Doma Privacycom
+    Row: 1565
+
+✓ DUPLICATE FOUND (#123)
+  Amount: $-14.95
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-29
+    Description: Pwp Audible*R03ON68S3
+    Row: 259
+  REMOVED (Wells Fargo):
+    Date: 2022-01-31
+    Description: Pwp Audible*R03 Privacycom TN: 5789564
+    Row: 272
+
+✓ DUPLICATE FOUND (#124)
+  Amount: $-124.66
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-30
+    Description: Pwp AMZN Mktp US*5O04V2ZV3
+    Row: 261
+  REMOVED (Wells Fargo):
+    Date: 2022-01-31
+    Description: Pwp Amzn Mktp U Privacycom TN: 3655499
+    Row: 276
+
+✓ DUPLICATE FOUND (#125)
+  Amount: $-67.52
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-01-30
+    Description: Pwp AMZN Mktp US*OB0123KK3
+    Row: 262
+  REMOVED (Wells Fargo):
+    Date: 2022-01-31
+    Description: Pwp Amzn Mktp U Privacycom TN: 9895449
+    Row: 275
+
+✓ DUPLICATE FOUND (#126)
+  Amount: $-41.80
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-30
+    Description: Pwp AMZN Mktp US*Z12TW3RS3
+    Row: 264
+  REMOVED (Wells Fargo):
+    Date: 2022-02-01
+    Description: Pwp Amzn Mktp U Privacycom TN: 7797108
+    Row: 281
+
+✓ DUPLICATE FOUND (#127)
+  Amount: $-19.29
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-01-31
+    Description: Pwp AMZN Mktp US*PM18G9E73
+    Row: 265
+  REMOVED (Wells Fargo):
+    Date: 2022-02-02
+    Description: Pwp Amzn Mktp U Privacycom TN: 3579224
+    Row: 286
+
+✓ DUPLICATE FOUND (#128)
+  Amount: $-19.29
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-05-08
+    Description: Pwp AMAZON.COM*136D29GD0 AMZN
+    Row: 973
+  REMOVED (Wells Fargo):
+    Date: 2022-05-11
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1000
+
+✓ DUPLICATE FOUND (#129)
+  Amount: $-19.29
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-25
+    Description: Pwp AMZN Mktp US*MX4CP4IY3
+    Row: 1305
+  REMOVED (Wells Fargo):
+    Date: 2022-06-27
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1316
+
+✓ DUPLICATE FOUND (#130)
+  Amount: $-107.20
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-01-31
+    Description: Pwp AMZN Mktp US*OB58U3083
+    Row: 266
+  REMOVED (Wells Fargo):
+    Date: 2022-02-03
+    Description: Pwp Amzn Mktp U Privacycom TN: 2671145
+    Row: 289
+
+✓ DUPLICATE FOUND (#131)
+  Amount: $-10.48
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-01
+    Description: Pwp Amazon.com*A503O4RN3
+    Row: 283
+  REMOVED (Wells Fargo):
+    Date: 2022-02-02
+    Description: Pwp Amazon.Com* Privacycom TN: 9452811
+    Row: 285
+
+✓ DUPLICATE FOUND (#132)
+  Amount: $-37.60
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-03
+    Description: Pwp PINATA CLOUD
+    Row: 290
+  REMOVED (Wells Fargo):
+    Date: 2022-02-04
+    Description: Pwp Pinata Clou Privacycom TN: 1736746
+    Row: 298
+
+✓ DUPLICATE FOUND (#133)
+  Amount: $-49.28
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp AMZN Mktp US*0Y4CG4UN3
+    Row: 300
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amzn Mktp U Privacycom TN: 3285650
+    Row: 327
+
+✓ DUPLICATE FOUND (#134)
+  Amount: $-327.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp AMZN Mktp US*JZ6W21B93
+    Row: 301
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amzn Mktp U Privacycom TN: 2591198
+    Row: 331
+
+✓ DUPLICATE FOUND (#135)
+  Amount: $-30.28
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp AMZN Mktp US*N328S1963
+    Row: 302
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amzn Mktp U Privacycom TN: 1686640
+    Row: 325
+
+✓ DUPLICATE FOUND (#136)
+  Amount: $-13.07
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp Amazon.com*VV7SA6S83
+    Row: 303
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amazon.Com* Privacycom TN: 2169195
+    Row: 321
+
+✓ DUPLICATE FOUND (#137)
+  Amount: $-11.25
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp AMZN Mktp US*WB2MC31D3
+    Row: 304
+  REMOVED (Wells Fargo):
+    Date: 2022-02-08
+    Description: Pwp Amzn Mktp U Privacycom TN: 9482174
+    Row: 334
+
+✓ DUPLICATE FOUND (#138)
+  Amount: $-48.25
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp Amazon.com*Z062C2SX3
+    Row: 305
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amazon.Com* Privacycom TN: 1308606
+    Row: 326
+
+✓ DUPLICATE FOUND (#139)
+  Amount: $-97.48
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp AMZN Mktp US*R882M8QD3
+    Row: 306
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amzn Mktp U Privacycom TN: 5829595
+    Row: 329
+
+✓ DUPLICATE FOUND (#140)
+  Amount: $-14.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp Amazon.com*5S6F71AU3
+    Row: 307
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amazon.Com* Privacycom TN: 1641550
+    Row: 322
+
+✓ DUPLICATE FOUND (#141)
+  Amount: $-21.44
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp AMZN Mktp US*SZ2ED4523
+    Row: 308
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amzn Mktp U Privacycom TN: 8723136
+    Row: 324
+
+✓ DUPLICATE FOUND (#142)
+  Amount: $-21.44
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-07
+    Description: Pwp AMAZON.COM*1U15B6Z33 AMZN
+    Row: 1173
+  REMOVED (Wells Fargo):
+    Date: 2022-06-09
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1191
+
+✓ DUPLICATE FOUND (#143)
+  Amount: $-21.44
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-07-07
+    Description: Pwp AMZN Mktp US*IY3QY3I83
+    Row: 1403
+  REMOVED (Wells Fargo):
+    Date: 2022-07-11
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1438
+
+✓ DUPLICATE FOUND (#144)
+  Amount: $-21.44
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-08-18
+    Description: Pwp AMZN Mktp US*3O1VG2353
+    Row: 1663
+  REMOVED (Wells Fargo):
+    Date: 2022-08-22
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1685
+
+✓ DUPLICATE FOUND (#145)
+  Amount: $-21.44
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-19
+    Description: Pwp AMZN Mktp US*HI07X7KB1
+    Row: 2343
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2360
+
+✓ DUPLICATE FOUND (#146)
+  Amount: $-21.44
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-28
+    Description: Pwp AMZN Mktp US*WK2AP0763
+    Row: 2398
+  REMOVED (Wells Fargo):
+    Date: 2022-11-30
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2440
+
+✓ DUPLICATE FOUND (#147)
+  Amount: $-150.12
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-05
+    Description: Pwp AMZN Mktp US*I22HY9PU3
+    Row: 309
+  REMOVED (Wells Fargo):
+    Date: 2022-02-07
+    Description: Pwp Amzn Mktp U Privacycom TN: 9251053
+    Row: 330
+
+✓ DUPLICATE FOUND (#148)
+  Amount: $-49.32
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-06
+    Description: Pwp AMZN Mktp US*AJ7XG28E3
+    Row: 310
+  REMOVED (Wells Fargo):
+    Date: 2022-02-08
+    Description: Pwp Amzn Mktp U Privacycom TN: 7282117
+    Row: 335
+
+✓ DUPLICATE FOUND (#149)
+  Amount: $-9.64
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-08
+    Description: Pwp AMZN Mktp US*JY5MF4Y33
+    Row: 336
+  REMOVED (Wells Fargo):
+    Date: 2022-02-10
+    Description: Pwp Amzn Mktp U Privacycom TN: 7210355
+    Row: 359
+
+✓ DUPLICATE FOUND (#150)
+  Amount: $-42.67
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-08
+    Description: Pwp AMZN Mktp US*DJ3E79YU3
+    Row: 337
+  REMOVED (Wells Fargo):
+    Date: 2022-02-10
+    Description: Pwp Amzn Mktp U Privacycom TN: 3114544
+    Row: 363
+
+✓ DUPLICATE FOUND (#151)
+  Amount: $-12.74
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-08
+    Description: Pwp AMZN Mktp US*ZQ9F83P33
+    Row: 339
+  REMOVED (Wells Fargo):
+    Date: 2022-02-10
+    Description: Pwp Amzn Mktp U Privacycom TN: 1757190
+    Row: 360
+
+✓ DUPLICATE FOUND (#152)
+  Amount: $-29.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-31
+    Description: Pwp UDEMY SUBSCRIPTION
+    Row: 1547
+  REMOVED (Wells Fargo):
+    Date: 2022-08-02
+    Description: Pwp Udemy Subsc Privacycom
+    Row: 1572
+
+✓ DUPLICATE FOUND (#153)
+  Amount: $-29.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-10-21
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2143
+  REMOVED (Wells Fargo):
+    Date: 2022-10-24
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2159
+
+✓ DUPLICATE FOUND (#154)
+  Amount: $-25.71
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-09
+    Description: Pwp Amazon.com*DG7AS8BD3
+    Row: 349
+  REMOVED (Wells Fargo):
+    Date: 2022-02-10
+    Description: Pwp Amazon.Com* Privacycom TN: 6816036
+    Row: 361
+
+✓ DUPLICATE FOUND (#155)
+  Amount: $-29.55
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-09
+    Description: Pwp AMZN Mktp US*PK5B004I3
+    Row: 350
+  REMOVED (Wells Fargo):
+    Date: 2022-02-10
+    Description: Pwp Amzn Mktp U Privacycom TN: 9120336
+    Row: 362
+
+✓ DUPLICATE FOUND (#156)
+  Amount: $-57.90
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-10
+    Description: Pwp AMZN MKTP US*FI0N90883 AM
+    Row: 366
+  REMOVED (Wells Fargo):
+    Date: 2022-02-11
+    Description: Pwp Amzn Mktp U Privacycom TN: 8326859
+    Row: 370
+
+✓ DUPLICATE FOUND (#157)
+  Amount: $-59.01
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-02-11
+    Description: Pwp AMZN MKTP US*MX5981ZA3 AM
+    Row: 371
+  REMOVED (Wells Fargo):
+    Date: 2022-02-15
+    Description: Pwp Amzn Mktp U Privacycom TN: 2757301
+    Row: 400
+
+✓ DUPLICATE FOUND (#158)
+  Amount: $-536.20
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-02-11
+    Description: Pwp AMZN Mktp US*DH4TH8ED3
+    Row: 372
+  REMOVED (Wells Fargo):
+    Date: 2022-02-15
+    Description: Pwp Amzn Mktp U Privacycom TN: 8078249
+    Row: 404
+
+✓ DUPLICATE FOUND (#159)
+  Amount: $-226.24
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-13
+    Description: Pwp AMZN Mktp US*JN25R3PL3
+    Row: 373
+  REMOVED (Wells Fargo):
+    Date: 2022-02-15
+    Description: Pwp Amzn Mktp U Privacycom TN: 1169045
+    Row: 402
+
+✓ DUPLICATE FOUND (#160)
+  Amount: $-61.12
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-13
+    Description: Pwp AMZN Mktp US*AL7DU02V3
+    Row: 374
+  REMOVED (Wells Fargo):
+    Date: 2022-02-15
+    Description: Pwp Amzn Mktp U Privacycom TN: 6645485
+    Row: 401
+
+✓ DUPLICATE FOUND (#161)
+  Amount: $-100.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-22
+    Description: Pwp GOOGLE *CLOUD Q47XTP
+    Row: 457
+  REMOVED (Wells Fargo):
+    Date: 2022-02-24
+    Description: Pwp Google *Clo Privacycom TN: 8726523
+    Row: 464
+
+✓ DUPLICATE FOUND (#162)
+  Amount: $-100.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-24
+    Description: Pwp Twitter Online Ads
+    Row: 866
+  REMOVED (Wells Fargo):
+    Date: 2022-04-25
+    Description: Pwp Twitter Onl Privacycom
+    Row: 881
+
+✓ DUPLICATE FOUND (#163)
+  Amount: $-278.84
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-14
+    Description: Pwp AMZN Mktp US*7S92337K3
+    Row: 393
+  REMOVED (Wells Fargo):
+    Date: 2022-02-15
+    Description: Pwp Amzn Mktp U Privacycom TN: 4258273
+    Row: 403
+
+✓ DUPLICATE FOUND (#164)
+  Amount: $-249.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-15
+    Description: Pwp TALENT LIST ON CJL.IST
+    Row: 405
+  REMOVED (Wells Fargo):
+    Date: 2022-02-16
+    Description: Pwp Talent List Privacycom TN: 3888888
+    Row: 413
+
+✓ DUPLICATE FOUND (#165)
+  Amount: $-66.16
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-16
+    Description: Pwp Amazon.com*Q04EA7V73
+    Row: 414
+  REMOVED (Wells Fargo):
+    Date: 2022-02-17
+    Description: Pwp Amazon.Com* Privacycom TN: 1167690
+    Row: 420
+
+✓ DUPLICATE FOUND (#166)
+  Amount: $-96.87
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-02-17
+    Description: Pwp AMZN Mktp US*U62PJ9D13
+    Row: 422
+  REMOVED (Wells Fargo):
+    Date: 2022-02-22
+    Description: Pwp Amzn Mktp U Privacycom TN: 1324280
+    Row: 454
+
+✓ DUPLICATE FOUND (#167)
+  Amount: $-60.70
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-02-19
+    Description: Pwp Amazon.com*EF1X10263
+    Row: 425
+  REMOVED (Wells Fargo):
+    Date: 2022-02-22
+    Description: Pwp Amazon.Com* Privacycom TN: 8659526
+    Row: 453
+
+✓ DUPLICATE FOUND (#168)
+  Amount: $-60.70
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-07-21
+    Description: Pwp Amazon.com*TD47N3T93
+    Row: 1498
+  REMOVED (Wells Fargo):
+    Date: 2022-07-25
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1512
+
+✓ DUPLICATE FOUND (#169)
+  Amount: $-23.56
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-02-19
+    Description: Pwp AMZN Mktp US*A50SV5V23
+    Row: 426
+  REMOVED (Wells Fargo):
+    Date: 2022-02-22
+    Description: Pwp Amzn Mktp U Privacycom TN: 1195437
+    Row: 452
+
+✓ DUPLICATE FOUND (#170)
+  Amount: $-13.93
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-02-19
+    Description: Pwp AMZN MKTP US*UU5RB6WF3 AM
+    Row: 427
+  REMOVED (Wells Fargo):
+    Date: 2022-02-22
+    Description: Pwp Amzn Mktp U Privacycom TN: 8823516
+    Row: 451
+
+✓ DUPLICATE FOUND (#171)
+  Amount: $-100.29
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-22
+    Description: Pwp AMZN Mktp US*1I1RM8ZW0
+    Row: 456
+  REMOVED (Wells Fargo):
+    Date: 2022-02-24
+    Description: Pwp Amzn Mktp U Privacycom TN: 5991623
+    Row: 465
+
+✓ DUPLICATE FOUND (#172)
+  Amount: $-93.27
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-24
+    Description: Pwp AMZN Mktp US*1B95B77B2
+    Row: 467
+  REMOVED (Wells Fargo):
+    Date: 2022-02-25
+    Description: Pwp Amzn Mktp U Privacycom TN: 6895411
+    Row: 475
+
+✓ DUPLICATE FOUND (#173)
+  Amount: $-33.23
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-02-25
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 476
+  REMOVED (Wells Fargo):
+    Date: 2022-02-28
+    Description: Pwp Google*Doma Privacycom TN: 9334427
+    Row: 498
+
+✓ DUPLICATE FOUND (#174)
+  Amount: $-1074.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-02-25
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 477
+  REMOVED (Wells Fargo):
+    Date: 2022-02-28
+    Description: Pwp Google*Doma Privacycom TN: 9869122
+    Row: 501
+
+✓ DUPLICATE FOUND (#175)
+  Amount: $-128.03
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-02-25
+    Description: Pwp Amazon.com*1I97219H1
+    Row: 478
+  REMOVED (Wells Fargo):
+    Date: 2022-02-28
+    Description: Pwp Amazon.Com* Privacycom TN: 6323613
+    Row: 499
+
+✓ DUPLICATE FOUND (#176)
+  Amount: $-24.32
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-02-26
+    Description: Pwp Amazon.com*1I1M28LC2
+    Row: 480
+  REMOVED (Wells Fargo):
+    Date: 2022-02-28
+    Description: Pwp Amazon.Com* Privacycom TN: 2651815
+    Row: 497
+
+✓ DUPLICATE FOUND (#177)
+  Amount: $-164.52
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-02-28
+    Description: Pwp Amazon.com*1W3UY93W1
+    Row: 505
+  REMOVED (Wells Fargo):
+    Date: 2022-03-01
+    Description: Pwp Amazon.Com* Privacycom TN: 8936523
+    Row: 517
+
+✓ DUPLICATE FOUND (#178)
+  Amount: $-31.05
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-02-28
+    Description: Pwp AMZN Mktp US*1W3YI6XJ1
+    Row: 506
+  REMOVED (Wells Fargo):
+    Date: 2022-03-03
+    Description: Pwp Amzn Mktp U Privacycom TN: 6436560
+    Row: 531
+
+✓ DUPLICATE FOUND (#179)
+  Amount: $-64.11
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-01
+    Description: Pwp AMAZON.COM*1I3V75HG2 AMZN
+    Row: 508
+  REMOVED (Wells Fargo):
+    Date: 2022-03-03
+    Description: Pwp Amazon.Com* Privacycom TN: 3339342
+    Row: 533
+
+✓ DUPLICATE FOUND (#180)
+  Amount: $-49.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-01
+    Description: Pwp CHAINSTACK
+    Row: 509
+  REMOVED (Wells Fargo):
+    Date: 2022-03-03
+    Description: Pwp Chainstack Privacycom TN: 7579096
+    Row: 532
+
+✓ DUPLICATE FOUND (#181)
+  Amount: $-49.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-01
+    Description: Pwp CHAINSTACK
+    Row: 698
+  REMOVED (Wells Fargo):
+    Date: 2022-04-04
+    Description: Pwp Chainstack Privacycom
+    Row: 718
+
+✓ DUPLICATE FOUND (#182)
+  Amount: $-49.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-01
+    Description: Pwp CHAINSTACK
+    Row: 927
+  REMOVED (Wells Fargo):
+    Date: 2022-05-03
+    Description: Pwp Chainstack Privacycom
+    Row: 946
+
+✓ DUPLICATE FOUND (#183)
+  Amount: $-49.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-01
+    Description: Pwp CHAINSTACK
+    Row: 1143
+  REMOVED (Wells Fargo):
+    Date: 2022-06-03
+    Description: Pwp Chainstack Privacycom
+    Row: 1152
+
+✓ DUPLICATE FOUND (#184)
+  Amount: $-49.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-01
+    Description: Pwp QUICKNODE API
+    Row: 2445
+  REMOVED (Wells Fargo):
+    Date: 2022-12-02
+    Description: Pwp Quicknode A Privacycom
+    Row: 2459
+
+✓ DUPLICATE FOUND (#185)
+  Amount: $-49.00
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-12-23
+    Description: Pwp QUICKNODE API
+    Row: 2669
+  REMOVED (Wells Fargo):
+    Date: 2022-12-27
+    Description: Pwp Quicknode A Privacycom
+    Row: 2696
+
+✓ DUPLICATE FOUND (#186)
+  Amount: $-10.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-01
+    Description: Pwp Amazon Tips*1W9YE24Q0
+    Row: 510
+  REMOVED (Wells Fargo):
+    Date: 2022-03-03
+    Description: Pwp Amazon Tips Privacycom TN: 4199377
+    Row: 530
+
+✓ DUPLICATE FOUND (#187)
+  Amount: $-10.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-15
+    Description: Pwp Amazon Tips*1N6BJ0Z71
+    Row: 579
+  REMOVED (Wells Fargo):
+    Date: 2022-03-17
+    Description: Pwp Amazon Tips Privacycom TN: 1048251
+    Row: 598
+
+✓ DUPLICATE FOUND (#188)
+  Amount: $-10.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-17
+    Description: Pwp Amazon Tips*1O2KX1VJ1
+    Row: 810
+  REMOVED (Wells Fargo):
+    Date: 2022-04-18
+    Description: Pwp Amazon Tips Privacycom
+    Row: 829
+
+✓ DUPLICATE FOUND (#189)
+  Amount: $-10.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-07
+    Description: Pwp Amazon Tips*1L6RF6JA1
+    Row: 971
+  REMOVED (Wells Fargo):
+    Date: 2022-05-09
+    Description: Pwp Amazon Tips Privacycom
+    Row: 988
+
+✓ DUPLICATE FOUND (#190)
+  Amount: $-10.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-16
+    Description: Pwp Blink
+    Row: 1021
+  REMOVED (Wells Fargo):
+    Date: 2022-05-18
+    Description: Pwp Blink Privacycom
+    Row: 1048
+
+✓ DUPLICATE FOUND (#191)
+  Amount: $-10.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-30
+    Description: Pwp Amazon Tips*1X07N03P2
+    Row: 1116
+  REMOVED (Wells Fargo):
+    Date: 2022-06-01
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1141
+
+✓ DUPLICATE FOUND (#192)
+  Amount: $-10.00
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-06-16
+    Description: Pwp Blink
+    Row: 1254
+  REMOVED (Wells Fargo):
+    Date: 2022-06-21
+    Description: Pwp Blink Privacycom
+    Row: 1282
+
+✓ DUPLICATE FOUND (#193)
+  Amount: $-10.00
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-07-01
+    Description: Pwp Amazon Tips*PY42A08I3
+    Row: 1352
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1381
+
+✓ DUPLICATE FOUND (#194)
+  Amount: $-10.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-08-05
+    Description: Pwp Amazon Tips*SW7OA3ZT3
+    Row: 1590
+  REMOVED (Wells Fargo):
+    Date: 2022-08-08
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1605
+
+✓ DUPLICATE FOUND (#195)
+  Amount: $-10.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-04
+    Description: Pwp Amazon Tips*D93CU74H3
+    Row: 1767
+  REMOVED (Wells Fargo):
+    Date: 2022-09-06
+    Description: Pwp Amazon Tips Privacycom
+    Row: 1789
+
+✓ DUPLICATE FOUND (#196)
+  Amount: $-10.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-09-16
+    Description: Pwp Blink
+    Row: 1875
+  REMOVED (Wells Fargo):
+    Date: 2022-09-19
+    Description: Pwp Blink Privacycom
+    Row: 1900
+
+✓ DUPLICATE FOUND (#197)
+  Amount: $-10.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-09-30
+    Description: Pwp GITHUB
+    Row: 1964
+  REMOVED (Wells Fargo):
+    Date: 2022-10-03
+    Description: Pwp Github Privacycom
+    Row: 1993
+
+✓ DUPLICATE FOUND (#198)
+  Amount: $-10.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-16
+    Description: Pwp Blink
+    Row: 2103
+  REMOVED (Wells Fargo):
+    Date: 2022-10-18
+    Description: Pwp Blink Privacycom
+    Row: 2124
+
+✓ DUPLICATE FOUND (#199)
+  Amount: $-10.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-10-31
+    Description: Pwp GITHUB
+    Row: 2210
+  REMOVED (Wells Fargo):
+    Date: 2022-11-01
+    Description: Pwp Github Privacycom
+    Row: 2215
+
+✓ DUPLICATE FOUND (#200)
+  Amount: $-10.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-16
+    Description: Pwp Blink
+    Row: 2311
+  REMOVED (Wells Fargo):
+    Date: 2022-11-18
+    Description: Pwp Blink Privacycom
+    Row: 2337
+
+✓ DUPLICATE FOUND (#201)
+  Amount: $-10.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-30
+    Description: Pwp GITHUB
+    Row: 2434
+  REMOVED (Wells Fargo):
+    Date: 2022-12-01
+    Description: Pwp Github Privacycom
+    Row: 2448
+
+✓ DUPLICATE FOUND (#202)
+  Amount: $-10.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-16
+    Description: Pwp Blink
+    Row: 2588
+  REMOVED (Wells Fargo):
+    Date: 2022-12-19
+    Description: Pwp Blink Privacycom
+    Row: 2623
+
+✓ DUPLICATE FOUND (#203)
+  Amount: $-225.21
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-03-01
+    Description: Pwp AMAZON.COM*1W53E9P61 AMZN
+    Row: 511
+  REMOVED (Wells Fargo):
+    Date: 2022-03-02
+    Description: Pwp Amazon.Com* Privacycom TN: 9069649
+    Row: 525
+
+✓ DUPLICATE FOUND (#204)
+  Amount: $-84.03
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-03-02
+    Description: Pwp AMZN Mktp US*1W6MM5GE1
+    Row: 521
+  REMOVED (Wells Fargo):
+    Date: 2022-03-03
+    Description: Pwp Amzn Mktp U Privacycom TN: 8101539
+    Row: 534
+
+✓ DUPLICATE FOUND (#205)
+  Amount: $-56.79
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-06
+    Description: Pwp AMZN MKTP US*1W4PQ6DI0 AM
+    Row: 536
+  REMOVED (Wells Fargo):
+    Date: 2022-03-08
+    Description: Pwp Amzn Mktp U Privacycom TN: 2031172
+    Row: 550
+
+✓ DUPLICATE FOUND (#206)
+  Amount: $-100.01
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-08
+    Description: Pwp Amazon.com*1W2LO3Y10
+    Row: 542
+  REMOVED (Wells Fargo):
+    Date: 2022-03-10
+    Description: Pwp Amazon.Com* Privacycom TN: 8040779
+    Row: 560
+
+✓ DUPLICATE FOUND (#207)
+  Amount: $-108.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-03-09
+    Description: Pwp WWW.MAKE.COM
+    Row: 551
+  REMOVED (Wells Fargo):
+    Date: 2022-03-10
+    Description: Pwp WWW.Make.CO Privacycom TN: 1297598
+    Row: 561
+
+✓ DUPLICATE FOUND (#208)
+  Amount: $-15.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-03-09
+    Description: Pwp Netflix.com
+    Row: 552
+  REMOVED (Wells Fargo):
+    Date: 2022-03-10
+    Description: Pwp Netflix.Com Privacycom TN: 3604512
+    Row: 559
+
+✓ DUPLICATE FOUND (#209)
+  Amount: $-15.49
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-04-08
+    Description: Pwp Netflix.com
+    Row: 750
+  REMOVED (Wells Fargo):
+    Date: 2022-04-12
+    Description: Pwp Netflix.Com Privacycom
+    Row: 787
+
+✓ DUPLICATE FOUND (#210)
+  Amount: $-15.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-08
+    Description: Pwp Netflix.com
+    Row: 972
+  REMOVED (Wells Fargo):
+    Date: 2022-05-09
+    Description: Pwp Netflix.Com Privacycom
+    Row: 989
+
+✓ DUPLICATE FOUND (#211)
+  Amount: $-15.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-08
+    Description: Pwp Netflix.com
+    Row: 1188
+  REMOVED (Wells Fargo):
+    Date: 2022-06-09
+    Description: Pwp Netflix.Com Privacycom
+    Row: 1189
+
+✓ DUPLICATE FOUND (#212)
+  Amount: $-15.49
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-07-08
+    Description: Pwp Netflix.com
+    Row: 1411
+  REMOVED (Wells Fargo):
+    Date: 2022-07-11
+    Description: Pwp Netflix.Com Privacycom
+    Row: 1437
+
+✓ DUPLICATE FOUND (#213)
+  Amount: $-15.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-08-08
+    Description: Pwp Netflix.com
+    Row: 1599
+  REMOVED (Wells Fargo):
+    Date: 2022-08-09
+    Description: Pwp Netflix.Com Privacycom
+    Row: 1614
+
+✓ DUPLICATE FOUND (#214)
+  Amount: $-15.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-09-08
+    Description: Pwp Netflix.com
+    Row: 1809
+  REMOVED (Wells Fargo):
+    Date: 2022-09-09
+    Description: Pwp Netflix.Com Privacycom
+    Row: 1820
+
+✓ DUPLICATE FOUND (#215)
+  Amount: $-15.49
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-10-08
+    Description: Pwp Netflix.com
+    Row: 2028
+  REMOVED (Wells Fargo):
+    Date: 2022-10-11
+    Description: Pwp Netflix.Com Privacycom
+    Row: 2071
+
+✓ DUPLICATE FOUND (#216)
+  Amount: $-15.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-08
+    Description: Pwp NETFLIX.COM
+    Row: 2257
+  REMOVED (Wells Fargo):
+    Date: 2022-11-09
+    Description: Pwp Netflix.Com Privacycom
+    Row: 2268
+
+✓ DUPLICATE FOUND (#217)
+  Amount: $-15.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-08
+    Description: Pwp Netflix
+    Row: 2509
+  REMOVED (Wells Fargo):
+    Date: 2022-12-09
+    Description: Pwp Netflix Privacycom
+    Row: 2526
+
+✓ DUPLICATE FOUND (#218)
+  Amount: $-2.75
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-09
+    Description: Pwp HEROKU FEB-62762216
+    Row: 553
+  REMOVED (Wells Fargo):
+    Date: 2022-03-11
+    Description: Pwp Heroku Feb- Privacycom TN: 7868517
+    Row: 566
+
+✓ DUPLICATE FOUND (#219)
+  Amount: $-116.95
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-09
+    Description: Pwp Amazon.com*1Z8LA9VQ1
+    Row: 554
+  REMOVED (Wells Fargo):
+    Date: 2022-03-11
+    Description: Pwp Amazon.Com* Privacycom TN: 8899258
+    Row: 568
+
+✓ DUPLICATE FOUND (#220)
+  Amount: $-95.73
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-03-11
+    Description: Pwp AMZN MKTP US*1W27I7US2 AM
+    Row: 563
+  REMOVED (Wells Fargo):
+    Date: 2022-03-14
+    Description: Pwp Amzn Mktp U Privacycom TN: 5333890
+    Row: 578
+
+✓ DUPLICATE FOUND (#221)
+  Amount: $-183.71
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-03-14
+    Description: Pwp Amazon.com*1Z1MM4QY0
+    Row: 570
+  REMOVED (Wells Fargo):
+    Date: 2022-03-15
+    Description: Pwp Amazon.Com* Privacycom TN: 5247502
+    Row: 584
+
+✓ DUPLICATE FOUND (#222)
+  Amount: $-42.88
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-15
+    Description: Pwp Amazon.com*1N7FB3JR1
+    Row: 580
+  REMOVED (Wells Fargo):
+    Date: 2022-03-17
+    Description: Pwp Amazon.Com* Privacycom TN: 9897830
+    Row: 599
+
+✓ DUPLICATE FOUND (#223)
+  Amount: $-351.34
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-03-16
+    Description: Pwp HEROKU FEB-62862583
+    Row: 587
+  REMOVED (Wells Fargo):
+    Date: 2022-03-16
+    Description: Pwp Heroku Feb- Privacycom TN: 2657859
+    Row: 597
+
+✓ DUPLICATE FOUND (#224)
+  Amount: $-333.28
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-03-16
+    Description: Pwp HEROKU JAN-60634142
+    Row: 588
+  REMOVED (Wells Fargo):
+    Date: 2022-03-16
+    Description: Pwp Heroku Jan- Privacycom TN: 2189020
+    Row: 596
+
+✓ DUPLICATE FOUND (#225)
+  Amount: $-98.73
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-16
+    Description: Pwp Amazon.com*1N1696PM1
+    Row: 589
+  REMOVED (Wells Fargo):
+    Date: 2022-03-18
+    Description: Pwp Amazon.Com* Privacycom TN: 5863059
+    Row: 609
+
+✓ DUPLICATE FOUND (#226)
+  Amount: $-170.53
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-03-18
+    Description: Pwp Amazon.com*1Z2TP1732
+    Row: 600
+  REMOVED (Wells Fargo):
+    Date: 2022-03-21
+    Description: Pwp Amazon.Com* Privacycom TN: 9115221
+    Row: 625
+
+✓ DUPLICATE FOUND (#227)
+  Amount: $-48.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-19
+    Description: Pwp GOOGLE *Domains
+    Row: 611
+  REMOVED (Wells Fargo):
+    Date: 2022-03-21
+    Description: Pwp Google *Dom Privacycom TN: 7681054
+    Row: 624
+
+✓ DUPLICATE FOUND (#228)
+  Amount: $-88.44
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-20
+    Description: Pwp Amazon.com*1N30T7F22
+    Row: 612
+  REMOVED (Wells Fargo):
+    Date: 2022-03-22
+    Description: Pwp Amazon.Com* Privacycom TN: 7313253
+    Row: 634
+
+✓ DUPLICATE FOUND (#229)
+  Amount: $-38.58
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-22
+    Description: Pwp AMZN Mktp US*1N6O341L2
+    Row: 629
+  REMOVED (Wells Fargo):
+    Date: 2022-03-24
+    Description: Pwp Amzn Mktp U Privacycom TN: 1627056
+    Row: 645
+
+✓ DUPLICATE FOUND (#230)
+  Amount: $-84.67
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-22
+    Description: Pwp AMZN Mktp US*1N9O55G22
+    Row: 630
+  REMOVED (Wells Fargo):
+    Date: 2022-03-24
+    Description: Pwp Amzn Mktp U Privacycom TN: 2767047
+    Row: 646
+
+✓ DUPLICATE FOUND (#231)
+  Amount: $-109.62
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-23
+    Description: Pwp Amazon.com*1N4J76H72
+    Row: 635
+  REMOVED (Wells Fargo):
+    Date: 2022-03-25
+    Description: Pwp Amazon.Com* Privacycom TN: 1748785
+    Row: 655
+
+✓ DUPLICATE FOUND (#232)
+  Amount: $-13.90
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-23
+    Description: Pwp AMAZON.COM*1N5BA5582 AMZN
+    Row: 636
+  REMOVED (Wells Fargo):
+    Date: 2022-03-25
+    Description: Pwp Amazon.Com* Privacycom TN: 5415490
+    Row: 654
+
+✓ DUPLICATE FOUND (#233)
+  Amount: $-41.09
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-03-25
+    Description: Pwp AMZN Mktp US*1N4B616Q2
+    Row: 648
+  REMOVED (Wells Fargo):
+    Date: 2022-03-28
+    Description: Pwp Amzn Mktp U Privacycom TN: 5595099
+    Row: 673
+
+✓ DUPLICATE FOUND (#234)
+  Amount: $-86.77
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-03-25
+    Description: Pwp Amazon.com*1N6EB8WZ0
+    Row: 649
+  REMOVED (Wells Fargo):
+    Date: 2022-03-28
+    Description: Pwp Amazon.Com* Privacycom TN: 5123700
+    Row: 674
+
+✓ DUPLICATE FOUND (#235)
+  Amount: $-11.42
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-03-25
+    Description: Pwp AMZN Mktp US*1622X6F80
+    Row: 650
+  REMOVED (Wells Fargo):
+    Date: 2022-03-28
+    Description: Pwp Amzn Mktp U Privacycom TN: 1653531
+    Row: 671
+
+✓ DUPLICATE FOUND (#236)
+  Amount: $-121.35
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-03-25
+    Description: Pwp Amazon.com*1N8KG4YU0
+    Row: 652
+  REMOVED (Wells Fargo):
+    Date: 2022-03-28
+    Description: Pwp Amazon.Com* Privacycom TN: 1576788
+    Row: 675
+
+✓ DUPLICATE FOUND (#237)
+  Amount: $-1767.46
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-30
+    Description: Pwp AMZN Mktp US*1636T3VA2
+    Row: 681
+  REMOVED (Wells Fargo):
+    Date: 2022-04-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 704
+
+✓ DUPLICATE FOUND (#238)
+  Amount: $-42.20
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-30
+    Description: Pwp AMZN Mktp US*164B610F2
+    Row: 683
+  REMOVED (Wells Fargo):
+    Date: 2022-04-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 703
+
+✓ DUPLICATE FOUND (#239)
+  Amount: $-34.30
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-03-30
+    Description: Pwp AMZN Mktp US*167MU0PU2
+    Row: 684
+  REMOVED (Wells Fargo):
+    Date: 2022-04-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 702
+
+✓ DUPLICATE FOUND (#240)
+  Amount: $-34.30
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-05
+    Description: Pwp Amazon.com*V83P57PK3
+    Row: 1369
+  REMOVED (Wells Fargo):
+    Date: 2022-07-07
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1407
+
+✓ DUPLICATE FOUND (#241)
+  Amount: $-76.57
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-01
+    Description: Pwp Amazon.com*1636309Y0
+    Row: 694
+  REMOVED (Wells Fargo):
+    Date: 2022-04-04
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 720
+
+✓ DUPLICATE FOUND (#242)
+  Amount: $-60.01
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-01
+    Description: Pwp SLACK T0265NE2YH3
+    Row: 695
+  REMOVED (Wells Fargo):
+    Date: 2022-04-04
+    Description: Pwp Slack T0265 Privacycom
+    Row: 719
+
+✓ DUPLICATE FOUND (#243)
+  Amount: $-13.24
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-04-01
+    Description: Pwp AMZN Digital*166XQ4R70
+    Row: 696
+  REMOVED (Wells Fargo):
+    Date: 2022-04-05
+    Description: Pwp Amzn Digita Privacycom
+    Row: 733
+
+✓ DUPLICATE FOUND (#244)
+  Amount: $-38.60
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-04-01
+    Description: Pwp AMZN Mktp US*163PZ98I2
+    Row: 697
+  REMOVED (Wells Fargo):
+    Date: 2022-04-05
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 734
+
+✓ DUPLICATE FOUND (#245)
+  Amount: $-38.60
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-19
+    Description: Pwp AMZN Mktp US*HI7ZP4W00
+    Row: 2342
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2363
+
+✓ DUPLICATE FOUND (#246)
+  Amount: $-213.43
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-01
+    Description: Pwp AMZN MKTP US*169GW38D2 AM
+    Row: 699
+  REMOVED (Wells Fargo):
+    Date: 2022-04-04
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 721
+
+✓ DUPLICATE FOUND (#247)
+  Amount: $-128.68
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-02
+    Description: Pwp AMZN Mktp US*1H6H73G51
+    Row: 705
+  REMOVED (Wells Fargo):
+    Date: 2022-04-04
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 723
+
+✓ DUPLICATE FOUND (#248)
+  Amount: $-64.22
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-04
+    Description: Pwp Twitter Online Ads
+    Row: 709
+  REMOVED (Wells Fargo):
+    Date: 2022-04-06
+    Description: Pwp Twitter Onl Privacycom
+    Row: 739
+
+✓ DUPLICATE FOUND (#249)
+  Amount: $-90.04
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-05
+    Description: Pwp AMZN Mktp US*1H5QB7160
+    Row: 724
+  REMOVED (Wells Fargo):
+    Date: 2022-04-06
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 740
+
+✓ DUPLICATE FOUND (#250)
+  Amount: $-128.69
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-05
+    Description: Pwp AMZN Mktp US*1H4Q57P00
+    Row: 725
+  REMOVED (Wells Fargo):
+    Date: 2022-04-06
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 741
+
+✓ DUPLICATE FOUND (#251)
+  Amount: $-400.92
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-05
+    Description: Pwp AMZN Mktp US*1A2CW34J1
+    Row: 726
+  REMOVED (Wells Fargo):
+    Date: 2022-04-07
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 749
+
+✓ DUPLICATE FOUND (#252)
+  Amount: $-114.94
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-05
+    Description: Pwp Amazon.com*1H7SA1MV0
+    Row: 727
+  REMOVED (Wells Fargo):
+    Date: 2022-04-07
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 747
+
+✓ DUPLICATE FOUND (#253)
+  Amount: $-7.48
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-05
+    Description: Pwp AMZN Mktp US*1H9TU6L72
+    Row: 728
+  REMOVED (Wells Fargo):
+    Date: 2022-04-07
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 746
+
+✓ DUPLICATE FOUND (#254)
+  Amount: $-33.78
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-07
+    Description: Pwp AMZN Mktp US*1A8723ZY1
+    Row: 742
+  REMOVED (Wells Fargo):
+    Date: 2022-04-08
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 756
+
+✓ DUPLICATE FOUND (#255)
+  Amount: $-299.04
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-07
+    Description: Pwp AMZN Mktp US*1A7342JR1
+    Row: 743
+  REMOVED (Wells Fargo):
+    Date: 2022-04-08
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 757
+
+✓ DUPLICATE FOUND (#256)
+  Amount: $-138.45
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-09
+    Description: Pwp Amazon.com*1A34N4G91
+    Row: 758
+  REMOVED (Wells Fargo):
+    Date: 2022-04-12
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 789
+
+✓ DUPLICATE FOUND (#257)
+  Amount: $-151.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-10
+    Description: Pwp AMZ*Birddogs
+    Row: 759
+  REMOVED (Wells Fargo):
+    Date: 2022-04-12
+    Description: Pwp Amz*Birddog Privacycom
+    Row: 790
+
+✓ DUPLICATE FOUND (#258)
+  Amount: $-86.15
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-10
+    Description: Pwp Amazon.com*1A1KO1DZ1
+    Row: 761
+  REMOVED (Wells Fargo):
+    Date: 2022-04-12
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 788
+
+✓ DUPLICATE FOUND (#259)
+  Amount: $-293.27
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-11
+    Description: Pwp HEROKU MAR-64235244
+    Row: 763
+  REMOVED (Wells Fargo):
+    Date: 2022-04-12
+    Description: Pwp Heroku Mar- Privacycom
+    Row: 791
+
+✓ DUPLICATE FOUND (#260)
+  Amount: $-58.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-13
+    Description: Pwp GOOGLE *Domains
+    Row: 792
+  REMOVED (Wells Fargo):
+    Date: 2022-04-15
+    Description: Pwp Google *Dom Privacycom
+    Row: 806
+
+✓ DUPLICATE FOUND (#261)
+  Amount: $-147.96
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-14
+    Description: Pwp Amazon.com*1A3GB8J22
+    Row: 796
+  REMOVED (Wells Fargo):
+    Date: 2022-04-15
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 807
+
+✓ DUPLICATE FOUND (#262)
+  Amount: $-172.64
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-16
+    Description: Pwp Amazon.com*1O44240G1
+    Row: 809
+  REMOVED (Wells Fargo):
+    Date: 2022-04-18
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 830
+
+✓ DUPLICATE FOUND (#263)
+  Amount: $-78.87
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-17
+    Description: Pwp AMZN MKTP US*1O8HQ3HX1 AM
+    Row: 811
+  REMOVED (Wells Fargo):
+    Date: 2022-04-19
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 835
+
+✓ DUPLICATE FOUND (#264)
+  Amount: $-21.32
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-18
+    Description: Pwp Amazon.com*1A1FR5K82
+    Row: 812
+  REMOVED (Wells Fargo):
+    Date: 2022-04-20
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 846
+
+✓ DUPLICATE FOUND (#265)
+  Amount: $-70.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-20
+    Description: Pwp AMZN Mktp US*1A0R58Y72
+    Row: 837
+  REMOVED (Wells Fargo):
+    Date: 2022-04-22
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 861
+
+✓ DUPLICATE FOUND (#266)
+  Amount: $-192.21
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-22
+    Description: Pwp Amazon.com*1Q7M37TK1
+    Row: 853
+  REMOVED (Wells Fargo):
+    Date: 2022-04-25
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 880
+
+✓ DUPLICATE FOUND (#267)
+  Amount: $-15.39
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-22
+    Description: Pwp AMZN Mktp US*1O7SG4EM2
+    Row: 854
+  REMOVED (Wells Fargo):
+    Date: 2022-04-25
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 878
+
+✓ DUPLICATE FOUND (#268)
+  Amount: $-16.08
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-24
+    Description: Pwp AMZN Mktp US*1Q2CN4XQ1
+    Row: 864
+  REMOVED (Wells Fargo):
+    Date: 2022-04-25
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 879
+
+✓ DUPLICATE FOUND (#269)
+  Amount: $-16.08
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-09
+    Description: Pwp AMZN Mktp US*FT2KR7D23
+    Row: 1197
+  REMOVED (Wells Fargo):
+    Date: 2022-06-10
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1207
+
+✓ DUPLICATE FOUND (#270)
+  Amount: $-25.59
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-24
+    Description: Pwp AMZN Mktp US*1O08O1HX2
+    Row: 867
+  REMOVED (Wells Fargo):
+    Date: 2022-04-26
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 886
+
+✓ DUPLICATE FOUND (#271)
+  Amount: $-94.77
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-25
+    Description: Pwp Twitter Online Ads
+    Row: 868
+  REMOVED (Wells Fargo):
+    Date: 2022-04-27
+    Description: Pwp Twitter Onl Privacycom
+    Row: 899
+
+✓ DUPLICATE FOUND (#272)
+  Amount: $-89.80
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-27
+    Description: Pwp Twitter Online Ads
+    Row: 887
+  REMOVED (Wells Fargo):
+    Date: 2022-04-28
+    Description: Pwp Twitter Onl Privacycom
+    Row: 907
+
+✓ DUPLICATE FOUND (#273)
+  Amount: $-90.28
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-27
+    Description: Pwp Amazon.com*1O91T3IK2
+    Row: 888
+  REMOVED (Wells Fargo):
+    Date: 2022-04-28
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 908
+
+✓ DUPLICATE FOUND (#274)
+  Amount: $-5.57
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-27
+    Description: Pwp AMZN Mktp US*1O9Y69WE2
+    Row: 889
+  REMOVED (Wells Fargo):
+    Date: 2022-04-29
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 915
+
+✓ DUPLICATE FOUND (#275)
+  Amount: $-14.96
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-27
+    Description: Pwp Amazon.com*1O0XG2Y90
+    Row: 890
+  REMOVED (Wells Fargo):
+    Date: 2022-04-29
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 917
+
+✓ DUPLICATE FOUND (#276)
+  Amount: $-48.44
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-27
+    Description: Pwp AMZN MKTP US*1O1Q80YH0 AM
+    Row: 891
+  REMOVED (Wells Fargo):
+    Date: 2022-04-29
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 920
+
+✓ DUPLICATE FOUND (#277)
+  Amount: $-20.95
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-27
+    Description: Pwp AMZN MKTP US*1Q5ZO7C82 AM
+    Row: 892
+  REMOVED (Wells Fargo):
+    Date: 2022-04-29
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 919
+
+✓ DUPLICATE FOUND (#278)
+  Amount: $-18.58
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-04-28
+    Description: Pwp SLACK T0265NE2YH3
+    Row: 901
+  REMOVED (Wells Fargo):
+    Date: 2022-04-29
+    Description: Pwp Slack T0265 Privacycom
+    Row: 918
+
+✓ DUPLICATE FOUND (#279)
+  Amount: $-116.01
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-29
+    Description: Pwp Amazon.com*134HK9ZF1
+    Row: 909
+  REMOVED (Wells Fargo):
+    Date: 2022-05-02
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 937
+
+✓ DUPLICATE FOUND (#280)
+  Amount: $-24.66
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-04-29
+    Description: Pwp AMAZON.COM*1Q35V2AU0 AMZN
+    Row: 910
+  REMOVED (Wells Fargo):
+    Date: 2022-05-02
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 935
+
+✓ DUPLICATE FOUND (#281)
+  Amount: $-24.66
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-09
+    Description: Pwp AMZN Mktp US*1L9XR9HU1
+    Row: 974
+  REMOVED (Wells Fargo):
+    Date: 2022-05-11
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1001
+
+✓ DUPLICATE FOUND (#282)
+  Amount: $-24.66
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-10-31
+    Description: Pwp AMZN Mktp US*H00HD6SC1
+    Row: 2208
+  REMOVED (Wells Fargo):
+    Date: 2022-11-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2216
+
+✓ DUPLICATE FOUND (#283)
+  Amount: $-52.45
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-09
+    Description: Pwp AMZN Mktp US*131NF9882
+    Row: 975
+  REMOVED (Wells Fargo):
+    Date: 2022-05-11
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1002
+
+✓ DUPLICATE FOUND (#284)
+  Amount: $-91.40
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-04-30
+    Description: Pwp Amazon.com*1Q8DM4GB2
+    Row: 924
+  REMOVED (Wells Fargo):
+    Date: 2022-05-02
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 936
+
+✓ DUPLICATE FOUND (#285)
+  Amount: $-29.45
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-01
+    Description: Pwp AMAZON.COM*134O26PA1 AMZN
+    Row: 925
+  REMOVED (Wells Fargo):
+    Date: 2022-05-03
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 945
+
+✓ DUPLICATE FOUND (#286)
+  Amount: $-17.13
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-01
+    Description: Pwp AMZN Mktp US*134WO5MK1
+    Row: 926
+  REMOVED (Wells Fargo):
+    Date: 2022-05-03
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 944
+
+✓ DUPLICATE FOUND (#287)
+  Amount: $-181.25
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-01
+    Description: Pwp AMZN Mktp US*131ZH5MP1
+    Row: 928
+  REMOVED (Wells Fargo):
+    Date: 2022-05-02
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 938
+
+✓ DUPLICATE FOUND (#288)
+  Amount: $-115.45
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-02
+    Description: Pwp Twitter Online Ads
+    Row: 930
+  REMOVED (Wells Fargo):
+    Date: 2022-05-04
+    Description: Pwp Twitter Onl Privacycom
+    Row: 956
+
+✓ DUPLICATE FOUND (#289)
+  Amount: $-55.32
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-04
+    Description: Pwp AMAZON.COM*1Q0M30720 AMZN
+    Row: 948
+  REMOVED (Wells Fargo):
+    Date: 2022-05-05
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 960
+
+✓ DUPLICATE FOUND (#290)
+  Amount: $-122.86
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-04
+    Description: Pwp Amazon.com*139N72761
+    Row: 949
+  REMOVED (Wells Fargo):
+    Date: 2022-05-05
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 961
+
+✓ DUPLICATE FOUND (#291)
+  Amount: $-150.68
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-04
+    Description: Pwp HIVELOCITY, INC.
+    Row: 950
+  REMOVED (Wells Fargo):
+    Date: 2022-05-06
+    Description: Pwp Hivelocity Privacycom
+    Row: 970
+
+✓ DUPLICATE FOUND (#292)
+  Amount: $-57.88
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-05-06
+    Description: Pwp AMZN MKTP US*1L65I3F61 AM
+    Row: 962
+  REMOVED (Wells Fargo):
+    Date: 2022-05-09
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 990
+
+✓ DUPLICATE FOUND (#293)
+  Amount: $-186.78
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-05-06
+    Description: Pwp Amazon.com*1L9OT24T1
+    Row: 964
+  REMOVED (Wells Fargo):
+    Date: 2022-05-09
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 991
+
+✓ DUPLICATE FOUND (#294)
+  Amount: $-80.19
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-15
+    Description: Pwp HIVELOCITY, INC.
+    Row: 1016
+  REMOVED (Wells Fargo):
+    Date: 2022-05-16
+    Description: Pwp Hivelocity Privacycom
+    Row: 1030
+
+✓ DUPLICATE FOUND (#295)
+  Amount: $-94.10
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-15
+    Description: Pwp Amazon.com*1L4SL53A0
+    Row: 1018
+  REMOVED (Wells Fargo):
+    Date: 2022-05-17
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1039
+
+✓ DUPLICATE FOUND (#296)
+  Amount: $-8.57
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-05-15
+    Description: Pwp AMZN MKTP US*1L9JV0PP2 AM
+    Row: 1019
+  REMOVED (Wells Fargo):
+    Date: 2022-05-18
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1047
+
+✓ DUPLICATE FOUND (#297)
+  Amount: $-123.76
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-16
+    Description: Pwp Amazon.com*1L9YD1PL2
+    Row: 1020
+  REMOVED (Wells Fargo):
+    Date: 2022-05-17
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1041
+
+✓ DUPLICATE FOUND (#298)
+  Amount: $-173.73
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-16
+    Description: Pwp Amazon.com*1L9V311F0
+    Row: 1022
+  REMOVED (Wells Fargo):
+    Date: 2022-05-18
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1049
+
+✓ DUPLICATE FOUND (#299)
+  Amount: $-75.30
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-17
+    Description: Pwp Amazon.com*1L79R3H22
+    Row: 1032
+  REMOVED (Wells Fargo):
+    Date: 2022-05-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1055
+
+✓ DUPLICATE FOUND (#300)
+  Amount: $20.95
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-18
+    Description: Pwp AMZN MKTP US AMZN.COM/BIL
+    Row: 1042
+  REMOVED (Wells Fargo):
+    Date: 2022-05-20
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1057
+
+✓ DUPLICATE FOUND (#301)
+  Amount: $-109.70
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-19
+    Description: Pwp Amazon.com*1L4HE16Y0
+    Row: 1050
+  REMOVED (Wells Fargo):
+    Date: 2022-05-20
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1067
+
+✓ DUPLICATE FOUND (#302)
+  Amount: $-14.50
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-05-19
+    Description: Pwp AMAZON.COM*1X9FA4C71 AMZN
+    Row: 1051
+  REMOVED (Wells Fargo):
+    Date: 2022-05-23
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1080
+
+✓ DUPLICATE FOUND (#303)
+  Amount: $-38.14
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-21
+    Description: Pwp Amazon.com*1X4881Z81
+    Row: 1068
+  REMOVED (Wells Fargo):
+    Date: 2022-05-23
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1081
+
+✓ DUPLICATE FOUND (#304)
+  Amount: $-25.90
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-22
+    Description: Pwp Amazon.com*1X2XE6A11
+    Row: 1069
+  REMOVED (Wells Fargo):
+    Date: 2022-05-24
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1088
+
+✓ DUPLICATE FOUND (#305)
+  Amount: $-25.90
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-20
+    Description: Pwp AMZN Mktp US*R10060N43
+    Row: 1673
+  REMOVED (Wells Fargo):
+    Date: 2022-08-22
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1686
+
+✓ DUPLICATE FOUND (#306)
+  Amount: $-95.39
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-25
+    Description: Pwp AMZN Mktp US*1R2GL3DS2
+    Row: 1090
+  REMOVED (Wells Fargo):
+    Date: 2022-05-27
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1111
+
+✓ DUPLICATE FOUND (#307)
+  Amount: $-3.21
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-05-28
+    Description: Pwp SLACK T0265NE2YH3
+    Row: 1112
+  REMOVED (Wells Fargo):
+    Date: 2022-05-31
+    Description: Pwp Slack T0265 Privacycom
+    Row: 1133
+
+✓ DUPLICATE FOUND (#308)
+  Amount: $-209.88
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-05-28
+    Description: Pwp Amazon.com*1R5SA3UM0
+    Row: 1113
+  REMOVED (Wells Fargo):
+    Date: 2022-05-31
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1137
+
+✓ DUPLICATE FOUND (#309)
+  Amount: $-177.02
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-29
+    Description: Pwp Amazon.com*3O0IO0GK3
+    Row: 1114
+  REMOVED (Wells Fargo):
+    Date: 2022-05-31
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1136
+
+✓ DUPLICATE FOUND (#310)
+  Amount: $-116.68
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-05-30
+    Description: Pwp Amazon.com*NB8108893
+    Row: 1115
+  REMOVED (Wells Fargo):
+    Date: 2022-05-31
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1135
+
+✓ DUPLICATE FOUND (#311)
+  Amount: $-32.16
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-05-31
+    Description: Pwp AMZN Mktp US*1X3TJ1AD0
+    Row: 1117
+  REMOVED (Wells Fargo):
+    Date: 2022-06-02
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1144
+
+✓ DUPLICATE FOUND (#312)
+  Amount: $-32.16
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-30
+    Description: Pwp AMZN Mktp US*6B6VR1GP3
+    Row: 1349
+  REMOVED (Wells Fargo):
+    Date: 2022-07-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1357
+
+✓ DUPLICATE FOUND (#313)
+  Amount: $-32.16
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-26
+    Description: Pwp AMZN Mktp US*W97G51153
+    Row: 1515
+  REMOVED (Wells Fargo):
+    Date: 2022-07-27
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1523
+
+✓ DUPLICATE FOUND (#314)
+  Amount: $-124.82
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-01
+    Description: Pwp Amazon.com*1X7KM9GA0
+    Row: 1142
+  REMOVED (Wells Fargo):
+    Date: 2022-06-03
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1153
+
+✓ DUPLICATE FOUND (#315)
+  Amount: $-169.70
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-06-03
+    Description: Pwp Amazon.com*097WD3243
+    Row: 1154
+  REMOVED (Wells Fargo):
+    Date: 2022-06-06
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1167
+
+✓ DUPLICATE FOUND (#316)
+  Amount: $-58.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-06-03
+    Description: Pwp AMZN Mktp US*WQ4DC8MB3
+    Row: 1155
+  REMOVED (Wells Fargo):
+    Date: 2022-06-06
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1165
+
+✓ DUPLICATE FOUND (#317)
+  Amount: $-193.04
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-05
+    Description: Pwp Amazon.com*A09TS5JY3
+    Row: 1157
+  REMOVED (Wells Fargo):
+    Date: 2022-06-06
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1168
+
+✓ DUPLICATE FOUND (#318)
+  Amount: $-268.07
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-06-06
+    Description: Pwp AMZN Mktp US*1644A5TC3
+    Row: 1170
+  REMOVED (Wells Fargo):
+    Date: 2022-06-06
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1169
+
+✓ DUPLICATE FOUND (#319)
+  Amount: $-18.22
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-07
+    Description: Pwp AMZN Mktp US*RL4KI99C3
+    Row: 1174
+  REMOVED (Wells Fargo):
+    Date: 2022-06-09
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1190
+
+✓ DUPLICATE FOUND (#320)
+  Amount: $-87.12
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-08
+    Description: Pwp Amazon.com*NK8Y56I53
+    Row: 1186
+  REMOVED (Wells Fargo):
+    Date: 2022-06-09
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1193
+
+✓ DUPLICATE FOUND (#321)
+  Amount: $-273.70
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-08
+    Description: Pwp HEROKU APR-65662093
+    Row: 1187
+  REMOVED (Wells Fargo):
+    Date: 2022-06-09
+    Description: Pwp Heroku Apr- Privacycom
+    Row: 1195
+
+✓ DUPLICATE FOUND (#322)
+  Amount: $-10.71
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-06-09
+    Description: Pwp AMZN Mktp US*M09J72NV3
+    Row: 1198
+  REMOVED (Wells Fargo):
+    Date: 2022-06-13
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1227
+
+✓ DUPLICATE FOUND (#323)
+  Amount: $-10.71
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-11-10
+    Description: Pwp AMZN Mktp US*HB07F9J41
+    Row: 2270
+  REMOVED (Wells Fargo):
+    Date: 2022-11-14
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2296
+
+✓ DUPLICATE FOUND (#324)
+  Amount: $-145.80
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-09
+    Description: Pwp HEROKU MAY-67065285
+    Row: 1200
+  REMOVED (Wells Fargo):
+    Date: 2022-06-10
+    Description: Pwp Heroku May- Privacycom
+    Row: 1209
+
+✓ DUPLICATE FOUND (#325)
+  Amount: $-76.00
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-06-10
+    Description: Pwp GOOGLE *Domains
+    Row: 1211
+  REMOVED (Wells Fargo):
+    Date: 2022-06-13
+    Description: Pwp Google *Dom Privacycom
+    Row: 1228
+
+✓ DUPLICATE FOUND (#326)
+  Amount: $-135.87
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-06-10
+    Description: Pwp Amazon.com*4G2D87PA3
+    Row: 1212
+  REMOVED (Wells Fargo):
+    Date: 2022-06-13
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1229
+
+✓ DUPLICATE FOUND (#327)
+  Amount: $-118.81
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-12
+    Description: Pwp Amazon.com*CK2223V93
+    Row: 1214
+  REMOVED (Wells Fargo):
+    Date: 2022-06-14
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1238
+
+✓ DUPLICATE FOUND (#328)
+  Amount: $-23.19
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-13
+    Description: Pwp AMAZON.COM*P34UK0YI3 AMZN
+    Row: 1230
+  REMOVED (Wells Fargo):
+    Date: 2022-06-14
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1237
+
+✓ DUPLICATE FOUND (#329)
+  Amount: $-71.25
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-13
+    Description: Pwp AMAZON.COM*JI2L14873 AMZN
+    Row: 1231
+  REMOVED (Wells Fargo):
+    Date: 2022-06-15
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1246
+
+✓ DUPLICATE FOUND (#330)
+  Amount: $-8.47
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-13
+    Description: Pwp AMZN Mktp US*T34GN6WY3
+    Row: 1232
+  REMOVED (Wells Fargo):
+    Date: 2022-06-15
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1245
+
+✓ DUPLICATE FOUND (#331)
+  Amount: $-111.89
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-06-17
+    Description: Pwp Amazon.com*9082U8F23
+    Row: 1261
+  REMOVED (Wells Fargo):
+    Date: 2022-06-17
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1260
+
+✓ DUPLICATE FOUND (#332)
+  Amount: $-114.89
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-06-18
+    Description: Pwp Amazon.com*BE7MU6A63
+    Row: 1263
+  REMOVED (Wells Fargo):
+    Date: 2022-06-21
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1283
+
+✓ DUPLICATE FOUND (#333)
+  Amount: $-116.25
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-19
+    Description: Pwp Amazon.com*198601RC0
+    Row: 1264
+  REMOVED (Wells Fargo):
+    Date: 2022-06-21
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1284
+
+✓ DUPLICATE FOUND (#334)
+  Amount: $-395.75
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-06-21
+    Description: Pwp AMZN Mktp US*R65RJ0JA3
+    Row: 1288
+  REMOVED (Wells Fargo):
+    Date: 2022-06-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1286
+
+✓ DUPLICATE FOUND (#335)
+  Amount: $-82.01
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-21
+    Description: Pwp Amazon.com*ED8HB8J13
+    Row: 1287
+  REMOVED (Wells Fargo):
+    Date: 2022-06-22
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1291
+
+✓ DUPLICATE FOUND (#336)
+  Amount: $-113.65
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-22
+    Description: Pwp AMZN Mktp US*A82238223
+    Row: 1293
+  REMOVED (Wells Fargo):
+    Date: 2022-06-24
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1303
+
+✓ DUPLICATE FOUND (#337)
+  Amount: $-46.46
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-06-23
+    Description: Pwp AMZN Mktp US*CT5TB5323
+    Row: 1298
+  REMOVED (Wells Fargo):
+    Date: 2022-06-27
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1318
+
+✓ DUPLICATE FOUND (#338)
+  Amount: $-125.28
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-25
+    Description: Pwp Amazon.com*UF4YQ7VK3
+    Row: 1304
+  REMOVED (Wells Fargo):
+    Date: 2022-06-27
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1321
+
+✓ DUPLICATE FOUND (#339)
+  Amount: $-52.52
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-26
+    Description: Pwp AMZN Mktp US*6D8V47LC3
+    Row: 1306
+  REMOVED (Wells Fargo):
+    Date: 2022-06-27
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1320
+
+✓ DUPLICATE FOUND (#340)
+  Amount: $-34.09
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-26
+    Description: Pwp AMZN Mktp US*GC3RE0573
+    Row: 1307
+  REMOVED (Wells Fargo):
+    Date: 2022-06-27
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1317
+
+✓ DUPLICATE FOUND (#341)
+  Amount: $-51.36
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-26
+    Description: Pwp Amazon.com*1Q84G4WW3
+    Row: 1308
+  REMOVED (Wells Fargo):
+    Date: 2022-06-27
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1319
+
+✓ DUPLICATE FOUND (#342)
+  Amount: $-28.95
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-27
+    Description: Pwp AMZN Mktp US*8J4KH5PV3
+    Row: 1324
+  REMOVED (Wells Fargo):
+    Date: 2022-06-28
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1330
+
+✓ DUPLICATE FOUND (#343)
+  Amount: $-78.70
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-27
+    Description: Pwp AMZN Mktp US*YM2HH49S3
+    Row: 1325
+  REMOVED (Wells Fargo):
+    Date: 2022-06-28
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1331
+
+✓ DUPLICATE FOUND (#344)
+  Amount: $-146.37
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-27
+    Description: Pwp Amazon.com*9H52L23W3
+    Row: 1326
+  REMOVED (Wells Fargo):
+    Date: 2022-06-28
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1332
+
+✓ DUPLICATE FOUND (#345)
+  Amount: $-15.22
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-27
+    Description: Pwp Amazon.com*RB4IB60W3
+    Row: 1327
+  REMOVED (Wells Fargo):
+    Date: 2022-06-29
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1339
+
+✓ DUPLICATE FOUND (#346)
+  Amount: $-136.20
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-06-28
+    Description: Pwp AMZN MKTP US*SB3UK4UQ3 AM
+    Row: 1334
+  REMOVED (Wells Fargo):
+    Date: 2022-07-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1358
+
+✓ DUPLICATE FOUND (#347)
+  Amount: $-110.11
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-06-28
+    Description: Pwp Amazon.com*TH0B38ZX3
+    Row: 1336
+  REMOVED (Wells Fargo):
+    Date: 2022-06-30
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1346
+
+✓ DUPLICATE FOUND (#348)
+  Amount: $-231.73
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-06-30
+    Description: Pwp Amazon.com*Q47O24RE3
+    Row: 1348
+  REMOVED (Wells Fargo):
+    Date: 2022-07-01
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1359
+
+✓ DUPLICATE FOUND (#349)
+  Amount: $-87.17
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-07-01
+    Description: Pwp AMZN Mktp US*5W6978ZW3
+    Row: 1351
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1383
+
+✓ DUPLICATE FOUND (#350)
+  Amount: $-140.36
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-07-01
+    Description: Pwp Amazon.com*RE10Q7Q33
+    Row: 1353
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1386
+
+✓ DUPLICATE FOUND (#351)
+  Amount: $-7.28
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-03
+    Description: Pwp Amazon.com*LW4LQ88W3
+    Row: 1362
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1380
+
+✓ DUPLICATE FOUND (#352)
+  Amount: $-108.11
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-03
+    Description: Pwp AMZN Mktp US*DL3WY0PY3
+    Row: 1363
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1385
+
+✓ DUPLICATE FOUND (#353)
+  Amount: $-41.08
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-03
+    Description: Pwp Amazon.com*TV4OY4WY3
+    Row: 1364
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1382
+
+✓ DUPLICATE FOUND (#354)
+  Amount: $-328.16
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-03
+    Description: Pwp AMZN Mktp US*0A5VP87A3
+    Row: 1365
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1388
+
+✓ DUPLICATE FOUND (#355)
+  Amount: $-171.54
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-04
+    Description: Pwp AMZN Mktp US*QC1EF2CW3
+    Row: 1366
+  REMOVED (Wells Fargo):
+    Date: 2022-07-05
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1387
+
+✓ DUPLICATE FOUND (#356)
+  Amount: $-25.70
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-05
+    Description: Pwp AMAZON.COM*DJ3MT4GP3 AMZN
+    Row: 1367
+  REMOVED (Wells Fargo):
+    Date: 2022-07-07
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1406
+
+✓ DUPLICATE FOUND (#357)
+  Amount: $-89.85
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-05
+    Description: Pwp Amazon.com*1M72A0WE3
+    Row: 1368
+  REMOVED (Wells Fargo):
+    Date: 2022-07-07
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1408
+
+✓ DUPLICATE FOUND (#358)
+  Amount: $-52.42
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-06
+    Description: Pwp AMZN Mktp US*6D9A20VY3
+    Row: 1390
+  REMOVED (Wells Fargo):
+    Date: 2022-07-08
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1421
+
+✓ DUPLICATE FOUND (#359)
+  Amount: $-44.34
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-06
+    Description: Pwp AMZN MKTP US*1S03Q17J3 AM
+    Row: 1391
+  REMOVED (Wells Fargo):
+    Date: 2022-07-08
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1420
+
+✓ DUPLICATE FOUND (#360)
+  Amount: $-164.07
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-06
+    Description: Pwp AMZN Mktp US*SM6852J53
+    Row: 1392
+  REMOVED (Wells Fargo):
+    Date: 2022-07-08
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1423
+
+✓ DUPLICATE FOUND (#361)
+  Amount: $-121.23
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-07
+    Description: Pwp Amazon.com*1Q1HI8F63
+    Row: 1402
+  REMOVED (Wells Fargo):
+    Date: 2022-07-08
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1422
+
+✓ DUPLICATE FOUND (#362)
+  Amount: $-11.19
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-07-07
+    Description: Pwp AMAZON.COM*1Q7YQ48T3 AMZN
+    Row: 1404
+  REMOVED (Wells Fargo):
+    Date: 2022-07-11
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1435
+
+✓ DUPLICATE FOUND (#363)
+  Amount: $-588.79
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-07-08
+    Description: Pwp AMZN Mktp US*7G26R0793
+    Row: 1410
+  REMOVED (Wells Fargo):
+    Date: 2022-07-11
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1441
+
+✓ DUPLICATE FOUND (#364)
+  Amount: $-105.77
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-09
+    Description: Pwp AMAZON.COM*JI35W8MF3 AMZN
+    Row: 1424
+  REMOVED (Wells Fargo):
+    Date: 2022-07-11
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1440
+
+✓ DUPLICATE FOUND (#365)
+  Amount: $-12.84
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-09
+    Description: Pwp AMZN Mktp US*RL6P91DU3
+    Row: 1425
+  REMOVED (Wells Fargo):
+    Date: 2022-07-11
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1436
+
+✓ DUPLICATE FOUND (#366)
+  Amount: $-12.84
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-19
+    Description: Pwp AMAZON.COM*HI6N78U91 AMZN
+    Row: 2344
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2358
+
+✓ DUPLICATE FOUND (#367)
+  Amount: $-65.41
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-09
+    Description: Pwp AMZN Mktp US*WG73K9X03
+    Row: 1426
+  REMOVED (Wells Fargo):
+    Date: 2022-07-11
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1439
+
+✓ DUPLICATE FOUND (#368)
+  Amount: $-85.76
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-10
+    Description: Pwp AMZN Mktp US*L56HJ89F3
+    Row: 1427
+  REMOVED (Wells Fargo):
+    Date: 2022-07-12
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1450
+
+✓ DUPLICATE FOUND (#369)
+  Amount: $-117.93
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-07-11
+    Description: Pwp Amazon.com*406AU98E3
+    Row: 1428
+  REMOVED (Wells Fargo):
+    Date: 2022-07-11
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1442
+
+✓ DUPLICATE FOUND (#370)
+  Amount: $-338.81
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-07-12
+    Description: Pwp Amazon.com*QH7OB9TN3
+    Row: 1443
+  REMOVED (Wells Fargo):
+    Date: 2022-07-12
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1452
+
+✓ DUPLICATE FOUND (#371)
+  Amount: $-117.09
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-12
+    Description: Pwp HEROKU JUN-68484917
+    Row: 1445
+  REMOVED (Wells Fargo):
+    Date: 2022-07-14
+    Description: Pwp Heroku Jun- Privacycom
+    Row: 1461
+
+✓ DUPLICATE FOUND (#372)
+  Amount: $-276.50
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-12
+    Description: Pwp HEROKU JUN-68489025
+    Row: 1446
+  REMOVED (Wells Fargo):
+    Date: 2022-07-13
+    Description: Pwp Heroku Jun- Privacycom
+    Row: 1455
+
+✓ DUPLICATE FOUND (#373)
+  Amount: $-37.53
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-12
+    Description: Pwp AMZN Mktp US*LZ50U4W93
+    Row: 1447
+  REMOVED (Wells Fargo):
+    Date: 2022-07-14
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1460
+
+✓ DUPLICATE FOUND (#374)
+  Amount: $-37.53
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-11-17
+    Description: Pwp AMZN Mktp US*HI2A644K2
+    Row: 2324
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2362
+
+✓ DUPLICATE FOUND (#375)
+  Amount: $-92.84
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-07-15
+    Description: Pwp Amazon.com*2O7E55B23
+    Row: 1462
+  REMOVED (Wells Fargo):
+    Date: 2022-07-18
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1481
+
+✓ DUPLICATE FOUND (#376)
+  Amount: $-42.70
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-17
+    Description: Pwp AMZN MKTP US*AW31C0P63 AM
+    Row: 1469
+  REMOVED (Wells Fargo):
+    Date: 2022-07-19
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1490
+
+✓ DUPLICATE FOUND (#377)
+  Amount: $-124.61
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-07-17
+    Description: Pwp AMZN MKTP US*EC9M01073 AM
+    Row: 1470
+  REMOVED (Wells Fargo):
+    Date: 2022-07-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1501
+
+✓ DUPLICATE FOUND (#378)
+  Amount: $-2.05
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-18
+    Description: Pwp Amazon.com*XU2A29DO3
+    Row: 1471
+  REMOVED (Wells Fargo):
+    Date: 2022-07-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1488
+
+✓ DUPLICATE FOUND (#379)
+  Amount: $-2.40
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-18
+    Description: Pwp Amazon.com*SV43X2ME3
+    Row: 1472
+  REMOVED (Wells Fargo):
+    Date: 2022-07-20
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1496
+
+✓ DUPLICATE FOUND (#380)
+  Amount: $-11.66
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-18
+    Description: Pwp AMAZON.COM*KT9TZ9PL3 AMZN
+    Row: 1473
+  REMOVED (Wells Fargo):
+    Date: 2022-07-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1489
+
+✓ DUPLICATE FOUND (#381)
+  Amount: $-450.44
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-07-19
+    Description: Pwp AMZN Mktp US*862CT5FE3
+    Row: 1483
+  REMOVED (Wells Fargo):
+    Date: 2022-07-19
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1491
+
+✓ DUPLICATE FOUND (#382)
+  Amount: $-48.85
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-19
+    Description: Pwp AMAZON.COM*H01RE8QH3 AMZN
+    Row: 1484
+  REMOVED (Wells Fargo):
+    Date: 2022-07-21
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1500
+
+✓ DUPLICATE FOUND (#383)
+  Amount: $-106.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-19
+    Description: Pwp Amazon.com*W70IX1O13
+    Row: 1485
+  REMOVED (Wells Fargo):
+    Date: 2022-07-20
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1497
+
+✓ DUPLICATE FOUND (#384)
+  Amount: $-12.76
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-07-20
+    Description: Pwp AMZN MKTP US*FU3QD8SU3 AM
+    Row: 1492
+  REMOVED (Wells Fargo):
+    Date: 2022-07-25
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1511
+
+✓ DUPLICATE FOUND (#385)
+  Amount: $-129.30
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-23
+    Description: Pwp Amazon.com*WZ5FP6UI3
+    Row: 1506
+  REMOVED (Wells Fargo):
+    Date: 2022-07-25
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1513
+
+✓ DUPLICATE FOUND (#386)
+  Amount: $-118.85
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-24
+    Description: Pwp Amazon.com*282WM4N33
+    Row: 1507
+  REMOVED (Wells Fargo):
+    Date: 2022-07-25
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1514
+
+✓ DUPLICATE FOUND (#387)
+  Amount: $-45.60
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-26
+    Description: Pwp Amazon.com*CS11J16M3
+    Row: 1516
+  REMOVED (Wells Fargo):
+    Date: 2022-07-27
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1524
+
+✓ DUPLICATE FOUND (#388)
+  Amount: $-141.76
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-07-28
+    Description: Pwp Amazon.com*TE8HZ6AA3
+    Row: 1526
+  REMOVED (Wells Fargo):
+    Date: 2022-07-29
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1535
+
+✓ DUPLICATE FOUND (#389)
+  Amount: $-79.09
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-07-29
+    Description: Pwp Amazon.com*MS03M4IK3
+    Row: 1530
+  REMOVED (Wells Fargo):
+    Date: 2022-08-01
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1566
+
+✓ DUPLICATE FOUND (#390)
+  Amount: $-92.35
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-07-29
+    Description: Pwp Amazon.com*OD5TF01V3
+    Row: 1531
+  REMOVED (Wells Fargo):
+    Date: 2022-08-01
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1567
+
+✓ DUPLICATE FOUND (#391)
+  Amount: $-101.98
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-30
+    Description: Pwp AMZN Mktp US*VD0ZJ5HS3
+    Row: 1539
+  REMOVED (Wells Fargo):
+    Date: 2022-08-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1568
+
+✓ DUPLICATE FOUND (#392)
+  Amount: $-10.66
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-30
+    Description: Pwp AMZN Mktp US*143RL1RB3
+    Row: 1540
+  REMOVED (Wells Fargo):
+    Date: 2022-08-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1562
+
+✓ DUPLICATE FOUND (#393)
+  Amount: $-10.66
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-08
+    Description: Pwp AMAZON.COM*NM5BN0J83 AMZN
+    Row: 2508
+  REMOVED (Wells Fargo):
+    Date: 2022-12-09
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2525
+
+✓ DUPLICATE FOUND (#394)
+  Amount: $-26.51
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-30
+    Description: Pwp DNH*GODADDY.COM
+    Row: 1541
+  REMOVED (Wells Fargo):
+    Date: 2022-08-01
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 1564
+
+✓ DUPLICATE FOUND (#395)
+  Amount: $-21.33
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-30
+    Description: Pwp AMAZON.COM*WY1FP7UW3 AMZN
+    Row: 1544
+  REMOVED (Wells Fargo):
+    Date: 2022-08-01
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1563
+
+✓ DUPLICATE FOUND (#396)
+  Amount: $-263.81
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-31
+    Description: Pwp AMZN Mktp US*925RQ7KB3
+    Row: 1545
+  REMOVED (Wells Fargo):
+    Date: 2022-08-02
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1576
+
+✓ DUPLICATE FOUND (#397)
+  Amount: $-49.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-07-31
+    Description: Pwp DNH*GODADDY.COM
+    Row: 1546
+  REMOVED (Wells Fargo):
+    Date: 2022-08-02
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 1573
+
+✓ DUPLICATE FOUND (#398)
+  Amount: $-106.80
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-08-01
+    Description: Pwp Amazon.com*UQ1P67LW3
+    Row: 1548
+  REMOVED (Wells Fargo):
+    Date: 2022-08-02
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1574
+
+✓ DUPLICATE FOUND (#399)
+  Amount: $-278.09
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-08-01
+    Description: Pwp HEROKU MAY-67068860
+    Row: 1549
+  REMOVED (Wells Fargo):
+    Date: 2022-08-02
+    Description: Pwp Heroku May- Privacycom
+    Row: 1577
+
+✓ DUPLICATE FOUND (#400)
+  Amount: $-66.82
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-01
+    Description: Pwp AMZN Mktp US*6P73P4O23
+    Row: 1550
+  REMOVED (Wells Fargo):
+    Date: 2022-08-03
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1582
+
+✓ DUPLICATE FOUND (#401)
+  Amount: $-64.35
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-08-02
+    Description: Pwp Amazon.com*3P2RE6F53
+    Row: 1569
+  REMOVED (Wells Fargo):
+    Date: 2022-08-03
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1581
+
+✓ DUPLICATE FOUND (#402)
+  Amount: $-295.42
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-08-03
+    Description: Pwp Amazon.com*L19EO0NE3
+    Row: 1578
+  REMOVED (Wells Fargo):
+    Date: 2022-08-04
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1589
+
+✓ DUPLICATE FOUND (#403)
+  Amount: $-44.94
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-06
+    Description: Pwp Amazon.com*HF0JB7ZI3
+    Row: 1597
+  REMOVED (Wells Fargo):
+    Date: 2022-08-08
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1606
+
+✓ DUPLICATE FOUND (#404)
+  Amount: $0.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-07
+    Description: Pwp Amazon.com
+    Row: 1598
+  REMOVED (Wells Fargo):
+    Date: 2022-08-09
+    Description: Pwp Amazon.Com Privacycom
+    Row: 1610
+
+✓ DUPLICATE FOUND (#405)
+  Amount: $-119.22
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-09
+    Description: Pwp HEROKU JUL-69953635
+    Row: 1607
+  REMOVED (Wells Fargo):
+    Date: 2022-08-11
+    Description: Pwp Heroku Jul- Privacycom
+    Row: 1621
+
+✓ DUPLICATE FOUND (#406)
+  Amount: $-123.38
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-09
+    Description: Pwp HEROKU JUL-69916631
+    Row: 1608
+  REMOVED (Wells Fargo):
+    Date: 2022-08-11
+    Description: Pwp Heroku Jul- Privacycom
+    Row: 1622
+
+✓ DUPLICATE FOUND (#407)
+  Amount: $-149.13
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-09
+    Description: Pwp Amazon.com*Z28BI7BM3
+    Row: 1609
+  REMOVED (Wells Fargo):
+    Date: 2022-08-11
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1623
+
+✓ DUPLICATE FOUND (#408)
+  Amount: $-257.39
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-10
+    Description: Pwp AMZN Mktp US*DW94M1913
+    Row: 1616
+  REMOVED (Wells Fargo):
+    Date: 2022-08-12
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1633
+
+✓ DUPLICATE FOUND (#409)
+  Amount: $-17.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-10
+    Description: Pwp DNH*GODADDY.COM
+    Row: 1617
+  REMOVED (Wells Fargo):
+    Date: 2022-08-12
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 1632
+
+✓ DUPLICATE FOUND (#410)
+  Amount: $-139.68
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-13
+    Description: Pwp Amazon.com*UG4S67BV3
+    Row: 1634
+  REMOVED (Wells Fargo):
+    Date: 2022-08-15
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1643
+
+✓ DUPLICATE FOUND (#411)
+  Amount: $-135.07
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-08-15
+    Description: Pwp Amazon.com*SR0XP5353
+    Row: 1636
+  REMOVED (Wells Fargo):
+    Date: 2022-08-16
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1653
+
+✓ DUPLICATE FOUND (#412)
+  Amount: $-193.90
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-08-18
+    Description: Pwp Amazon.com*6U73M4WK3
+    Row: 1662
+  REMOVED (Wells Fargo):
+    Date: 2022-08-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1672
+
+✓ DUPLICATE FOUND (#413)
+  Amount: $3.73
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-08-19
+    Description: Pwp Amazon.com
+    Row: 1668
+  REMOVED (Wells Fargo):
+    Date: 2022-08-22
+    Description: Pwp Amazon.Com Privacycom
+    Row: 1675
+
+✓ DUPLICATE FOUND (#414)
+  Amount: $-156.17
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-08-26
+    Description: Pwp Amazon.com*ZO8KV7AN3
+    Row: 1709
+  REMOVED (Wells Fargo):
+    Date: 2022-08-26
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1718
+
+✓ DUPLICATE FOUND (#415)
+  Amount: $21.44
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-27
+    Description: Pwp AMZN Mktp US
+    Row: 1719
+  REMOVED (Wells Fargo):
+    Date: 2022-08-29
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1724
+
+✓ DUPLICATE FOUND (#416)
+  Amount: $-2.17
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-08-28
+    Description: Pwp DNH*GODADDY.COM
+    Row: 1722
+  REMOVED (Wells Fargo):
+    Date: 2022-08-30
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 1742
+
+✓ DUPLICATE FOUND (#417)
+  Amount: $-90.09
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-09-01
+    Description: Pwp Amazon.com*FY5OA5DC3
+    Row: 1752
+  REMOVED (Wells Fargo):
+    Date: 2022-09-02
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1766
+
+✓ DUPLICATE FOUND (#418)
+  Amount: $-161.62
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-09-02
+    Description: Pwp Amazon.com*BM54188L3
+    Row: 1762
+  REMOVED (Wells Fargo):
+    Date: 2022-09-06
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1792
+
+✓ DUPLICATE FOUND (#419)
+  Amount: $-25.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-04
+    Description: Pwp FIRESHIP PRO
+    Row: 1768
+  REMOVED (Wells Fargo):
+    Date: 2022-09-06
+    Description: Pwp Fireship PR Privacycom
+    Row: 1790
+
+✓ DUPLICATE FOUND (#420)
+  Amount: $-9.63
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-04
+    Description: Pwp DNH*GODADDY.COM
+    Row: 1769
+  REMOVED (Wells Fargo):
+    Date: 2022-09-06
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 1788
+
+✓ DUPLICATE FOUND (#421)
+  Amount: $-9.63
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-10-06
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2023
+  REMOVED (Wells Fargo):
+    Date: 2022-10-11
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2070
+
+✓ DUPLICATE FOUND (#422)
+  Amount: $-9.63
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-30
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2192
+  REMOVED (Wells Fargo):
+    Date: 2022-11-01
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2214
+
+✓ DUPLICATE FOUND (#423)
+  Amount: $-9.63
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-19
+    Description: Pwp Amazon.com*HI43U1SG1
+    Row: 2340
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2354
+
+✓ DUPLICATE FOUND (#424)
+  Amount: $-83.87
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-09-09
+    Description: Pwp Amazon.com*1V68P0R02
+    Row: 1813
+  REMOVED (Wells Fargo):
+    Date: 2022-09-12
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1849
+
+✓ DUPLICATE FOUND (#425)
+  Amount: $-57.91
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-10
+    Description: Pwp AMAZON.COM*1F6WD9J02 AMZN
+    Row: 1823
+  REMOVED (Wells Fargo):
+    Date: 2022-09-12
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1848
+
+✓ DUPLICATE FOUND (#426)
+  Amount: $-102.13
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-12
+    Description: Pwp HEROKU AUG-71424397
+    Row: 1826
+  REMOVED (Wells Fargo):
+    Date: 2022-09-14
+    Description: Pwp Heroku Aug- Privacycom
+    Row: 1865
+
+✓ DUPLICATE FOUND (#427)
+  Amount: $-265.92
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-09-12
+    Description: Pwp HEROKU AUG-71364803
+    Row: 1827
+  REMOVED (Wells Fargo):
+    Date: 2022-09-13
+    Description: Pwp Heroku Aug- Privacycom
+    Row: 1857
+
+✓ DUPLICATE FOUND (#428)
+  Amount: $-144.12
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-09-13
+    Description: Pwp Amazon.com*1M4SR5ZX1
+    Row: 1852
+  REMOVED (Wells Fargo):
+    Date: 2022-09-14
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1866
+
+✓ DUPLICATE FOUND (#429)
+  Amount: $-130.06
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-13
+    Description: Pwp AMZN MKTP US*1F0SD3WG0 AM
+    Row: 1853
+  REMOVED (Wells Fargo):
+    Date: 2022-09-15
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1872
+
+✓ DUPLICATE FOUND (#430)
+  Amount: $-122.49
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-14
+    Description: Pwp Amazon.com*1M2YN2G51
+    Row: 1861
+  REMOVED (Wells Fargo):
+    Date: 2022-09-16
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1881
+
+✓ DUPLICATE FOUND (#431)
+  Amount: $-45.67
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-09-15
+    Description: Pwp Amazon.com*1F17X39K2
+    Row: 1867
+  REMOVED (Wells Fargo):
+    Date: 2022-09-16
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1880
+
+✓ DUPLICATE FOUND (#432)
+  Amount: $-26.80
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-18
+    Description: Pwp DNH*GODADDY.COM
+    Row: 1884
+  REMOVED (Wells Fargo):
+    Date: 2022-09-20
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 1907
+
+✓ DUPLICATE FOUND (#433)
+  Amount: $-107.16
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-09-19
+    Description: Pwp Amazon.com*1M10C4U91
+    Row: 1885
+  REMOVED (Wells Fargo):
+    Date: 2022-09-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1901
+
+✓ DUPLICATE FOUND (#434)
+  Amount: $-19.50
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-19
+    Description: Pwp AMZN MKTP US*1M3XZ2VM2 AM
+    Row: 1886
+  REMOVED (Wells Fargo):
+    Date: 2022-09-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1919
+
+✓ DUPLICATE FOUND (#435)
+  Amount: $-49.98
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-25
+    Description: Pwp DNH*GODADDY.COM
+    Row: 1930
+  REMOVED (Wells Fargo):
+    Date: 2022-09-27
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 1947
+
+✓ DUPLICATE FOUND (#436)
+  Amount: $-72.49
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-26
+    Description: Pwp Amazon.com*1U4TN9D80
+    Row: 1931
+  REMOVED (Wells Fargo):
+    Date: 2022-09-28
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 1957
+
+✓ DUPLICATE FOUND (#437)
+  Amount: $-62.19
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-26
+    Description: Pwp AMZN Mktp US*1U3MX47P1
+    Row: 1932
+  REMOVED (Wells Fargo):
+    Date: 2022-09-28
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1956
+
+✓ DUPLICATE FOUND (#438)
+  Amount: $-80.48
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-09-27
+    Description: Pwp AMZN Mktp US*1U0RL8I91
+    Row: 1942
+  REMOVED (Wells Fargo):
+    Date: 2022-09-29
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 1963
+
+✓ DUPLICATE FOUND (#439)
+  Amount: $-102.94
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-10-03
+    Description: Pwp Amazon.com*140JO6HI1
+    Row: 1996
+  REMOVED (Wells Fargo):
+    Date: 2022-10-04
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2008
+
+✓ DUPLICATE FOUND (#440)
+  Amount: $-10.61
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-10-03
+    Description: Pwp AMAZON.COM*142188HS1 AMZN
+    Row: 1997
+  REMOVED (Wells Fargo):
+    Date: 2022-10-04
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2007
+
+✓ DUPLICATE FOUND (#441)
+  Amount: $-104.09
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-10-10
+    Description: Pwp HEROKU SEP-72892551
+    Row: 2029
+  REMOVED (Wells Fargo):
+    Date: 2022-10-11
+    Description: Pwp Heroku SEP- Privacycom
+    Row: 2073
+
+✓ DUPLICATE FOUND (#442)
+  Amount: $-258.53
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-10-10
+    Description: Pwp HEROKU SEP-72825340
+    Row: 2030
+  REMOVED (Wells Fargo):
+    Date: 2022-10-11
+    Description: Pwp Heroku SEP- Privacycom
+    Row: 2074
+
+✓ DUPLICATE FOUND (#443)
+  Amount: $-30.03
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-10
+    Description: Pwp AMAZON.COM*1K70L57C1 AMZN
+    Row: 2031
+  REMOVED (Wells Fargo):
+    Date: 2022-10-12
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2085
+
+✓ DUPLICATE FOUND (#444)
+  Amount: $-30.03
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-18
+    Description: Pwp AMZN Mktp US*ZN2XT9JS3
+    Row: 2602
+  REMOVED (Wells Fargo):
+    Date: 2022-12-20
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2643
+
+✓ DUPLICATE FOUND (#445)
+  Amount: $-42.46
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-10
+    Description: Pwp AMZN Mktp US*1K71G91A2
+    Row: 2032
+  REMOVED (Wells Fargo):
+    Date: 2022-10-12
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2086
+
+✓ DUPLICATE FOUND (#446)
+  Amount: $-92.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-11
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 2075
+  REMOVED (Wells Fargo):
+    Date: 2022-10-13
+    Description: Pwp Google*Doma Privacycom
+    Row: 2092
+
+✓ DUPLICATE FOUND (#447)
+  Amount: $-11.17
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-10-13
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2094
+  REMOVED (Wells Fargo):
+    Date: 2022-10-17
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2120
+
+✓ DUPLICATE FOUND (#448)
+  Amount: $-93.29
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-10-14
+    Description: Pwp AMZN Mktp US*HT9514201
+    Row: 2099
+  REMOVED (Wells Fargo):
+    Date: 2022-10-18
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2126
+
+✓ DUPLICATE FOUND (#449)
+  Amount: $-23.80
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-15
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2101
+  REMOVED (Wells Fargo):
+    Date: 2022-10-17
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2121
+
+✓ DUPLICATE FOUND (#450)
+  Amount: $-13.15
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-16
+    Description: Pwp AMZN Mktp US*HT1618WB0
+    Row: 2102
+  REMOVED (Wells Fargo):
+    Date: 2022-10-18
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2125
+
+✓ DUPLICATE FOUND (#451)
+  Amount: $-29.12
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-17
+    Description: Pwp Amazon.com*HT4Q54RB1
+    Row: 2122
+  REMOVED (Wells Fargo):
+    Date: 2022-10-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2127
+
+✓ DUPLICATE FOUND (#452)
+  Amount: $-130.33
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-10-21
+    Description: Pwp Amazon.com*HT4473KK2
+    Row: 2142
+  REMOVED (Wells Fargo):
+    Date: 2022-10-24
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2161
+
+✓ DUPLICATE FOUND (#453)
+  Amount: $-27.87
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-25
+    Description: Pwp AMZN Mktp US*H87Y55MM2
+    Row: 2168
+  REMOVED (Wells Fargo):
+    Date: 2022-10-27
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2179
+
+✓ DUPLICATE FOUND (#454)
+  Amount: $-31.06
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-10-25
+    Description: Pwp AMAZON.COM*H067Y6Z91 AMZN
+    Row: 2169
+  REMOVED (Wells Fargo):
+    Date: 2022-10-28
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2183
+
+✓ DUPLICATE FOUND (#455)
+  Amount: $-40.28
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-26
+    Description: Pwp AMZN Mktp US*H09XF21S0
+    Row: 2175
+  REMOVED (Wells Fargo):
+    Date: 2022-10-28
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2184
+
+✓ DUPLICATE FOUND (#456)
+  Amount: $-99.47
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-10-28
+    Description: Pwp Amazon.com*H07OX40T1
+    Row: 2185
+  REMOVED (Wells Fargo):
+    Date: 2022-10-31
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2201
+
+✓ DUPLICATE FOUND (#457)
+  Amount: $-428.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-29
+    Description: Pwp AMZN Mktp US*H04UV4IP0
+    Row: 2187
+  REMOVED (Wells Fargo):
+    Date: 2022-10-31
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2204
+
+✓ DUPLICATE FOUND (#458)
+  Amount: $-299.23
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-29
+    Description: Pwp Amazon.com*H02R46H31
+    Row: 2188
+  REMOVED (Wells Fargo):
+    Date: 2022-10-31
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2203
+
+✓ DUPLICATE FOUND (#459)
+  Amount: $-42.45
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-29
+    Description: Pwp Amazon.com*H012C1H21
+    Row: 2189
+  REMOVED (Wells Fargo):
+    Date: 2022-10-31
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2199
+
+✓ DUPLICATE FOUND (#460)
+  Amount: $-66.48
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-29
+    Description: Pwp AMZN MKTP US*H05VC0FN2 AM
+    Row: 2190
+  REMOVED (Wells Fargo):
+    Date: 2022-10-31
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2200
+
+✓ DUPLICATE FOUND (#461)
+  Amount: $-24.17
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-10-30
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2191
+  REMOVED (Wells Fargo):
+    Date: 2022-10-31
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2198
+
+✓ DUPLICATE FOUND (#462)
+  Amount: $-70.58
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-31
+    Description: Pwp AMZN Mktp US*H00IU1KU1
+    Row: 2206
+  REMOVED (Wells Fargo):
+    Date: 2022-11-02
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2226
+
+✓ DUPLICATE FOUND (#463)
+  Amount: $-13.84
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-10-31
+    Description: Pwp AMZN Mktp US*H09P41KY1
+    Row: 2207
+  REMOVED (Wells Fargo):
+    Date: 2022-11-02
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2224
+
+✓ DUPLICATE FOUND (#464)
+  Amount: $-15.92
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-02
+    Description: Pwp AMZN Mktp US*H06PD4H52
+    Row: 2219
+  REMOVED (Wells Fargo):
+    Date: 2022-11-04
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2236
+
+✓ DUPLICATE FOUND (#465)
+  Amount: $-21.38
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-02
+    Description: Pwp Amazon.com*H22ME2LZ1
+    Row: 2220
+  REMOVED (Wells Fargo):
+    Date: 2022-11-04
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2238
+
+✓ DUPLICATE FOUND (#466)
+  Amount: $-17.15
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-02
+    Description: Pwp AMZN Mktp US*H22PB24M1
+    Row: 2221
+  REMOVED (Wells Fargo):
+    Date: 2022-11-04
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2237
+
+✓ DUPLICATE FOUND (#467)
+  Amount: $-22.52
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-11-03
+    Description: Pwp AMZN Mktp US*H27TE3MK0
+    Row: 2227
+  REMOVED (Wells Fargo):
+    Date: 2022-11-07
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2255
+
+✓ DUPLICATE FOUND (#468)
+  Amount: $-68.62
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-06
+    Description: Pwp AMZN Mktp US*H25MJ6FU2
+    Row: 2242
+  REMOVED (Wells Fargo):
+    Date: 2022-11-08
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2259
+
+✓ DUPLICATE FOUND (#469)
+  Amount: $-75.04
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-07
+    Description: Pwp AMZN Mktp US*H23IX3R90
+    Row: 2243
+  REMOVED (Wells Fargo):
+    Date: 2022-11-08
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2260
+
+✓ DUPLICATE FOUND (#470)
+  Amount: $-427.93
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-08
+    Description: Pwp AMZN Mktp US*H217E1VM2
+    Row: 2258
+  REMOVED (Wells Fargo):
+    Date: 2022-11-09
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2269
+
+✓ DUPLICATE FOUND (#471)
+  Amount: $-256.99
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-09
+    Description: Pwp HEROKU OCT-74296439
+    Row: 2261
+  REMOVED (Wells Fargo):
+    Date: 2022-11-10
+    Description: Pwp Heroku Oct- Privacycom
+    Row: 2279
+
+✓ DUPLICATE FOUND (#472)
+  Amount: $-98.20
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-11-09
+    Description: Pwp HEROKU OCT-74362882
+    Row: 2262
+  REMOVED (Wells Fargo):
+    Date: 2022-11-14
+    Description: Pwp Heroku Oct- Privacycom
+    Row: 2297
+
+✓ DUPLICATE FOUND (#473)
+  Amount: $-84.00
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-13
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 2280
+  REMOVED (Wells Fargo):
+    Date: 2022-11-15
+    Description: Pwp Google*Doma Privacycom
+    Row: 2306
+
+✓ DUPLICATE FOUND (#474)
+  Amount: $-69.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-13
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2281
+  REMOVED (Wells Fargo):
+    Date: 2022-11-15
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2305
+
+✓ DUPLICATE FOUND (#475)
+  Amount: $-56.83
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-14
+    Description: Pwp AMZN Mktp US*HI9IB14Z0
+    Row: 2282
+  REMOVED (Wells Fargo):
+    Date: 2022-11-16
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2316
+
+✓ DUPLICATE FOUND (#476)
+  Amount: $-536.24
+  Date difference: 0 days
+  KEPT (Privacy.com):
+    Date: 2022-11-16
+    Description: Pwp AMAZON.COM*HB5SY1D52 AMZN
+    Row: 2307
+  REMOVED (Wells Fargo):
+    Date: 2022-11-16
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2318
+
+✓ DUPLICATE FOUND (#477)
+  Amount: $-129.02
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-16
+    Description: Pwp Amazon.com*HB6J40DM2
+    Row: 2308
+  REMOVED (Wells Fargo):
+    Date: 2022-11-17
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2329
+
+✓ DUPLICATE FOUND (#478)
+  Amount: $-107.24
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-16
+    Description: Pwp AMZN Mktp US*HI5806Z01
+    Row: 2309
+  REMOVED (Wells Fargo):
+    Date: 2022-11-17
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2328
+
+✓ DUPLICATE FOUND (#479)
+  Amount: $-90.14
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-16
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2310
+  REMOVED (Wells Fargo):
+    Date: 2022-11-18
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2338
+
+✓ DUPLICATE FOUND (#480)
+  Amount: $-11.99
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-11-17
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2320
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2355
+
+✓ DUPLICATE FOUND (#481)
+  Amount: $-11.99
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-17
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2599
+  REMOVED (Wells Fargo):
+    Date: 2022-12-19
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2624
+
+✓ DUPLICATE FOUND (#482)
+  Amount: $-960.00
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-17
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2322
+  REMOVED (Wells Fargo):
+    Date: 2022-11-18
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2339
+
+✓ DUPLICATE FOUND (#483)
+  Amount: $-146.38
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-11-17
+    Description: Pwp AMZN Mktp US*HI5SP6821
+    Row: 2323
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2365
+
+✓ DUPLICATE FOUND (#484)
+  Amount: $-20.17
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-11-18
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2330
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2359
+
+✓ DUPLICATE FOUND (#485)
+  Amount: $-20.17
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-04
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2463
+  REMOVED (Wells Fargo):
+    Date: 2022-12-06
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2493
+
+✓ DUPLICATE FOUND (#486)
+  Amount: $-22.30
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-11-18
+    Description: Pwp AMZN Mktp US*HI6O02HT1
+    Row: 2331
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2361
+
+✓ DUPLICATE FOUND (#487)
+  Amount: $-12.61
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-11-18
+    Description: Pwp AMAZON.COM*HI4EH5TN2 AMZN
+    Row: 2332
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2356
+
+✓ DUPLICATE FOUND (#488)
+  Amount: $-12.82
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-11-18
+    Description: Pwp AMZN Mktp US*HI3FY7NW2
+    Row: 2333
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2357
+
+✓ DUPLICATE FOUND (#489)
+  Amount: $-128.98
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-19
+    Description: Pwp Amazon.com*HI7MQ7JF2
+    Row: 2341
+  REMOVED (Wells Fargo):
+    Date: 2022-11-21
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2364
+
+✓ DUPLICATE FOUND (#490)
+  Amount: $-150.32
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-21
+    Description: Pwp Amazon.com*HI7SE35B2
+    Row: 2346
+  REMOVED (Wells Fargo):
+    Date: 2022-11-22
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2376
+
+✓ DUPLICATE FOUND (#491)
+  Amount: $-158.08
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-22
+    Description: Pwp Amazon.com*HI5MA42A2
+    Row: 2366
+  REMOVED (Wells Fargo):
+    Date: 2022-11-23
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2386
+
+✓ DUPLICATE FOUND (#492)
+  Amount: $-50.87
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-23
+    Description: Pwp Amazon.com*HW4UO71M1
+    Row: 2379
+  REMOVED (Wells Fargo):
+    Date: 2022-11-25
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2395
+
+✓ DUPLICATE FOUND (#493)
+  Amount: $-9.56
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-23
+    Description: Pwp Amazon.com*HW8MD41O1
+    Row: 2380
+  REMOVED (Wells Fargo):
+    Date: 2022-11-25
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2394
+
+✓ DUPLICATE FOUND (#494)
+  Amount: $-149.08
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-26
+    Description: Pwp Amazon Prime*HW7DR6DG1
+    Row: 2396
+  REMOVED (Wells Fargo):
+    Date: 2022-11-28
+    Description: Pwp Amazon Prim Privacycom
+    Row: 2424
+
+✓ DUPLICATE FOUND (#495)
+  Amount: $-90.64
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-11-28
+    Description: Pwp AMZN Mktp US*S152Y1PS3
+    Row: 2397
+  REMOVED (Wells Fargo):
+    Date: 2022-12-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2450
+
+✓ DUPLICATE FOUND (#496)
+  Amount: $-6.42
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-12-22
+    Description: Pwp AMZN Mktp US*899OM18T3
+    Row: 2654
+  REMOVED (Wells Fargo):
+    Date: 2022-12-27
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2694
+
+✓ DUPLICATE FOUND (#497)
+  Amount: $-73.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-11-29
+    Description: Pwp AMZN Mktp US*6H2H86YR3
+    Row: 2426
+  REMOVED (Wells Fargo):
+    Date: 2022-12-02
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2460
+
+✓ DUPLICATE FOUND (#498)
+  Amount: $-29.16
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-11-29
+    Description: Pwp AMZN MKTP US*174JC5QZ3 AM
+    Row: 2427
+  REMOVED (Wells Fargo):
+    Date: 2022-12-01
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2449
+
+✓ DUPLICATE FOUND (#499)
+  Amount: $-66.95
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-11-29
+    Description: Pwp Amazon.com*HZ40A5CG2
+    Row: 2428
+  REMOVED (Wells Fargo):
+    Date: 2022-11-30
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2441
+
+✓ DUPLICATE FOUND (#500)
+  Amount: $-24.07
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-11-29
+    Description: Pwp Amazon.com*UV3PK4QY3
+    Row: 2430
+  REMOVED (Wells Fargo):
+    Date: 2022-12-02
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2458
+
+✓ DUPLICATE FOUND (#501)
+  Amount: $-95.24
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-12-01
+    Description: Pwp Amazon.com*DX57H9L43
+    Row: 2444
+  REMOVED (Wells Fargo):
+    Date: 2022-12-05
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2480
+
+✓ DUPLICATE FOUND (#502)
+  Amount: $-85.99
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-02
+    Description: Pwp Amazon.com*JD07N2VR3
+    Row: 2452
+  REMOVED (Wells Fargo):
+    Date: 2022-12-05
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2479
+
+✓ DUPLICATE FOUND (#503)
+  Amount: $-47.55
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-02
+    Description: Pwp Amazon.com*BP0841093
+    Row: 2453
+  REMOVED (Wells Fargo):
+    Date: 2022-12-05
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2477
+
+✓ DUPLICATE FOUND (#504)
+  Amount: $-616.63
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-02
+    Description: Pwp AMZN Mktp US*N693Y8V23
+    Row: 2455
+  REMOVED (Wells Fargo):
+    Date: 2022-12-05
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2481
+
+✓ DUPLICATE FOUND (#505)
+  Amount: $-90.94
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-05
+    Description: Pwp Amazon.com*6F8Z73LX3
+    Row: 2464
+  REMOVED (Wells Fargo):
+    Date: 2022-12-06
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2494
+
+✓ DUPLICATE FOUND (#506)
+  Amount: $-41.50
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-06
+    Description: Pwp AMZN Mktp US*JB5Y08373
+    Row: 2484
+  REMOVED (Wells Fargo):
+    Date: 2022-12-07
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2504
+
+✓ DUPLICATE FOUND (#507)
+  Amount: $-109.43
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-06
+    Description: Pwp Amazon.com*IE2JY09D3
+    Row: 2485
+  REMOVED (Wells Fargo):
+    Date: 2022-12-07
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2505
+
+✓ DUPLICATE FOUND (#508)
+  Amount: $-69.01
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-06
+    Description: Pwp AMZ*Tipsy Elves Paym
+    Row: 2487
+  REMOVED (Wells Fargo):
+    Date: 2022-12-08
+    Description: Pwp Amz*Tipsy E Privacycom
+    Row: 2517
+
+✓ DUPLICATE FOUND (#509)
+  Amount: $-77.54
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-07
+    Description: Pwp AMZ*Tipsy Elves Paym
+    Row: 2495
+  REMOVED (Wells Fargo):
+    Date: 2022-12-08
+    Description: Pwp Amz*Tipsy E Privacycom
+    Row: 2518
+
+✓ DUPLICATE FOUND (#510)
+  Amount: $-113.88
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-07
+    Description: Pwp Amazon.com*K66BN8TV3
+    Row: 2497
+  REMOVED (Wells Fargo):
+    Date: 2022-12-08
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2519
+
+✓ DUPLICATE FOUND (#511)
+  Amount: $-30.71
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-08
+    Description: Pwp Amazon.com*GE9LA0083
+    Row: 2507
+  REMOVED (Wells Fargo):
+    Date: 2022-12-09
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2527
+
+✓ DUPLICATE FOUND (#512)
+  Amount: $-97.10
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-12-08
+    Description: Pwp HEROKU NOV-75839757
+    Row: 2511
+  REMOVED (Wells Fargo):
+    Date: 2022-12-12
+    Description: Pwp Heroku Nov- Privacycom
+    Row: 2558
+
+✓ DUPLICATE FOUND (#513)
+  Amount: $-256.49
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-08
+    Description: Pwp HEROKU NOV-75773165
+    Row: 2512
+  REMOVED (Wells Fargo):
+    Date: 2022-12-09
+    Description: Pwp Heroku Nov- Privacycom
+    Row: 2529
+
+✓ DUPLICATE FOUND (#514)
+  Amount: $-41.15
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-11
+    Description: Pwp Amazon.com*SV80V6VM3
+    Row: 2531
+  REMOVED (Wells Fargo):
+    Date: 2022-12-13
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2566
+
+✓ DUPLICATE FOUND (#515)
+  Amount: $-26.17
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-11
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2532
+  REMOVED (Wells Fargo):
+    Date: 2022-12-13
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2565
+
+✓ DUPLICATE FOUND (#516)
+  Amount: $-53.61
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-12
+    Description: Pwp AMZN Mktp US*WA9QB5IR3
+    Row: 2533
+  REMOVED (Wells Fargo):
+    Date: 2022-12-14
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2577
+
+✓ DUPLICATE FOUND (#517)
+  Amount: $-106.89
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-12
+    Description: Pwp AMZN Mktp US*5N9OZ7743
+    Row: 2534
+  REMOVED (Wells Fargo):
+    Date: 2022-12-14
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2578
+
+✓ DUPLICATE FOUND (#518)
+  Amount: $-121.93
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-12
+    Description: Pwp Amazon.com*065GI2RN3
+    Row: 2535
+  REMOVED (Wells Fargo):
+    Date: 2022-12-13
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2567
+
+✓ DUPLICATE FOUND (#519)
+  Amount: $-47.18
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-13
+    Description: Pwp AMZN Mktp US*7L07A8KV3
+    Row: 2560
+  REMOVED (Wells Fargo):
+    Date: 2022-12-16
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2595
+
+✓ DUPLICATE FOUND (#520)
+  Amount: $-42.01
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-13
+    Description: Pwp AMZN Mktp US*WW9UN0W03
+    Row: 2561
+  REMOVED (Wells Fargo):
+    Date: 2022-12-15
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2585
+
+✓ DUPLICATE FOUND (#521)
+  Amount: $-49.65
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-13
+    Description: Pwp AMZN Mktp US*QO4FW53P3
+    Row: 2562
+  REMOVED (Wells Fargo):
+    Date: 2022-12-15
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2586
+
+✓ DUPLICATE FOUND (#522)
+  Amount: $-112.83
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-14
+    Description: Pwp Amazon.com*AN8KM5TH3
+    Row: 2570
+  REMOVED (Wells Fargo):
+    Date: 2022-12-16
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2596
+
+✓ DUPLICATE FOUND (#523)
+  Amount: $-158.41
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-12-15
+    Description: Pwp AMZN Mktp US*5I57W90I3
+    Row: 2579
+  REMOVED (Wells Fargo):
+    Date: 2022-12-19
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2630
+
+✓ DUPLICATE FOUND (#524)
+  Amount: $-123.89
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-16
+    Description: Pwp Amazon.com*087KU8YN3
+    Row: 2587
+  REMOVED (Wells Fargo):
+    Date: 2022-12-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2629
+
+✓ DUPLICATE FOUND (#525)
+  Amount: $-35.91
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-16
+    Description: Pwp AMZN Mktp US*H05RQ0B83
+    Row: 2589
+  REMOVED (Wells Fargo):
+    Date: 2022-12-19
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2627
+
+✓ DUPLICATE FOUND (#526)
+  Amount: $-24.64
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-16
+    Description: Pwp AMAZON.COM*370PL7JD3 AMZN
+    Row: 2590
+  REMOVED (Wells Fargo):
+    Date: 2022-12-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2626
+
+✓ DUPLICATE FOUND (#527)
+  Amount: $-23.58
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-16
+    Description: Pwp AMZN Mktp US*AC8RY73L3
+    Row: 2591
+  REMOVED (Wells Fargo):
+    Date: 2022-12-19
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2625
+
+✓ DUPLICATE FOUND (#528)
+  Amount: $-27.83
+  Date difference: 3 days
+  KEPT (Privacy.com):
+    Date: 2022-12-17
+    Description: Pwp AMZN Mktp US*8S6JE6M43
+    Row: 2597
+  REMOVED (Wells Fargo):
+    Date: 2022-12-20
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2642
+
+✓ DUPLICATE FOUND (#529)
+  Amount: $-48.69
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-17
+    Description: Pwp AMAZON.COM*1D1I15BY3 AMZN
+    Row: 2598
+  REMOVED (Wells Fargo):
+    Date: 2022-12-19
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2628
+
+✓ DUPLICATE FOUND (#530)
+  Amount: $-32.14
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-18
+    Description: Pwp AMZN Mktp US*AH4WJ79N3
+    Row: 2601
+  REMOVED (Wells Fargo):
+    Date: 2022-12-20
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2644
+
+✓ DUPLICATE FOUND (#531)
+  Amount: $-108.34
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-19
+    Description: Pwp Amazon.com*P306Z8EC3
+    Row: 2603
+  REMOVED (Wells Fargo):
+    Date: 2022-12-20
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2645
+
+✓ DUPLICATE FOUND (#532)
+  Amount: $-100.80
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-19
+    Description: Pwp AMZN Mktp US*7L8289U33
+    Row: 2604
+  REMOVED (Wells Fargo):
+    Date: 2022-12-21
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2652
+
+✓ DUPLICATE FOUND (#533)
+  Amount: $-31.17
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-20
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2632
+  REMOVED (Wells Fargo):
+    Date: 2022-12-21
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2651
+
+✓ DUPLICATE FOUND (#534)
+  Amount: $-12.17
+  Date difference: 1 days
+  KEPT (Privacy.com):
+    Date: 2022-12-20
+    Description: Pwp DNH*GODADDY.COM
+    Row: 2633
+  REMOVED (Wells Fargo):
+    Date: 2022-12-21
+    Description: Pwp Dnh*Godaddy Privacycom
+    Row: 2650
+
+✓ DUPLICATE FOUND (#535)
+  Amount: $-25.72
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-21
+    Description: Pwp AMZN Mktp US*5F5F16993
+    Row: 2646
+  REMOVED (Wells Fargo):
+    Date: 2022-12-23
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2677
+
+✓ DUPLICATE FOUND (#536)
+  Amount: $-96.00
+  Date difference: 5 days
+  KEPT (Privacy.com):
+    Date: 2022-12-22
+    Description: Pwp GOOGLE*DOMAINS
+    Row: 2653
+  REMOVED (Wells Fargo):
+    Date: 2022-12-27
+    Description: Pwp Google*Doma Privacycom
+    Row: 2697
+
+✓ DUPLICATE FOUND (#537)
+  Amount: $-26.78
+  Date difference: 4 days
+  KEPT (Privacy.com):
+    Date: 2022-12-23
+    Description: Pwp AMAZON.COM*KN4HZ87U3 AMZN
+    Row: 2670
+  REMOVED (Wells Fargo):
+    Date: 2022-12-27
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2695
+
+✓ DUPLICATE FOUND (#538)
+  Amount: $-85.75
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-26
+    Description: Pwp AMAZON.COM*BQ02I40C3 AMZN
+    Row: 2678
+  REMOVED (Wells Fargo):
+    Date: 2022-12-28
+    Description: Pwp Amazon.Com* Privacycom
+    Row: 2701
+
+✓ DUPLICATE FOUND (#539)
+  Amount: $-107.22
+  Date difference: 2 days
+  KEPT (Privacy.com):
+    Date: 2022-12-28
+    Description: Pwp AMZN Mktp US*1C6S35A13
+    Row: 2699
+  REMOVED (Wells Fargo):
+    Date: 2022-12-30
+    Description: Pwp Amzn Mktp U Privacycom
+    Row: 2715
+
+================================================================================
+PASS 2: SUBSCRIPTION MATCHING (Equal Count Groups)
+================================================================================
+
+⚠️  $230.48: Unequal counts (2 vs 3) - keeping as ambiguous
+
+💰 Subscription detected: $9.03
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-08-24 → 2022-08-26 (2 days)
+   ✓ Matched: 2022-08-25 → 2022-08-29 (4 days)
+
+💰 Subscription detected: $2.99
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-01-19 → 2022-01-21 (2 days)
+   ✓ Matched: 2022-01-19 → 2022-01-21 (2 days)
+
+💰 Subscription detected: $24.99
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-08-27 → 2022-08-29 (2 days)
+   ✓ Matched: 2022-08-30 → 2022-09-01 (2 days)
+
+⚠️  $5.00: Unequal counts (8 vs 11) - keeping as ambiguous
+
+⚠️  $9.99: Unequal counts (2 vs 3) - keeping as ambiguous
+
+⚠️  $7.00: Unequal counts (57 vs 60) - keeping as ambiguous
+
+💰 Subscription detected: $12.00
+   4 Privacy.com → 4 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-01-15 → 2022-01-18 (3 days)
+   ✓ Matched: 2022-01-16 → 2022-01-18 (2 days)
+   ✓ Matched: 2022-09-14 → 2022-09-16 (2 days)
+   ✓ Matched: 2022-09-14 → 2022-09-16 (2 days)
+
+💰 Subscription detected: $40.00
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-01-26 → 2022-01-27 (1 days)
+   ✓ Matched: 2022-01-29 → 2022-01-31 (2 days)
+
+⚠️  $19.29: Unequal counts (1 vs 2) - keeping as ambiguous
+
+💰 Subscription detected: $21.44
+   2 Privacy.com → 2 Wells Fargo (equal counts)
+   Matching by closest date...
+   ✓ Matched: 2022-09-10 → 2022-09-12 (2 days)
+   ✓ Matched: 2022-09-10 → 2022-09-12 (2 days)
+
+⚠️  $10.00: Unequal counts (9 vs 13) - keeping as ambiguous
+
+⚠️  $37.53: Unequal counts (1 vs 2) - keeping as ambiguous
+
+⚠️  $20.17: Unequal counts (3 vs 4) - keeping as ambiguous
+
+================================================================================
+REMAINING AMBIGUOUS MATCHES
+================================================================================
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-230.48
+  Privacy.com (2022-01-02): Pwp AMAZON.COM*NG2ZV8OJ3
+  Possible WF match 1 (2022-01-03): Pwp Amazon.Com* Privacycom TN: 7781367
+  Possible WF match 2 (2022-01-04): Pwp Amazon.Com Privacycom TN: 8945885
+  Possible WF match 3 (2022-01-04): Pwp Amzn Mktp U Privacycom TN: 9478545
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-230.48
+  Privacy.com (2022-01-02): Pwp AMZN Mktp US*OD8N31E53
+  Possible WF match 1 (2022-01-03): Pwp Amazon.Com* Privacycom TN: 7781367
+  Possible WF match 2 (2022-01-04): Pwp Amazon.Com Privacycom TN: 8945885
+  Possible WF match 3 (2022-01-04): Pwp Amzn Mktp U Privacycom TN: 9478545
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-01-16): Pwp A MEDIUM CORPORATION
+  Possible WF match 1 (2022-01-11): Pwp Amazon Tips Privacycom TN: 5582321
+  Possible WF match 2 (2022-01-18): Pwp A Medium CO Privacycom TN: 8042622
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-02-17): Pwp Amazon Tips*281773AO3
+  Possible WF match 1 (2022-02-18): Pwp Amazon Tips Privacycom TN: 6724815
+  Possible WF match 2 (2022-02-22): Pwp Amazon Tips Privacycom TN: 1759215
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-02-20): Pwp Amazon Tips*FP2LC73V3
+  Possible WF match 1 (2022-02-18): Pwp Amazon Tips Privacycom TN: 6724815
+  Possible WF match 2 (2022-02-22): Pwp Amazon Tips Privacycom TN: 1759215
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-07-27): Pwp Amazon Tips*I686K1QQ3
+  Possible WF match 1 (2022-07-25): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-28): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-07-30): Pwp Amazon Tips*6W2971SR3
+  Possible WF match 1 (2022-07-25): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-28): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-11-30): Pwp Amazon Tips*J552N81W3
+  Possible WF match 1 (2022-11-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-05): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-12-03): Pwp Amazon Tips*RX4ZO0LA3
+  Possible WF match 1 (2022-11-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-05): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-5.00
+  Privacy.com (2022-12-09): Pwp Amazon Tips*Y448O1QS3
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-12): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-9.99
+  Privacy.com (2022-01-22): Pwp APPLE.COM/BILL
+  Possible WF match 1 (2022-01-18): Pwp Apple.Com/B Privacycom TN: 3664925
+  Possible WF match 2 (2022-01-24): Pwp Apple.Com/B Privacycom TN: 7721357
+  Possible WF match 3 (2022-01-27): Pwp Apple.Com/B Privacycom TN: 7161759
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-9.99
+  Privacy.com (2022-01-26): Pwp APPLE.COM/BILL
+  Possible WF match 1 (2022-01-24): Pwp Apple.Com/B Privacycom TN: 7721357
+  Possible WF match 2 (2022-01-27): Pwp Apple.Com/B Privacycom TN: 7161759
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-09): Pwp Amazon Tips*1W5G92HK2
+  Possible WF match 1 (2022-03-11): Pwp Amazon Tips Privacycom TN: 8156457
+  Possible WF match 2 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-11): Pwp Amazon Tips*1Z7ZN18L1
+  Possible WF match 1 (2022-03-11): Pwp Amazon Tips Privacycom TN: 8156457
+  Possible WF match 2 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-18): Pwp Amazon Tips*1Z0IF52J2
+  Possible WF match 1 (2022-03-14): Pwp Amazon Tips Privacycom TN: 3310354
+  Possible WF match 2 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 3 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-22): Pwp Amazon Tips*1N6NA8WQ1
+  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-25): Pwp Amazon Tips*163VO3XA1
+  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
+  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
+  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-26): Pwp Amazon Tips*1692J04C0
+  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
+  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
+  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-03-26): Pwp Amazon Tips*1670X1BP1
+  Possible WF match 1 (2022-03-21): Pwp Amazon Tips Privacycom TN: 9108095
+  Possible WF match 2 (2022-03-23): Pwp Amazon Tips Privacycom TN: 3749131
+  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
+  Possible WF match 4 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
+  Possible WF match 5 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-02): Pwp Amazon Tips*1649C8YJ0
+  Possible WF match 1 (2022-03-28): Pwp Amazon Tips Privacycom TN: 2025725
+  Possible WF match 2 (2022-03-28): Pwp Amazon Tips Privacycom TN: 5797147
+  Possible WF match 3 (2022-03-28): Pwp Amazon Tips Privacycom TN: 6903943
+  Possible WF match 4 (2022-04-04): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-07): Pwp Amazon Tips*1H2JU0AJ2
+  Possible WF match 1 (2022-04-04): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-08): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-12): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-10): Pwp Amazon Tips*1H17N2WY0
+  Possible WF match 1 (2022-04-08): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-12): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-13): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-12): Pwp Amazon Tips*1H1IV6RN2
+  Possible WF match 1 (2022-04-08): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-12): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-13): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-15): Pwp Amazon Tips*1A6CC3HX0
+  Possible WF match 1 (2022-04-12): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-13): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-18): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-28): Pwp Amazon Tips*1Q3FF0F50
+  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-04-30): Pwp Amazon Tips*1Q3IC2E10
+  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-04): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-02): Pwp Amazon Tips*1Q5Q52HY2
+  Possible WF match 1 (2022-04-29): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-02): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-04): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-05): Pwp Amazon Tips*1Q3K16YS0
+  Possible WF match 1 (2022-05-02): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-04): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-09): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-17): Pwp Amazon Tips*1L7ZC51P0
+  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-17): Pwp Amazon Tips*1R3ML3QR1
+  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-20): Pwp Amazon Tips*1X6727OL1
+  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-05-24): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-05-22): Pwp Amazon Tips*1R6R06FK0
+  Possible WF match 1 (2022-05-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-05-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-05-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-05-24): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-02): Pwp Amazon Tips*Y21SH18Z3
+  Possible WF match 1 (2022-06-01): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-06): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-09): Pwp Amazon Tips*H20KZ1373
+  Possible WF match 1 (2022-06-06): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-10): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-13): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-12): Pwp Amazon Tips*8M16Q1Y23
+  Possible WF match 1 (2022-06-10): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-13): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-15): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-14): Pwp Amazon Tips*C17PQ9RA3
+  Possible WF match 1 (2022-06-10): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-13): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-15): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-18): Pwp Amazon Tips*3S59I0XZ3
+  Possible WF match 1 (2022-06-13): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-15): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 5 (2022-06-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-19): Pwp Amazon Tips*TS2CH5Q73
+  Possible WF match 1 (2022-06-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-20): Pwp Amazon Tips*BY41K5OT3
+  Possible WF match 1 (2022-06-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-06-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-26): Pwp Amazon Tips*169NQ0P33
+  Possible WF match 1 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-06-21): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-06-28): Pwp Amazon Tips Privacycom
+  Possible WF match 5 (2022-06-30): Pwp Amazon Tips Privacycom
+  Possible WF match 6 (2022-07-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-28): Pwp Amazon Tips*YG2TK00W3
+  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-06-29): Pwp Amazon Tips*PJ3JE6ED3
+  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-03): Pwp Amazon Tips*8J6CG1X23
+  Possible WF match 1 (2022-06-28): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-30): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-01): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-07-05): Pwp Amazon Tips Privacycom
+  Possible WF match 5 (2022-07-08): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-07): Pwp Amazon Tips*H27I14853
+  Possible WF match 1 (2022-07-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-08): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-12): Pwp Amazon Tips*G55S03AG3
+  Possible WF match 1 (2022-07-08): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-13): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-16): Pwp Amazon Tips*S36302T43
+  Possible WF match 1 (2022-07-13): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-18): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-20): Pwp Amazon Tips*SL7G14Q03
+  Possible WF match 1 (2022-07-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-22): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-25): Pwp Amazon Tips*PZ6JS26T3
+  Possible WF match 1 (2022-07-22): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-27): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-29): Pwp Amazon Tips*3B1OR9JT3
+  Possible WF match 1 (2022-07-27): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-08-03): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-07-30): Pwp Amazon Tips*XK3BX7TV3
+  Possible WF match 1 (2022-07-27): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-08-03): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-08-02): Pwp Amazon Tips*QJ6C51ST3
+  Possible WF match 1 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-01): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-08-03): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-08-14): Pwp Amazon Tips*UM7CG2AI3
+  Possible WF match 1 (2022-08-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-17): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-08-16): Pwp Amazon Tips*QG9PE7WB3
+  Possible WF match 1 (2022-08-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-17): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-09-02): Pwp Amazon Tips*1V8AK27N1
+  Possible WF match 1 (2022-08-29): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-09-06): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-09-14): Pwp Amazon Tips*1M42C8CP0
+  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-09-16): Pwp Amazon Tips*1M0FK1HP1
+  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-09-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-09-20): Pwp Amazon Tips*1U6Q07OW1
+  Possible WF match 1 (2022-09-15): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-09-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-09-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-10-29): Pwp Amazon Tips*H87MR8RD2
+  Possible WF match 1 (2022-10-24): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-10-31): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-11-17): Pwp Amazon Tips*HB4N78922
+  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-11-20): Pwp Amazon Tips*HI33Q47K1
+  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-11-22): Pwp Amazon Tips*HI4SO7SO2
+  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-11-23): Pwp Amazon Tips*HI4993WI2
+  Possible WF match 1 (2022-11-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-11-21): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-11-23): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-11-25): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-02): Pwp Amazon Tips*WF7734H73
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-06): Pwp Amazon Tips*YN75Q3WE3
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-07): Pwp Amazon Tips*6D4GY25N3
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-08): Pwp Amazon Tips*RF1TX26K3
+  Possible WF match 1 (2022-12-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-07): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-08): Pwp Amazon Tips Privacycom
+  Possible WF match 4 (2022-12-09): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-15): Pwp Amazon Tips*2J8Q03BI3
+  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-17): Pwp Amazon Tips*EF4UD1MD3
+  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-7.00
+  Privacy.com (2022-12-20): Pwp Amazon Tips*4K19P7LH3
+  Possible WF match 1 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-12-19): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-12-21): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-19.29
+  Privacy.com (2022-02-05): Pwp AMZN Mktp US*4C1H99IG3
+  Possible WF match 1 (2022-02-02): Pwp Amzn Mktp U Privacycom TN: 3579224
+  Possible WF match 2 (2022-02-07): Pwp Amzn Mktp U Privacycom TN: 7937859
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-04-23): Pwp Amazon Tips*1Q7KJ21Q1
+  Possible WF match 1 (2022-04-18): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-25): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-04-25): Pwp Etsy.Com - Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-04-24): Pwp Etsy.com - goPlanBee
+  Possible WF match 1 (2022-04-25): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-04-25): Pwp Etsy.Com - Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-06-04): Pwp Amazon Tips*HF2DT1H43
+  Possible WF match 1 (2022-06-01): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-06-06): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-07-08): Pwp Amazon Tips*369GR5W03
+  Possible WF match 1 (2022-07-05): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-11): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-07-13): Pwp Amazon Tips*BW8EF2D53
+  Possible WF match 1 (2022-07-11): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-14): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-18): Pwp Blink Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-07-16): Pwp Blink
+  Possible WF match 1 (2022-07-11): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-07-14): Pwp Amazon Tips Privacycom
+  Possible WF match 3 (2022-07-18): Pwp Blink Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-08-10): Pwp Amazon Tips*SQ70Z6N33
+  Possible WF match 1 (2022-08-08): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-12): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-08-16): Pwp Blink
+  Possible WF match 1 (2022-08-12): Pwp Amazon Tips Privacycom
+  Possible WF match 2 (2022-08-18): Pwp Blink Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-10.00
+  Privacy.com (2022-08-19): Pwp Amazon Tips*5421L9XB3
+  Possible WF match 1 (2022-08-18): Pwp Blink Privacycom
+  Possible WF match 2 (2022-08-22): Pwp Amazon Tips Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-37.53
+  Privacy.com (2022-11-21): Pwp AMZN Mktp US*HI1GZ96N2
+  Possible WF match 1 (2022-11-21): Pwp Amzn Mktp U Privacycom
+  Possible WF match 2 (2022-11-23): Pwp Amzn Mktp U Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-20.17
+  Privacy.com (2022-12-10): Pwp DNH*GODADDY.COM
+  Possible WF match 1 (2022-12-06): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 2 (2022-12-12): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 3 (2022-12-14): Pwp Dnh*Godaddy Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-20.17
+  Privacy.com (2022-12-12): Pwp DNH*GODADDY.COM
+  Possible WF match 1 (2022-12-12): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 2 (2022-12-14): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 3 (2022-12-16): Pwp Dnh*Godaddy Privacycom
+
+⚠️  AMBIGUOUS MATCH
+  Amount: $-20.17
+  Privacy.com (2022-12-14): Pwp DNH*GODADDY.COM
+  Possible WF match 1 (2022-12-12): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 2 (2022-12-14): Pwp Dnh*Godaddy Privacycom
+  Possible WF match 3 (2022-12-16): Pwp Dnh*Godaddy Privacycom
+
+================================================================================
+DEDUPLICATION PASSES COMPLETE
+Pass 1 (1:1 matching): 539 duplicate pairs
+Pass 2 (subscriptions): 14 duplicate pairs
+Total matched: 553 duplicate pairs
+Still ambiguous: 83 matches (need review)
+================================================================================
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+Original transactions: 2719
+Duplicates removed: 552
+Final transactions: 2167
+Ambiguous matches: 83
+================================================================================
+
+✅ Deduplication complete!
+Log saved to: /home/kurt/Projects/taxes/generated-files/merged-deduped/2022_deduped_2025-10-14_145856.log
