@@ -1,0 +1,3 @@
+Date,Description,Amount,Balance,Type,Category,Source,Notes
+2022-05-06,"Online Domestic Wire Transfer Via: Wells Fargo NA/121000248 A/C: Aba/123006800 Albany OR 97321-2226 US Ben: Kurtis Braget Agoura Hills CA 91301 US Ref: Disbursement/Bnf/Disbursement/Time/11:22",-5000.00,,Debit,Wire Transfer,Chase Statement,"Wire to Kurtis Braget"
+2022-05-31,"Online Domestic Wire Transfer Via: Wells Fargo NA/121000248 A/C: Aba/123006800 Albany OR 97321-2226 US Ben: Kurtis Braget Agoura Hills CA 91301 US Ref: Disbursement/Bnf/Disbursement/Time/11:53",-4000.00,,Debit,Wire Transfer,Chase Statement,"Wire to Kurtis Braget"
