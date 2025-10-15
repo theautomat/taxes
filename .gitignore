@@ -17,3 +17,6 @@ source-documents/
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Git worktrees (created in subdirectories)
+taxes-*/

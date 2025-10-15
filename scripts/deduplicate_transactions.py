@@ -2,6 +2,8 @@
 """
 Deduplicate transactions from merged CSV file.
 
+NOTE: Only reads from merged/ directory - archived files are never accessed.
+
 This script identifies and removes duplicate transactions that appear in both
 Privacy.com statements and Wells Fargo bank statements. The same transaction
 appears twice because Privacy.com records it on the charge date, while Wells

@@ -22,6 +22,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
 
 # Define paths
+# NOTE: Only reads from extracted/ directory - archived files are never accessed
 extracted_dir = os.path.join(project_root, "generated-files", "extracted")
 merged_dir = os.path.join(project_root, "generated-files", "merged")
 
