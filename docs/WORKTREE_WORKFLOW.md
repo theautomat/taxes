@@ -24,6 +24,78 @@ git branch -d feature/your-feature
 
 Git worktrees let you have multiple branches checked out simultaneously in separate directories. Each worktree is a complete working copy of your repository, but they all share the same Git history.
 
+## The Manager Pattern (Key Concept!)
+
+**Understanding roles is critical to using worktrees correctly:**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ MAIN DIRECTORY = "Manager" / Coordination Hub                   │
+├─────────────────────────────────────────────────────────────────┤
+│ ~/Projects/taxes/                                               │
+│                                                                 │
+│ Purpose:                                                        │
+│ • Create new worktrees (spawn workers)                          │
+│ • Merge completed work                                          │
+│ • Coordinate between branches                                   │
+│ • NO active development happens here                            │
+│                                                                 │
+│ The "manager" can run git checkout safely because               │
+│ nobody is actively working in this directory!                   │
+└─────────────────────────────────────────────────────────────────┘
+                            │
+                            │ Creates worktrees
+                            ↓
+┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
+│ WORKTREE 1       │  │ WORKTREE 2       │  │ WORKTREE 3       │
+├──────────────────┤  ├──────────────────┤  ├──────────────────┤
+│ taxes-feat-dedup │  │ taxes-docs-wf    │  │ taxes-fix-bug    │
+│                  │  │                  │  │                  │
+│ Claude Session 1 │  │ Claude Session 2 │  │ Developer        │
+│ Active work      │  │ Active work      │  │ Active work      │
+│ NEVER leaves dir │  │ NEVER leaves dir │  │ NEVER leaves dir │
+│ NEVER git checkout│ │ NEVER git checkout│ │ NEVER git checkout│
+└──────────────────┘  └──────────────────┘  └──────────────────┘
+```
+
+### The Golden Rules
+
+1. **Main Directory (Manager):**
+   - Can run `git checkout` freely ✓
+   - No active development work ✓
+   - Used only for coordination ✓
+   - Creates worktrees ✓
+   - Merges completed work ✓
+
+2. **Worktrees (Workers):**
+   - NEVER run `git checkout` ✗
+   - Each locked to one branch forever ✓
+   - All active work happens here ✓
+   - Each terminal/session stays in its worktree ✓
+
+### Why This Eliminates Context Switching
+
+```
+WRONG (Traditional): Everyone works in ~/Projects/taxes/
+───────────────────────────────────────────────────────
+Terminal 1: ~/Projects/taxes (feature-a)
+Terminal 2: ~/Projects/taxes (feature-a) ← Same directory!
+
+Terminal 1 runs: git checkout main
+Terminal 2: OH NO! Now on main too! Context lost!
+
+RIGHT (Manager Pattern): Workers in separate directories
+──────────────────────────────────────────────────────
+Terminal 1: ~/Projects/taxes-feat-a (feature-a)
+Terminal 2: ~/Projects/taxes-feat-b (feature-b)
+Terminal 3: ~/Projects/taxes (manager - coordination only)
+
+Terminal 3 runs: git checkout main
+Terminal 1: Still on feature-a! ✓
+Terminal 2: Still on feature-b! ✓
+No context lost!
+```
+
 ### Traditional vs Worktree Workflow
 
 **Traditional (Context Switching Tax):**
@@ -69,54 +141,69 @@ Terminal 2: cd ../taxes-hotfix → fix bug immediately
     └── [docs/worktree-workflow]
 ```
 
-## Complete Workflow Example
+## Complete Workflow Example (Manager Pattern)
 
 ### Scenario: You're working on PDF extraction when a bug report arrives
 
-**Step 1: Create main feature worktree**
+**Phase 1: Manager creates feature worktree**
 ```bash
+# Terminal 1: Manager (coordination)
 cd ~/Projects/taxes
+git checkout main
+git pull
+
+# Create worktree for feature work
 git worktree add ../taxes-feat-extraction -b feature/pdf-extraction main
 code ../taxes-feat-extraction
 ```
 
-**Step 2: Work on feature with Claude**
-```
-Terminal 1 (Claude Code in taxes-feat-extraction):
-- Implementing PDF extraction pipeline
-- Full context maintained
-- Making progress
+**Phase 2: Worker does feature work**
+```bash
+# Terminal 2: Worker (active development in worktree)
+cd ~/Projects/taxes-feat-extraction
+# STAYS IN THIS DIRECTORY
+# NEVER runs git checkout
+
+# Work on feature
+# Edit files, test, iterate
+git add -A
+git commit -m "feat: add PDF extraction"
+git push --set-upstream origin feature/pdf-extraction
 ```
 
-**Step 3: Bug report arrives!**
+**Phase 3: Bug report arrives! Manager creates hotfix worktree**
 ```bash
-# In Terminal 2
+# Terminal 1: Manager (coordination)
 cd ~/Projects/taxes
+# Can safely run git checkout - no workers in this directory!
+git checkout main
+
+# Create worktree for hotfix
 git worktree add ../taxes-hotfix-amounts -b hotfix/amount-parsing main
 code ../taxes-hotfix-amounts
 ```
 
-**Step 4: Fix bug in parallel**
-```
-Terminal 2 (Claude Code in taxes-hotfix-amounts):
-- Fix amount parsing bug
-- Full context for the bug fix
-- Independent of Terminal 1
-
-Terminal 1 (Still running!):
-- PDF extraction work continues
-- No context lost
-- No git stash needed
-```
-
-**Step 5: Complete and merge bug fix**
+**Phase 4: Another worker fixes bug (parallel to Terminal 2!)**
 ```bash
+# Terminal 3: Worker (active development in worktree)
 cd ~/Projects/taxes-hotfix-amounts
+# STAYS IN THIS DIRECTORY
+# NEVER runs git checkout
+
+# Fix the bug
 git add -A
-git commit -m "fix: correct amount parsing in merge script"
+git commit -m "fix: correct amount parsing"
 git push --set-upstream origin hotfix/amount-parsing
 
+# Terminal 2 is STILL working on feature-extraction!
+# Zero context lost! No interference!
+```
+
+**Phase 5: Manager merges completed work**
+```bash
+# Terminal 1: Manager (coordination)
 cd ~/Projects/taxes
+git checkout main  # Safe! No workers in this directory
 git merge hotfix/amount-parsing
 git push
 
@@ -125,11 +212,63 @@ git worktree remove ../taxes-hotfix-amounts
 git branch -d hotfix/amount-parsing
 ```
 
-**Step 6: Continue feature work**
+**Phase 6: Feature work continues undisturbed**
 ```bash
-# Terminal 1 never stopped working!
-# Just keep going with full context
+# Terminal 2: Worker (still in worktree)
+cd ~/Projects/taxes-feat-extraction
+# Never stopped working!
+# Never lost context!
+# Continues development with full Claude Code context
 ```
+
+**Phase 7: Feature complete, manager merges**
+```bash
+# Terminal 2: Worker finishes
+cd ~/Projects/taxes-feat-extraction
+git add -A
+git commit -m "feat: PDF extraction complete"
+git push
+
+# Terminal 1: Manager merges
+cd ~/Projects/taxes
+git checkout main
+git merge feature/pdf-extraction
+git push
+
+# Clean up
+git worktree remove ../taxes-feat-extraction
+git branch -d feature/pdf-extraction
+```
+
+## Manager Pattern: Starting a New Feature
+
+When you want to start a new feature, always begin from the **Manager** (main directory):
+
+```bash
+# Step 1: Open terminal in Manager directory
+cd ~/Projects/taxes
+
+# Step 2: Get latest code
+git checkout main
+git pull
+
+# Step 3: Check what worktrees exist
+git worktree list
+
+# Step 4: Create new worktree for your feature
+git worktree add ../taxes-feat-your-feature -b feature/your-feature main
+
+# Step 5: Open in new Claude Code window
+code ../taxes-feat-your-feature
+
+# Step 6: Manager terminal can now:
+#  - Create more worktrees
+#  - Merge completed work
+#  - Check status
+#  - Stay on any branch (doesn't matter - nobody's working here)
+```
+
+**Key insight:** Nobody works in the main directory, so it's free to coordinate between branches!
 
 ## Naming Conventions
 
