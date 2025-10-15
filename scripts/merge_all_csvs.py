@@ -25,22 +25,57 @@ project_root = os.path.dirname(script_dir)
 # NOTE: Only reads from extracted/ directory - archived files are never accessed
 extracted_dir = os.path.join(project_root, "generated-files", "extracted")
 merged_dir = os.path.join(project_root, "generated-files", "merged")
+archive_dir = os.path.join(merged_dir, "archive")
 
-# Create merged directory if it doesn't exist
+# Create merged and archive directories if they don't exist
 os.makedirs(merged_dir, exist_ok=True)
+os.makedirs(archive_dir, exist_ok=True)
+
+# Archive any existing merged files before creating new one
+existing_merged = glob.glob(os.path.join(merged_dir, "2022_all-transactions_merged_*.csv"))
+if existing_merged:
+    print("=" * 60)
+    print("ARCHIVING PREVIOUS MERGED FILES")
+    print("=" * 60)
+    for old_file in existing_merged:
+        filename = os.path.basename(old_file)
+        archive_path = os.path.join(archive_dir, filename)
+        os.rename(old_file, archive_path)
+        print(f"📦 Archived: {filename} → archive/")
+    print()
 
 # Generate timestamped output filename
 today = datetime.now().strftime("%Y-%m-%d")
 output_file = os.path.join(merged_dir, f"2022_all-transactions_merged_{today}.csv")
 
-# Find all CSV files in extracted-data/ for 2022 (except previous merged files)
-csv_pattern = os.path.join(extracted_dir, "2022*.csv")
-csv_files = [f for f in glob.glob(csv_pattern) if "merged" not in f]
+# WHITELIST: Only merge CSVs from these subdirectories
+# Add or remove directories here to control what gets merged
+SOURCE_FOLDERS = [
+    "wells-fargo",      # Wells Fargo checking account statements
+    "privacy-com",      # Privacy.com virtual card transactions
+    "nft-genius",       # NFT Genius payroll/income
+    # "popstand",       # Popstand income (may not need merging - already has reconciliation docs)
+    # "amazon",         # Amazon purchases (uncomment when ready)
+]
 
-print(f"Merging CSV files from: {extracted_dir}")
-print(f"Found {len(csv_files)} CSV files to merge:")
+# Find all CSV files in whitelisted subdirectories for 2022
+csv_files = []
+for folder in SOURCE_FOLDERS:
+    folder_path = os.path.join(extracted_dir, folder)
+    if os.path.exists(folder_path):
+        pattern = os.path.join(folder_path, "2022*.csv")
+        found_files = [f for f in glob.glob(pattern) if "merged" not in f]
+        csv_files.extend(found_files)
+    else:
+        print(f"⚠️  Warning: Folder not found: {folder_path}")
+
+print(f"Merging CSV files from whitelisted folders:")
+print(f"Source folders: {', '.join(SOURCE_FOLDERS)}")
+print(f"\nFound {len(csv_files)} CSV files to merge:")
 for f in sorted(csv_files):
-    print(f"  - {os.path.basename(f)}")
+    # Show folder name and filename for clarity
+    rel_path = os.path.relpath(f, extracted_dir)
+    print(f"  - {rel_path}")
 print()
 
 # Collect all transactions
@@ -56,11 +91,13 @@ for csv_file in csv_files:
 
             # Add source filename to notes if not already there
             filename = os.path.basename(csv_file)
-            if 'Notes' in row and filename not in row['Notes']:
-                if row['Notes']:
-                    row['Notes'] = f"{row['Notes']} | Merged from: {filename}"
-                else:
-                    row['Notes'] = f"Merged from: {filename}"
+            if 'Notes' in row:
+                notes = row['Notes'] or ""  # Handle None values
+                if filename not in notes:
+                    if notes:
+                        row['Notes'] = f"{notes} | Merged from: {filename}"
+                    else:
+                        row['Notes'] = f"Merged from: {filename}"
 
             all_transactions.append(row)
 

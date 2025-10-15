@@ -9,7 +9,16 @@ taxes/
 ├── source-documents/           # Original unorganized source files (NOT versioned, synced with Google Drive)
 ├── generated-files/            # All generated/processed files (versioned in git)
 │   ├── extracted/              # Stage 1: Raw CSV extractions from source documents
+│   │   ├── wells-fargo/        # Wells Fargo checking statements (organized by source)
+│   │   ├── privacy-com/        # Privacy.com virtual card transactions
+│   │   ├── nft-genius/         # Payroll/income data
+│   │   ├── popstand/           # Popstand income data
+│   │   └── amazon/             # Amazon purchases (work in progress)
 │   ├── merged/                 # Stage 2: Combined data with duplicates
+│   │   └── archive/            # Previous merged files (auto-archived by scripts)
+│   ├── merged-deduped/         # Stage 2.5: Deduplicated transactions
+│   │   └── archive/            # Previous deduped files (auto-archived by scripts)
+│   ├── archived/               # Manual archives of superseded extractions
 │   └── final/                  # Stage 3: Clean, categorized, deduplicated data for accountant
 ├── scripts/                    # Processing and conversion scripts
 ├── docs/                       # Documentation files
@@ -101,6 +110,30 @@ Source documents are **NOT** versioned in git because:
 - Not practical to version binary files
 - Original source of truth is Google Drive
 - Local copy is refreshed as needed
+
+## Archiving
+
+The system automatically and manually archives files to keep working directories clean while preserving history.
+
+### Automatic Archives
+Pipeline scripts automatically archive previous outputs before generating new files:
+- `merged/archive/` - Previous merged CSV files (archived by `merge_all_csvs.py`)
+- `merged-deduped/archive/` - Previous deduped CSVs, logs, and review files (archived by `deduplicate_transactions.py`)
+
+**Purpose:** Keep only the latest file visible in working directories while preserving full history.
+
+### Manual Archives
+`generated-files/archived/` contains superseded extractions that have been replaced with improved versions.
+
+**Purpose:**
+- Performance comparison (e.g., comparing extraction accuracy)
+- Historical reference
+- Rollback capability if needed
+- Audit trail
+
+**Organization:** Archives are organized by date and reason (e.g., `2025-10-14_pre-reextraction/`), with each containing a README explaining what was archived and why.
+
+**Important:** Scripts never access archived files - they are reference-only. All active processing uses current files in `extracted/`, `merged/`, and `merged-deduped/`.
 
 ## Version Control
 

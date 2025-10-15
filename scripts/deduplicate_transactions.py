@@ -390,6 +390,27 @@ def main():
     repo_root = Path(__file__).parent.parent
     merged_dir = repo_root / 'generated-files' / 'merged'
     output_dir = repo_root / 'generated-files' / 'merged-deduped'
+    archive_dir = output_dir / 'archive'
+
+    # Create output and archive directories
+    output_dir.mkdir(parents=True, exist_ok=True)
+    archive_dir.mkdir(parents=True, exist_ok=True)
+
+    # Archive any existing deduped files before creating new ones
+    existing_deduped = sorted(output_dir.glob('2022_deduped_*.csv'))
+    existing_logs = sorted(output_dir.glob('2022_deduped_*.log'))
+    existing_reviews = sorted(output_dir.glob('2022_deduped_*_review.md'))
+
+    if existing_deduped or existing_logs or existing_reviews:
+        print("=" * 60)
+        print("ARCHIVING PREVIOUS DEDUPLICATION FILES")
+        print("=" * 60)
+
+        for old_file in existing_deduped + existing_logs + existing_reviews:
+            archive_path = archive_dir / old_file.name
+            old_file.rename(archive_path)
+            print(f"📦 Archived: {old_file.name} → archive/")
+        print()
 
     # Find most recent merged file
     merged_files = sorted(merged_dir.glob('*_merged_*.csv'))
@@ -404,9 +425,6 @@ def main():
     output_file = output_dir / f'2022_deduped_{timestamp}.csv'
     review_file = output_dir / f'2022_deduped_{timestamp}_review.md'
     log_file = output_dir / f'2022_deduped_{timestamp}.log'
-
-    # Create output directory
-    output_dir.mkdir(parents=True, exist_ok=True)
 
     # Setup logging
     logger = setup_logging(log_file)
