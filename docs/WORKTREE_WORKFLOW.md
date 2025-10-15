@@ -24,6 +24,39 @@ git branch -d feature/your-feature
 
 Git worktrees let you have multiple branches checked out simultaneously in separate directories. Each worktree is a complete working copy of your repository, but they all share the same Git history.
 
+## ⚠️ CRITICAL: Worktree Placement
+
+**Worktrees MUST be created OUTSIDE (as siblings to) the main directory, NOT inside it!**
+
+```
+✓ CORRECT - Siblings (separate directories):
+~/Projects/
+├── taxes/                    ← Main directory
+├── taxes-feat-extraction/    ← Worktree (sibling)
+└── taxes-docs-workflow/      ← Worktree (sibling)
+
+✗ WRONG - Nested (inside main directory):
+~/Projects/taxes/
+├── taxes-feat-extraction/    ← NO! Creates confusion
+└── taxes-docs-workflow/      ← NO! Wrong structure
+```
+
+**The correct command uses `../` to go UP one level:**
+
+```bash
+# WRONG (creates inside main directory):
+cd ~/Projects/taxes
+git worktree add taxes-feat-name -b feature/name main
+# Creates: ~/Projects/taxes/taxes-feat-name/ ❌
+
+# RIGHT (creates sibling to main directory):
+cd ~/Projects/taxes
+git worktree add ../taxes-feat-name -b feature/name main
+# Creates: ~/Projects/taxes-feat-name/ ✓
+```
+
+**Why this matters:** Worktrees must be completely separate directories to avoid confusion and ensure clean separation between the manager (main directory) and workers (worktrees).
+
 ## The Manager Pattern (Key Concept!)
 
 **Understanding roles is critical to using worktrees correctly:**
