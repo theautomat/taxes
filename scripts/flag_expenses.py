@@ -235,7 +235,8 @@ def main():
 
     # Patterns file path (relative to script)
     script_dir = Path(__file__).parent
-    patterns_file = script_dir.parent / "generated-files/expenses/expense_patterns.json"
+    # Use whitelist by default for high-precision flagging
+    patterns_file = script_dir.parent / "generated-files/expenses/expense_patterns_whitelist.json"
 
     if not Path(input_csv).exists():
         print(f"Error: Input file not found: {input_csv}")

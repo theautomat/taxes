@@ -1,0 +1,161 @@
+{
+  "whitelist_philosophy": "Only include vendors that are UNAMBIGUOUSLY business expenses. High precision over high recall. Better to miss some expenses than to flood with false positives.",
+  "categories": {
+    "cloud_infrastructure": {
+      "name": "Cloud Infrastructure",
+      "deductibility": "yes",
+      "keywords": [
+        "amazon web services",
+        "aws",
+        "google cloud",
+        "gcp",
+        "microsoft azure",
+        "digitalocean",
+        "linode",
+        "vultr",
+        "heroku",
+        "vercel",
+        "netlify",
+        "railway",
+        "render",
+        "fly.io"
+      ],
+      "confidence": "high",
+      "rationale": "Software infrastructure - always business for a developer"
+    },
+    "domain_dns": {
+      "name": "Domain & DNS Services",
+      "deductibility": "yes",
+      "keywords": [
+        "godaddy",
+        "namecheap",
+        "domain.com",
+        "hover",
+        "gandi",
+        "porkbun",
+        "name.com",
+        "dnsimple"
+      ],
+      "confidence": "high",
+      "rationale": "Domain registrations are business assets for software developer"
+    },
+    "development_tools": {
+      "name": "Software & Development Tools",
+      "deductibility": "yes",
+      "keywords": [
+        "github",
+        "gitlab",
+        "bitbucket",
+        "jetbrains",
+        "docker",
+        "postman",
+        "insomnia"
+      ],
+      "confidence": "high",
+      "rationale": "Developer tools - unambiguously business"
+    },
+    "saas_services": {
+      "name": "SaaS & Business Services",
+      "deductibility": "yes",
+      "keywords": [
+        "stripe",
+        "twilio",
+        "sendgrid",
+        "mailgun",
+        "postmark"
+      ],
+      "confidence": "high",
+      "rationale": "API services and payment processing for business"
+    },
+    "monitoring_analytics": {
+      "name": "Monitoring & Analytics",
+      "deductibility": "yes",
+      "keywords": [
+        "datadog",
+        "sentry",
+        "logrocket",
+        "new relic"
+      ],
+      "confidence": "high",
+      "rationale": "Application monitoring - business only"
+    },
+    "database_hosting": {
+      "name": "Database & Cloud Storage",
+      "deductibility": "yes",
+      "keywords": [
+        "mongodb atlas",
+        "planetscale",
+        "supabase",
+        "firebase"
+      ],
+      "confidence": "high",
+      "rationale": "Managed database services for applications"
+    },
+    "professional_development": {
+      "name": "Professional Development",
+      "deductibility": "yes",
+      "keywords": [
+        "udemy",
+        "pluralsight",
+        "frontend masters",
+        "egghead",
+        "o'reilly",
+        "manning publications",
+        "pragmatic bookshelf",
+        "codecademy",
+        "datacamp",
+        "educative.io"
+      ],
+      "confidence": "high",
+      "rationale": "Technical education directly related to software development profession"
+    },
+    "communication_business": {
+      "name": "Business Communication",
+      "deductibility": "yes",
+      "keywords": [
+        "slack paid",
+        "zoom pro",
+        "google workspace",
+        "microsoft 365 business"
+      ],
+      "confidence": "high",
+      "rationale": "Business-tier communication tools (not consumer plans)"
+    },
+    "banking_fees": {
+      "name": "Banking & Payment Fees",
+      "deductibility": "yes",
+      "keywords": [
+        "wire transfer fee",
+        "wire fee",
+        "business checking fee",
+        "merchant services fee",
+        "stripe fee",
+        "paypal fee"
+      ],
+      "confidence": "high",
+      "rationale": "Business banking and payment processing fees"
+    }
+  },
+  "excluded_ambiguous": {
+    "reason": "These vendors require human review - could be personal or business",
+    "removed_vendors": [
+      "amazon.com (too ambiguous - could be anything)",
+      "apple.com (could be personal subscriptions or business hardware)",
+      "best buy, newegg (hardware stores - need to see what was purchased)",
+      "office depot, staples (could be personal office supplies)",
+      "airtable, notion (free/personal plans common)",
+      "zoom, slack (consumer plans vs business plans unclear from description)"
+    ]
+  },
+  "matching_rules": {
+    "case_sensitive": false,
+    "partial_match": true,
+    "description": "Whitelist approach: Only flag transactions with HIGH CONFIDENCE of being business expenses"
+  },
+  "usage_notes": [
+    "This whitelist is intentionally conservative",
+    "Goal: High precision (95%+ accuracy) over high recall",
+    "Missing expenses should be caught through other methods (manual review, AI, etc.)",
+    "Better to have 50 accurate flags than 500 that need review"
+  ]
+}
