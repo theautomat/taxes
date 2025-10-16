@@ -426,6 +426,11 @@ def main():
     review_file = output_dir / f'2022_deduped_{timestamp}_review.md'
     log_file = output_dir / f'2022_deduped_{timestamp}.log'
 
+    # Also create "latest" symlinks for easy access
+    latest_csv = output_dir / '2022_deduped_latest.csv'
+    latest_log = output_dir / '2022_deduped_latest.log'
+    latest_review = output_dir / '2022_deduped_latest_review.md'
+
     # Setup logging
     logger = setup_logging(log_file)
 
@@ -464,12 +469,27 @@ def main():
     logger.info(f"\n✅ Deduplication complete!")
     logger.info(f"Log saved to: {log_file}")
 
+    # Create "latest" symlinks for easy access to most recent files
+    import os
+    for latest_link, target_file in [(latest_csv, output_file), (latest_log, log_file)]:
+        if latest_link.exists() or latest_link.is_symlink():
+            latest_link.unlink()
+        latest_link.symlink_to(target_file.name)  # Relative symlink
+
+    if deduplicator.ambiguous_matches:
+        if latest_review.exists() or latest_review.is_symlink():
+            latest_review.unlink()
+        latest_review.symlink_to(review_file.name)  # Relative symlink
+
     print(f"\n✅ Deduplication complete!")
     print(f"\nOutput files:")
     print(f"  - Deduplicated CSV: {output_file}")
+    print(f"  - Latest link: {latest_csv} → {output_file.name}")
     print(f"  - Log file: {log_file}")
+    print(f"  - Latest log link: {latest_log} → {log_file.name}")
     if deduplicator.ambiguous_matches:
         print(f"  - Review file: {review_file}")
+        print(f"  - Latest review link: {latest_review} → {review_file.name}")
 
 
 if __name__ == '__main__':

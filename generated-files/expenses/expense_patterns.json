@@ -1,0 +1,370 @@
+{
+  "categories": {
+    "cloud_infrastructure": {
+      "name": "Cloud Infrastructure",
+      "deductibility": "yes",
+      "keywords": [
+        "aws",
+        "amazon web services",
+        "google cloud",
+        "gcp",
+        "microsoft azure",
+        "azure",
+        "digitalocean",
+        "linode",
+        "vultr",
+        "heroku",
+        "vercel",
+        "netlify",
+        "railway",
+        "render",
+        "fly.io",
+        "ovh",
+        "rackspace",
+        "backblaze",
+        "wasabi",
+        "cloudways"
+      ],
+      "confidence": "high"
+    },
+    "domain_dns": {
+      "name": "Domain & DNS",
+      "deductibility": "yes",
+      "keywords": [
+        "namecheap",
+        "godaddy",
+        "domain.com",
+        "cloudflare",
+        "route53",
+        "dnsimple",
+        "hover",
+        "gandi",
+        "enom",
+        "dynadot",
+        "name.com",
+        "porkbun",
+        "internetbs"
+      ],
+      "confidence": "high"
+    },
+    "development_tools": {
+      "name": "Software & Development Tools",
+      "deductibility": "yes",
+      "keywords": [
+        "github",
+        "gitlab",
+        "bitbucket",
+        "jetbrains",
+        "intellij",
+        "pycharm",
+        "webstorm",
+        "visual studio",
+        "phpstorm",
+        "rubymine",
+        "datagrip",
+        "rider",
+        "clion",
+        "goland",
+        "resharper",
+        "sourcetree",
+        "tower",
+        "gitkraken",
+        "postman",
+        "insomnia",
+        "docker",
+        "circleci",
+        "travis",
+        "jenkins"
+      ],
+      "confidence": "high"
+    },
+    "design_creative": {
+      "name": "Design & Creative Tools",
+      "deductibility": "yes",
+      "keywords": [
+        "adobe",
+        "figma",
+        "sketch",
+        "canva pro",
+        "invision"
+      ],
+      "confidence": "high"
+    },
+    "api_services": {
+      "name": "API & Integration Services",
+      "deductibility": "yes",
+      "keywords": [
+        "stripe",
+        "twilio",
+        "sendgrid",
+        "mailgun",
+        "postmark",
+        "zapier",
+        "mailchimp",
+        "sendinblue",
+        "convertkit",
+        "activecampaign",
+        "paypal",
+        "braintree",
+        "square",
+        "plaid",
+        "algolia",
+        "elastic"
+      ],
+      "confidence": "high"
+    },
+    "monitoring_analytics": {
+      "name": "Monitoring & Analytics",
+      "deductibility": "yes",
+      "keywords": [
+        "datadog",
+        "new relic",
+        "sentry",
+        "logrocket",
+        "mixpanel",
+        "amplitude"
+      ],
+      "confidence": "high"
+    },
+    "database_storage": {
+      "name": "Database & Storage",
+      "deductibility": "yes",
+      "keywords": [
+        "mongodb",
+        "atlas",
+        "planetscale",
+        "supabase",
+        "firebase",
+        "redis",
+        "postgresql",
+        "mysql",
+        "cockroachdb",
+        "fauna",
+        "airtable",
+        "cockroachlabs",
+        "elephantsql",
+        "compose",
+        "mlab",
+        "dropbox business",
+        "box.com",
+        "s3"
+      ],
+      "confidence": "high"
+    },
+    "website_hosting": {
+      "name": "Website & Hosting Services",
+      "deductibility": "yes",
+      "keywords": [
+        "squarespace",
+        "wix",
+        "wordpress",
+        "bluehost",
+        "siteground",
+        "hostgator",
+        "dreamhost",
+        "a2 hosting",
+        "kinsta",
+        "wpengine"
+      ],
+      "confidence": "high"
+    },
+    "project_management": {
+      "name": "Project Management",
+      "deductibility": "yes",
+      "keywords": [
+        "jira",
+        "atlassian",
+        "asana",
+        "linear",
+        "trello",
+        "monday.com",
+        "notion",
+        "basecamp",
+        "clickup",
+        "airtable",
+        "smartsheet"
+      ],
+      "confidence": "medium"
+    },
+    "communication": {
+      "name": "Communication Tools",
+      "deductibility": "yes",
+      "keywords": [
+        "slack",
+        "zoom",
+        "discord nitro",
+        "loom",
+        "google workspace",
+        "microsoft 365",
+        "office 365",
+        "teams",
+        "skype",
+        "webex",
+        "gotomeeting",
+        "calendly",
+        "hubspot"
+      ],
+      "confidence": "medium"
+    },
+    "professional_development": {
+      "name": "Professional Development",
+      "deductibility": "yes",
+      "keywords": [
+        "udemy",
+        "coursera",
+        "pluralsight",
+        "frontend masters",
+        "egghead",
+        "linkedin learning",
+        "o'reilly",
+        "manning",
+        "pragmatic bookshelf",
+        "treehouse",
+        "codecademy",
+        "datacamp",
+        "educative",
+        "levelup tutorials",
+        "wes bos",
+        "laracasts",
+        "skillshare",
+        "packt",
+        "apress",
+        "wiley"
+      ],
+      "confidence": "high"
+    },
+    "security": {
+      "name": "Security & Infrastructure",
+      "deductibility": "yes",
+      "keywords": [
+        "1password",
+        "lastpass",
+        "nordvpn",
+        "expressvpn"
+      ],
+      "confidence": "medium"
+    },
+    "banking_fees": {
+      "name": "Banking & Wire Fees",
+      "deductibility": "yes",
+      "keywords": [
+        "wire transfer fee",
+        "wire fee",
+        "business checking fee",
+        "account service charge"
+      ],
+      "confidence": "high"
+    },
+    "office_equipment": {
+      "name": "Office Equipment & Hardware",
+      "deductibility": "yes",
+      "keywords": [
+        "apple store",
+        "best buy",
+        "newegg",
+        "micro center",
+        "logitech",
+        "dell",
+        "hp",
+        "lenovo",
+        "jarvis desk",
+        "uplift desk",
+        "standing desk",
+        "herman miller",
+        "steelcase",
+        "b&h photo",
+        "adorama",
+        "memory express",
+        "canada computers",
+        "razer",
+        "corsair",
+        "keychron",
+        "das keyboard",
+        "kinesis",
+        "ergodox",
+        "lg ultrafine",
+        "benq",
+        "asus",
+        "acer",
+        "samsung monitor",
+        "webcam",
+        "blue yeti",
+        "shure",
+        "audio-technica",
+        "focusrite"
+      ],
+      "confidence": "medium",
+      "note": "needs_review_for_personal"
+    },
+    "office_supplies": {
+      "name": "Office Supplies",
+      "deductibility": "yes",
+      "keywords": [
+        "staples",
+        "office depot",
+        "ikea"
+      ],
+      "confidence": "low",
+      "note": "needs_review_for_personal"
+    },
+    "internet_phone": {
+      "name": "Internet & Phone (Business %)",
+      "deductibility": "partial",
+      "keywords": [
+        "comcast",
+        "xfinity",
+        "at&t",
+        "verizon",
+        "t-mobile",
+        "spectrum",
+        "cox"
+      ],
+      "confidence": "medium",
+      "note": "requires_business_percentage"
+    },
+    "ambiguous_needs_review": {
+      "name": "Ambiguous - Needs Review",
+      "deductibility": "unknown",
+      "keywords": [
+        "amazon.com",
+        "amzn",
+        "apple.com"
+      ],
+      "confidence": "low",
+      "note": "could_be_business_or_personal"
+    },
+    "personal_exclude": {
+      "name": "Personal - Exclude",
+      "deductibility": "no",
+      "keywords": [
+        "whole foods",
+        "safeway",
+        "kroger",
+        "target",
+        "walmart",
+        "costco",
+        "trader joe",
+        "netflix",
+        "spotify",
+        "hulu",
+        "disney+",
+        "gym",
+        "fitness"
+      ],
+      "confidence": "high",
+      "note": "personal_expense"
+    }
+  },
+  "matching_rules": {
+    "case_sensitive": false,
+    "partial_match": true,
+    "description": "Keywords will be matched against transaction description using case-insensitive partial matching"
+  },
+  "usage_notes": [
+    "Keywords are matched case-insensitively against transaction descriptions",
+    "Multiple keyword matches will use the highest confidence category",
+    "Always flag matches for human review before finalizing",
+    "Update this file as new vendors/patterns are discovered",
+    "Confidence levels: high (90%+ sure), medium (70-90%), low (<70%)"
+  ]
+}
