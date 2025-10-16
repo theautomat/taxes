@@ -51,9 +51,25 @@ Location: `source-documents/Tax - Finance Documents/2022 Tax Info/NFT Genius/`
 
 **Total:** 1 file | **Done:** 1 | **Pending:** 0
 
-### Popstand
-Location: `source-documents/Popstand/`
-- Status: ⏳ Not cataloged
+### Popstand Wire Transfers - 2022
+Location: `source-documents/Archive (Organizations)/Popstand/Chase Bank Statements/2022/`
+
+| File | Status | Extracted To | Notes |
+|------|--------|--------------|-------|
+| Chase Bank Statements (12 PDFs) | ✅ Done | generated-files/extracted/popstand/2022_popstand_wire-transfers.csv | 62 wire transfers consolidated from Chase statements |
+
+**Total:** 1 consolidated file | **Done:** 1 | **Pending:** 0
+
+### Real Estate - 662 Mountain View
+Location: `source-documents/Tax - Finance Documents/2022 Tax Info/662 Mountain View/`
+
+| File | Status | Extracted To | Notes |
+|------|--------|--------------|-------|
+| 1098 Morgage Interest 01_11_23.pdf | ⏳ Pending | generated-files/real-estate/662-mountain-view/ | Mortgage interest for 2022 (tax deductible) |
+| 1099-INT 01_11_23.pdf | ⏳ Pending | generated-files/real-estate/662-mountain-view/ | Interest income for 2022 (taxable) |
+| Screen Shot 2023-03-14 at 4.02.47 PM.png | ℹ️ Info | N/A | 2022 tax return payment reference ($24,420) |
+
+**Total:** 2 files to extract | **Done:** 0 | **Pending:** 2
 
 ---
 
@@ -62,6 +78,8 @@ Location: `source-documents/Popstand/`
 - ⏳ Pending - Not yet extracted
 - ⚠️ Issue - Problem noted, see Notes column
 - 🔄 In Progress - Currently being worked on
+- ℹ️ Info - Reference/informational only, no extraction needed
+- ⏭️ Skip - Intentionally skipped (duplicate data or not needed)
 
 ## Notes
 Add any issues or special considerations here as you process documents.
