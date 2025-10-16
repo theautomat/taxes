@@ -147,7 +147,8 @@
         "mlab",
         "dropbox business",
         "box.com",
-        "s3"
+        "aws s3",
+        "amazon s3"
       ],
       "confidence": "high"
     },

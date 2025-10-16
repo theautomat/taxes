@@ -12,6 +12,7 @@ Example:
 import csv
 import json
 import sys
+import logging
 from pathlib import Path
 from datetime import datetime
 
@@ -59,7 +60,20 @@ def confidence_rank(confidence_level):
     return ranks.get(confidence_level, 0)
 
 
-def flag_expenses(input_csv, output_csv, patterns_file):
+def setup_logging(log_file):
+    """Set up logging to file and console."""
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler(sys.stdout)
+        ]
+    )
+    return logging.getLogger(__name__)
+
+
+def flag_expenses(input_csv, output_csv, patterns_file, log_file):
     """
     Read transactions from input CSV and flag potential expenses.
 
@@ -67,12 +81,27 @@ def flag_expenses(input_csv, output_csv, patterns_file):
         input_csv: Path to input CSV with transactions
         output_csv: Path to output CSV for flagged expenses
         patterns_file: Path to expense patterns JSON
+        log_file: Path to log file
     """
+    logger = setup_logging(log_file)
+
+    logger.info("=" * 80)
+    logger.info("EXPENSE FLAGGING SESSION STARTED")
+    logger.info("=" * 80)
+    logger.info(f"Input file: {input_csv}")
+    logger.info(f"Output file: {output_csv}")
+    logger.info(f"Patterns file: {patterns_file}")
+    logger.info(f"Log file: {log_file}")
+    logger.info("")
+
     patterns = load_patterns(patterns_file)
+    logger.info(f"Loaded {len(patterns['categories'])} expense categories from patterns file")
+    logger.info("")
 
     flagged_transactions = []
     total_transactions = 0
     flagged_count = 0
+    category_counts = {}
 
     # Read input CSV
     with open(input_csv, 'r') as f:
@@ -81,8 +110,11 @@ def flag_expenses(input_csv, output_csv, patterns_file):
 
         # Validate CSV has required fields
         if not all(field in reader.fieldnames for field in required_fields):
-            print(f"Error: Input CSV must contain columns: {', '.join(required_fields)}")
+            logger.error(f"Input CSV missing required columns: {', '.join(required_fields)}")
             sys.exit(1)
+
+        logger.info("Processing transactions...")
+        logger.info("")
 
         for row in reader:
             total_transactions += 1
@@ -116,6 +148,19 @@ def flag_expenses(input_csv, output_csv, patterns_file):
                 if row.get('Notes'):
                     expense_row['Notes'] = f"{row['Notes']} | {expense_row['Notes']}"
 
+                # Log the flagged transaction
+                logger.info(f"FLAGGED: {row['Date']} | ${row['Amount']:>10} | {cat_data['name']}")
+                logger.info(f"         Description: {description}")
+                logger.info(f"         Matched keyword: '{matched_keyword}' (confidence: {cat_data['confidence']})")
+                logger.info(f"         Deductibility: {cat_data['deductibility']}")
+                if 'note' in cat_data:
+                    logger.info(f"         Note: {cat_data['note']}")
+                logger.info("")
+
+                # Track category counts
+                category_name = cat_data['name']
+                category_counts[category_name] = category_counts.get(category_name, 0) + 1
+
                 flagged_transactions.append(expense_row)
                 flagged_count += 1
 
@@ -132,24 +177,41 @@ def flag_expenses(input_csv, output_csv, patterns_file):
             writer.writeheader()
             writer.writerows(flagged_transactions)
 
-        print(f"✓ Processed {total_transactions} transactions")
-        print(f"✓ Flagged {flagged_count} potential business expenses ({flagged_count/total_transactions*100:.1f}%)")
-        print(f"✓ Results written to: {output_csv}")
-        print(f"\nNext steps:")
-        print(f"  1. Review flagged expenses in {output_csv}")
-        print(f"  2. Verify categories and deductibility")
-        print(f"  3. Add/remove transactions as needed")
-        print(f"  4. Update expense_patterns.json with new keywords discovered")
-        print(f"\nNote:")
-        print(f"  - This script is ONE of multiple ways to flag expenses")
-        print(f"  - Manual review, spreadsheet research, and other methods can also add flags")
-        print(f"  - The 'FlaggedBy' field tracks multiple sources (comma-separated)")
+        logger.info("=" * 80)
+        logger.info("SUMMARY")
+        logger.info("=" * 80)
+        logger.info(f"Total transactions processed: {total_transactions}")
+        logger.info(f"Total flagged as expenses: {flagged_count} ({flagged_count/total_transactions*100:.1f}%)")
+        logger.info("")
+        logger.info("Breakdown by category:")
+        for category, count in sorted(category_counts.items(), key=lambda x: x[1], reverse=True):
+            logger.info(f"  {category}: {count}")
+        logger.info("")
+        logger.info(f"Results written to: {output_csv}")
+        logger.info(f"Log file: {log_file}")
+        logger.info("")
+        logger.info("Next steps:")
+        logger.info("  1. Review flagged expenses in CSV")
+        logger.info("  2. Verify categories and deductibility")
+        logger.info("  3. Add/remove transactions as needed")
+        logger.info("  4. Update expense_patterns.json with new keywords discovered")
+        logger.info("")
+        logger.info("Note:")
+        logger.info("  - This script is ONE of multiple ways to flag expenses")
+        logger.info("  - Manual review, spreadsheet research, and other methods can also add flags")
+        logger.info("  - The 'FlaggedBy' field tracks multiple sources (comma-separated)")
+        logger.info("=" * 80)
     else:
-        print(f"✓ Processed {total_transactions} transactions")
-        print(f"✗ No potential expenses found matching patterns")
-        print(f"\nConsider:")
-        print(f"  - Adding more keywords to expense_patterns.json")
-        print(f"  - Checking if input CSV has expected transaction types")
+        logger.info("=" * 80)
+        logger.info("SUMMARY")
+        logger.info("=" * 80)
+        logger.info(f"Total transactions processed: {total_transactions}")
+        logger.info("No potential expenses found matching patterns")
+        logger.info("")
+        logger.info("Consider:")
+        logger.info("  - Adding more keywords to expense_patterns.json")
+        logger.info("  - Checking if input CSV has expected transaction types")
+        logger.info("=" * 80)
 
 
 def main():
@@ -162,11 +224,14 @@ def main():
     input_csv = sys.argv[1]
 
     # Default output path with timestamp
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     if len(sys.argv) >= 3:
         output_csv = sys.argv[2]
     else:
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         output_csv = f"generated-files/expenses/flagged_expenses_{timestamp}.csv"
+
+    # Log file path (same name as output CSV but .log extension)
+    log_file = Path(output_csv).with_suffix('.log')
 
     # Patterns file path (relative to script)
     script_dir = Path(__file__).parent
@@ -180,7 +245,7 @@ def main():
         print(f"Error: Patterns file not found: {patterns_file}")
         sys.exit(1)
 
-    flag_expenses(input_csv, output_csv, patterns_file)
+    flag_expenses(input_csv, output_csv, patterns_file, log_file)
 
 
 if __name__ == "__main__":

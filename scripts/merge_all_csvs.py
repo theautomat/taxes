@@ -47,6 +47,7 @@ if existing_merged:
 # Generate timestamped output filename
 today = datetime.now().strftime("%Y-%m-%d")
 output_file = os.path.join(merged_dir, f"2022_all-transactions_merged_{today}.csv")
+latest_file = os.path.join(merged_dir, "2022_all-transactions_merged_latest.csv")
 
 # WHITELIST: Only merge CSVs from these subdirectories
 # Add or remove directories here to control what gets merged
