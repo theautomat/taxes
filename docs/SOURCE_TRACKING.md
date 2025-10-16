@@ -42,10 +42,6 @@ Location: `source-documents/Privacy.com Transactions/`
 Location: `source-documents/Automatique/`
 - Status: ⏳ Not cataloged
 
-### Estate - Probate
-Location: `source-documents/Estate - Probate/`
-- Status: ⏳ Not cataloged
-
 ### NFT Genius - 2022 Tax Info
 Location: `source-documents/Tax - Finance Documents/2022 Tax Info/NFT Genius/`
 
