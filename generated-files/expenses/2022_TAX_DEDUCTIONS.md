@@ -233,6 +233,49 @@ Running list of potential tax deductions and exemptions for tax year 2022. This 
 - **Net Effect:** $15,000 outstanding loan balance at end of 2022 (asset, not expense)
 - **Note:** If interest was charged/received, that interest WOULD be taxable income
 
+### Important: Office Reimbursements (Not Income)
+**Pasadena Office Reimbursements:**
+- **Work Setup:** Part-time home office + part-time Pasadena office in 2022
+- **Reimbursements:** Office-related expenses were reimbursed by employer/company
+- **Tax Treatment:** Reimbursements are NOT taxable income (accountable plan)
+- **Action Required:** Verify and document these reimbursement transactions in transaction data
+- **Documentation Needed:**
+  - List of all reimbursement transactions
+  - Supporting receipts/invoices for reimbursed expenses
+  - Proof that expenses were ordinary and necessary business expenses
+- **Note:** Only non-reimbursed business expenses are deductible
+
+### Home Office & Mortgage Information
+**Home Office Deduction (Dual Workspace Situation):**
+- **2022 Work Location:** Split time between home office and Pasadena office
+- **Home Office Qualification:** May still qualify if home is principal place of business OR used for administrative/management activities
+- **Consideration:** Partial year or part-time home office use may reduce deduction percentage
+- **Action Required:** Calculate actual percentage of time worked from home in 2022
+
+**Mortgage Interest Deduction:**
+- **Action Required:** Obtain Form 1098 (Mortgage Interest Statement) from lender for 2022
+- **Deductible Amount:** All mortgage interest paid in 2022 (reported on Schedule A if itemizing)
+- **Home Office Impact:** If claiming home office deduction using actual expense method, portion of mortgage interest already claimed in home office calculation
+- **Note:** Cannot double-dip - mortgage interest is either:
+  - Part of home office deduction (business expense on Schedule C), OR
+  - Personal itemized deduction (Schedule A)
+  - NOT both
+
+**Home Depreciation/Amortization (If Using Actual Expense Method):**
+- **Caution:** Claiming depreciation creates a depreciation recapture requirement when selling home
+- **Alternative:** Consider simplified method ($5/sq ft) to avoid depreciation complications
+- **If Claiming Depreciation:**
+  - Calculate cost basis of home (purchase price + improvements)
+  - Exclude land value (only building is depreciable)
+  - Use 39-year straight-line depreciation for business portion
+  - Must recapture depreciation on home sale (taxed at 25%)
+- **Documentation Needed:**
+  - Home purchase documents (closing statement)
+  - Records of capital improvements
+  - Home square footage measurement
+  - Office square footage measurement
+- **Accountant Discussion Required:** Weigh simplified method vs. actual expense method pros/cons
+
 ### Research Needed
 - TBD: Add items here as questions arise
 
