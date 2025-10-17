@@ -233,17 +233,34 @@ Running list of potential tax deductions and exemptions for tax year 2022. This 
 - **Net Effect:** $15,000 outstanding loan balance at end of 2022 (asset, not expense)
 - **Note:** If interest was charged/received, that interest WOULD be taxable income
 
-### Important: Office Reimbursements (Not Income)
+### Important: Office Reimbursements (Not Income) ⚠️ CRITICAL
 **Pasadena Office Reimbursements:**
 - **Work Setup:** Part-time home office + part-time Pasadena office in 2022
-- **Reimbursements:** Office-related expenses were reimbursed by employer/company
+- **Reimbursements:** Office rent reimbursed by NFT Genius (employer)
 - **Tax Treatment:** Reimbursements are NOT taxable income (accountable plan)
-- **Action Required:** Verify and document these reimbursement transactions in transaction data
-- **Documentation Needed:**
-  - List of all reimbursement transactions
-  - Supporting receipts/invoices for reimbursed expenses
-  - Proof that expenses were ordinary and necessary business expenses
-- **Note:** Only non-reimbursed business expenses are deductible
+
+**VERIFIED REIMBURSEMENTS (from Gusto payroll stubs):**
+- **October 31, 2022:** $3,200.00 - Office Rent Reimbursement
+- **December 15, 2022:** $6,400.00 - Office Rent Reimbursement (2 months)
+- **Total reimbursed: $9,600.00**
+
+**CORRESPONDING RENT PAYMENTS (from Wells Fargo checking):**
+- **October 3, 2022:** Check #1001 - $3,210.00
+- **November 4, 2022:** Check #4629 - $3,210.00
+- **December 7, 2022:** Check #4632 - $3,257.17
+- **Total paid: $9,677.17**
+
+**NET TAX EFFECT:** Zero (payment/reimbursement nets out)
+
+**CRITICAL ACTION REQUIRED:**
+- ✅ **VERIFY:** These $9,600 reimbursements are NOT included in W-2 Box 1 (taxable wages)
+- ✅ **DOCUMENT:** Provide rent checks + reimbursement paystubs to tax preparer
+- ✅ **ACCOUNTABLE PLAN:** Ensure employer treated as accountable plan (not taxable compensation)
+
+**Non-Reimbursed Expenses (Deductible):**
+- Parking: $336.50 (NOT reimbursed - fully deductible)
+- Rent overage: $77.17 (minor difference between payments and reimbursements)
+- Internet: TBD (not reimbursed - need to locate payment records)
 
 ### Home Office & Mortgage Information
 **Home Office Deduction (Dual Workspace Situation):**
