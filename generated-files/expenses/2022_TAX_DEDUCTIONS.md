@@ -221,6 +221,18 @@ Running list of potential tax deductions and exemptions for tax year 2022. This 
 
 ## Notes & Questions
 
+### Important: Loan Transactions (Not Income/Expense)
+**Legal Loan 2022:**
+- **$25,000** loaned out for legal expenses in 2022
+- **$10,000** repayment received in 2022
+- **Tax Treatment:** Neither the loan nor the repayment are deductible expenses or taxable income
+- **IRS Perspective:**
+  - Loan disbursement: Not an expense (it's a loan asset)
+  - Loan repayment: Not income (it's return of principal)
+- **Documentation:** Keep loan agreement and repayment records for audit trail
+- **Net Effect:** $15,000 outstanding loan balance at end of 2022 (asset, not expense)
+- **Note:** If interest was charged/received, that interest WOULD be taxable income
+
 ### Research Needed
 - TBD: Add items here as questions arise
 

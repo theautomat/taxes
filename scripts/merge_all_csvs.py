@@ -47,7 +47,6 @@ if existing_merged:
 # Generate timestamped output filename
 today = datetime.now().strftime("%Y-%m-%d")
 output_file = os.path.join(merged_dir, f"2022_all-transactions_merged_{today}.csv")
-latest_file = os.path.join(merged_dir, "2022_all-transactions_merged_latest.csv")
 
 # WHITELIST: Only merge CSVs from these subdirectories
 # Add or remove directories here to control what gets merged
@@ -120,12 +119,6 @@ with open(output_file, 'w', newline='') as f:
 
 print(f"✅ Successfully merged {len(all_transactions)} transactions")
 print(f"   Output saved to: {output_file}")
-
-# Create "latest" symlink for easy access
-if os.path.exists(latest_file) or os.path.islink(latest_file):
-    os.remove(latest_file)
-os.symlink(os.path.basename(output_file), latest_file)
-print(f"   Latest link: {latest_file} → {os.path.basename(output_file)}")
 print()
 
 # Validation: Verify transaction counts
