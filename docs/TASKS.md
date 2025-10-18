@@ -14,6 +14,11 @@ This document tracks ongoing improvements and fixes for the taxes project docume
 
 - [ ] **Task 7: Resolve Popstand K-1 distribution discrepancy** - Reconcile $46,633 difference between K-1 reported distributions ($164,567) and Wells Fargo wire transfers ($211,200)
 
+### Tax Filing - 2022
+
+- [ ] **Task 8: Complete Schedule B (Interest Income)** - Fill out Schedule B Part I with all interest sources including PHH Mortgage escrow interest ($203.45). See `BREAKDOWN_2022_Interest_Income.md` for details.
+- [ ] **Task 9: Transfer interest total to Form 1040, Line 2b** - After completing Schedule B, transfer total taxable interest amount to Form 1040, Line 2b
+
 ## Completed Tasks
 
 - [x] **Task 1: Standardize CSV format** - Migrated from Deposits/Withdrawals to single Amount column (negative for expenses, positive for income)
