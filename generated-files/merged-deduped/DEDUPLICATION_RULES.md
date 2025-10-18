@@ -1,5 +1,9 @@
 # Deduplication Rules for Merged Transactions
 
+**Script Location**: `scripts/deduplicate_transactions.py`
+
+This document describes the deduplication rules implemented in the actual script. It should be kept in sync with the script implementation.
+
 ## Problem Statement
 
 The merged CSV file contains duplicates because the same transaction appears in multiple source documents:
@@ -12,6 +16,23 @@ For example:
 - Wells Fargo: `2022-01-03, Pwp Amzn Mktp U Privacycom TN: 1412233, -8.50`
 
 These are the SAME transaction, just recorded at different times by different systems.
+
+## Workflow Context
+
+Deduplication happens **after** all sources have been converted to standardized CSVs and merged:
+
+1. **Extraction Phase**: Convert all source documents (PDFs, statements) to individual CSVs
+   - Include ALL transactions, even duplicates
+   - Maintain complete audit trail with Source field
+
+2. **Merge Phase**: Combine all source CSVs into one file
+   - Keep source reference for each transaction
+   - Sort by date
+
+3. **Deduplication Phase**: Identify and remove duplicates (THIS DOCUMENT)
+   - Apply matching rules (described below)
+   - Keep the most detailed record
+   - Generate review file for ambiguous matches
 
 ## Deduplication Strategy
 
@@ -101,28 +122,79 @@ When duplicates are found, we keep the transaction with MORE information:
 
 **Solution**: Only dedupe if one source is Privacy.com. All other transactions are kept as-is.
 
-## Deduplication Algorithm
+## Deduplication Algorithm (Implementation)
 
+The script uses a **two-pass approach** to handle both simple duplicates and recurring subscriptions:
+
+### Pass 1: Simple 1:1 Matching (lines 162-201)
+
+For each amount that appears more than once:
+1. Separate Privacy.com transactions from Wells Fargo transactions
+2. For each Privacy.com transaction, find matching Wells Fargo transactions
+3. If **exactly 1 match** found:
+   - Perfect 1:1 match → deduplicate immediately
+   - Keep Privacy.com record, remove Wells Fargo record
+   - Merge category info from Wells Fargo into Privacy.com notes
+4. If **multiple matches** found:
+   - Save as "ambiguous" for Pass 2 (subscription matching)
+
+### Pass 2: Subscription Matching (lines 203-255)
+
+For each amount with ambiguous matches:
+1. Group all Privacy.com and Wells Fargo transactions for that amount
+2. **Check if counts are equal**:
+   - If YES (e.g., 12 Privacy.com, 12 Wells Fargo):
+     - Sort both lists by date
+     - Match sequentially (1st to 1st, 2nd to 2nd, etc.)
+     - Only match if dates are within 5-day window
+     - Handles recurring subscriptions automatically
+   - If NO (unequal counts):
+     - Flag as truly ambiguous → requires manual review
+3. Generate review file for remaining ambiguous matches
+
+### Output Generation
+
+1. Write deduplicated CSV (duplicates removed)
+2. Write log file (detailed matching decisions)
+3. Write review file (ambiguous matches needing manual review)
+4. Print summary statistics
+
+**Simplified Flow**:
 ```
-1. Load all transactions from merged CSV
-2. Sort by date
-3. For each transaction:
-   a. If source is Privacy.com:
-      - Look for Wells Fargo transactions with:
-        * Same amount
-        * Date within ±5 days
-        * Description contains "Pwp" and "Privacycom"
-      - If match found:
-        * Mark Wells Fargo record for removal
-        * Optionally merge category from Wells Fargo into Privacy.com record
-   b. Continue to next transaction
-4. Remove all marked transactions
-5. Output deduplicated CSV
+Load merged CSV
+  ↓
+Group by amount
+  ↓
+Pass 1: Match 1:1 duplicates → Dedupe
+  ↓
+Pass 2: Match equal-count subscription groups → Dedupe
+  ↓
+Remaining ambiguous matches → Review file
+  ↓
+Write deduplicated CSV + logs
+```
+
+## Source Field Format and Tracking
+
+**Why Source Field Matters**: The Source field allows you to trace any transaction back to its original document for verification. This is critical for audits and debugging.
+
+**Format**: Use the original source document filename exactly as it appears:
+
+Examples:
+- `013122 WellsFargo.pdf` - Original PDF filename
+- `Privacy.com Statement 2022-01-01 - 2022-12-31.csv` - Privacy.com export
+- `Chase_1234_January2022.pdf` - Credit card statement
+- `2022-01_wells-fargo_checking.csv` - Standardized extracted CSV
+
+**After Deduplication**: The kept record maintains its original source, but adds a note about which source was deduped:
+```
+Source: Privacy.com Statement 2022-01-01 - 2022-12-31.csv
+Notes: Privacy.com card ending 5261 | Deduped with: 2022-01_wells-fargo_checking (2022-01-03) | WF Category: Shopping
 ```
 
 ## Output Format
 
-The deduplicated CSV should maintain all original columns:
+The deduplicated CSV maintains all original columns:
 - Date (from Privacy.com record for deduped transactions)
 - Description (from Privacy.com record)
 - Amount
@@ -139,34 +211,78 @@ The deduplicated CSV should maintain all original columns:
 
 ## Verification Strategy
 
-After deduplication, verify the results:
+The script automatically performs and reports several verification checks:
 
-1. **Count Check**:
-   - Before: X transactions
-   - After: Y transactions
-   - Removed: X - Y duplicates
-   - Expected: Privacy.com has ~650 transactions that should match Wells Fargo
+### Automated Checks (Built into Script)
 
-2. **Amount Check**:
-   - Sum all amounts before dedup
-   - Sum all amounts after dedup
-   - Difference should equal the sum of removed duplicates
+1. **Count Check** (printed in summary):
+   - Original transaction count
+   - Duplicates removed count
+   - Final transaction count
+   - Ambiguous matches count (need manual review)
 
-3. **Spot Check**:
-   - Manually review a sample of deduped transactions
-   - Verify the correct record was kept
-   - Verify no false positives (different transactions incorrectly deduped)
+2. **Amount Check** (printed in summary):
+   - Original total amount
+   - Removed amount (duplicates)
+   - Final total amount
+   - Difference should equal removed duplicates
 
-4. **Edge Case Check**:
-   - Look for same amount, same day transactions
-   - Verify they were handled correctly
+3. **Source Breakdown** (printed in summary):
+   - Privacy.com transaction count
+   - Wells Fargo transaction count
+   - Other sources count
+
+4. **Detailed Logs** (`2022_deduped_TIMESTAMP.log`):
+   - Every duplicate match logged with dates, amounts, descriptions
+   - Pass 1 and Pass 2 statistics
+   - Warning messages for date gaps or unequal counts
+
+### Manual Verification Steps
+
+After running the script, review:
+
+1. **Review File** (`2022_deduped_TIMESTAMP_review.md`):
+   - Contains all ambiguous matches that couldn't be auto-resolved
+   - Lists each Privacy.com transaction with its possible Wells Fargo matches
+   - Requires manual decision on which (if any) should be deduped
+
+2. **Spot Check**:
+   - Randomly sample 10-20 deduped transactions
+   - Verify the correct record was kept (Privacy.com over Wells Fargo)
+   - Check that Notes field shows the dedup trail
+
+3. **Edge Case Check**:
+   - Search for same amount, same day transactions in final CSV
+   - Verify they're legitimately different (not false negatives)
+   - Check log file for how they were handled
+
+4. **Subscription Verification**:
+   - Pick a known recurring charge (e.g., Netflix)
+   - Verify all 12 months were properly matched
+   - Check that no subscription charges remain duplicated
 
 ## Manual Review Queue
 
-The script should generate a review file for transactions that:
-- Have ambiguous matches (multiple possible duplicates)
-- Have unusual patterns (same amount, same day, but different merchants)
-- Fall outside normal parameters (date gap > 5 days but otherwise matching)
+The script generates a review file (`*_review.md`) for transactions that:
+- **Have ambiguous matches**: Multiple possible duplicates with no clear 1:1 match
+- **Unequal count groups**: Different number of Privacy.com vs Wells Fargo transactions (can't use subscription matching)
+- **Large date gaps**: Dates beyond the 5-day window during subscription matching
+
+**Review File Format**: Lists each ambiguous Privacy.com transaction with all its possible Wells Fargo matches, showing dates and descriptions side-by-side for manual decision-making.
+
+## Important Safety Rules
+
+⚠️ **Do NOT auto-delete duplicates without verification** - The script logs everything but requires you to review the output
+
+⚠️ **When in doubt, keep both** - Better to have a duplicate than miss a real transaction (can be manually removed later)
+
+⚠️ **Always check the review file** - Ambiguous matches need human judgment
+
+⚠️ **Verify subscription matching** - Check that recurring charges were properly paired
+
+⚠️ **Document decisions** - If you manually resolve ambiguous matches, document in Notes field
+
+⚠️ **Preserve audit trail** - Never delete source documents or original CSVs
 
 ## Source Priority Hierarchy (Future: 3-Way Deduplication)
 
@@ -228,7 +344,7 @@ Result: One transaction per actual purchase, with the most detailed record kept
 - Source contains "wells-fargo"
 - Is the final destination (bank posting)
 
-### Special Case: Recurring Subscriptions (IMPORTANT)
+### Special Case: Recurring Subscriptions (IMPLEMENTED)
 
 **Problem**: Multiple identical charges (same merchant, same amount) throughout the year.
 
@@ -237,18 +353,32 @@ Examples:
 - Google Domains: $12.00 for multiple domain renewals
 - QuickNode: $99.00 monthly subscription
 
-**Current Behavior**: Marked as "ambiguous" because algorithm can't determine which Privacy.com matches which Wells Fargo when there are multiple candidates.
+**Implementation Status**: ✅ ACTIVE - Handled by Pass 2 of the deduplication script
 
-**Solution**: Sequential date matching for equal-count groups
+**How It Works**: Sequential date matching for equal-count groups (Pass 2 in script)
+
+When the script finds multiple matches for the same amount:
+1. Group all Privacy.com and Wells Fargo transactions for that amount
+2. Check if counts are equal (e.g., 12 Privacy.com, 12 Wells Fargo)
+3. If equal: Sort both by date and match sequentially (closest dates)
+4. If unequal: Flag as ambiguous for manual review
+
+**Code Implementation** (lines 203-255 in `deduplicate_transactions.py`):
 ```python
-# When counts match (e.g., 10 Privacy.com, 10 Wells Fargo)
-# Sort both by date and match in order
-privacy_sorted = sorted(privacy_txns, key=lambda t: t.date)
-wf_sorted = sorted(wf_txns, key=lambda t: t.date)
+# Pass 2: Subscription matching for equal-count groups
+for amount, ambiguous_group in ambiguous_by_amount.items():
+    all_privacy = [p for p, _ in ambiguous_group]
+    all_wf = list({m for _, matches in ambiguous_group for m in matches})
 
-for p_txn, wf_txn in zip(privacy_sorted, wf_sorted):
-    if abs((p_txn.date - wf_txn.date).days) <= 5:
-        match_and_dedupe(p_txn, wf_txn)
+    # Only apply subscription matching if counts are equal
+    if len(all_privacy) == len(all_wf):
+        privacy_sorted = sorted(all_privacy, key=lambda t: t.date)
+        wf_sorted = sorted(all_wf, key=lambda t: t.date)
+
+        # Match sequentially (closest dates)
+        for p_txn, wf_txn in zip(privacy_sorted, wf_sorted):
+            if date_diff <= self.date_window_days:
+                match_and_dedupe(p_txn, wf_txn)
 ```
 
 This handles recurring subscriptions automatically without manual review.
