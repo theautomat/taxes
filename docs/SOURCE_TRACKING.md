@@ -68,10 +68,10 @@ Location: `source-documents/Tax - Finance Documents/2022 Tax Info/662 Mountain V
 | File | Status | Extracted To | Notes |
 |------|--------|--------------|-------|
 | 1098 Morgage Interest 01_11_23.pdf | ✅ Done | generated-files/deductions/breakdowns/BREAKDOWN_2022_Mortgage_Interest.md | Form 1098: $20,410.43 interest paid, $887.50 PMI. See comprehensive analysis document. |
-| 1099-INT 01_11_23.pdf | ⏳ Pending | TBD | Form 1099-INT: Interest income from mortgage escrow account (taxable) |
+| 1099-INT 01_11_23.pdf | ✅ Done | generated-files/deductions/breakdowns/BREAKDOWN_2022_Interest_Income.md | Form 1099-INT: $203.45 interest income from escrow account (taxable income - report on Schedule B) |
 | Screen Shot 2023-03-14 at 4.02.47 PM.png | ℹ️ Info | N/A | 2022 tax return payment reference ($24,420) |
 
-**Total:** 2 files to extract | **Done:** 1 | **Pending:** 1
+**Total:** 2 files to extract | **Done:** 2 | **Pending:** 0
 
 ---
 
