@@ -50,23 +50,22 @@ Comprehensive brainstorming list of ALL potential tax deductions for tax year 20
 - [ ] Software licenses (IDEs, design tools, etc.)
 
 ### Software & Services (SaaS)
-- [ ] Cloud hosting (AWS, Google Cloud, Azure, DigitalOcean, etc.)
-- [ ] Domain registrations and renewals
-- [ ] DNS services (Cloudflare, Route53, etc.)
-- [ ] GitHub, GitLab, Bitbucket subscriptions
-- [ ] Development tools (JetBrains, VS Code extensions, etc.)
-- [ ] Design tools (Figma, Sketch, Adobe Creative Cloud)
-- [ ] API services and third-party integrations
-- [ ] Testing and monitoring services
-- [ ] CI/CD services (CircleCI, Travis, etc.)
-- [ ] Database hosting (MongoDB Atlas, Heroku, etc.)
-- [ ] Email services (SendGrid, Mailgun, etc.)
-- [ ] Analytics services
-- [ ] Project management tools (Jira, Asana, Linear, etc.)
-- [ ] Communication tools (Slack paid plans, Zoom, etc.)
-- [ ] Password managers (business account)
-- [ ] VPN services (business use)
-- [ ] Backup and storage services (Dropbox, Google Drive, Backblaze)
+- [x] **Business Software & SaaS Services - $11,351.48** ⭐⭐⭐⭐⭐ MAJOR DEDUCTION
+  - **Tax savings: $5,142.22 (at 45.3% rate)**
+  - **See detailed breakdown:** `breakdowns/BREAKDOWN_2022_Software_Services.md`
+  - All paid via Privacy.com (clear documentation trail)
+  - **Top services:**
+    - Heroku (cloud hosting): $4,974.93
+    - GoDaddy (domains/DNS): $1,771.21
+    - Google Domains: $1,817.23
+    - QuickNode (blockchain API): $1,189.00
+    - Hivelocity (servers): $514.92
+    - Twitter Ads (marketing): $464.24
+    - Chainstack, Slack, GitHub, GitBook, etc.: $1,419.99
+  - **Business Purpose:** Essential software development tools, hosting, domains, blockchain infrastructure for Web3/NFT work
+  - **Attribution:** Deduct via Popstand S-Corp as business expenses (ordinary and necessary)
+  - **Action Required:** Review additional Privacy.com charges for more business services
+- [ ] Additional SaaS subscriptions not yet identified (review Privacy.com statement)
 
 ### Office & Workspace
 - [ ] Home office expenses (see Home Office section below)
@@ -78,7 +77,12 @@ Comprehensive brainstorming list of ALL potential tax deductions for tax year 20
 
 ### Internet & Communication
 - [ ] Internet service (business use percentage)
-- [ ] Business phone line or cell phone plan (business %)
+- [x] **Cell phone (AT&T) - $181.89** - Minor deduction, tracked for completeness
+  - Single payment in January 2022
+  - Conservative 50% business use: $90.95 deductible
+  - Tax savings: ~$41 (at 45.3% rate)
+  - **Note:** Very small deduction, not a priority, but tracking for completeness
+  - Would need to document business use (work calls, emails, Slack, etc.)
 - [ ] Video conferencing subscriptions
 
 ### Professional Development
@@ -155,7 +159,12 @@ Comprehensive brainstorming list of ALL potential tax deductions for tax year 20
 - [ ] Utilities (electric, gas, water, trash) (business %)
 - [ ] HOA fees (business %)
 - [ ] Home maintenance and repairs (business %)
-- [ ] Depreciation on home (business %)
+- [x] **Depreciation on home (business %) - NOT CLAIMING**
+  - **DECISION:** Not worth it - only $549/year extra savings vs. simplified method
+  - Adds complexity (Form 4562, tracking, recapture tax when selling)
+  - Must pay back 34.3% recapture tax on all depreciation when home is sold
+  - Recapture is mandatory even if home sells at a loss
+  - **Using simplified method instead** ($5/sq ft, no depreciation complications)
 
 ---
 
@@ -184,7 +193,15 @@ Comprehensive brainstorming list of ALL potential tax deductions for tax year 20
 ## Retirement & Healthcare
 
 ### Retirement Contributions
-- [ ] SEP-IRA contributions (up to 25% of net self-employment income)
+- [x] **Traditional 401(k) - NFT Genius (Pre-Tax) - $8,000** - Already deducted from W-2
+  - 8 contributions × $1,000 each (Sep-Dec 2022)
+  - **NO ACTION REQUIRED** - Deduction already reflected in W-2 Box 1 ($274,999.98)
+  - Tax benefit already received: ~$3,600 (at 45% rate)
+  - Do NOT claim this again on tax return (would be double-dipping)
+  - Keep W-2 and 401(k) statements from ForUsAll as documentation
+- [ ] SEP-IRA contributions (up to 25% of net self-employment income for Popstand)
+  - **NOT AVAILABLE** - Filing deadline passed (Oct 15, 2023)
+  - Can only contribute by extended filing deadline, which has passed
 - [ ] Solo 401(k) contributions
 - [ ] Traditional IRA contributions
 - [ ] Roth IRA contributions (not deductible, but track for records)

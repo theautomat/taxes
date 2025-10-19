@@ -202,3 +202,74 @@ My task is to identify potential business meals from your financial records.
 *   **Privacy.com Data:** A review of your `2022_privacy-com_transactions.csv` file was completed. These transactions consist almost entirely of online services and Amazon purchases. No transactions identifiable as restaurant or meal purchases were found in this dataset.
 
 *   **Next Step: Wells Fargo Data:** I will now proceed to analyze the 12 monthly CSV files from your Wells Fargo checking account. This is where in-person meal expenses would most likely be found.
+
+### Wells Fargo Transaction Analysis
+
+A full analysis of your Wells Fargo statements reveals numerous transactions at restaurants, cafes, and food delivery services. These are strong candidates for the 100% business meal deduction if a business purpose can be established.
+
+**Action Required:** You must review the list below and determine which of these meals were for business discussions with clients, partners, or colleagues. You should document the business purpose for each meal you intend to deduct (e.g., a note in your records like "Lunch with Jane Doe to discuss Project X").
+
+**Potential Business Meal Transactions (by Merchant):**
+
+| Date       | Merchant Description        | Amount      | Notes                                                                 |
+| :--------- | :-------------------------- | :---------- | :-------------------------------------------------------------------- |
+| Various    | **Uber Eats**               | Various     | High volume. Must be reviewed individually to separate business from personal. |
+| Various    | **Tst* Sushi Roku - Pasadena** | Various     | Multiple visits. Likely business meals during workdays in Pasadena.     |
+| Various    | **Wholefds** (Various Locs) | Various     | Could include office snacks/drinks, which are 50% deductible.         |
+| Various    | **Starbucks**               | Various     | Good candidate for business coffee meetings.                            |
+| Various    | **Erewhon Market**          | Various     | Similar to Whole Foods, could be for office supplies.                 |
+| 02/18/2022 | Marmalade Cafe              | -$64.73     |                                                                       |
+| 02/22/2022 | Sq *Salt & Straw            | -$18.17     | Dessert/Coffee meeting potential.                                     |
+| 02/25/2022 | Tst* Sushi Roku- S          | -$132.85    |                                                                       |
+| 02/28/2022 | Tender Greens Culv          | -$39.93     |                                                                       |
+| 03/15/2022 | Mimis Cafe (Valenc          | -$42.74     |                                                                       |
+| 03/21/2022 | Kiku Sushi                  | -$93.03     |                                                                       |
+| 03/28/2022 | Rice Thai Cuisine           | -$65.49     |                                                                       |
+| 03/28/2022 | Pho & Tea                   | -$10.03     |                                                                       |
+| 04/18/2022 | Carasau                     | -$58.74     |                                                                       |
+| 04/18/2022 | Kibo Sushi                  | -$69.05     |                                                                       |
+| 05/06/2022 | Wabi on Rose                | -$167.06    |                                                                       |
+| 05/09/2022 | Rumfish Y Vino              | -$305.37    | Large amount, good candidate for a significant business dinner.       |
+| 05/12/2022 | Brera Ristorante            | -$152.49    |                                                                       |
+| 05/13/2022 | Sq *Joey Woodland           | -$95.18     |                                                                       |
+| 05/20/2022 | Tst* Cafe Gratitud          | -$110.28    |                                                                       |
+| 05/25/2022 | The Drugstore Cafe          | -$23.39     |                                                                       |
+| 05/27/2022 | Allegro Restaurant          | -$137.05    |                                                                       |
+| 05/31/2022 | Interstellar                | -$153.70    |                                                                       |
+| 06/06/2022 | Tst* Kabuki - Vale          | -$40.94     |                                                                       |
+| 06/21/2022 | Dargans Irish Pub           | -$312.00    | Large amount, could be team/client event.                             |
+| 08/09/2022 | Tst* Boatyard Pub           | -$111.10    |                                                                       |
+| 08/25/2022 | Moom 48 Thai                | -$73.12     |                                                                       |
+| 08/29/2022 | O-Sabi Japanese Re          | -$355.56    | Very large amount, strong candidate for a major business dinner.      |
+| 08/29/2022 | The Greek at The H          | -$164.41    |                                                                       |
+| 09/07/2022 | Tst* Intelligentsi          | -$5.58      | Coffee meeting.                                                       |
+| 09/12/2022 | Tst* The Blind Don          | -$21.43     |                                                                       |
+| 09/12/2022 | Crave Cafe Pasaden          | -$7.70      |                                                                       |
+| 10/04/2022 | Tst* Dog Haus - Ol          | -$30.40     |                                                                       |
+| 10/08/2022 | Panda Express #160          | -$12.23     |                                                                       |
+| 10/11/2022 | Anacapa Brewing CO          | -$84.08     |                                                                       |
+| 10/17/2022 | Jinky's - Thousand          | -$40.00     |                                                                       |
+| 10/17/2022 | Mama's Table                | -$48.64     |                                                                       |
+| 10/21/2022 | Old Tyme Icecream           | -$33.08     |                                                                       |
+| 10/21/2022 | Cinnabon                    | -$12.00     |                                                                       |
+| 11/04/2022 | Trattoria Amici             | -$117.41    |                                                                       |
+| 11/17/2022 | Valentine Sweets            | -$17.30     |                                                                       |
+| 11/21/2022 | Sushi Enya - Pasad          | -$29.83     |                                                                       |
+| 11/23/2022 | MI Piace                    | -$133.01    |                                                                       |
+| 11/28/2022 | McDonald's                  | -$10.48     |                                                                       |
+| 11/28/2022 | Sushi Laguna                | -$78.12     |                                                                       |
+| 12/09/2022 | Tst* Tatsu - Pasad          | -$50.15     |                                                                       |
+| 12/12/2022 | New York Pizzeria           | -$11.00     |                                                                       |
+| 12/19/2022 | Sq *Stefano's               | -$20.60     |                                                                       |
+| 12/19/2022 | Tst* Milk Bar - ME          | -$46.80     |                                                                       |
+| 12/22/2022 | Tst* Olivetta               | -$152.15    |                                                                       |
+| 12/23/2022 | Sq *Blue Bottle CO          | -$60.22     | Coffee meetings.                                                      |
+
+**Summary & Potential:**
+
+There are dozens of potential business meals here. If you can substantiate even **$1,500** worth of these as legitimate business expenses, the tax savings would be:
+
+*   **Deduction:** $1,500 (100% deductible)
+*   **Estimated Tax Savings:** $1,500 * 45% = **$675**
+
+This is a conservative estimate; a thorough review could yield a significantly higher deduction.
