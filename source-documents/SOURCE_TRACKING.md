@@ -60,6 +60,26 @@ Location: `source-documents/Archive (Organizations)/Popstand/Chase Bank Statemen
 
 **Total:** 1 consolidated file | **Done:** 1 | **Pending:** 0
 
+### Popstand Income - 2022
+Location: `source-documents/Tax - Finance Documents/2022 Tax Info/Popstand/`
+
+| File | Status | Extracted To | Notes |
+|------|--------|--------------|-------|
+| 2022W2 Copy B, C & 2 Kurt Braget.pdf | ⏳ Pending | TBD | Popstand W-2 for 2022 (wages, withholding) |
+| 2022-tax-return-documents-popstand-inc-client-copy-no-pass.pdf | ⏳ Pending | TBD | Popstand 2022 tax return package (likely contains K-1 Schedule K-1) |
+| popstand-wages-summary.md | ℹ️ Info | N/A | Summary document (reference only) |
+
+**Total:** 2 files to extract | **Done:** 0 | **Pending:** 2
+
+### IRS Transcripts - 2022
+Location: `source-documents/Tax - Finance Documents/2022 Tax Info/IRS Transcripts/`
+
+| File | Status | Extracted To | Notes |
+|------|--------|--------------|-------|
+| 202212_Wage and Income_BRAG_104717730538.pdf | ℹ️ Info | N/A | IRS transcript showing what was reported to IRS (W-2s, 1099s, etc.) - reference for verification |
+
+**Total:** 1 file (reference only) | **Done:** N/A | **Pending:** 0
+
 ### Real Estate - 662 Mountain View
 Location: `source-documents/Tax - Finance Documents/2022 Tax Info/662 Mountain View/`
 
