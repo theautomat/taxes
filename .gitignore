@@ -1,6 +1,3 @@
-# Source documents - not versioned due to size and containing sensitive PDFs
-source-documents/
-
 # System files
 .DS_Store
 *.swp

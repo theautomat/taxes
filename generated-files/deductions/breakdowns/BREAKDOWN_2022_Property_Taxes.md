@@ -5,6 +5,39 @@
 
 ---
 
+## ⚠️ IMPORTANT: This Deduction is Likely IRRELEVANT for Federal Taxes
+
+**TL;DR:** You already hit the $10,000 SALT cap from state income tax alone. Property taxes don't help federally.
+
+### Your 2022 Situation
+
+**CA State Income Tax Withheld:**
+- NFT Genius: **$23,627.34** (from paystubs)
+- Popstand: **~$2,000-2,400** (estimated from 12 payroll payments)
+- **Total CA State Tax:** **~$25,600-26,000**
+
+**Property Taxes Paid:**
+- 662 Mountain View: **$3,095.19**
+
+**SALT Cap Reality:**
+```
+CA State Income Tax:   $25,600+
+Property Tax:           $3,095
+───────────────────────────────
+Total SALT:           $28,695+
+
+Federal SALT Cap:     $10,000  ← YOU'RE CAPPED!
+Excess (wasted):      $18,695+
+```
+
+**What This Means:**
+- **Federal:** Property tax deduction is **WORTHLESS** - you already exceeded the $10k cap by $15,600+ from state income tax alone
+- **California:** Property tax IS deductible (no cap) - saves ~$288 at 9.3% rate
+
+**Bottom Line:** For federal purposes, whether you paid $0 or $100,000 in property tax makes zero difference. You hit the SALT cap from state income tax alone.
+
+---
+
 ## Property Tax Payments in 2022
 
 **Total Property Taxes Paid: $3,095.19**
@@ -34,14 +67,21 @@ Property taxes were paid by PHH Mortgage Corporation from your escrow account:
   - State income taxes (or state sales taxes if you elect that)
   - Local taxes
 
-**Your Property Taxes:**
-- Property taxes paid: $3,095.19
-- This counts toward your $10,000 SALT cap
+**Your ACTUAL 2022 Numbers:**
+```
+CA State Income Tax Withheld:    $25,600+
+Property Taxes Paid:              $3,095
+────────────────────────────────────────
+Total SALT:                      $28,695+
+Federal SALT Deduction Allowed:  $10,000  ← CAPPED
+Amount You LOSE:                 $18,695+
+```
 
-**Typical Scenario:**
-- Property taxes: $3,095.19
-- CA state income taxes: ~$6,904.81 (to reach $10k cap)
-- **Total SALT deduction on federal Schedule A: $10,000** (capped)
+**Reality Check:**
+- You paid $28,695+ in state and local taxes
+- IRS only lets you deduct $10,000
+- You "waste" $18,695+ that you can't deduct
+- Property tax is part of that wasted amount - it provides **ZERO additional federal benefit**
 
 ### California (Franchise Tax Board)
 
@@ -63,13 +103,15 @@ Property taxes were paid by PHH Mortgage Corporation from your escrow account:
 - **Line 5d:** State and local personal property taxes
 - **Line 5e:** Add lines 5a-5d, BUT limited to $10,000 total
 
-**Example:**
+**Your ACTUAL 2022 Filing:**
 ```
-Line 5a (CA income tax):      $8,000
+Line 5a (CA income tax):     $25,600+
 Line 5c (property tax):       $3,095
-Subtotal:                    $11,095
-Line 5e (after SALT cap):    $10,000  ← Limited
+Subtotal:                    $28,695+
+Line 5e (after SALT cap):    $10,000  ← CAPPED - you lose $18,695+
 ```
+
+**What this means:** The property tax doesn't help at all federally because you already exceeded the cap with state income tax alone.
 
 ### California Return
 
@@ -150,13 +192,27 @@ Your property taxes were paid from your mortgage escrow account:
 
 **2022 Property Taxes Paid:** $3,095.19
 
-**How to Claim:**
-- **Federal:** Report on Schedule A, Line 5c (subject to $10,000 SALT cap with state income tax)
-- **California:** Full deduction on Schedule CA (no SALT cap)
+**Federal Tax Impact:** **$0 savings** (ZERO)
+- You already exceeded the $10k SALT cap by $15,600+ from state income tax alone
+- Property tax provides **NO additional federal benefit**
+- Report it on Schedule A Line 5c for completeness, but it's mathematically irrelevant
 
-**Tax Savings:**
-- Federal: Depends on total SALT (likely capped at $10,000)
-- California: $3,095.19 × 9.3% = ~$288 (if in 9.3% bracket)
+**California Tax Impact:** **~$288 savings**
+- Full $3,095.19 deductible (no cap)
+- $3,095.19 × 9.3% = ~$288 tax savings
+
+**The Brutal Truth:**
+```
+What you paid in SALT:           $28,695+
+What IRS lets you deduct:        $10,000
+What you can't deduct (wasted):  $18,695+
+
+Property tax ($3,095) is buried in that wasted $18,695.
+```
+
+**How to Claim:**
+- **Federal:** Report on Schedule A, Line 5c (but it won't help - you're already capped)
+- **California:** Full deduction on Schedule CA (this DOES help - saves ~$288)
 
 ---
 
