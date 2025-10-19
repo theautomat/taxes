@@ -1,7 +1,16 @@
 # 2022 Property Tax Deduction
 **Property:** 662 Mountain View Street, Fillmore CA 93015
 **County:** Ventura County, California
+**Schedule A, Line 5c: Real Estate Taxes**
 **Analysis Date:** 2025-10-18
+
+---
+
+## Overview
+
+This document covers **property taxes paid** on 662 Mountain View Street in 2022.
+
+**Important:** This is a component of your Schedule A itemized deductions (Line 5c). See the master document: `BREAKDOWN_2022_Schedule_A_Itemized_Deductions.md`
 
 ---
 
@@ -35,6 +44,8 @@ Excess (wasted):      $18,695+
 - **California:** Property tax IS deductible (no cap) - saves ~$288 at 9.3% rate
 
 **Bottom Line:** For federal purposes, whether you paid $0 or $100,000 in property tax makes zero difference. You hit the SALT cap from state income tax alone.
+
+**For Complete SALT Cap Explanation:** See `BREAKDOWN_2022_SALT_Cap_Analysis.md` for a detailed breakdown of how the cap works.
 
 ---
 
@@ -218,9 +229,12 @@ Property tax ($3,095) is buried in that wasted $18,695.
 
 ## Related Documents
 
-- **Form 1098:** `source-documents/Tax - Finance Documents/2022 Tax Info/662 Mountain View/1098 Morgage Interest 01_11_23.pdf`
+- **Master Deduction Summary:** `BREAKDOWN_2022_Schedule_A_Itemized_Deductions.md`
+- **SALT Cap Analysis:** `BREAKDOWN_2022_SALT_Cap_Analysis.md`
+- **State Income Tax:** `BREAKDOWN_2022_State_Income_Tax.md`
 - **Mortgage Interest:** `BREAKDOWN_2022_Mortgage_Interest.md`
 - **Home Office:** `BREAKDOWN_2022_Home_Office.md` (if claiming business allocation)
+- **Form 1098:** `source-documents/Tax - Finance Documents/2022 Tax Info/662 Mountain View/1098 Morgage Interest 01_11_23.pdf`
 
 ---
 

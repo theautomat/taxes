@@ -2,7 +2,16 @@
 **Property:** 662 Mountain View Street, Fillmore CA 93015
 **Loan Number:** 4010877753
 **Lender:** PHH Mortgage Corporation
+**Schedule A, Line 8a: Home Mortgage Interest**
 **Analysis Date:** 2025-10-18
+
+---
+
+## Overview
+
+This document covers **mortgage interest paid** on acquisition debt for 662 Mountain View Street in 2022.
+
+**Important:** This is a component of your Schedule A itemized deductions (Line 8a). See the master document: `BREAKDOWN_2022_Schedule_A_Itemized_Deductions.md`
 
 ---
 
@@ -235,10 +244,8 @@ Non-deductible Interest = $20,410.43 - $20,347.09 = $63.34
 
 ## Related Documents
 
+- **Master Deduction Summary:** `BREAKDOWN_2022_Schedule_A_Itemized_Deductions.md`
 - **Form 1098:** `source-documents/Tax - Finance Documents/2022 Tax Info/662 Mountain View/1098 Morgage Interest 01_11_23.pdf`
-- **Property Taxes:** `BREAKDOWN_2022_Property_Taxes.md`
-- **Home Office:** `BREAKDOWN_2022_Home_Office.md` (if claiming business allocation)
-- **Wells Fargo statements:** `generated-files/extracted/wells-fargo/2022-*.csv`
 
 ---
 
