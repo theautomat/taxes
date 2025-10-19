@@ -1,13 +1,22 @@
-# 2022 Tax Deductions Checklist
+# 2022 Potential Deductions Checklist
 
 ## Purpose
-Running list of potential tax deductions and exemptions for tax year 2022. This is a human-readable research document to track opportunities that may not show up directly in expense transactions.
+Comprehensive brainstorming list of ALL potential tax deductions for tax year 2022. This is a research and tracking document where you can add hundreds of ideas, then check them off with notes about whether they qualify or why they don't.
 
 ## How to Use This Document
-- [ ] Add items as you discover them through research
-- [ ] Check off items as you gather documentation
-- [ ] Add notes about applicability, limits, and requirements
-- [ ] Update with actual amounts when available
+1. **Add freely** - Braindump any potential deduction idea (even if uncertain)
+2. **Research** - Investigate each item to determine if it qualifies
+3. **Check off** - Mark as complete and add inline notes:
+   - **Amount** - If deductible (e.g., "**$2,500** - MacBook Pro purchase")
+   - **Not applicable** - If doesn't qualify (e.g., "**N/A** - Purchased in 2021, not 2022")
+   - **Not deductible** - If personal use (e.g., "**NOT DEDUCTIBLE** - 100% personal")
+   - **Needs info** - If more research needed (e.g., "Need to verify business use %")
+
+## Status Conventions
+- `[ ]` Unchecked - Not yet researched
+- `[x]` Checked + **$amount** - Qualifies, deduction amount known
+- `[x]` Checked + **N/A** or **NOT DEDUCTIBLE** - Doesn't qualify (with reason)
+- `[x]` Checked + **Needs...** - More information required
 
 ---
 

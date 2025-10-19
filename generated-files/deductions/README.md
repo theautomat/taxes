@@ -9,9 +9,9 @@ This directory serves two primary functions:
 
 ```
 expenses/
-├── README.md                           # This file
-├── 2022_TAX_DEDUCTIONS.md             # Master checklist of all potential deductions
-├── breakdowns/                         # Detailed analysis for each deduction category
+├── README.md                                    # This file
+├── 2022_POTENTIAL_DEDUCTIONS_CHECKLIST.md      # Master brainstorming list of potential deductions
+├── breakdowns/                                  # Detailed analysis for each deduction category
 │   ├── BREAKDOWN_2022_Home_Office_Summary.md
 │   ├── BREAKDOWN_2022_Home_Office_Calculation.md
 │   ├── BREAKDOWN_2022_Depreciation_Recapture.md
@@ -153,19 +153,25 @@ Individual Breakdowns → 2022_TAX_DEDUCTIONS.md → Tax Return
 **Example:**
 1. `BREAKDOWN_2022_Home_Office_Summary.md` calculates → **$3,572.86 deduction**
 2. `BREAKDOWN_2022_Mortgage_Interest_Federal_State.md` calculates → **$3,102.39 business portion**
-3. These feed into `2022_TAX_DEDUCTIONS.md` → **Home office total: $3,572.86**
+3. These feed into `2022_POTENTIAL_DEDUCTIONS_CHECKLIST.md` → **Home office total: $3,572.86**
 4. Tax preparer uses this → **Form 8829 Line 10 (mortgage interest business portion)**
 
-### Master Checklist: 2022_TAX_DEDUCTIONS.md
+### Master Checklist: 2022_POTENTIAL_DEDUCTIONS_CHECKLIST.md
 
-This is the consolidated list of ALL potential deductions:
-- References to detailed breakdowns
-- Action items for gathering documentation
+This is the comprehensive brainstorming list of ALL potential deductions:
+- Add any deduction idea freely (even if uncertain)
+- Check off items with inline notes about outcomes
+- Track both qualifying and non-qualifying items (with reasons)
+- References to detailed breakdowns for major categories
 - Running tally of known amounts
-- Questions for tax professional
-- Not deductible items (documented for clarity)
 
-**Purpose:** One-stop checklist to ensure nothing is missed
+**Purpose:** Braindump hundreds of ideas, then research and document outcomes inline
+
+**Status Tracking:**
+- Unchecked - Not yet researched
+- Checked + **$amount** - Qualifies and amount known
+- Checked + **N/A** or **NOT DEDUCTIBLE** - Doesn't qualify (with reason)
+- Checked + **Needs...** - More information required
 
 ---
 
@@ -274,7 +280,7 @@ Nothing is fixed - adjust the process as needed.
 ## Key Files Reference
 
 ### Must-Read Documents:
-1. **2022_TAX_DEDUCTIONS.md** - Master checklist (start here)
+1. **2022_POTENTIAL_DEDUCTIONS_CHECKLIST.md** - Master brainstorming list (start here)
 2. **breakdowns/BREAKDOWN_2022_Home_Office_Summary.md** - Home office recommendation
 3. **breakdowns/BREAKDOWN_2022_Mortgage_Interest_Federal_State.md** - Mortgage analysis
 4. **breakdowns/BREAKDOWN_2022_Office_Expenses.md** - Office expenses + reimbursements
