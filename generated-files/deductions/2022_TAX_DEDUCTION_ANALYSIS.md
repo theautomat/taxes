@@ -181,5 +181,24 @@ This amount would be a deductible expense for Popstand Inc., reducing its net in
 ### Required Documentation
 
 1.  **Establish an Accountable Plan:** Your S-Corp should formally adopt a simple accountable plan resolution. You can find templates for this online or have a CPA draft one.
-2.  **Document Your Business Use:** Create a short memo for your business records explaining how you arrived at your 60% business use calculation (e.g., "Based on a review of call logs and data usage for a typical month, business use is approximately 60%").
-3.  **Record the Reimbursement:** The S-Corp should have a record of the reimbursement payment to you (e.g., a separate check or bank transfer labeled "Phone Reimbursement").
+2.  **Document Your Business Use:** Create a short memo for your business records explaining how you arrived at your 60% business use calculation (e.g., \"Based on a review of call logs and data usage for a typical month, business use is approximately 60%\").
+3.  **Record the Reimbursement:** The S-Corp should have a record of the reimbursement payment to you (e.g., a separate check or bank transfer labeled \"Phone Reimbursement\").
+
+---
+
+## Secondary Directive 1: Business Meals
+
+### IRS Rules and Regulations (2022)
+
+For 2022, the IRS implemented a temporary but significant exception to the standard 50% limit for business meals. Under this special rule, you can deduct **100% of the cost of food and beverages provided by a restaurant**, as long as the expense is an ordinary and necessary business expense.
+
+*   **Business Purpose:** You must have been present, and the expense must not have been lavish or extravagant. The purpose of the meal must have been to conduct business with a client, customer, or colleague.
+*   **Restaurant Definition:** The rule applies to establishments that prepare and sell food or beverages to customers for immediate consumption, whether on or off the premises.
+
+### Analysis of Transaction Data
+
+My task is to identify potential business meals from your financial records.
+
+*   **Privacy.com Data:** A review of your `2022_privacy-com_transactions.csv` file was completed. These transactions consist almost entirely of online services and Amazon purchases. No transactions identifiable as restaurant or meal purchases were found in this dataset.
+
+*   **Next Step: Wells Fargo Data:** I will now proceed to analyze the 12 monthly CSV files from your Wells Fargo checking account. This is where in-person meal expenses would most likely be found.
