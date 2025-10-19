@@ -7,10 +7,17 @@
 
 ## Summary
 
-**Total Business Software & Services:** $11,351.48
-**Tax Savings (45.3% combined rate):** $5,142.22
+**Total Business Software & Services (Privacy.com only):** $11,920.43
+**Tax Savings (45.3% combined rate):** $5,400.15
 
-All expenses paid via Privacy.com virtual cards for online subscriptions and services.
+**⚠️ IMPORTANT: This analysis covers ONLY Privacy.com virtual card transactions.**
+
+**Additional sources to review:**
+- **Wells Fargo regular card transactions** - Likely contains additional software services paid with physical cards
+- Software services not paid through Privacy.com virtual cards
+- Any services paid directly via bank transfer or check
+
+**Action Required:** Review Wells Fargo statements for additional software services to add to this total.
 
 ---
 
@@ -216,12 +223,41 @@ Developer education platform with tutorials and courses.
 
 ---
 
+### Audible
+**Total: $14.95** (1 payment)
+
+Audiobook subscription service.
+
+**Business Purpose:** Business and technical books for professional development. Listening to business, technology, and professional development audiobooks.
+
+---
+
 ### Medium Corporation
 **Total: $5.00** (1 payment in January)
 
 Medium membership for technical articles and programming content.
 
 **Business Purpose:** Professional development, staying current with tech industry trends and best practices.
+
+---
+
+## Business Services & Tools
+
+### Talent List (CJL.IST)
+**Total: $249.00** (1 payment)
+
+Talent directory or professional listing service.
+
+**Business Purpose:** Professional networking, business development, or recruitment services.
+
+---
+
+### Google Services (General)
+**Total: $106.00** (2 payments - $100 Google Cloud + $6 other)
+
+Additional Google services beyond domains (Google Workspace, Google Cloud, etc.).
+
+**Business Purpose:** Business productivity tools, cloud services, or workspace collaboration tools.
 
 ---
 
@@ -301,9 +337,12 @@ Image optimization API service.
 | Communication & Collaboration | $193.80 | $87.79 |
 | Marketing & Social Media | $539.24 | $244.28 |
 | Automation & Productivity | $108.00 | $48.92 |
-| Professional Development | $59.99 | $27.18 |
+| Professional Development | $74.94 | $33.95 |
+| Business Services & Tools | $355.00 | $160.82 |
 | API Services & Tools | $9.00 | $4.08 |
-| **TOTAL BUSINESS SERVICES** | **$11,351.48** | **$5,142.22** |
+| **TOTAL BUSINESS SERVICES** | **$11,920.43** | **$5,400.15** |
+
+**Note:** This total is from Privacy.com virtual cards only. Additional software services likely exist in Wells Fargo regular card transactions.
 
 ---
 

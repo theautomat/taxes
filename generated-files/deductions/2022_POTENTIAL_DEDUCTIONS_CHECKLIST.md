@@ -337,6 +337,25 @@ Comprehensive brainstorming list of ALL potential tax deductions for tax year 20
 ### Research Needed
 - **Tesla Charger Installation (Early 2022):** Need to locate electrician installation payment. Charger was purchased in 2021, installation likely occurred in early 2022. Payment method unknown (not found in Wells Fargo Zelle/Venmo Jan-March 2022). Potential Alternative Fuel Vehicle Refueling Property Credit (30% credit, up to $1,000 for residential EV charger installation). Need to find receipt/invoice to claim credit.
 
+- **⚠️ LOAN/REIMBURSEMENT: $58,987.50 Wire Transfer (Feb 9, 2022):**
+  - **Wire IN from HSBC Bank USA / Org=Harry Winston Inc. (Jeweler)**
+  - **Transaction reference:** Fed#02752, Srf# xxxxx8786, Trn#220209121850
+  - **Purpose:** Purchased jewelry from Harry Winston for CEO's wife (anniversary present)
+  - **This is a LOAN or REIMBURSEMENT** - Not taxable income
+  - **Tax treatment:** Neither the original purchase nor the reimbursement are deductible/taxable
+  - **MISSING:** Need to find the original outgoing payment for the jewelry purchase
+    - Not found in Wells Fargo 2021-2022 statements (checked wires, checks, Zelle)
+    - Possible locations:
+      - Different bank account or credit card
+      - Late 2021 (before available statements)
+      - Paid by CEO initially (then partial reimbursement to you?)
+  - **Action required:**
+    1. Search credit card statements for Harry Winston jewelry purchase (~$59k-$75k)
+    2. Check 2021 bank statements if available
+    3. Review any other bank accounts or payment methods used
+    4. Document as loan transaction (principal in/out, no tax effect)
+  - **Source:** Wells Fargo checking statement, 022822 WellsFargo.pdf, line 2022-02-09
+
 ### Accountant Questions
 - TBD: Track questions to ask tax preparer
 
