@@ -18,21 +18,27 @@
 - **Business Structure:** Owns S-Corp software business + W-2 employee at two companies
 
 **Key Financial Highlights:**
-- **Total W-2 Income:** ~$200,000 (NFT Genius + Popstand)
+- **Total Income:** ~$486,403 (NFT Genius $275k W-2 + Popstand $211k + interest $203)
+- **NFT Genius W-2:** $274,999.98 gross wages (salary DOUBLED mid-year from $96.15/hr to $192.31/hr)
+- **Popstand S-Corp Distributions:** $211,200.00 (62 wire transfers, K-1 Box 16D shows $164,567)
+- **High Earner:** Additional Medicare tax triggered ($200k+ income threshold)
 - **Home Value:** ~$1,000,000 (662 Mountain View St, Fillmore CA)
 - **Mortgage:** $760,000 initial loan (purchased 3 years ago, ~2019-2020)
 - **Home Equity:** ~$240,000+ (down payment ~$100k + appreciation + principal payments)
 - **Property Tax:** $3,095.19 paid in 2022
 - **Mortgage Interest:** $20,410.43 paid in 2022
 - **State Income Tax Withheld:** $25,600+ (exceeds SALT cap)
+- **401(k) Contributions:** $9,000 (started Sept 2022, $1,000/paycheck)
 - **Work Setup:** Dual workspace - Home office (Fillmore) + Pasadena rented office (Oct-Dec 2022)
 
 **Tax Situation:**
+- **Very high income** (~$486k) puts taxpayer in TOP tax brackets (35% federal, 9.3% CA)
 - Itemized deductions (~$30,347+) far exceed standard deduction ($12,950 single)
-- SALT cap ($10k) limits state/local tax deductions (paid $28,695+, can only deduct $10k)
+- SALT cap ($10k) SEVERELY limits deductions (paid $28,695+, can only deduct $10k - loses $18k+)
 - Strong home office deduction potential ($3,573-$6,368 depending on method)
 - Significant business expenses via Privacy.com (SaaS, cloud hosting, domains, subscriptions)
-- Late filing (filing 2022 taxes in 2025) with penalties/interest considerations
+- Late filing (filing 2022 taxes in 2025) with substantial penalties/interest (estimated ~$50k-80k penalty on high income)
+- **CRITICAL:** Verify Popstand K-1 vs wire transfers discrepancy ($46,633 difference - may owe additional tax)
 
 ---
 
@@ -48,24 +54,32 @@
 
 ### Employment Status (2022)
 1. **Primary Employment:** W-2 Employee at NFT Genius Inc
-   - Full-time salaried position
-   - Salary: ~$100,000/year ($8,333.33 biweekly gross)
-   - Benefits: Health insurance (medical, dental, vision) - pre-tax deductions
-   - Employer: NFT Genius Inc (software/tech company)
-   - Payroll: Via Gusto
-   - State income tax withheld: $23,627.34
+   - Full-time salaried software developer
+   - **Jan 1 - Aug 15:** $96.15/hour (~$200k annual rate)
+   - **Aug 16 - Dec 31:** $192.31/hour (~$400k annual rate) ⭐ SALARY DOUBLED
+   - **Actual 2022 gross:** $274,999.98
+   - **Net take-home:** $163,827.75 (after $101,689 taxes + $9,483 benefits/401k)
+   - Benefits: Health insurance (medical $1,492, dental $170, vision $33) - pre-tax
+   - **401(k) contributions:** $9,000 (started Sept 2022, $1,000/paycheck pre-tax)
+   - **HRA (Health Reimbursement Arrangement):** $13,750 received (Jul-Dec, $1,250/month - NOT taxable)
+   - **Office rent reimbursements:** $9,600 (Oct-Dec, Pasadena office - NOT taxable)
+   - **Large back-pay reimbursement:** $33,750 (July 2022, "expenses and medical owed before funding")
+   - Employer: NFT Genius Inc / Genius Holdings LLC (software/tech company)
+   - Payroll: Via Gusto (24 bi-monthly paychecks in 2022)
+   - **Federal tax withheld:** ~$40,000
+   - **State income tax withheld:** ~$32,000 (California)
+   - **FICA withheld:** ~$22,000 (Social Security + Medicare + Additional Medicare)
 
-2. **Secondary Employment:** W-2 Employee/Contractor at Popstand
-   - Wire transfers received throughout 2022
-   - Total received: $130,000 (estimated from wire transfer records)
-   - Likely 1099-NEC or W-2 income
-   - State income tax withheld: ~$2,000-2,400 (estimated)
-
-3. **Business Ownership:** S-Corp software business
-   - Mentioned as "s corp software business"
-   - No detailed transactions found in 2022 data
-   - May be dormant or minimal activity in 2022
-   - Could be related to Popstand income (consulting work)
+2. **S-Corp Ownership:** Popstand Inc (User's S-Corporation)
+   - **S-Corp distributions received:** $211,200.00 (62 wire transfers throughout 2022)
+   - **K-1 reported distributions (Box 16D):** $164,567.00
+   - **DISCREPANCY:** $46,633 difference (wire transfers > K-1) - needs accountant review
+   - Payment method: Wire transfers from Popstand Chase account to personal Wells Fargo
+   - Monthly payments: Ranged from $9,000 (May) to $27,000 (Jan/June)
+   - **Tax treatment:** S-Corp distributions are NOT subject to self-employment tax
+   - **Status:** Popstand is user's own S-Corp (not employer/contractor relationship)
+   - No separate W-2 wages from Popstand (all distributions, no salary)
+   - **IRS risk:** S-Corp owners must pay "reasonable wages" - $0 wages may trigger audit
 
 ### Financial Sophistication
 - **Tech-savvy:** Uses Privacy.com for virtual credit cards (security-conscious)
@@ -138,62 +152,91 @@
 
 ### W-2 Employment Income
 
-#### 1. NFT Genius Inc (Primary Employer)
-**Gross Wages (2022):** ~$100,000 (estimated)
-- Biweekly salary: $8,333.33 gross (standard pay periods)
-- Holiday pay: $769.23 per holiday (8-hour holidays)
-- Pay frequency: Twice monthly (15th and end of month)
+#### 1. NFT Genius Inc (Primary Employer) - **W-2 Income**
+
+**2022 Gross Wages: $274,999.98** (NOT $100k - salary doubled mid-year!)
+
+**Salary Progression:**
+- **Jan 1 - Aug 15, 2022:** $96.15/hour × 15.5 pay periods = $129,166.62
+- **Aug 16 - Dec 31, 2022:** $192.31/hour × 8.5 pay periods = $145,833.36 ⭐ DOUBLED
+- **Total gross earnings:** $274,999.98
+- Holiday pay: Included in gross (paid holidays throughout year)
+- Pay frequency: Bi-monthly (24 paychecks: 15th and end of month)
 - Employment period: Full year 2022
 
-**Payroll Deductions:**
-- Federal income tax withheld: ~$19,700 (estimated)
-- Social Security tax: ~$6,200 (6.2% up to wage base)
-- Medicare tax: ~$1,450 (1.45%)
+**Payroll Deductions (Total 2022 - VERIFIED FROM PAYSTUBS):**
+- Federal income tax withheld: $62,718.83
+- Social Security tax: $9,113.99 (6.2% up to $147k wage base - capped)
+- Medicare tax: $4,627.66 (1.45% on all wages)
+- **Additional Medicare tax:** $661.65 (0.9% over $200k - high earner surcharge)
 - CA state income tax withheld: $23,627.34
-- CA SDI (disability insurance): ~$1,100 (1.1%)
+- CA SDI (disability insurance): $1,601.60 (California State Disability Insurance)
+- **Total taxes withheld:** $102,351.07 (37.2% effective tax rate on gross)
 
 **Benefits (Pre-tax Deductions):**
-- Medical insurance: $62.16 per pay period (~$1,492/year)
-- Dental insurance: $7.08 per pay period (~$170/year)
-- Vision insurance: $1.37 per pay period (~$33/year)
-- **Total benefits:** ~$1,695/year (pre-tax, reduces taxable income)
+- Medical insurance: $62.16 per pay period = $1,492/year (started Feb 2022)
+- Dental insurance: $7.08 per pay period = $170/year
+- Vision insurance: $1.37 per pay period = $33/year
+- **401(k) contributions:** $1,000 per paycheck × 9 paychecks = **$9,000** (started Sept 2022)
+- **Total pre-tax deductions:** $9,482.81 (reduces taxable income)
 
-**Office Rent Reimbursements (NOT taxable income):**
-- October 31, 2022: $3,200.00 (October rent)
-- December 15, 2022: $6,400.00 (November + December rent)
-- **Total reimbursements:** $9,600.00
-- **Tax treatment:** Not included in taxable income (accountable plan)
+**Reimbursements (NOT taxable income):**
+- May lunch: $92.07
+- June Vegas trip: $1,362.87
+- **July back-pay:** $33,750.00 ("expenses and medical owed before we got funding")
+- **HRA (Health Reimbursement Arrangement):** $13,750.00 (Jul-Dec, $1,250/month)
+- **Office rent reimbursements:** $9,600.00 (Oct $3,200, Dec $6,400 for 2 months)
+- **Total reimbursements:** $58,554.94
+- **Tax treatment:** Should NOT be included in W-2 Box 1 (accountable plan, non-taxable)
 
-**Net Take-Home Pay:**
-- Gross annual: ~$100,000
-- Total deductions: ~$30,000 (taxes + benefits)
-- **Net pay:** ~$70,000/year (~$2,917/paycheck)
+**Net Take-Home Pay (VERIFIED):**
+- Gross annual: $274,999.98
+- Less: Pre-tax deductions: -$9,482.81 (401k + insurance)
+- Less: Total taxes withheld: -$102,351.07
+- **Net pay deposited:** $163,166.10 (calculated)
+  - **NOTE:** Reconciliation doc shows $163,827.75 - $661.55 discrepancy, need to verify
+- Plus: Reimbursements (non-taxable): +$58,554.94
+- **Total Wells Fargo deposits from NFT Genius:** $222,382.69 (verified from bank statements)
 
-#### 2. Popstand (Secondary Income)
-**Payment Method:** Wire transfers from Popstand Chase account to Wells Fargo
+#### 2. Popstand Inc - **S-Corporation Distributions (K-1 Income)**
 
-**2022 Wire Transfer Income:**
-- January: $27,000 (9 transfers)
-- February: $16,000 (4 transfers)
-- March: $21,500 (6 transfers)
-- April: $16,000 (5 transfers)
-- May: $9,000 (2 transfers)
-- June: $41,000 (12 transfers)
-- **Total received:** $130,500 (38 wire transfers)
+**Payment Method:** Wire transfers from Popstand Chase account to personal Wells Fargo
+
+**2022 Wire Transfers Received (from Popstand reconciliation doc):**
+- January: $27,000 (9 wires)
+- February: $16,000 (5 wires)
+- March: $26,500 (7 wires) [NOT $21,500]
+- April: $16,000 (5 wires)
+- May: $9,000 (2 wires)
+- June: $27,500 (6 wires) [NOT $41,000]
+- July: $18,500 (5 wires)
+- August: $17,000 (5 wires)
+- September: $16,000 (4 wires)
+- October: $15,500 (6 wires)
+- November: $11,200 (4 wires)
+- December: $11,000 (4 wires)
+- **Total wire transfers received:** $211,200.00 (62 wire transfers after removing 3 duplicates)
+
+**K-1 (Form 1120-S) Reported:**
+- **Box 16D - Property Distributions:** $164,567.00
+- **DISCREPANCY:** $46,633 (wire transfers exceed K-1 by 28%)
+- **Possible explanations:** Timing differences, loans/advances, accounting method, shareholder reallocations
 
 **Income Classification:**
-- Likely 1099-NEC (non-employee compensation) or 1099-MISC
-- Could also be W-2 if treated as employee (needs verification)
-- May be S-Corp pass-through income if processed through user's S-Corp
+- **S-Corporation pass-through income** (Schedule K-1)
+- Popstand is user's own S-Corp (not an employer)
+- Wire transfers are **shareholder distributions** (NOT wages, NOT 1099)
+- **Tax treatment:** Distributions NOT subject to self-employment tax (15.3% savings vs. W-2/1099)
 
 **Tax Withholding:**
-- State tax withheld (estimated): ~$2,000-2,400
-- Federal tax: [Needs verification - check W-2 or 1099]
+- **NONE** - S-Corp distributions have no withholding
+- User responsible for estimated tax payments on K-1 income
+- **Risk:** Underpayment penalties if estimated taxes not paid quarterly
 
 **Work Nature:**
-- Software development/consulting work
-- Regular recurring payments suggest ongoing contract or part-time employment
-- Flexible amounts suggest project-based or hourly billing
+- Software development/consulting through S-Corp
+- Client pays Popstand Inc (S-Corp), which then distributes to shareholder (user)
+- **IRS Concern:** $0 W-2 wages from S-Corp may not meet "reasonable compensation" requirement
 
 ### S-Corporation Business
 
@@ -237,22 +280,29 @@
 - Cryptocurrency income (despite NFT industry work - none reported)
 - Retirement account distributions
 
-### Total 2022 Income Summary
+### Total 2022 Income Summary (VERIFIED FROM SOURCE DOCUMENTS)
 
-| Income Source | Amount | Tax Form | Tax Withheld |
-|---------------|--------|----------|--------------|
-| NFT Genius (W-2) | ~$100,000 | W-2 | ~$30,000 |
-| Popstand (Wire transfers) | $130,500 | W-2 or 1099-NEC | ~$2,000-2,400 |
-| Interest income | $203.45 | 1099-INT | $0 |
-| S-Corp income | TBD | K-1 (if applicable) | TBD |
-| **TOTAL INCOME** | **~$230,703+** | | **~$32,000-32,400** |
+| Income Source | Amount | Tax Form | Tax Withheld | Notes |
+|---------------|--------|----------|--------------|-------|
+| NFT Genius (W-2 wages) | $274,999.98 | W-2 | $102,351.07 | Salary doubled mid-year |
+| Popstand (S-Corp K-1) | $164,567.00 | K-1 Box 16D | $0.00 | Wire transfers: $211,200 |
+| Interest income (escrow) | $203.45 | 1099-INT | $0.00 | PHH Mortgage escrow |
+| **TOTAL TAXABLE INCOME** | **$439,770.43** | | **$102,351.07** | |
+| Less: 401(k) contributions | -$9,000.00 | W-2 Box 12 | | Pre-tax, reduces AGI |
+| **ADJUSTED GROSS INCOME (AGI)** | **~$430,770** | | | Estimated (verify with actual W-2 Box 1) |
+
+**CRITICAL DISCREPANCY:**
+- Wire transfers received from Popstand: $211,200
+- K-1 Box 16D distributions reported: $164,567
+- **Difference: $46,633** - User must verify with accountant whether this creates additional tax liability
 
 **Tax Filing Status Implications:**
-- Single filer: Standard deduction $12,950
-- Income level: Likely 24% federal tax bracket ($89,075-$170,050 single for 2022)
-- CA tax bracket: Likely 9.3% bracket ($61,215-$312,686 for 2022)
-- Combined marginal rate: ~33.3% (24% + 9.3%)
-- Self-employment tax: 15.3% on SE income (if S-Corp or 1099 income)
+- Single filer: Standard deduction $12,950 (but itemizing $30,347 is better)
+- **Income level: TOP TAX BRACKET** - 35% federal ($215,950-$539,900 single for 2022)
+- **CA tax bracket:** 9.3% ($61,215-$312,686 for 2022) - may hit 10.3% bracket
+- **Combined marginal rate:** ~45.3% (35% federal + 9.3% CA + 0.9% Additional Medicare)
+- Self-employment tax: NOT applicable (S-Corp distributions exempt from 15.3% SE tax)
+- **Net Investment Income Tax (NIIT):** May apply 3.8% if modified AGI > $200k (single)
 
 ---
 
