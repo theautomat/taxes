@@ -1,1016 +1,919 @@
-# 2022 Tax Year - Comprehensive Financial Profile
+# 2022 Tax Deduction Research - Financial Profile & Research Directives
 **Tax Year:** 2022
-**Prepared for:** AI-assisted tax deduction research
-**Date Created:** 2025-10-18
-**Purpose:** Provide complete financial context to identify potential overlooked tax deductions
+**Filing Date:** 2025 (3 years late)
+**Document Purpose:** AI-optimized research brief for identifying maximum tax deductions
+**Last Updated:** 2025-10-18
 
 ---
 
-## Executive Summary
+## 1. Objective & Persona
 
-**Taxpayer Profile:**
-- **Name:** Kurt (Kurtis Braget)
-- **Age:** 43 (as of 2022)
-- **State:** California (CA resident)
-- **Location:** Fillmore, CA 93015
-- **Filing Status:** Single (TBD - to be confirmed)
-- **Occupation:** Software Developer/Engineer
-- **Business Structure:** Owns S-Corp software business + W-2 employee at two companies
+### Primary Objective
+Identify **every potential tax deduction and credit** for tax year 2022 to:
+- Maximize deductions and minimize final tax liability
+- Offset substantial late filing penalties (estimated $50,000-$80,000)
+- Focus on overlooked, high-value opportunities that could save $10,000-$30,000+
 
-**Key Financial Highlights:**
-- **Total Income:** ~$486,403 (NFT Genius $275k W-2 + Popstand $211k + interest $203)
-- **NFT Genius W-2:** $274,999.98 gross wages (salary DOUBLED mid-year from $96.15/hr to $192.31/hr)
-- **Popstand S-Corp Distributions:** $211,200.00 (62 wire transfers, K-1 Box 16D shows $164,567)
-- **High Earner:** Additional Medicare tax triggered ($200k+ income threshold)
-- **Home Value:** ~$1,000,000 (662 Mountain View St, Fillmore CA)
-- **Mortgage:** $760,000 initial loan (purchased 3 years ago, ~2019-2020)
-- **Home Equity:** ~$240,000+ (down payment ~$100k + appreciation + principal payments)
-- **Property Tax:** $3,095.19 paid in 2022
-- **Mortgage Interest:** $20,410.43 paid in 2022
-- **State Income Tax Withheld:** $25,600+ (exceeds SALT cap)
-- **401(k) Contributions:** $9,000 (started Sept 2022, $1,000/paycheck)
-- **Work Setup:** Dual workspace - Home office (Fillmore) + Pasadena rented office (Oct-Dec 2022)
+### AI Research Persona
+Assume the role of a **senior tax analyst** specializing in:
+- High-income individuals (top tax brackets)
+- Small business owners (S-Corporation structures)
+- Tech industry professionals (software developers)
+- 2022 tax code expertise (including temporary COVID-era provisions)
 
-**Tax Situation:**
-- **Very high income** (~$486k) puts taxpayer in TOP tax brackets (35% federal, 9.3% CA)
-- Itemized deductions (~$30,347+) far exceed standard deduction ($12,950 single)
-- SALT cap ($10k) SEVERELY limits deductions (paid $28,695+, can only deduct $10k - loses $18k+)
-- Strong home office deduction potential ($3,573-$6,368 depending on method)
-- Significant business expenses via Privacy.com (SaaS, cloud hosting, domains, subscriptions)
-- Late filing (filing 2022 taxes in 2025) with substantial penalties/interest (estimated ~$50k-80k penalty on high income)
-- **CRITICAL:** Verify Popstand K-1 vs wire transfers discrepancy ($46,633 difference - may owe additional tax)
+### Research Approach
+Be **thorough, creative, and aggressive** in finding deductions. For each opportunity:
+1. Cite specific IRS rules and 2022 tax code provisions
+2. Calculate potential deduction with clear assumptions
+3. Determine tax savings at 45.3% combined marginal rate
+4. List documentation requirements
+5. Assess audit risk and provide recommendation
 
 ---
 
-## Personal Information
+## 2. Executive Summary - Critical Facts
 
-### Demographics
-- **Age:** 43 years old (as of 2022)
-- **Location:** Fillmore, California (Ventura County)
-- **Property Address:** 662 Mountain View Street, Fillmore CA 93015
-- **Filing Status:** Single (presumed - no spouse or dependents mentioned)
-- **Dependents:** None mentioned
-- **Marital Status:** Single
+### Taxpayer Profile
+- **Filing Status:** Single
+- **Age:** 43 (2022)
+- **Occupation:** Software Developer + S-Corp Owner
+- **State:** California (Fillmore, CA 93015)
+- **Property:** 662 Mountain View St (valued ~$1M, $760k mortgage)
 
-### Employment Status (2022)
-1. **Primary Employment:** W-2 Employee at NFT Genius Inc
-   - Full-time salaried software developer
-   - **Jan 1 - Aug 15:** $96.15/hour (~$200k annual rate)
-   - **Aug 16 - Dec 31:** $192.31/hour (~$400k annual rate) ⭐ SALARY DOUBLED
-   - **Actual 2022 gross:** $274,999.98
-   - **Net take-home:** $163,827.75 (after $101,689 taxes + $9,483 benefits/401k)
-   - Benefits: Health insurance (medical $1,492, dental $170, vision $33) - pre-tax
-   - **401(k) contributions:** $9,000 (started Sept 2022, $1,000/paycheck pre-tax)
-   - **HRA (Health Reimbursement Arrangement):** $13,750 received (Jul-Dec, $1,250/month - NOT taxable)
-   - **Office rent reimbursements:** $9,600 (Oct-Dec, Pasadena office - NOT taxable)
-   - **Large back-pay reimbursement:** $33,750 (July 2022, "expenses and medical owed before funding")
-   - Employer: NFT Genius Inc / Genius Holdings LLC (software/tech company)
-   - Payroll: Via Gusto (24 bi-monthly paychecks in 2022)
-   - **Federal tax withheld:** ~$40,000
-   - **State income tax withheld:** ~$32,000 (California)
-   - **FICA withheld:** ~$22,000 (Social Security + Medicare + Additional Medicare)
+### Income Summary (VERIFIED)
+| Source | Amount | Tax Form | Tax Withheld |
+|--------|--------|----------|--------------|
+| NFT Genius W-2 | $274,999.98 | W-2 | $102,351.07 |
+| Popstand S-Corp | $164,567.00 | K-1 Box 16D | $0.00 |
+| Interest (escrow) | $203.45 | 1099-INT | $0.00 |
+| **TOTAL INCOME** | **$439,770.43** | | **$102,351.07** |
+| Less: 401(k) | -$9,000.00 | W-2 Box 12 | Pre-tax |
+| **Est. AGI** | **~$430,770** | | |
 
-2. **S-Corp Ownership:** Popstand Inc (User's S-Corporation)
-   - **S-Corp distributions received:** $211,200.00 (62 wire transfers throughout 2022)
-   - **K-1 reported distributions (Box 16D):** $164,567.00
-   - **DISCREPANCY:** $46,633 difference (wire transfers > K-1) - needs accountant review
-   - Payment method: Wire transfers from Popstand Chase account to personal Wells Fargo
-   - Monthly payments: Ranged from $9,000 (May) to $27,000 (Jan/June)
-   - **Tax treatment:** S-Corp distributions are NOT subject to self-employment tax
-   - **Status:** Popstand is user's own S-Corp (not employer/contractor relationship)
-   - No separate W-2 wages from Popstand (all distributions, no salary)
-   - **IRS risk:** S-Corp owners must pay "reasonable wages" - $0 wages may trigger audit
+### Tax Rate Context
+- **Federal bracket:** 35% (income $215,950-$539,900 single)
+- **California bracket:** 9.3% (income $61,215-$312,686)
+- **Additional Medicare:** 0.9% (income over $200,000)
+- **Combined marginal rate:** 45.3%
+- **Every $1,000 deduction saves $453 in taxes**
 
-### Financial Sophistication
-- **Tech-savvy:** Uses Privacy.com for virtual credit cards (security-conscious)
-- **Software professional:** Developer/engineer with technical skills
-- **Business owner:** Operates S-Corp entity (understands business structures)
-- **Real estate owner:** Homeowner with substantial property (~$1M value)
-- **Financial tools:** Uses multiple payment methods (Wells Fargo, Privacy.com, checks)
-- **Record-keeping:** Organized financial documents, tracking transactions
+### Critical Challenge
+**Filing 3 years late** - Estimated penalties:
+- Failure to file: 5% × unpaid tax × months late (capped at 25%)
+- Failure to pay: 0.5% × unpaid tax × months late (capped at 25%)
+- Interest: ~7-8% annual on unpaid balance
+- **Estimated total: $50,000-$80,000**
+- **IMPERATIVE:** Maximize deductions to reduce base tax owed
 
----
+### Deductions Already Claimed
+- ✅ Mortgage interest: $20,347 (Schedule A, Line 8a)
+- ✅ SALT (state/local taxes): $10,000 (Schedule A, Line 5 - CAPPED)
+- ✅ Home office (actual expenses): $3,573-$4,029 (Schedule C or Form 8829)
+- ✅ Pasadena parking (unreimbursed): $336.50 (Schedule C)
+- ✅ 401(k) contributions: $9,000 (W-2 pre-tax, NFT Genius)
+- ✅ Total itemized deductions: ~$30,347
 
-## Real Property & Housing
-
-### Primary Residence
-**Property:** 662 Mountain View Street, Fillmore CA 93015
-
-**Property Details:**
-- **Purchase Date:** ~2019-2020 (3 years before 2022, per user statement)
-- **Purchase Price:** ~$860,000 (estimated: $760k loan + ~$100k down payment)
-- **Current Value (2022):** ~$1,000,000 (per user statement)
-- **Appreciation:** ~$140,000 gain (16% increase over 3 years)
-- **Lot Size:** [Not specified in documents]
-- **Home Size:** 1,480 square feet
-- **Property Type:** Single-family residence
-
-**Mortgage Information:**
-- **Lender:** PHH Mortgage Corporation (servicer)
-- **Original Loan Amount:** $760,000 (approximately)
-- **Loan Date:** 3 years prior to 2022 (likely 2019-2020)
-- **Down Payment:** ~$100,000 (made "the year before" the loan per user)
-- **Loan Type:** Likely 30-year fixed conventional mortgage (qualified dwelling acquisition debt)
-- **Interest Rate:** ~2.7% (estimated based on $20,410 interest / $760k = 2.69%)
-- **Monthly Payment Components:**
-  - Principal + Interest: [Calculated from amortization]
-  - Escrow (taxes + insurance): $1,168.37/month
-  - PMI (private mortgage insurance): $88.75/month (paid $887.50 in 2022)
-  - **Total Monthly Payment:** ~$4,200-4,500 estimated
-
-**Escrow Account (2022):**
-- Beginning balance: $0.00 (account opened in 2022)
-- Initial escrow deposit: $6,673.36
-- Monthly escrow deposits: $1,168.37 × 10 payments = $11,683.70
-- Interest earned on escrow: $203.45
-- Property taxes paid from escrow: $3,095.19
-- PMI paid from escrow: $887.50
-- Ending balance (Dec 2022): $14,577.82
-
-**Home Equity Position:**
-- Original investment: ~$100,000 down payment
-- Appreciation: ~$140,000
-- Principal paid (3 years): ~$30,000 estimated
-- **Current Equity:** ~$270,000 (27% of $1M value)
-- **Loan-to-Value (LTV):** ~73%
-
-**Property Tax:**
-- 2022 Annual Property Tax: $3,095.19
-- Paid via escrow account (PHH Mortgage)
-- Reported on Form 1098, Box 10
-
-**Home Office:**
-- **Office Size:** 225 square feet (15' × 15' room)
-- **Percentage of Home:** 15.2% (225 ÷ 1,480 sq ft)
-- **Exclusive Use:** Dedicated home office space
-- **Business Use:** Regular and continuous use throughout 2022
-- **Qualification:** Meets IRS "principal place of business" test for administrative/management activities
+### Unique Financial Situation
+1. **Salary doubled mid-year:** $96.15/hr → $192.31/hr (Aug 16, 2022)
+2. **Dual workspace:** Home office (Fillmore) + Pasadena rented office (Oct-Dec 2022)
+3. **S-Corp discrepancy:** $211,200 wire transfers received vs. $164,567 K-1 reported ($46,633 difference)
+4. **SALT cap severely limiting:** Paid $28,695 in state/local taxes, can only deduct $10,000 (lose $18,695)
+5. **No Popstand W-2 wages:** All S-Corp distributions, no salary (potential IRS concern)
 
 ---
 
-## Income Sources (2022)
+## 3. High-Priority Research Directives (TOP 5)
 
-### W-2 Employment Income
-
-#### 1. NFT Genius Inc (Primary Employer) - **W-2 Income**
-
-**2022 Gross Wages: $274,999.98** (NOT $100k - salary doubled mid-year!)
-
-**Salary Progression:**
-- **Jan 1 - Aug 15, 2022:** $96.15/hour × 15.5 pay periods = $129,166.62
-- **Aug 16 - Dec 31, 2022:** $192.31/hour × 8.5 pay periods = $145,833.36 ⭐ DOUBLED
-- **Total gross earnings:** $274,999.98
-- Holiday pay: Included in gross (paid holidays throughout year)
-- Pay frequency: Bi-monthly (24 paychecks: 15th and end of month)
-- Employment period: Full year 2022
-
-**Payroll Deductions (Total 2022 - VERIFIED FROM PAYSTUBS):**
-- Federal income tax withheld: $62,718.83
-- Social Security tax: $9,113.99 (6.2% up to $147k wage base - capped)
-- Medicare tax: $4,627.66 (1.45% on all wages)
-- **Additional Medicare tax:** $661.65 (0.9% over $200k - high earner surcharge)
-- CA state income tax withheld: $23,627.34
-- CA SDI (disability insurance): $1,601.60 (California State Disability Insurance)
-- **Total taxes withheld:** $102,351.07 (37.2% effective tax rate on gross)
-
-**Benefits (Pre-tax Deductions):**
-- Medical insurance: $62.16 per pay period = $1,492/year (started Feb 2022)
-- Dental insurance: $7.08 per pay period = $170/year
-- Vision insurance: $1.37 per pay period = $33/year
-- **401(k) contributions:** $1,000 per paycheck × 9 paychecks = **$9,000** (started Sept 2022)
-- **Total pre-tax deductions:** $9,482.81 (reduces taxable income)
-
-**Reimbursements (NOT taxable income):**
-- May lunch: $92.07
-- June Vegas trip: $1,362.87
-- **July back-pay:** $33,750.00 ("expenses and medical owed before we got funding")
-- **HRA (Health Reimbursement Arrangement):** $13,750.00 (Jul-Dec, $1,250/month)
-- **Office rent reimbursements:** $9,600.00 (Oct $3,200, Dec $6,400 for 2 months)
-- **Total reimbursements:** $58,554.94
-- **Tax treatment:** Should NOT be included in W-2 Box 1 (accountable plan, non-taxable)
-
-**Net Take-Home Pay (VERIFIED):**
-- Gross annual: $274,999.98
-- Less: Pre-tax deductions: -$9,482.81 (401k + insurance)
-- Less: Total taxes withheld: -$102,351.07
-- **Net pay deposited:** $163,166.10 (calculated)
-  - **NOTE:** Reconciliation doc shows $163,827.75 - $661.55 discrepancy, need to verify
-- Plus: Reimbursements (non-taxable): +$58,554.94
-- **Total Wells Fargo deposits from NFT Genius:** $222,382.69 (verified from bank statements)
-
-#### 2. Popstand Inc - **S-Corporation Distributions (K-1 Income)**
-
-**Payment Method:** Wire transfers from Popstand Chase account to personal Wells Fargo
-
-**2022 Wire Transfers Received (from Popstand reconciliation doc):**
-- January: $27,000 (9 wires)
-- February: $16,000 (5 wires)
-- March: $26,500 (7 wires) [NOT $21,500]
-- April: $16,000 (5 wires)
-- May: $9,000 (2 wires)
-- June: $27,500 (6 wires) [NOT $41,000]
-- July: $18,500 (5 wires)
-- August: $17,000 (5 wires)
-- September: $16,000 (4 wires)
-- October: $15,500 (6 wires)
-- November: $11,200 (4 wires)
-- December: $11,000 (4 wires)
-- **Total wire transfers received:** $211,200.00 (62 wire transfers after removing 3 duplicates)
-
-**K-1 (Form 1120-S) Reported:**
-- **Box 16D - Property Distributions:** $164,567.00
-- **DISCREPANCY:** $46,633 (wire transfers exceed K-1 by 28%)
-- **Possible explanations:** Timing differences, loans/advances, accounting method, shareholder reallocations
-
-**Income Classification:**
-- **S-Corporation pass-through income** (Schedule K-1)
-- Popstand is user's own S-Corp (not an employer)
-- Wire transfers are **shareholder distributions** (NOT wages, NOT 1099)
-- **Tax treatment:** Distributions NOT subject to self-employment tax (15.3% savings vs. W-2/1099)
-
-**Tax Withholding:**
-- **NONE** - S-Corp distributions have no withholding
-- User responsible for estimated tax payments on K-1 income
-- **Risk:** Underpayment penalties if estimated taxes not paid quarterly
-
-**Work Nature:**
-- Software development/consulting through S-Corp
-- Client pays Popstand Inc (S-Corp), which then distributes to shareholder (user)
-- **IRS Concern:** $0 W-2 wages from S-Corp may not meet "reasonable compensation" requirement
-
-### S-Corporation Business
-
-**Business Structure:**
-- User mentioned owning "s corp software business"
-- No direct S-Corp transactions found in 2022 financial records
-- Possible scenarios:
-  1. Popstand income flows through S-Corp (K-1 income)
-  2. S-Corp is dormant/minimal activity in 2022
-  3. S-Corp used for consulting work, expenses paid via Privacy.com
-  4. S-Corp may have separate business bank account not in this dataset
-
-**Potential S-Corp Income Sources:**
-- Consulting fees (software development)
-- Popstand wire transfers may be to S-Corp
-- No 1099-K from payment processors found
-- No business revenue in Wells Fargo checking (all wire transfers appear W-2/1099)
-
-**S-Corp Tax Treatment:**
-- Pass-through entity: Income flows to personal return via Schedule K-1
-- Self-employment tax: Only on W-2 wages from S-Corp (if any)
-- Distributions: Not subject to SE tax
-- **Need to verify:** Did S-Corp issue K-1 for 2022? What was income/loss?
-
-### Investment Income
-
-**Interest Income (Form 1099-INT):**
-- **PHH Mortgage Corporation (Escrow Account Interest):** $203.45
-- Bank account interest: [Check for other 1099-INT forms]
-- **Total interest income:** $203.45+ (may be more from bank accounts)
-
-**Tax Treatment:**
-- Reported on Schedule B (Interest Income)
-- Taxable as ordinary income (not self-employment income)
-- Additional tax owed: ~$67.75 (at 24% federal + 9.3% CA)
-
-**No Evidence Of:**
-- Dividend income (no 1099-DIV forms mentioned)
-- Capital gains from stock sales (no 1099-B)
-- Rental property income
-- Cryptocurrency income (despite NFT industry work - none reported)
-- Retirement account distributions
-
-### Total 2022 Income Summary (VERIFIED FROM SOURCE DOCUMENTS)
-
-| Income Source | Amount | Tax Form | Tax Withheld | Notes |
-|---------------|--------|----------|--------------|-------|
-| NFT Genius (W-2 wages) | $274,999.98 | W-2 | $102,351.07 | Salary doubled mid-year |
-| Popstand (S-Corp K-1) | $164,567.00 | K-1 Box 16D | $0.00 | Wire transfers: $211,200 |
-| Interest income (escrow) | $203.45 | 1099-INT | $0.00 | PHH Mortgage escrow |
-| **TOTAL TAXABLE INCOME** | **$439,770.43** | | **$102,351.07** | |
-| Less: 401(k) contributions | -$9,000.00 | W-2 Box 12 | | Pre-tax, reduces AGI |
-| **ADJUSTED GROSS INCOME (AGI)** | **~$430,770** | | | Estimated (verify with actual W-2 Box 1) |
-
-**CRITICAL DISCREPANCY:**
-- Wire transfers received from Popstand: $211,200
-- K-1 Box 16D distributions reported: $164,567
-- **Difference: $46,633** - User must verify with accountant whether this creates additional tax liability
-
-**Tax Filing Status Implications:**
-- Single filer: Standard deduction $12,950 (but itemizing $30,347 is better)
-- **Income level: TOP TAX BRACKET** - 35% federal ($215,950-$539,900 single for 2022)
-- **CA tax bracket:** 9.3% ($61,215-$312,686 for 2022) - may hit 10.3% bracket
-- **Combined marginal rate:** ~45.3% (35% federal + 9.3% CA + 0.9% Additional Medicare)
-- Self-employment tax: NOT applicable (S-Corp distributions exempt from 15.3% SE tax)
-- **Net Investment Income Tax (NIIT):** May apply 3.8% if modified AGI > $200k (single)
+Research these opportunities FIRST. They represent the highest potential tax savings.
 
 ---
 
-## Expenses & Financial Activity
+### Priority 1: Retirement Contributions ⭐⭐⭐⭐⭐
+**ESTIMATED VALUE: $6,795 - $26,274 in tax savings**
+**STATUS:** CRITICAL - Highest potential savings opportunity
 
-### Banking & Payment Methods
+#### Facts
+- Popstand Inc. (S-Corp) generated $164,567 in K-1 income (Box 16D distributions, need to verify Box 1 ordinary income)
+- No retirement plan currently established for Popstand
+- Already contributed $9,000 to NFT Genius 401(k) (reduces available contribution limits)
+- Filing late (2025) but 2022 retirement plans can potentially be established retroactively
+- Self-employment income from S-Corp: [Need to verify from K-1 Box 1 or calculate from Box 14]
 
-**Primary Checking:** Wells Fargo
-- Monthly transactions: 150-200 per month
-- Primary use: Mortgage payments, checks, ATM withdrawals, everyday expenses
-- Direct deposits: NFT Genius payroll, Popstand wire transfers
-- Notable: Pasadena office rent checks (#1001, #4629, #4632)
+#### Research Directive
+**PRIMARY QUESTIONS:**
+1. Can Popstand Inc. establish a SEP-IRA or Solo 401(k) for 2022 retroactively in 2025?
+2. What is the deadline for establishing a 2022 retirement plan?
+3. What is the deadline for making 2022 contributions? (Extended deadline: tax return due date + extensions)
+4. Has the statute of limitations expired for amending 2022 return to claim retirement contributions?
 
-**Virtual Credit Cards:** Privacy.com
-- Total 2022 transactions: 650+ transactions
-- Primary use: Online subscriptions, SaaS services, cloud hosting
-- **Business expenses:**
-  - Amazon Web Services (AWS)
-  - Heroku hosting
-  - QuickNode API
-  - Pinata Cloud (IPFS/NFT storage)
-  - GoDaddy domains
-  - Google Domains
-  - Hootsuite social media management
-- **Personal expenses:**
-  - Amazon purchases (mixed personal/business)
-  - Apple subscriptions
-  - Hulu streaming
-  - Prime Video
+**CALCULATION REQUIREMENTS:**
+1. Determine Popstand S-Corp net earnings from self-employment:
+   - Check K-1 Box 1 (Ordinary business income): $______
+   - OR calculate: K-1 income - deductible expenses - owner health insurance
+   - If distributions only (no W-2 wages to self), how does this affect calculation?
 
-### Home & Property Expenses
+2. Calculate maximum SEP-IRA contribution:
+   - Formula: 25% of net SE income (after deducting 1/2 SE tax)
+   - For S-Corp: May be 25% of W-2 wages paid to self (if any)
+   - Maximum: $______
 
-**Mortgage & Housing (Annual):**
-- Mortgage interest paid: $20,410.43
-- Property taxes paid: $3,095.19
-- PMI (private mortgage insurance): $887.50
-- Homeowners insurance: [Need to obtain 2022 bill]
-- Utilities (electric/gas): [Need to obtain 2022 bills]
-- Water/trash: [Need to obtain 2022 bills]
-- Internet (home): AT&T payments ~$1,483/year (unclear if home or phone)
+3. Calculate maximum Solo 401(k) contribution:
+   - Employee deferral: Lesser of $20,500 or 100% of compensation
+   - Already contributed $9,000 to NFT Genius 401(k) → $11,500 remaining
+   - Employer contribution: 25% of net SE income
+   - Combined maximum: $61,000 (or $67,500 if age 50+, but taxpayer is 43)
+   - Total available: $______
 
-**Home Office Calculation (15.2% business use):**
-- Mortgage interest: $3,102.39 (15.2% × $20,410.43)
-- Property taxes: $470.47 (15.2% × $3,095.19)
-- Utilities/insurance (estimated): ~$456 (15.2% × ~$3,000)
-- **Known home office deduction:** $3,572.86
-- **With utilities/insurance:** ~$4,029
+4. Determine which plan allows higher contribution:
+   - SEP-IRA: $______
+   - Solo 401(k): $______
+   - **Recommendation:** ______
 
-### Office & Workspace Expenses
+**S-CORP SPECIFIC CONSIDERATIONS:**
+- If Popstand paid NO W-2 wages to owner (all distributions), can retirement contributions be made?
+- Does S-Corp need to have paid reasonable compensation (W-2) to make retirement contributions?
+- Research if $0 wages + distributions disqualifies retirement contributions
+- If disqualified, can Popstand retroactively issue W-2 wages for 2022?
 
-**Pasadena Office (October - December 2022):**
-- **Office rent:** $3,200-3,257/month × 3 months = $9,677.17 total
-- **Reimbursed by employer:** $9,600.00 (NFT Genius)
-- **Out-of-pocket:** $77.17 (not reimbursed)
-- **Parking (not reimbursed):**
-  - LAZ Parking 670600 Pasadena: $200.00 (20 transactions)
-  - Pasadena parking meters: $136.50 (28 transactions)
-  - **Total parking:** $336.50 (fully deductible business expense)
-- **Internet:** Not found in records (possibly included in rent or paid via credit card)
+#### Expected Output
 
-**Work Setup:**
-- Split time between home office (Fillmore) and Pasadena office
-- Home office qualifies under IRS rules despite having second workspace
-- Both workspaces used for business purposes
-- Home office: Administrative, management, coding work
-- Pasadena office: October-December 2022 only (3 months)
+**Eligibility:**
+- [ ] Can establish SEP-IRA for 2022? (Yes/No + deadline)
+- [ ] Can establish Solo 401(k) for 2022? (Yes/No + deadline)
+- [ ] Can make contributions by late filing deadline? (Yes/No + deadline)
+- [ ] Does $0 W-2 wages disqualify contributions? (Yes/No + implications)
 
-### Technology & Software (Privacy.com Transactions)
+**Maximum Contributions:**
+- SEP-IRA maximum: $______
+- Solo 401(k) maximum: $______
+- Recommended plan: ______
+- Reasoning: ______
 
-**Cloud Hosting & Infrastructure:**
-- Amazon Web Services (AWS): ~$200-250/year
-- Heroku: $1,211.07 (paid in Jan 2022 for Nov-Dec 2021 + Dec 2022)
-- QuickNode API: $299.00 (blockchain/crypto node service)
-- Pinata Cloud: $34.20 (IPFS/NFT file storage)
+**Tax Savings:**
+- Contribution amount: $______
+- Federal savings (35%): $______
+- California savings (9.3%): $______
+- Medicare savings (0.9%): $______
+- **TOTAL TAX SAVINGS: $______**
 
-**Domains & DNS:**
-- GoDaddy: $24.99+ (domain registrations)
-- Google Domains: $36.00+ (multiple domain renewals)
+**Documentation Required:**
+- [ ] IRS Form 5305-SEP or Form 5500-EZ (depending on plan)
+- [ ] Plan adoption agreement (with date)
+- [ ] Contribution receipts
+- [ ] Amended 2022 S-Corp return (Form 1120-S) if needed
+- [ ] Amended personal return (Form 1040-X) to claim deduction
+- [ ] K-1 from Popstand showing Box 1 ordinary income
+- [ ] Evidence of Popstand net earnings calculation
 
-**SaaS Subscriptions:**
-- Hootsuite: $75.00 (social media management - likely business)
-- Apple subscriptions: $32.97+ (iCloud, App Store, etc.)
+**Action Items:**
+- [ ] Verify Popstand K-1 Box 1 ordinary income amount
+- [ ] Determine if late establishment is permitted (cite IRS guidance)
+- [ ] Calculate exact contribution limits for both plans
+- [ ] Research S-Corp + $0 wages + retirement contribution interaction
+- [ ] If prohibited, determine if retroactive W-2 wages can be issued
+- [ ] Provide step-by-step establishment instructions
+- [ ] Identify all deadlines and forms required
 
-**Streaming/Entertainment (Personal):**
-- Hulu: $6.99/month
-- Prime Video: $2.99/month (rentals)
+**Risks/Considerations:**
+- Audit risk: MEDIUM (S-Corp with distributions but no wages raises IRS concerns)
+- Statute of limitations: May be expired for amending 2022 return (check 3-year rule)
+- Reasonable compensation doctrine: IRS requires S-Corp owners to pay themselves wages
+- Retirement contribution without wages may be disallowed
 
-**Amazon Purchases (Mixed Business/Personal):**
-- Total transactions: 500+ Amazon purchases via Privacy.com
-- Mix of business equipment, office supplies, and personal items
-- Largest purchases: $655.91, $256.05, $230.48 (equipment/electronics)
-- **Categorization needed:** Review each purchase for business vs. personal
-
-### Communication & Phone
-
-**AT&T Payments (2022):**
-- Total paid: $1,483.41 (11 monthly payments)
-- Average: $134.85/month
-- User indicated: "likely phone bill, not internet"
-- **Classification:** Personal unless business line or business use percentage
-
-### Transportation
-
-**Vehicle Expenses:**
-- No car payments found in Wells Fargo checking
-- Parking for Pasadena office: $336.50 (deductible)
-- No gas purchases or vehicle maintenance found
-- **Possible:** Vehicle expenses paid via credit card not in dataset
-- **Mileage deduction:** Could claim business mileage for home ↔ Pasadena office
-
-**Standard Mileage Rate (2022):**
-- Jan-Jun 2022: $0.585/mile
-- Jul-Dec 2022: $0.625/mile
-- **Opportunity:** If commute between home office and Pasadena office = business mileage
+**Estimated Value:** $6,795 - $26,274 in tax savings
+**Priority:** ⭐⭐⭐⭐⭐ CRITICAL
 
 ---
 
-## Tax Deductions Already Identified
+### Priority 2: Vehicle Business Mileage ⭐⭐⭐⭐
+**ESTIMATED VALUE: $1,104 in tax savings**
+**STATUS:** High value, needs mileage log documentation
 
-### Schedule A: Itemized Deductions (~$30,347+)
+#### Facts
+- Home office in Fillmore, CA 93015
+- Rented Pasadena office: October 1 - December 31, 2022 (3 months)
+- One-way distance: ~75 miles (Fillmore to Pasadena)
+- Round-trip: ~150 miles
+- No vehicle expenses found in Wells Fargo checking account (may be paid via credit card not in dataset)
+- No mileage log found in documentation
 
-**Line 5: State and Local Taxes (SALT) - CAPPED AT $10,000**
-- State income tax withheld: $25,600+ (NFT Genius + Popstand)
-- Property tax paid: $3,095.19
-- **Total SALT paid:** $28,695+
-- **Federal deduction allowed:** $10,000 (SALT cap)
-- **Wasted deduction:** $18,695+ (can't deduct on federal return)
-- **California benefit:** Full $3,095 property tax deductible on CA return (no SALT cap)
+#### Research Directive
+**PRIMARY QUESTION:**
+Does travel between home office (Fillmore) and temporary rented office (Pasadena) qualify as deductible business mileage?
 
-**Line 8a: Home Mortgage Interest - $20,347**
-- Total interest paid: $20,410.43
-- After $750k loan limitation: $20,347.09
-- Non-deductible (loan > $750k): $63.34
-- **Tax savings:** ~$4,883 federal + ~$1,892 CA = **$6,775 total**
+**IRS RULE TO RESEARCH:**
+- Home office as "principal place of business" → Commute to second location = business miles?
+- Temporary work location rules (Pasadena office was only Oct-Dec, 3 months)
+- IRS Publication 463 (2022): Travel, Gift, and Car Expenses
+- Tax Court cases on home office → temporary location commuting
 
-**Total Itemized Deductions:**
-- SALT: $10,000
-- Mortgage interest: $20,347
-- Charitable contributions: [None found - add if any]
-- **TOTAL:** ~$30,347+
-- **vs. Standard deduction:** $12,950 (single)
-- **Benefit of itemizing:** ~$17,397 extra deductions = **~$4,175 tax savings**
+**CALCULATION SCENARIOS:**
 
-### Schedule C or Form 2106: Business Expenses
+**Scenario A: 2 days/week**
+- Weeks in Oct-Dec: 13 weeks
+- Trips: 13 weeks × 2 days = 26 round trips
+- Miles: 26 trips × 150 miles = 3,900 miles
+- Rate (Jul-Dec 2022): $0.625/mile
+- **Deduction: 3,900 × $0.625 = $2,437.50**
+- **Tax savings: $2,437.50 × 45.3% = $1,104**
 
-**Home Office Deduction (Option 2 - Recommended):**
-- Mortgage interest (15.2%): $3,102.39
-- Property taxes (15.2%): $470.47
-- Utilities/insurance (15.2%): ~$456 (estimated)
-- **Total deduction:** ~$4,029
-- **Tax savings:** ~$1,583 (at 39.3% combined rate)
+**Scenario B: 3 days/week**
+- Trips: 13 weeks × 3 days = 39 round trips
+- Miles: 39 trips × 150 miles = 5,850 miles
+- **Deduction: 5,850 × $0.625 = $3,656.25**
+- **Tax savings: $3,656.25 × 45.3% = $1,656**
 
-**Alternative (Simplified Method):**
-- 225 sq ft × $5/sq ft = $1,125
-- Tax savings: ~$442
-- **Recommendation:** Use actual expense method (3.5× better)
+**Scenario C: 1 day/week (conservative)**
+- Trips: 13 weeks × 1 day = 13 round trips
+- Miles: 13 trips × 150 miles = 1,950 miles
+- **Deduction: 1,950 × $0.625 = $1,218.75**
+- **Tax savings: $1,218.75 × 45.3% = $552**
 
-**Unreimbursed Business Expenses:**
-- Pasadena parking: $336.50 (not reimbursed)
-- Pasadena rent overage: $77.17 (not reimbursed)
-- Office internet (if found and not reimbursed): TBD
-- **Subtotal:** $413.67+ deductible
+#### Expected Output
 
-**Technology & Software (If Business Use):**
-- AWS, Heroku, QuickNode, Pinata: ~$1,744
-- Domains (GoDaddy, Google): ~$61
-- Hootsuite: $75
-- **Need to verify:** Business use percentage for each
-- **Potential deduction:** $1,880+ if business-related
+**IRS Rule Analysis:**
+- Does home office status make Pasadena commute deductible? (Yes/No + cite rule)
+- Does "temporary location" status (3 months) affect deductibility? (Yes/No + impact)
+- Are there any limitations or restrictions?
 
-### Self-Employment Tax Deduction
+**Recommended Approach:**
+- Can mileage be reconstructed retroactively without contemporaneous log?
+- What level of substantiation does IRS require for vehicle expenses?
+- Can calendar entries, email timestamps, or other records support mileage claim?
 
-**If S-Corp or 1099 Income Exists:**
-- Deduct 50% of self-employment tax (above-the-line deduction)
-- SE tax rate: 15.3% on net self-employment income
-- **Need to calculate:** Based on S-Corp K-1 or 1099-NEC income
+**Calculation (use most conservative scenario unless better documentation exists):**
+- Estimated trips per week: _____ (justify assumption)
+- Total miles: _____
+- Mileage rate (2022 Jul-Dec): $0.625
+- **Deductible amount: $_____**
+- **Tax savings: $_____ (45.3%)**
 
-### Health Insurance Premiums
+**Documentation Required:**
+- [ ] Contemporaneous mileage log (or reconstruction methodology)
+- [ ] Google Maps distance verification (Fillmore to Pasadena)
+- [ ] Calendar or emails showing Pasadena office days
+- [ ] Lease agreement for Pasadena office (dates: Oct-Dec 2022)
+- [ ] Evidence of home office as principal place of business
+- [ ] Form 2106 or Schedule C for vehicle expenses
 
-**NFT Genius Health Benefits (Pre-tax):**
-- Already deducted from W-2 wages (pre-tax)
-- Not separately deductible (already reduced taxable income)
+**Alternative: Actual Expenses Method:**
+If mileage records inadequate, research actual expense method:
+- Total vehicle costs (gas, insurance, maintenance, depreciation)
+- Business use percentage (Fillmore-Pasadena miles ÷ total miles)
+- May be less advantageous than standard mileage rate
 
-**Self-Employed Health Insurance:**
-- If S-Corp owner paid health insurance: May qualify for above-the-line deduction
-- **Need to verify:** Any self-paid health insurance premiums?
+**Risks/Considerations:**
+- Audit risk: MEDIUM-HIGH (requires mileage log substantiation)
+- Reconstruction risk: IRS prefers contemporaneous logs
+- Ballpark estimates may be challenged
+- Without documentation, may be disallowed entirely
 
-### Retirement Contributions
-
-**No Evidence Found Of:**
-- 401(k) contributions (none shown in NFT Genius paystubs)
-- SEP-IRA contributions
-- Solo 401(k) contributions
-- Traditional IRA contributions
-
-**Opportunity:**
-- If S-Corp has profit: Could set up SEP-IRA or Solo 401(k)
-- Contribution limits (2022):
-  - SEP-IRA: Up to 25% of net SE income (~$58,000 max)
-  - Solo 401(k): $20,500 employee deferral + 25% employer = $61,000 max
-- **Tax savings potential:** Massive deduction if eligible
+**Estimated Value:** $552 - $1,656 (conservative: $1,104 at 2 days/week)
+**Priority:** ⭐⭐⭐⭐
 
 ---
 
-## Potential Overlooked Deductions (Research Needed)
+### Priority 3: Home Office Depreciation ⭐⭐⭐
+**ESTIMATED VALUE: $1,060/year in tax savings (but recapture risk)**
+**STATUS:** High value but requires depreciation recapture analysis
 
-### 1. Vehicle Expenses
-**Current Status:** No vehicle expenses found in checking account data
-**Opportunity:**
-- Business mileage: Home office (Fillmore) ↔ Pasadena office (Oct-Dec)
-- Distance: ~75 miles one-way (Fillmore to Pasadena) = 150 miles round trip
-- Frequency: [Need to determine days per week]
-- **Example calculation:** 2 days/week × 13 weeks × 150 miles = 3,900 miles
-- **Deduction:** 3,900 miles × $0.625/mile (Jul-Dec rate) = **$2,437.50**
-- **Tax savings:** $2,437.50 × 39.3% = **$958 savings**
-**Action needed:** Verify commute frequency and whether home office → Pasadena = business mileage
+#### Facts
+- Home office: 225 sq ft (15' × 15' dedicated room)
+- Total home: 1,480 sq ft
+- Business use percentage: 15.2% (225 ÷ 1,480)
+- Home value: ~$1,000,000
+- Estimated building value (excluding land): ~$600,000
+- Mortgage interest (15.2%): $3,102 (already claimed)
+- Property taxes (15.2%): $470 (already claimed)
+- Currently using: Actual expense method WITHOUT depreciation
 
-### 2. California-Specific Deductions
-**Renter's Credit:** N/A (homeowner)
-**Senior Head of Household Credit:** N/A (age 43)
-**Young Child Tax Credit:** N/A (no dependents)
-**Dependent Parent Credit:** Unknown - does user support parents?
-**Caregiver Credit:** Unknown - any caregiving expenses?
-**Mortgage Interest Credit (MCC):** Unknown - did user get MCC at purchase?
+#### Research Directive
+**PRIMARY QUESTION:**
+Should depreciation be added to home office deduction despite recapture obligations when home is sold?
 
-### 3. Home Office Depreciation
-**Current Status:** Not claiming depreciation (using actual expense method without depreciation)
-**Opportunity:**
-- Building value (exclude land): ~$600,000 estimated
-- Annual depreciation: $600,000 ÷ 39 years = $15,385
+**CALCULATION:**
+- Building value (exclude land): $600,000 (estimated)
+- Residential rental property depreciation: 39-year straight-line (2022 rule)
+- Annual depreciation: $600,000 ÷ 39 years = $15,385/year
 - Business portion: $15,385 × 15.2% = **$2,339/year**
-- **Tax savings:** $2,339 × 39.3% = **$919/year**
-- **10-year benefit:** $9,190 savings - $5,848 recapture = **$3,342 net**
-**Consideration:** Depreciation recapture at sale (25% tax rate)
-**Recommendation:** Discuss with CPA - may be worth it if holding home 7+ years
 
-### 4. Startup & Organizational Costs (S-Corp)
-**If S-Corp was formed recently:**
-- Deduct up to $5,000 in startup costs in first year
-- Amortize remainder over 15 years
-- **Expenses:** Legal fees, filing fees, accounting setup
-**Action needed:** Verify S-Corp formation date and if startup costs were deducted
+**Current home office deduction (WITHOUT depreciation):**
+- Mortgage interest: $3,102
+- Property taxes: $470
+- Subtotal: $3,572
+- Plus utilities/insurance (est): $456
+- **Total: ~$4,028/year**
 
-### 5. Education & Professional Development
-**Current Status:** No obvious education expenses found
-**Opportunity:**
-- Online courses (Udemy, Coursera, Pluralsight) - deductible if job-related
-- Technical books and publications
-- Conference fees for software development
-- Professional certifications
-**Action needed:** Review Privacy.com or credit card statements for education expenses
+**With depreciation added:**
+- Current: $4,028
+- Plus depreciation: $2,339
+- **New total: $6,367/year**
+- **Additional deduction: $2,339**
+- **Additional tax savings: $2,339 × 45.3% = $1,060/year**
 
-### 6. Business Equipment Purchases
-**Found in Privacy.com:** Large Amazon purchases ($655.91, $256.05, $230.48)
-**Opportunity:**
-- Computer equipment (laptops, monitors, keyboards)
-- Office furniture (desk, chair)
-- Software licenses
+**DEPRECIATION RECAPTURE ANALYSIS:**
+
+**Scenario 1: Sell home in 5 years (2027)**
+- Total depreciation taken: $2,339 × 5 years = $11,695
+- Tax savings during 5 years: $11,695 × 45.3% = $5,298
+- Recapture tax (25% federal): $11,695 × 25% = $2,924
+- CA tax on recapture (9.3%): $11,695 × 9.3% = $1,088
+- Total recapture: $2,924 + $1,088 = $4,012
+- **Net benefit: $5,298 - $4,012 = $1,286 over 5 years**
+
+**Scenario 2: Sell home in 10 years (2032)**
+- Total depreciation taken: $2,339 × 10 years = $23,390
+- Tax savings during 10 years: $23,390 × 45.3% = $10,596
+- Recapture tax: $23,390 × 34.3% = $8,023
+- **Net benefit: $10,596 - $8,023 = $2,573 over 10 years**
+
+**Scenario 3: Sell home in 20+ years or never**
+- Depreciation defers tax indefinitely
+- May reduce taxable estate if held until death (step-up in basis resets)
+
+#### Expected Output
+
+**IRS Rules:**
+- Confirm 39-year straight-line depreciation for residential property used in business
+- Confirm 15.2% business use percentage applies to depreciation
+- Confirm depreciation recapture rules (IRC Section 1250)
+
+**Recommendation:**
+- [ ] **CLAIM DEPRECIATION** - Net benefit positive even with recapture
+- [ ] **DO NOT CLAIM** - Recapture risk outweighs benefit
+- [ ] **CONDITIONAL** - Claim only if planning to hold home 10+ years
+
+**Calculation Verification:**
+- Building value (excluding land): $______ (verify estimate)
+- Annual depreciation: $______
+- Business portion (15.2%): $______
+- Tax savings per year: $______
+- Recapture tax estimate: $______
+- Net benefit (10-year hold): $______
+
+**Documentation Required:**
+- [ ] Home purchase closing statement (original cost basis)
+- [ ] Land value vs. building value breakdown (county assessment)
+- [ ] Form 8829 (Expenses for Business Use of Your Home)
+- [ ] IRS Form 4562 (Depreciation and Amortization)
+- [ ] Depreciation schedule tracking annual amounts
+- [ ] Records of home office square footage and exclusive use
+
+**Alternative: Safe Harbor Method**
+- Simplified method: $5/sq ft (max 300 sq ft)
+- 225 sq ft × $5 = $1,125 deduction
+- Tax savings: $1,125 × 45.3% = $510/year
+- NO depreciation, NO recapture, SIMPLE
+- **Trade-off:** Lower deduction ($1,125 vs. $6,367) but cleaner exit
+
+**Risks/Considerations:**
+- Audit risk: LOW-MEDIUM (depreciation is legitimate if documented)
+- Recapture obligation: CERTAIN (must recalculate at sale)
+- Complexity: HIGH (requires ongoing depreciation tracking)
+- Future sale impact: Reduces home sale exclusion benefit ($250k/$500k)
+- Exit strategy: Recapture can't be avoided if depreciation claimed
+
+**Estimated Value:** $1,060/year current savings, $2,573 net benefit over 10 years
+**Priority:** ⭐⭐⭐ (High value but requires long-term analysis)
+
+---
+
+### Priority 4: Business Equipment - Section 179 & Bonus Depreciation ⭐⭐⭐
+**ESTIMATED VALUE: $453 - $1,359 in tax savings**
+**STATUS:** Requires review of Amazon purchases to identify business equipment
+
+#### Facts
+- Large Amazon purchases found on Privacy.com statements (2022):
+  - $655.91 (Jan 4)
+  - $256.05 (Jan 10)
+  - $230.48 (Jan 2)
+  - Multiple other $100-$200 purchases
+- No equipment purchases identified yet (need to determine if business vs. personal)
+- Total Privacy.com transactions: 650+ in 2022 (mix of business and personal)
+
+#### Research Directive
+**PRIMARY QUESTION:**
+Which Amazon purchases qualify as deductible business equipment, and how can Section 179 or 100% bonus depreciation maximize the deduction?
+
+**2022 TAX RULES:**
 - **Section 179 deduction:** Immediate expensing up to $1,080,000 (2022 limit)
-- **Bonus depreciation:** 100% first-year depreciation (2022)
-**Action needed:** Review Amazon purchases to identify business equipment
+- **100% Bonus depreciation:** First-year depreciation for qualified property placed in service in 2022
+- **2023+ phase-down:** Bonus depreciation reduced to 80% in 2023, then 60%, 40%... (2022 is last year of 100%)
 
-### 7. Business Meals (50% Deductible)
-**Current Status:** No meal expenses identified in data
-**Opportunity:**
-- Client meetings at restaurants
-- Business lunches while working at Pasadena office
-- Coffee meetings with prospects/clients
-- **2022 special rule:** 100% deductible for restaurant meals (temporarily)
-**Action needed:** Review credit card statements for restaurant charges
+**EQUIPMENT CATEGORIES TO RESEARCH:**
 
-### 8. Bank Fees & Wire Transfer Fees
-**Found:** 38 wire transfers from Popstand (likely $15-30 fee per wire)
-**Opportunity:**
-- Wire transfer fees: 38 wires × $25/wire = ~$950
-- Business bank account fees
-- Merchant processing fees (if S-Corp receives payments)
-**Action needed:** Check wire transfer receipts for fees paid
+**Category 1: Computer Equipment (Likely Deductible)**
+- Desktop computers, laptops
+- Monitors (external displays)
+- Keyboards, mice, trackpads
+- Webcams, microphones (for client calls)
+- Docking stations, USB hubs
+- External hard drives, SSDs (for backups)
+- **Business use:** 100% (software developer tools)
 
-### 9. Professional Services
-**Opportunity:**
-- Accounting/bookkeeping fees (if paid for S-Corp or tax prep)
-- Legal fees (business contracts, S-Corp formation)
-- Tax preparation fees for 2021 return (deductible on 2022 return)
-**Action needed:** Search for payments to accountants, lawyers, tax preparers
+**Category 2: Office Furniture (Likely Deductible)**
+- Standing desk or office desk
+- Ergonomic office chair
+- Filing cabinets, storage
+- Bookshelves for technical books
+- **Business use:** 100% (home office furniture)
 
-### 10. Interest on Business Loans
-**Current Status:** No business loans identified
-**Opportunity:**
-- If S-Corp has business credit card or loan: Interest is deductible
-- Personal credit card interest: NOT deductible (unless business use)
-**Action needed:** Verify if any business debt exists
+**Category 3: Networking Equipment (Possibly Deductible)**
+- Routers, mesh Wi-Fi systems
+- Network switches
+- **Business use:** Need to determine business % (likely 60-100%)
 
-### 11. Home Improvements & Repairs
-**Current Status:** No home improvement expenses found
-**Opportunity:**
-- **Repairs (fully deductible):** Home office repairs/maintenance (15.2% business use)
-- **Improvements (capitalize):** Add to home basis, may increase depreciation
-- **Examples:** Painting office, fixing office HVAC, replacing office flooring
-**Action needed:** Review 2022 for any home repairs/improvements
+**Category 4: Software/Subscriptions (Already expensed?)**
+- Software licenses found on Privacy.com (AWS, Heroku, etc.)
+- These are likely already deducted as business expenses (not capital equipment)
 
-### 12. Utilities - Cell Phone & Internet
-**AT&T payments:** $1,483.41/year
-**Opportunity:**
-- If AT&T is cell phone: Deduct business use percentage
-- If AT&T is internet: Deduct business use percentage (home office 15.2% + business use)
-- **Example:** 50% business use = $1,483 × 50% = $741.50 deduction
-- **Tax savings:** $741.50 × 39.3% = **$291 savings**
-**Action needed:** Determine if AT&T is phone or internet, and business use %
+**Category 5: Personal Items (NOT Deductible)**
+- Household items, groceries
+- Personal electronics (non-business use)
+- Entertainment items
 
-### 13. Homeowners Insurance
-**Current Status:** Not found in checking account data
-**Opportunity:**
-- Homeowners insurance (business portion): 15.2% × annual premium
-- **Example:** $1,500/year insurance × 15.2% = $228 deduction
-- **Tax savings:** $228 × 39.3% = **$90 savings**
-**Action needed:** Obtain 2022 homeowners insurance bill
+#### Expected Output
 
-### 14. State Disability Insurance (SDI) - California
-**Found:** CA SDI withheld ~$1,100 from NFT Genius wages
-**Status:** NOT deductible on federal return (personal tax, not business)
-**California:** Already factored into state return (not separately deductible)
+**Step 1: Identify Equipment Purchases**
+Review large Amazon purchases and categorize:
+- [ ] $655.91 purchase (Jan 4): ______ (Business/Personal/Mixed)
+- [ ] $256.05 purchase (Jan 10): ______ (Business/Personal/Mixed)
+- [ ] $230.48 purchase (Jan 2): ______ (Business/Personal/Mixed)
+- [ ] Other purchases > $100: [List each with business/personal determination]
 
-### 15. Estimated Tax Payments
-**Current Status:** No estimated tax payments found in checking account
-**Opportunity:**
-- If made estimated tax payments for 2022 (federal or CA): Reduces tax owed
-- **Question:** Did user make quarterly estimated tax payments?
-**Action needed:** Search for IRS Form 1040-ES or CA 540-ES payments
+**Step 2: Calculate Total Business Equipment**
+- Computer equipment: $______
+- Office furniture: $______
+- Networking equipment: $______ (business % applied)
+- **Total business equipment: $______**
 
-### 16. Charitable Contributions
-**Current Status:** No charitable donations found in data
-**Opportunity:**
-- Cash donations to qualified charities (churches, nonprofits)
-- Non-cash donations (clothing, household items to Goodwill, etc.)
-- **Limit:** 60% of AGI for cash contributions (2022)
-- **Requirements:** Receipt for donations > $250
-**Action needed:** Review credit card statements or check for charitable gifts
+**Step 3: Apply Section 179 or Bonus Depreciation**
+- Equipment total: $______
+- Section 179 election: $______ (immediate deduction)
+- OR 100% Bonus depreciation: $______ (same result for 2022)
+- **Deductible amount: $______**
 
-### 17. Medical Expenses (Schedule A)
-**Current Status:** Pre-tax health insurance via NFT Genius (already deducted)
-**Opportunity (unlikely to exceed threshold):**
-- Out-of-pocket medical: Doctors, prescriptions, dental, vision
-- **Threshold:** Only deductible if exceeds 7.5% of AGI
-- **AGI:** ~$230,000 × 7.5% = $17,250 threshold
-- **Unlikely to qualify:** Would need >$17,250 in medical expenses
-**Action needed:** If major medical event in 2022, review for expenses
+**Step 4: Tax Savings**
+- Equipment deduction: $______
+- Federal savings (35%): $______
+- California savings (9.3%): $______
+- Medicare savings (0.9%): $______
+- **TOTAL TAX SAVINGS: $______**
 
-### 18. Job-Related Moving Expenses
-**Status:** Not deductible for most taxpayers (TCJA suspended 2018-2025)
-**Exception:** Active duty military only
-**N/A for this taxpayer**
+**Documentation Required:**
+- [ ] Amazon order confirmations (with itemized descriptions)
+- [ ] Receipts showing purchase dates in 2022
+- [ ] Photos of equipment in use in home office (if audited)
+- [ ] Business use justification for each item
+- [ ] IRS Form 4562 (Depreciation and Amortization) with Section 179 election
+- [ ] Records showing equipment placed in service in 2022
 
-### 19. Home Energy Improvements (Tax Credits)
-**2022 Credits Available:**
-- Residential Energy Efficient Property Credit (solar, geothermal)
-- Energy Efficient Home Improvement Credit (insulation, windows, HVAC)
-**Opportunity:**
-- Did user install solar panels in 2022? (26% credit)
-- Energy-efficient windows, doors, insulation? (up to $500 lifetime credit)
-**Action needed:** Check for home energy improvement expenses
+**Conservative Estimates (for planning):**
+- **Low estimate:** $1,000 in business equipment
+  - Deduction: $1,000
+  - Tax savings: $1,000 × 45.3% = $453
 
-### 20. Educator Expenses
-**N/A:** User is software developer, not K-12 teacher
+- **Mid estimate:** $2,000 in business equipment
+  - Deduction: $2,000
+  - Tax savings: $2,000 × 45.3% = $906
 
-### 21. Student Loan Interest
-**Opportunity:**
-- Deduct up to $2,500 in student loan interest (above-the-line)
-- **Income phaseout:** Begins at $70,000 (single), eliminated at $85,000
-- **Likely ineligible:** Income ~$230,000 exceeds phaseout
-**Action needed:** If student loans exist, interest is NOT deductible due to high income
+- **High estimate:** $3,000 in business equipment
+  - Deduction: $3,000
+  - Tax savings: $3,000 × 45.3% = $1,359
 
-### 22. IRA Contributions (Traditional IRA)
-**Opportunity:**
-- Contribute to traditional IRA: Up to $6,000 (2022, under age 50)
-- **Phaseout for W-2 employees with 401k:** Begins at $68,000 (single), eliminated at $78,000
-- **Likely non-deductible:** Income exceeds phaseout range
-- **However:** Can still make non-deductible IRA contribution (for backdoor Roth)
-**Action needed:** Check if IRA contributions were made in 2022
+**Risks/Considerations:**
+- Audit risk: MEDIUM (IRS scrutinizes business vs. personal determination)
+- Substantiation: Need order details showing business equipment (not personal items)
+- Recapture: If equipment sold within 5 years, may need to recapture depreciation
+- Actual vs. Estimated: Cannot estimate equipment purchases - must review actual orders
 
-### 23. HSA Contributions (Health Savings Account)
-**Opportunity:**
-- If high-deductible health plan (HDHP): Can contribute to HSA
-- Contribution limit (2022): $3,650 (self-only), $7,300 (family)
-- **Triple tax benefit:** Deductible contribution, tax-free growth, tax-free withdrawals
-**Action needed:** Verify if NFT Genius health plan is HDHP-eligible for HSA
+**Action Items:**
+- [ ] Export Privacy.com transactions showing Amazon purchases
+- [ ] Match Amazon purchase amounts to order confirmations
+- [ ] Review each order for business equipment items
+- [ ] Calculate total business equipment cost
+- [ ] Prepare Form 4562 with Section 179 election
 
-### 24. Business Insurance
-**Opportunity:**
-- General liability insurance for S-Corp
-- Professional liability insurance (E&O)
-- Business property insurance
-- Cyber liability insurance
-**Action needed:** Check if S-Corp has business insurance policies
-
-### 25. Legal Loan Expenses (2022)
-**Found:** $25,000 loaned out for "legal expenses" in 2022
-**Status:** NOT deductible
-- Loan disbursement: Not an expense (it's a loan asset)
-- Loan repayment ($10,000 received): Not income (return of principal)
-- **Only deductible if:** Interest was charged and not repaid (bad debt deduction)
-**Action needed:** If loan defaults, may claim bad debt deduction in future year
-
-### 26. Gifts to Employees or Clients (S-Corp)
-**Opportunity:**
-- Business gifts: Up to $25 per recipient per year
-- Client holiday gifts, employee appreciation gifts
-**Action needed:** Review Amazon purchases for business gifts
-
-### 27. Advertising & Marketing
-**Opportunity:**
-- Website hosting and maintenance
-- Business cards
-- Online advertising (Google Ads, LinkedIn, Facebook)
-- Social media marketing (Hootsuite already found)
-**Action needed:** Review for additional marketing expenses
-
-### 28. Subscriptions & Memberships
-**Found:** Hootsuite ($75)
-**Opportunity:**
-- Professional memberships (IEEE, ACM, etc. for software developers)
-- Trade publications
-- Software development subscriptions (Medium, Substack technical writers)
-**Action needed:** Review Privacy.com for subscription services
-
-### 29. Coworking Space (if any)
-**Status:** Pasadena office was rented and reimbursed (not deductible)
-**Opportunity:**
-- If user paid for coworking space (WeWork, etc.) not reimbursed
-**Action needed:** Check for coworking memberships
-
-### 30. State and Local Tax Refunds (If Received)
-**Opportunity:**
-- If user received CA state tax refund in 2022 for prior year
-- **May be taxable income** if user itemized deductions in prior year
-- Form 1099-G from California FTB
-**Action needed:** Check mail for 1099-G showing state tax refund
+**Estimated Value:** $453 - $1,359 (assuming $1,000-$3,000 in business equipment found)
+**Priority:** ⭐⭐⭐
 
 ---
 
-## Tax Challenges & Considerations
+### Priority 5: Cell Phone Business Use ⭐⭐⭐
+**ESTIMATED VALUE: $336 - $471 in tax savings**
+**STATUS:** Requires business use percentage determination
 
-### Late Filing (Filing 2022 Taxes in 2025)
+#### Facts
+- Total AT&T payments in 2022: $1,483.41 (11 monthly payments)
+- Average monthly cost: $134.85
+- User indicated: "Likely phone bill, not internet"
+- Occupation: Software developer + S-Corp owner (high business use expected)
+- Work setup: Dual workspace, client communications, on-call work
 
-**Penalties:**
-- **Failure to file:** 5% per month (max 25%) of unpaid tax
-- **Failure to pay:** 0.5% per month (max 25%) of unpaid tax
-- **Interest:** IRS interest rate (varies quarterly, ~7-8% in 2023-2025)
+#### Research Directive
+**PRIMARY QUESTION:**
+What is the reasonable business use percentage for a cell phone used by a software developer who also owns an S-Corp?
 
-**Estimated Penalties (if owed $20,000):**
-- Failure to file: $5,000 (25% cap reached after 5 months)
-- Failure to pay: ~$3,000 (0.5% × 36 months)
-- Interest: ~$4,800 (8% × 3 years × $20,000)
-- **Total penalties/interest:** ~$12,800
+**IRS RULES TO RESEARCH:**
+- Listed property rules for cell phones (IRC Section 280F)
+- IRS Notice 2011-72: Cell phones no longer "listed property" (simplified substantiation)
+- Allocation methodology: Actual use vs. reasonable estimate
+- Documentation requirements: Call logs, business contacts, usage patterns
 
-**Mitigation:**
-- File as soon as possible to stop penalties
-- Apply for penalty abatement (first-time penalty abatement if eligible)
-- Set up payment plan if can't pay in full
+**BUSINESS USE INDICATORS (High business use expected):**
 
-### SALT Cap Impact (Major Issue for CA Residents)
+**Communication Types (Business):**
+- Client calls and video conferences
+- Team meetings with NFT Genius colleagues
+- Popstand S-Corp client communications
+- Business texts and emails
+- On-call availability for work emergencies
+- Zoom/Slack/Teams mobile app usage
 
-**The Problem:**
-- Paid $28,695+ in state/local taxes (state income + property tax)
-- Federal deduction limited to $10,000
-- **Lost deduction:** $18,695+ (can't deduct on federal return)
+**Communication Types (Personal):**
+- Personal calls to friends/family
+- Social media (if not business-related)
+- Personal texts and emails
+- Entertainment streaming
 
-**No Easy Workaround:**
-- SALT cap applies to individuals (not businesses)
-- S-Corp can't pay individual's state income tax (PTET workaround N/A in CA for 2022)
-- Property tax prepayment doesn't help (already limited to $10k)
+**Reasonable Business Use Scenarios:**
 
-**Silver Lining:**
-- California has no SALT cap on state return
-- Full $3,095 property tax deductible on CA return
+**Conservative (50% business use):**
+- Assumption: Half of phone use is business-related
+- Deductible amount: $1,483.41 × 50% = $741.71
+- Tax savings: $741.71 × 45.3% = $336
 
-### Alternative Minimum Tax (AMT) Risk
+**Moderate (60% business use):**
+- Assumption: Software developer with significant client work
+- Deductible amount: $1,483.41 × 60% = $890.05
+- Tax savings: $890.05 × 45.3% = $403
 
-**Profile:**
-- High income (~$230,000)
-- High state income tax (~$25,600)
-- Significant itemized deductions ($30,347)
+**Aggressive (70% business use):**
+- Assumption: High business use + S-Corp owner communications
+- Deductible amount: $1,483.41 × 70% = $1,038.39
+- Tax savings: $1,038.39 × 45.3% = $471
 
-**AMT Considerations:**
-- SALT deduction disallowed for AMT (add back $10,000)
-- Mortgage interest allowed for AMT (qualified housing interest)
-- May trigger AMT if AMT income exceeds exemption
+#### Expected Output
 
-**Action needed:** Calculate AMT liability (Form 6251)
+**IRS Rule Confirmation:**
+- Confirm cell phones no longer subject to strict "listed property" rules post-2010
+- What substantiation is required? (Reasonable estimate vs. detailed log)
+- Can business use be estimated retroactively for 2022?
 
-### Self-Employment Tax on S-Corp Income
+**Business Use Determination Methodology:**
+Provide analysis of reasonable business use % based on:
+1. Occupation type (software developer = frequent business communication)
+2. S-Corp ownership (additional business communications)
+3. Dual workspace (coordination between locations)
+4. Industry norms for tech professionals
+5. Comparable situations (Tax Court cases, IRS guidelines)
 
-**If Popstand Income = S-Corp:**
-- S-Corp owners should pay themselves reasonable W-2 wages
-- Remaining profit distributed as dividends (no SE tax)
-- **Issue:** If $130,500 Popstand income was all distributions (no W-2), IRS may reclassify
+**Recommended Business Use %:**
+- Conservative approach: _____% (justify)
+- Recommended approach: _____% (justify)
+- Aggressive approach: _____% (justify with strong documentation)
 
-**Action needed:**
-- Verify how Popstand income was reported (W-2 vs. K-1)
-- Ensure S-Corp paid reasonable wages if distributions were taken
+**Calculation:**
+- Annual cell phone cost: $1,483.41
+- Business use %: _____%
+- **Deductible amount: $______**
+- Federal savings (35%): $______
+- California savings (9.3%): $______
+- Medicare savings (0.9%): $______
+- **TOTAL TAX SAVINGS: $______**
 
-### Passive Activity Loss Limitations (If Applicable)
+**Documentation Required:**
+- [ ] AT&T bills showing 2022 payments ($1,483.41 total)
+- [ ] Business use percentage calculation and methodology
+- [ ] Sample call log or usage pattern (if available)
+- [ ] Description of business use types (client calls, work emails, etc.)
+- [ ] Employer reimbursement verification (confirm NOT reimbursed by NFT Genius)
+- [ ] Schedule C (sole proprietor) or S-Corp expense reimbursement
 
-**If S-Corp has losses:**
-- Passive loss rules may limit deductibility
-- Material participation test (500+ hours)
-- At-risk rules
+**Reimbursement Consideration:**
+- Was cell phone partially reimbursed by NFT Genius?
+- If yes, only unreimbursed portion is deductible
+- If no, full business % is deductible
 
-**Action needed:** If S-Corp shows loss on K-1, verify material participation
+**S-Corp Accountable Plan Option (Future Consideration):**
+- Could Popstand S-Corp reimburse cell phone expenses? (tax-free to employee, deductible to corp)
+- Requires documentation of business use
+- May be more beneficial than personal deduction (avoids 2% AGI floor for unreimbursed employee expenses - though suspended for 2018-2025)
 
-### Home Office Deduction - IRS Audit Risk
+**Risks/Considerations:**
+- Audit risk: LOW-MEDIUM (common deduction, reasonable percentages typically accepted)
+- Substantiation: IRS may ask for business use justification
+- Allocation method: Must be reasonable and consistent
+- All-or-nothing risk: If business use is minimal (<50%), may not be worth claiming
 
-**Audit Triggers:**
-- Home office deduction (Schedule C or Form 8829)
-- High deduction relative to income
-
-**Mitigation:**
-- Document exclusive use (photos, floor plan)
-- Regular use (logs, calendar entries)
-- Principal place of business (home is admin center)
-- Keep excellent records
-
-### Loan Transaction Reporting
-
-**$25,000 Loan Disbursed:**
-- Not an expense (it's a loan asset)
-- NOT reported on tax return (no Form 1099 issued for loan)
-- Interest received (if any) = taxable income
-
-**$10,000 Loan Repayment Received:**
-- Not income (return of principal)
-- NOT reported on tax return
-
-**Only report:**
-- Interest income received (if loan charged interest)
-- Bad debt deduction (if loan defaults)
-
----
-
-## Information Gaps & Action Items
-
-### Critical Missing Information
-
-1. **W-2 Forms:**
-   - Need NFT Genius W-2 (verify state tax withheld, confirm $100k income)
-   - Need Popstand W-2 or 1099-NEC (clarify income classification)
-
-2. **S-Corporation:**
-   - 2022 Schedule K-1 (if issued)
-   - S-Corp tax return (Form 1120-S)
-   - Verify if S-Corp is active or dormant in 2022
-
-3. **Home Expenses:**
-   - 2022 homeowners insurance bill (need for home office calculation)
-   - 2022 utility bills (electric, gas, water, trash)
-   - Confirm total annual utility costs
-
-4. **Vehicle Expenses:**
-   - Business mileage log (if drove between Fillmore and Pasadena)
-   - Vehicle information (make, model, year, date placed in service)
-   - Business use percentage
-
-5. **Education & Professional Development:**
-   - Online courses, books, conferences attended in 2022
-   - Check credit card statements
-
-6. **Credit Card Statements:**
-   - Full 2022 statements (to find expenses not in Wells Fargo or Privacy.com)
-   - Possible: Vehicle expenses, meals, other business expenses
-
-7. **Retirement Contributions:**
-   - Did NFT Genius offer 401(k)? Any contributions?
-   - Did S-Corp set up SEP-IRA or Solo 401(k)?
-
-8. **Health Insurance:**
-   - Is NFT Genius plan HDHP-eligible for HSA?
-   - Did user make HSA contributions?
-
-9. **Estimated Tax Payments:**
-   - Did user make quarterly estimated payments in 2022?
-   - Check for 1040-ES vouchers or online payments
-
-10. **Other 1099 Forms:**
-    - 1099-INT from banks (interest income beyond escrow)
-    - 1099-DIV (dividend income, if any)
-    - 1099-B (stock sales, if any)
-    - 1099-K (payment processors like PayPal, Stripe)
-
-### Documentation to Gather
-
-**For Home Office:**
-- [ ] Photos of dedicated office space (show exclusive use)
-- [ ] Floor plan or measurement verification
-- [ ] 2022 homeowners insurance statement
-- [ ] 2022 utility bills (all providers)
-- [ ] Documentation of work activities conducted at home
-
-**For Pasadena Office:**
-- [ ] Lease agreement (to verify if internet included in rent)
-- [ ] Parking receipts/confirmations (48 transactions)
-- [ ] Reimbursement pay stubs (already have: 10/31 and 12/15)
-- [ ] Rent checks (already documented: #1001, #4629, #4632)
-
-**For Vehicle:**
-- [ ] Mileage log (2022 business miles)
-- [ ] Vehicle registration
-- [ ] Proof of business purpose for trips
-
-**For Business Expenses:**
-- [ ] Receipts for equipment purchases (Amazon orders >$75)
-- [ ] SaaS subscription invoices (AWS, Heroku, etc.)
-- [ ] Domain registration receipts
-
-**For S-Corporation:**
-- [ ] 2022 Form 1120-S (S-Corp return)
-- [ ] Schedule K-1 from S-Corp
-- [ ] Business bank statements (if S-Corp has separate account)
+**Estimated Value:** $336 - $471 (50-70% business use)
+**Priority:** ⭐⭐⭐
 
 ---
 
-## Key Tax Deadlines (Already Missed - Late Filing)
+## 4. Secondary Research Opportunities
 
-**Original 2022 Deadlines:**
-- April 18, 2023: Form 1040 due date
-- October 16, 2023: Extended deadline (if extension filed)
+Brief list of additional deductions to explore (lower priority or smaller dollar amounts):
 
-**Current Status (Filing in 2025):**
-- **3 years late** - penalties accruing
-- Statute of limitations: 3 years from filing (or due date, whichever is later)
-- **Action:** File immediately to stop penalties and start statute of limitations
+| Opportunity | Potential Value | Quick Notes |
+|-------------|----------------|-------------|
+| **Business Meals (100% deduction)** | $500-$2,000 | 2022 special rule: 100% deductible for restaurants (vs. normal 50%) |
+| **Professional Development** | $200-$1,000 | Online courses, tech books, conferences for software dev |
+| **Homeowners Insurance** | ~$228 | 15.2% business use of annual premium |
+| **Utilities (Electric/Gas/Water)** | ~$456 | 15.2% business use (already estimated but need bills) |
+| **Wire Transfer Fees** | ~$950 | 38 Popstand wire transfers × ~$25 fee each |
+| **Business Insurance** | Unknown | S-Corp liability, E&O, cyber insurance |
+| **California Renter's Credit** | N/A | Homeowner, not renter |
+| **Energy Efficiency Credits** | $0-$500 | Home improvements in 2022? (solar, windows, insulation) |
+| **Estimated Tax Payments** | Unknown | Were quarterly payments made? Reduces balance due |
+| **Home Repairs/Maintenance** | Unknown | 15.2% business portion if any 2022 repairs |
+| **Charitable Contributions** | Unknown | Cash or non-cash donations (need receipts) |
+| **Medical Expenses** | Unlikely | Need >7.5% AGI = $32,308 threshold (very high) |
+| **State Tax Refund** | Taxable? | If received 2021 CA refund in 2022, may be taxable income |
 
-**Quarterly Estimated Tax (for future years):**
-- Q1 2025: April 15, 2025
-- Q2 2025: June 15, 2025
-- Q3 2025: September 15, 2025
-- Q4 2025: January 15, 2026
-
----
-
-## Summary of Opportunities for AI Deduction Research
-
-**High-Priority Research Areas:**
-
-1. **Business mileage** (Fillmore ↔ Pasadena): Potential $2,400+ deduction
-2. **Home office depreciation:** Additional $2,339/year (consider recapture)
-3. **Equipment purchases** (Amazon): Review $655+ purchases for Section 179
-4. **Cell phone business use** (AT&T $1,483): Potential $291-741 deduction
-5. **Wire transfer fees** (38 wires × $25): Potential $950 deduction
-6. **Business meals** (restaurant charges): 100% deductible in 2022 (temporary rule)
-7. **Retirement contributions** (SEP-IRA or Solo 401k): Massive deduction if eligible ($20k-$58k)
-8. **HSA contributions:** Up to $3,650 if HDHP-eligible
-9. **Professional development** (courses, books): Check credit card for education
-10. **Home improvements** (repairs to office): 15.2% business portion deductible
-
-**Medium-Priority Research:**
-
-11. Marketing/advertising expenses beyond Hootsuite
-12. Professional memberships and subscriptions
-13. Business gifts to clients/employees
-14. Home energy improvement credits (solar, etc.)
-15. Charitable contributions (if any missed)
-
-**Low-Priority (Unlikely but Worth Checking):**
-
-16. Medical expenses (unlikely to exceed 7.5% AGI threshold)
-17. Casualty/theft losses (if any)
-18. Gambling losses (if gambling winnings reported)
+**Action:** Review credit card statements, bank records, and receipts for these items.
 
 ---
 
-## Profile Summary for AI Research Agent
+## 5. 2022-Specific Tax Rules & Opportunities
 
-**Use this profile to identify potential deductions for:**
-- Single, age 43, California resident
-- Software developer with dual W-2 income (~$230k total)
-- Homeowner with significant mortgage (~$760k loan, $1M value)
-- Home office user (225 sq ft, 15.2% business use)
-- S-Corp owner (business structure for consulting)
-- Tech industry professional (SaaS, cloud hosting, domains)
-- Split workspace (home + temporary Pasadena office Oct-Dec 2022)
-- High state income tax (exceeds SALT cap by $18,695)
-- Itemizing deductions (far exceeds standard deduction)
-- Late filer (filing 2022 taxes in 2025)
+These provisions are unique to 2022 or changed significantly in 2023+:
 
-**Tax situation:**
-- Already claiming: Itemized deductions ($30,347), home office ($3,573-4,029), Pasadena parking ($336)
-- Likely missed: Vehicle mileage, equipment purchases, phone business use, depreciation, retirement contributions
-- Key opportunity: Find deductions to offset late filing penalties (~$12,800 estimated)
+### 2022 Temporary Provisions
 
-**Data available:**
-- Wells Fargo checking (2,982 transactions)
-- Privacy.com virtual cards (650+ transactions)
-- NFT Genius payroll (detailed)
-- Popstand wire transfers (38 transfers, $130,500)
-- Form 1098 (mortgage interest)
-- Form 1099-INT (escrow interest)
+**1. 100% Business Meals Deduction**
+- **Normal rule:** 50% deductible
+- **2022 special rule:** 100% deductible for restaurant meals (COVID relief provision)
+- **2023+:** Reverted to 50%
+- **Action:** Review all 2022 credit card statements for restaurant charges with business purpose
 
-**Data gaps:**
-- Full credit card statements (may contain additional business expenses)
-- S-Corp tax return and K-1
-- Mileage logs
-- Equipment purchase receipts
-- Utility bills
+**2. 100% Bonus Depreciation (Last Year!)**
+- **2022:** 100% first-year bonus depreciation for qualified property
+- **2023:** Reduced to 80%
+- **2024+:** Phases down (60%, 40%, 20%, 0%)
+- **Action:** Maximize equipment purchases claimed in 2022 (see Priority 4)
+
+**3. Qualified Business Income (QBI) Deduction - Phase-Out**
+- **Concept:** 20% deduction on qualified business income (Section 199A)
+- **2022 threshold:** Phase-out begins at $170,050 (single), ends at $220,050
+- **Your income:** $439,770 AGI → **FULLY PHASED OUT**
+- **Result:** No QBI deduction on Popstand S-Corp income
+- **Implication:** Cannot deduct 20% × $164,567 = $32,913 (this deduction is lost due to high income)
+
+**4. Standard Deduction vs. Itemized**
+- **2022 standard deduction:** $12,950 (single)
+- **Your itemized deductions:** $30,347
+- **Benefit of itemizing:** $30,347 - $12,950 = $17,397 extra deduction = $7,879 tax savings
+- **Decision:** Definitely itemize (you already are)
+
+**5. SALT Cap Still in Effect**
+- **Cap:** $10,000 for state/local taxes (2018-2025)
+- **Your SALT:** Paid $28,695, can only deduct $10,000
+- **Lost deduction:** $18,695 (this hurts high-tax state residents)
+- **No workaround:** SALT cap applies regardless of income or filing status
 
 ---
 
-*This profile is designed to provide comprehensive context for AI-powered tax deduction research. Use it to identify deductions specific to software developers, S-Corp owners, homeowners, and California residents that may have been overlooked.*
+## 6. Constraints & Context
 
-*Last Updated: 2025-10-18*
-*Tax Year: 2022*
-*Data Sources: Wells Fargo statements, Privacy.com transactions, Gusto paystubs, Popstand wire transfers, IRS Form 1098, IRS Form 1099-INT*
+### Filing Context
+- **Late filing:** Filing 2022 taxes in 2025 (3 years late)
+- **Statute of limitations:** Generally 3 years from filing date (or due date if later)
+- **Amendment deadline:** May be limited for certain deductions if statute expired
+- **Estimated penalties:** $50,000-$80,000 (failure to file + pay + interest)
+
+### Income-Based Limitations
+- **High income:** $439,770 AGI triggers phase-outs:
+  - QBI deduction: Fully phased out (no 20% deduction)
+  - Itemized deduction limit: None for 2022 (Pease limitation suspended 2018-2025)
+  - Traditional IRA deduction: Phased out (covered by 401k at work)
+- **Alternative Minimum Tax (AMT):** May apply (need to calculate)
+
+### California-Specific Rules
+- **SALT cap:** Applies to federal return only
+  - Federal: Limited to $10,000
+  - California: No cap (full property tax deductible on CA return)
+- **CA tax brackets:** 9.3% bracket ($61,215-$312,686), may hit 10.3% bracket at higher income
+- **CA does not conform** to some federal provisions (verify each deduction)
+
+### S-Corp Considerations
+- **Reasonable compensation:** IRS requires S-Corp owners to pay themselves W-2 wages
+- **Your situation:** Popstand paid $0 wages, all distributions ($211,200 wire transfers)
+- **IRS risk:** May reclassify distributions as wages (subject to payroll tax)
+- **Implication:** If reclassified, owe 15.3% SE tax on reclassified amount
+- **K-1 discrepancy:** Wire transfers ($211,200) ≠ K-1 reported ($164,567) = $46,633 difference
+
+---
+
+## 7. Available Data Sources
+
+### Income Documentation
+- **NFT Genius W-2:** $274,999.98 gross wages
+  - Withheld: $62,718.83 federal, $23,627.34 CA, $9,113.99 SS, $4,627.66 Medicare, $661.65 additional Medicare, $1,601.60 SDI
+  - Pre-tax: $9,000 in 401(k), $1,695 health insurance
+  - Reimbursements: $58,554.94 (HRA $13,750, office rent $9,600, other $35,205)
+- **Popstand K-1:** $164,567 distributions (Box 16D) - need to verify Box 1 ordinary income
+- **Wire transfers:** 62 wires totaling $211,200 ($46,633 more than K-1)
+
+### Expense Documentation
+- **Wells Fargo checking:** 2,982 transactions (12 monthly statements)
+- **Privacy.com transactions:** 650+ transactions (SaaS, cloud hosting, Amazon, etc.)
+- **Form 1098 (Mortgage):** $20,410.43 interest, $3,095.19 property taxes
+- **Form 1099-INT:** $203.45 escrow interest (PHH Mortgage)
+- **Gusto paystubs:** 24 paystubs from NFT Genius (detailed)
+
+### Missing Documentation
+- [ ] Popstand S-Corp K-1 (full form with Box 1 ordinary income)
+- [ ] Popstand Form 1120-S (S-Corp tax return)
+- [ ] 2022 homeowners insurance bill
+- [ ] 2022 utility bills (electric, gas, water, trash)
+- [ ] Mileage log for Fillmore ↔ Pasadena trips
+- [ ] Amazon order confirmations for large purchases
+- [ ] Credit card statements (for meals, internet, other expenses not in checking)
+- [ ] Retirement plan establishment documents (if any exist)
+
+---
+
+## 8. Standard Research Output Format
+
+For each deduction you research, provide output in this format:
+
+### [DEDUCTION NAME]
+
+**IRS RULES (2022):**
+- Cite: [IRS Publication or Code Section]
+- Eligibility: [Requirements]
+- Limitations: [Caps, phase-outs, restrictions]
+- 2022-specific: [Any temporary provisions]
+
+**CALCULATION:**
+- Base amount: $______
+- Business use %: _____%
+- Limitation applied: $______
+- **Deductible amount: $______**
+- Assumptions: [List all]
+
+**TAX SAVINGS:**
+- Deduction: $______
+- Federal (35%): $______
+- California (9.3%): $______
+- Medicare (0.9%): $______
+- **TOTAL SAVINGS: $______ (45.3%)**
+
+**DOCUMENTATION REQUIRED:**
+- [ ] [Specific document 1]
+- [ ] [Specific document 2]
+- [ ] [IRS form(s)]
+
+**RISKS:**
+- Audit risk: [Low/Medium/High]
+- Phase-out risk: [None/Partial/Full]
+- Other: [Notes]
+
+**RECOMMENDATION:**
+- [ ] **CLAIM** - Strong case
+- [ ] **CLAIM WITH CAUTION** - Document thoroughly
+- [ ] **DO NOT CLAIM** - Fails requirements
+- [ ] **NEEDS MORE INFO** - Missing documentation
+
+---
+
+## 9. Additional Potential Deductions (Reference)
+
+This section contains a comprehensive list of other deductions that may apply. These are lower priority than the Top 5 but should be reviewed:
+
+### Home & Property (Beyond Current Deduction)
+- [ ] Homeowners insurance (business %)
+- [ ] Utilities - Electric, gas, water, trash (business %)
+- [ ] HOA fees (if applicable, business %)
+- [ ] Home repairs/maintenance (business %, must be repairs not improvements)
+- [ ] Pest control, landscaping (business % if applicable)
+- [ ] Home security system (business %)
+- [ ] Internet service (if found, business %)
+
+### Vehicle & Transportation
+- [ ] Business mileage (Priority 2 - see above)
+- [ ] Parking fees beyond Pasadena ($336.50 already claimed)
+- [ ] Tolls for business trips
+- [ ] Vehicle registration (business %)
+- [ ] Auto insurance (business %)
+- [ ] Vehicle maintenance and repairs (business %)
+
+### Technology & Equipment
+- [ ] Computer equipment (Priority 4 - see above)
+- [ ] Software subscriptions (AWS, Heroku, etc. - likely already expensed)
+- [ ] Domain registrations (found: GoDaddy $24.99, Google Domains $36)
+- [ ] Web hosting services
+- [ ] Cell phone (Priority 5 - see above)
+- [ ] Tablet, iPad, e-reader (if business use)
+- [ ] Printers, scanners (if purchased)
+- [ ] External monitors (if purchased)
+- [ ] Backup drives, cloud storage
+
+### Professional Services
+- [ ] Accounting/bookkeeping fees (for tax prep or S-Corp accounting)
+- [ ] Legal fees (business formation, contracts)
+- [ ] Tax preparation fees for 2021 taxes (deductible on 2022 return)
+- [ ] Business consulting fees
+- [ ] Payroll service fees (Gusto fees for S-Corp)
+
+### Professional Development
+- [ ] Online courses (Udemy, Coursera, Pluralsight)
+- [ ] Technical books and publications
+- [ ] Conference fees (registration, travel, lodging)
+- [ ] Professional membership dues (IEEE, ACM, etc.)
+- [ ] Subscriptions (Medium, Substack, tech publications)
+- [ ] Certification exams and renewal fees
+
+### Business Expenses
+- [ ] Office supplies (pens, paper, notebooks)
+- [ ] Printer ink and toner
+- [ ] Postage and shipping
+- [ ] Bank fees and wire transfer fees (38 wires × ~$25 = $950)
+- [ ] Merchant processing fees (PayPal, Stripe fees)
+- [ ] Business insurance (liability, E&O, cyber)
+- [ ] Business licenses and permits
+- [ ] Business cards and marketing materials
+
+### Meals & Entertainment
+- [ ] Business meals (100% in 2022 for restaurants)
+- [ ] Client meals and entertainment (50% normally, 100% if restaurant in 2022)
+- [ ] Coffee meetings with clients/prospects
+- [ ] Team lunches (if not reimbursed by employer)
+
+### Health & Insurance
+- [ ] Self-employed health insurance premiums (if paid directly, not through employer)
+- [ ] HSA contributions (if high-deductible plan)
+- [ ] Dental and vision (if paid separately from employer plan)
+- [ ] Long-term care insurance
+
+### Retirement (Beyond Priority 1)
+- [ ] SEP-IRA or Solo 401(k) (Priority 1 - see above)
+- [ ] Traditional IRA contributions (likely phased out due to high income)
+- [ ] Roth IRA contributions (not deductible but track for records)
+
+### Taxes & Compliance
+- [ ] State income tax payments (beyond withholding)
+- [ ] Estimated tax payments (Q1-Q4 for 2022)
+- [ ] Prior year tax balance paid in 2022
+
+### Charitable Contributions
+- [ ] Cash donations to qualified charities
+- [ ] Non-cash donations (clothing, household items to Goodwill, etc.)
+- [ ] Mileage for charitable volunteer work ($0.14/mile in 2022)
+
+### Investment & Miscellaneous
+- [ ] Investment advisory fees (deduction suspended 2018-2025)
+- [ ] Safe deposit box (if used for business)
+- [ ] Subscriptions to investment publications
+
+### California-Specific
+- [ ] CA SDI paid (not federally deductible but verify CA treatment)
+- [ ] Additional CA taxes beyond federal SALT cap ($18,695 lost on federal)
+
+### Energy Efficiency
+- [ ] Residential energy credit (solar panels - 26% credit in 2022)
+- [ ] Energy-efficient improvements (windows, insulation, HVAC - up to $500 lifetime)
+
+### Startup & Organizational Costs (if S-Corp formed in 2022)
+- [ ] S-Corp formation fees (up to $5,000 immediately, amortize rest)
+- [ ] Legal and accounting fees for business formation
+- [ ] State filing fees
+
+### Bad Debt
+- [ ] $25,000 loan disbursed in 2022 - if defaulted, claim bad debt deduction
+- [ ] Any other uncollectible business receivables
+
+### Moving Expenses
+- [ ] Not deductible for most taxpayers (2018-2025 suspension)
+- [ ] Exception: Active duty military only
+
+---
+
+## 10. Summary & Next Steps
+
+### Priority Action Items
+1. **Retirement contributions** - Research retroactive SEP-IRA or Solo 401(k) establishment ($6,795-$26,274 potential savings)
+2. **Vehicle mileage** - Reconstruct Fillmore ↔ Pasadena trips October-December ($1,104 potential savings)
+3. **Home office depreciation** - Analyze recapture vs. benefit ($1,060/year potential savings)
+4. **Business equipment** - Review Amazon purchases for deductible items ($453-$1,359 potential savings)
+5. **Cell phone** - Determine reasonable business use percentage ($336-$471 potential savings)
+
+### Total Estimated New Deductions
+- **Conservative:** $10,000 - $15,000 in additional deductions = $4,530 - $6,795 tax savings
+- **Aggressive:** $25,000 - $65,000 in additional deductions = $11,325 - $29,445 tax savings
+- **Realistic:** $15,000 - $30,000 in additional deductions = $6,795 - $13,590 tax savings
+
+### Critical Questions for CPA
+1. Can Popstand S-Corp establish retirement plan for 2022 retroactively?
+2. Does $0 W-2 wages from Popstand disqualify retirement contributions?
+3. Should Popstand have paid W-2 wages (reasonable compensation doctrine)?
+4. What is the $46,633 discrepancy between wire transfers and K-1?
+5. Is statute of limitations expired for amending 2022 return?
+6. Should depreciation be claimed on home office given recapture?
+7. Can accountable plan be established retroactively for Popstand?
+
+---
+
+**End of Research Directives**
+*Proceed with detailed research on each High-Priority item, using the Standard Output Format provided in Section 8.*
