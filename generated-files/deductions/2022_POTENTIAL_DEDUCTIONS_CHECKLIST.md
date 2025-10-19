@@ -102,8 +102,23 @@ Comprehensive brainstorming list of ALL potential tax deductions for tax year 20
 - [ ] Airfare for client meetings or conferences
 - [ ] Hotel stays (business travel)
 - [ ] Rental cars
-- [ ] Mileage (business use of personal vehicle)
-- [ ] Parking and tolls
+- [x] **Tesla Charging (Business Portion) - $216.23** - Supercharger costs for business travel
+  - **Pasadena Office Charging:** $150.86 (17 sessions, Aug-Dec 2022) - Commuting to Pasadena office
+  - **Las Vegas Business Trip:** $65.37 (5 sessions, May 23-26, 2022) - Trip reimbursed by NFT Genius
+  - **See:** `breakdowns/BREAKDOWN_2022_Tesla_Charging_Costs.md`
+  - **⚠️ IMPORTANT:** Must choose between standard mileage rate OR actual expenses (including charging)
+    - Standard mileage rate likely yields MUCH larger deduction (~$1,400+ vs. $216)
+    - Need to reconstruct mileage log from calendar/emails for Pasadena office trips
+  - **Home Charging:** Not analyzed yet - requires separate meter data or complex calculation
+    - Generally not worth the complexity unless >50% business use and separate meter
+    - Standard mileage rate already includes estimated electricity costs
+- [ ] Mileage (business use of personal vehicle) - **ALTERNATIVE TO TESLA CHARGING DEDUCTION**
+  - If using standard mileage rate, DO NOT separately claim charging costs (double-dipping)
+  - 2022 rates: $0.585/mile (Jan-Jun), $0.625/mile (Jul-Dec)
+  - Need mileage log or reconstruction from calendar for Pasadena office trips
+- [x] **Parking (Pasadena):** $336.50 - Parking at Pasadena office (Oct-Dec 2022)
+  - **See:** `2022_POTENTIAL_DEDUCTIONS_CHECKLIST.md` (Non-Reimbursed Expenses section)
+- [ ] Parking and tolls (other)
 - [ ] Rideshare (Uber/Lyft for business purposes)
 
 ### Meals & Entertainment
