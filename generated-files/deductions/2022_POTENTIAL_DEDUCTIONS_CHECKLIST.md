@@ -303,7 +303,7 @@ Comprehensive brainstorming list of ALL potential tax deductions for tax year 20
 - **Accountant Discussion Required:** Weigh simplified method vs. actual expense method pros/cons
 
 ### Research Needed
-- TBD: Add items here as questions arise
+- **Tesla Charger Installation (Early 2022):** Need to locate electrician installation payment. Charger was purchased in 2021, installation likely occurred in early 2022. Payment method unknown (not found in Wells Fargo Zelle/Venmo Jan-March 2022). Potential Alternative Fuel Vehicle Refueling Property Credit (30% credit, up to $1,000 for residential EV charger installation). Need to find receipt/invoice to claim credit.
 
 ### Accountant Questions
 - TBD: Track questions to ask tax preparer
