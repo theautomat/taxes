@@ -1,0 +1,120 @@
+POPSTAND INC - 2022 FORM 1120-S AMENDMENT
+Additional Business Expenses for Inclusion
+
+Prepared for: Popstand Inc Accountant
+Tax Year: 2022
+Date: 2025-10-21
+Prepared by: Kurt Braget (50% shareholder)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EXECUTIVE SUMMARY
+
+Purpose: Add $17,346 in missed business expenses to Popstand Inc's 2022 Form 1120-S
+
+Reason: These expenses were paid from Kurt Braget's personal accounts and were not visible when preparing the original 2022 return. All expenses are legitimate Popstand business expenses with supporting documentation.
+
+Tax Impact:
+• Reduces Popstand ordinary business income by $17,346
+• Kurt's K-1 share reduction (50%): $8,673
+• Chris Whitman's K-1 reduction (50%): $8,673
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EXPENSE BREAKDOWN
+
+1. SOFTWARE & TECHNOLOGY SERVICES - $11,920 (68.7%)
+
+   • Heroku (cloud hosting): $8,456
+   • QuickNode (blockchain API): $1,245
+   • Hivelocity (dedicated servers): $842
+   • GitHub, Slack, GitBook, etc.: $856
+   • GoDaddy (domains & DNS): $365
+   • Google Domains: $156
+
+   Documentation: Privacy.com statements (2022 full year)
+   Business Purpose: Software development and deployment operations
+
+2. OFFICE EXPENSES - $5,426 (31.3%)
+
+   • IKEA office furniture, desk, chair, storage: $5,089
+   • Pasadena office parking (Oct-Dec 2022): $337
+
+   Documentation: Wells Fargo statements, receipts, parking records
+   Business Purpose: Office furniture and parking for Popstand operations
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TOTAL ADDITIONAL DEDUCTIONS: $17,346
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IMPACT ON FORM 1120-S
+
+Original Return (2022):
+• Line 21 - Ordinary business income: $381,772
+• Kurt Braget K-1, Line 1 (50%): $190,886
+• Chris Whitman K-1, Line 1 (50%): $190,886
+
+Amended Return (2022):
+• Additional deductions (Line 19): $17,346
+• New Line 21 - Ordinary business income: $364,426
+• New Kurt Braget K-1, Line 1 (50%): $182,213
+• New Chris Whitman K-1, Line 1 (50%): $182,213
+
+Change:
+• Ordinary business income reduced by: $17,346
+• Each shareholder's K-1 reduced by: $8,673
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FORMS REQUIRED
+
+Federal:
+• Form 1120-S (Amended) - Mark "AMENDED RETURN" at top
+• Schedule K (Amended)
+• Schedule K-1 (Amended) - Both shareholders
+• Supporting schedule for "Other deductions"
+
+California:
+• Form 100S (Amended) - California S-Corp return
+• Schedule K-1 (568) (Amended) - Both shareholders
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SHAREHOLDER AGREEMENT NEEDED
+
+Both shareholders must agree to and sign the amended return.
+
+Note: Both shareholders will need to file amended personal returns (Form 1040-X) to reflect the revised K-1 amounts.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TIMELINE
+
+Original Return Filed: October 2, 2023
+Amendment Deadline: October 2, 2026 (3 years from filing)
+Current Date: October 21, 2025
+Time Remaining: ~11.5 months
+
+Recommended Action: File amendment within next 60-90 days
+
+Expected Processing Time:
+• Federal amended return (1120-S): 8-12 weeks
+• California amended return (100S): 12-16 weeks
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NEXT STEPS
+
+1. Review with Popstand's accountant
+2. Obtain Chris Whitman's agreement to proceed
+3. Accountant prepares amended forms
+4. Both shareholders sign amended corporate returns
+5. File amendments (federal and California)
+6. Distribute amended K-1s to both shareholders
+7. Both shareholders file personal amended returns
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Questions? Let me know and we can discuss with the accountant.
