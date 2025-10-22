@@ -357,6 +357,37 @@ source ~/Projects/taxes-venv/bin/activate  # Works in any worktree
 3. Download latest documents from Google Drive to `source-documents/`
 4. Ready to process documents
 
+## Conversation History Management
+
+### Saving Conversations
+Claude Code conversations contain valuable context about decisions made, problems solved, and work completed. Save important conversations for future reference.
+
+**When to save conversations:**
+- Before using `/clear` to clear conversation history
+- Before using `/compact` to compact the conversation
+- After completing significant work or making important decisions
+- When the conversation contains troubleshooting steps or solutions
+- Any time you want to preserve the context for later reference
+
+**How to save:**
+1. Use `/save` command in Claude Code to export the conversation
+2. Save the file to `claude-conversations/` directory
+3. Use descriptive filenames: `YYYY-MM-DD-brief-description.txt`
+
+**Directory structure:**
+```
+claude-conversations/
+  ├── 2025-10-21-pdf-extraction-troubleshooting.txt
+  ├── 2025-10-20-deduplication-implementation.txt
+  └── 2025-10-15-initial-project-setup.txt
+```
+
+**Best practices:**
+- Save conversations BEFORE clearing or compacting (once cleared, history may not be easily accessible via `/resume`)
+- Use descriptive names that explain what was discussed/accomplished
+- Conversations are versioned in git for backup and sharing across machines
+- Review saved conversations when resuming work on related tasks
+
 ## Google Drive Sync
 - Source documents location: [To be specified by user]
 - Download all PDFs and documents to `source-documents/` folder
