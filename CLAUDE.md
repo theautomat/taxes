@@ -3,6 +3,19 @@
 ## Role
 You are an accounting assistant helping to organize and process financial documents. Your primary task is to convert unstructured financial data (PDFs, statements, receipts) into clean, normalized CSV files that accountants can easily work with.
 
+### Taxpayer Context (2022 Tax Year)
+**Key Facts:**
+- Single filer, software developer, age 43, California resident (Fillmore, CA)
+- Dual income: W-2 ($275k from NFT Genius) + S-Corp ($165k from Popstand Inc.)
+- Total income: ~$440k (35% federal + 9.3% CA + 0.9% Medicare = 45.3% combined marginal rate)
+- Home office setup: Primary home office in Fillmore + temporary Pasadena office (Oct-Dec 2022)
+- Filing 3 years late (2025) with estimated penalties $50-80k
+- **Every $1,000 deduction saves $453 in taxes**
+
+**S-Corp Concern:** Popstand paid no W-2 wages to owner (all distributions) - potential IRS reasonable compensation issue
+
+**Detailed Profile:** See `generated-files/deductions/2022_TAXPAYER_FINANCIAL_PROFILE.md` for comprehensive tax research and deduction opportunities
+
 ## Project Structure
 
 ### Current Setup
@@ -198,158 +211,28 @@ git status          # Verify push succeeded
 
 ## Git Worktrees for Parallel Development
 
-### Why Use Worktrees?
-Git worktrees allow you to work on multiple branches simultaneously without losing context. This is especially powerful with Claude Code because:
+Git worktrees allow you to work on multiple branches simultaneously without context switching. This is especially powerful with Claude Code because each worktree maintains its own session context.
 
-1. **Context Preservation**: Each Claude Code session maintains full understanding of the codebase in its worktree
-2. **No Context Switching**: Switch between tasks without `git stash` or losing your place
-3. **Parallel Work**: Multiple Claude sessions can work on different features simultaneously
-4. **Zero Risk**: Impossible to accidentally commit to the wrong branch
-
-### Understanding Worktrees
-A worktree is a separate working directory linked to the same Git repository:
-
-```
-~/Projects/taxes/                    # Main directory (any branch)
-  ├── .git/                         # Shared Git repository
-  ├── scripts/
-  ├── generated-files/
-  └── docs/
-
-~/Projects/taxes-feature-dedup/     # Worktree for deduplication work
-  ├── .git                          # → Links to main .git
-  ├── scripts/                      # Independent file states
-  └── [on branch: feature/deduplication]
-
-~/Projects/taxes-docs-worktree/     # Worktree for documentation
-  ├── .git                          # → Links to main .git
-  ├── docs/                         # Independent file states
-  └── [on branch: docs/worktree-workflow]
-```
-
-**Key Benefits:**
-- All worktrees share the same Git history (commits, branches, remotes synchronized)
-- Each worktree has independent file states (no conflicts between tasks)
-- Changes committed in any worktree are visible in all worktrees
-
-### Basic Worktree Commands
-
-**Create a new worktree:**
+**Quick Start:**
 ```bash
-# Create worktree in parent directory with new branch
-git worktree add ../taxes-feature-name -b feature/feature-name main
+# Create worktree for new feature
+cd ~/Projects/taxes
+git worktree add ../taxes-feat-name -b feature/name main
 
-# Create worktree in current directory's subdirectory
-git worktree add taxes-feature-name -b feature/feature-name main
-```
-
-**List all worktrees:**
-```bash
+# List all worktrees
 git worktree list
+
+# Remove when done
+git worktree remove ../taxes-feat-name
 ```
 
-**Remove a worktree:**
-```bash
-# After merging and no longer needed
-git worktree remove ../taxes-feature-name
-git branch -d feature/feature-name  # Delete the branch
-```
-
-**Clean up merged worktrees:**
-```bash
-# Prune references to deleted worktrees
-git worktree prune
-```
-
-### Recommended Workflow
-
-**1. Create Worktree for New Task:**
-```bash
-# From main repo directory
-cd ~/Projects/taxes
-
-# Create worktree for feature work
-git worktree add ../taxes-feature-extraction -b feature/pdf-extraction main
-
-# Open in new Claude Code window
-code ../taxes-feature-extraction
-```
-
-**2. Work in Isolation:**
-- Each Claude Code session maintains full context
-- Make commits as normal (`git add`, `git commit`, `git push`)
-- No interference with other worktrees
-
-**3. Complete and Merge:**
-```bash
-# When feature is ready
-cd ~/Projects/taxes-feature-extraction
-git add -A
-git commit -m "feat: implement PDF extraction pipeline"
-git push --set-upstream origin feature/pdf-extraction
-
-# Switch to main repo and merge
-cd ~/Projects/taxes
-git checkout main
-git merge feature/pdf-extraction
-
-# Clean up
-git worktree remove ../taxes-feature-extraction
-git branch -d feature/pdf-extraction
-```
-
-### Worktree Naming Convention
-Use descriptive names that indicate the purpose:
-
-**Good names:**
-- `taxes-feat-pdf-extraction` - Feature: PDF extraction
-- `taxes-fix-dedup-bug` - Bugfix: Deduplication bug
-- `taxes-docs-worktree` - Documentation: Worktree guide
-- `taxes-exp-llm-categorize` - Experiment: LLM categorization
-
-**Bad names:**
-- `taxes-temp`, `taxes-test`, `taxes-1` - Not descriptive
-
-### Parallel Development Example
-```bash
-# Terminal 1: Work on deduplication improvements
-cd ~/Projects/taxes-feature-dedup
-
-# Terminal 2: Work on PDF extraction enhancements
-cd ~/Projects/taxes-feature-extraction
-
-# Terminal 3: Fix urgent bug in merged data
-cd ~/Projects/taxes-hotfix-merge
-
-# Each has its own Claude Code session with full context
-# No git stash, no context switching, no lost work
-```
-
-### When to Use Worktrees
-
-**Use worktrees when:**
+**When to use worktrees:**
 - Working on multiple features simultaneously
-- Need to quickly switch to fix a bug without losing current work
-- Experimenting with major changes (safe to delete if it fails)
-- Comparing different implementations side-by-side
-- Running tests on one branch while developing on another
+- Quick bug fix without losing current work
+- Experimenting with major changes
+- Comparing different approaches side-by-side
 
-**Don't use worktrees when:**
-- Quick fixes that take < 5 minutes
-- Simple single-task workflows
-- Disk space is very limited (each worktree duplicates working files)
-
-### Disk Space Considerations
-Worktrees duplicate working files but share Git history:
-- Main `.git` directory: ~shared~
-- Working files per worktree: ~duplicated~
-- Dependencies (node_modules, venv): ~duplicated per worktree~
-
-**Optimization tip:** Share virtual environments across worktrees if dependencies are identical:
-```bash
-# Use the same Python venv
-source ~/Projects/taxes-venv/bin/activate  # Works in any worktree
-```
+**For comprehensive worktree documentation, see:** `docs/WORKTREE_WORKFLOW.md`
 
 ## Setup on New Machine
 1. Clone repository
