@@ -71,6 +71,11 @@ STILL NEEDED (if available):
   • DMV vehicle registration fees for 2022
     (Searching for documentation - may not be available)
 
+    NOTE: Given the $10,000 SALT cap and property tax payment of $24,430
+    already claimed, DMV fees will likely not provide additional federal
+    deduction benefit. However, they may be relevant for California state
+    tax return. Will provide if located.
+
 VERIFIED NOT APPLICABLE:
   • No additional 1099 forms (1099-MISC, 1099-NEC, 1099-K) were filed
   • Verified via IRS Wage and Income Transcript
