@@ -1,0 +1,5 @@
+- last filed tax return 
+- each year separte folders
+- 1099, 1098, w2, k1, 
+- organizer - yes or no questions - dob, address 
+- personal deduction, dmv, property taxess
