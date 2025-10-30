@@ -1,8 +1,8 @@
 # 2022 Home Office Deduction - Final Summary
 **Property:** 662 Mountain View Street, Fillmore CA 93015
 **Total Home Size:** 1,480 sq ft ([Source](https://www.realtor.com/realestateandhomes-detail/662-Mountain-View-St_Fillmore_CA_93015_M28779-58207))
-**Home Office Size:** 225 sq ft (15' × 15')
-**Business Use Percentage:** **15.2%** (225 ÷ 1,480)
+**Home Office Size:** 704 sq ft (32' × 22')
+**Business Use Percentage:** **47.6%** (704 ÷ 1,480)
 **Tax Year:** 2022
 
 ---
@@ -28,11 +28,11 @@
 ## Your Three Deduction Options
 
 ### Option 1: Simplified Method
-**Deduction:** $1,125
-**Calculation:** 225 sq ft × $5/sq ft
+**Deduction:** $1,500
+**Calculation:** 300 sq ft × $5/sq ft (CAPPED at 300 sq ft max, actual office is 704 sq ft)
 
 **Tax Savings:**
-- $1,125 × 39.3% (24% income + 15.3% SE) = **$442/year**
+- $1,500 × 45.3% (35% federal + 9.3% CA + 0.9% Medicare) = **$679/year**
 
 **Pros:**
 - Super simple
@@ -41,35 +41,36 @@
 
 **Cons:**
 - Smallest deduction
+- **Severely limited by 300 sq ft cap** (you have 704 sq ft office!)
 
 ---
 
 ### Option 2: Actual Expenses (NO Depreciation)
-**Business Use:** 15.2% of home
+**Business Use:** 47.6% of home
 
 **Deductions (2022):**
-| Expense | Full Amount | Business 15.2% |
+| Expense | Full Amount | Business 47.6% |
 |---------|-------------|----------------|
-| Mortgage Interest | $20,410.43 | **$3,102.39** |
-| Property Taxes | $3,095.19 | **$470.47** |
-| **SUBTOTAL** | $23,505.62 | **$3,572.86** |
+| Mortgage Interest | $20,410.43 | **$9,715.36** |
+| Property Taxes | $3,095.19 | **$1,473.30** |
+| **SUBTOTAL** | $23,505.62 | **$11,188.66** |
 
 *Additional eligible (need amounts):*
-- Homeowners Insurance (15.2%)
-- Utilities - Electric/Gas (15.2%)
-- Water/Trash (15.2%)
-- Home Repairs/Maintenance (15.2%)
+- Homeowners Insurance (47.6%)
+- Utilities - Electric/Gas (47.6%)
+- Water/Trash (47.6%)
+- Home Repairs/Maintenance (47.6%)
 
 **Tax Savings (known expenses only):**
-- $3,572.86 × 39.3% = **$1,404/year**
+- $11,188.66 × 45.3% = **$5,068/year**
 
 **With utilities/insurance (~$3,000/year estimate):**
-- Additional deduction: $3,000 × 15.2% = $456
-- Total deduction: ~$4,029
-- **Tax savings: ~$1,583/year**
+- Additional deduction: $3,000 × 47.6% = $1,428
+- Total deduction: ~$12,617
+- **Tax savings: ~$5,715/year**
 
 **Pros:**
-- 3.5× higher than simplified method
+- 8.4× higher than simplified method
 - No depreciation recapture
 - Clean exit when selling
 - Good balance of benefit vs. complexity
@@ -77,6 +78,7 @@
 **Cons:**
 - Requires tracking expenses
 - More paperwork
+- High business % (47.6%) requires excellent documentation
 
 ---
 
@@ -86,21 +88,21 @@
 **Depreciation Calculation:**
 - Home value (building only, est. $600k): $600,000
 - Annual depreciation: $600,000 ÷ 39 years = $15,385/year
-- Business portion: $15,385 × 15.2% = **$2,339/year**
+- Business portion: $15,385 × 47.6% = **$7,323/year**
 
 **Total Deduction:**
-- Known expenses: $3,573
-- Depreciation: $2,339
-- **Total: $5,912/year**
+- Known expenses: $11,189
+- Depreciation: $7,323
+- **Total: $18,512/year**
 
 **Tax Savings:**
-- $5,912 × 39.3% = **$2,323/year**
+- $18,512 × 45.3% = **$8,386/year**
 
 **Long-term (10-year hold):**
-- Total tax savings: $23,230
-- Depreciation taken: $23,390
-- Recapture tax (25%): $5,848
-- **Net benefit: $17,382**
+- Total tax savings: $83,860
+- Depreciation taken: $73,230
+- Recapture tax (25%): $18,308
+- **Net benefit: $65,552**
 
 **Pros:**
 - Maximum current-year deduction
@@ -110,7 +112,7 @@
 **Cons:**
 - Depreciation recapture at sale (25% tax)
 - More complex
-- Slightly higher audit risk
+- Moderate audit risk with high business %
 
 ---
 
@@ -118,9 +120,9 @@
 
 | Method | Annual Deduction | Annual Tax Savings | 10-Yr Savings | Recapture | Net 10-Yr |
 |--------|------------------|-------------------|---------------|-----------|-----------|
-| **Simplified** | $1,125 | $442 | $4,420 | $0 | **$4,420** |
-| **Actual (no depr)** | $3,573-$4,029 | $1,404-$1,583 | $14,040-$15,830 | $0 | **$14,040-$15,830** |
-| **Actual (with depr)** | $5,912-$6,368 | $2,323-$2,502 | $23,230-$25,020 | $5,848 | **$17,382-$19,172** |
+| **Simplified** | $1,500 | $679 | $6,790 | $0 | **$6,790** |
+| **Actual (no depr)** | $11,189-$12,617 | $5,068-$5,715 | $50,680-$57,150 | $0 | **$50,680-$57,150** |
+| **Actual (with depr)** | $18,512-$19,940 | $8,386-$9,033 | $83,860-$90,330 | $18,308 | **$65,552-$72,022** |
 
 ---
 
@@ -173,26 +175,27 @@ From IRS Pub 587:
 ### My Recommendation: **Option 2 (Actual Expenses WITHOUT Depreciation)**
 
 **Why:**
-1. **Best ROI:** 3.5× better than simplified method
+1. **Best ROI:** 8.4× better than simplified method
 2. **No recapture risk:** Clean exit when you sell
 3. **Reasonable complexity:** Track utilities and insurance, you're already tracking mortgage/taxes
-4. **Strong qualification:** Home clearly used for admin/management
+4. **Strong qualification:** Home clearly used for admin/management (requires excellent documentation for 47.6% business use)
 
 **Your 2022 Tax Savings:**
-- Minimum (just mortgage + taxes): **$1,404**
-- With utilities/insurance: **~$1,583**
-- **vs. $442 with simplified method**
-- **Extra savings: $1,141-$1,962/year**
+- Minimum (just mortgage + taxes): **$5,068**
+- With utilities/insurance: **~$5,715**
+- **vs. $679 with simplified method**
+- **Extra savings: $4,389-$5,036/year**
 
 ### If You Want Maximum Deduction: **Option 3 (With Depreciation)**
 
-**Extra annual savings:** ~$740-$920/year over Option 2
-**10-year net benefit after recapture:** ~$3,342-$5,342 more
+**Extra annual savings:** ~$3,318-$3,671/year over Option 2
+**10-year net benefit after recapture:** ~$14,872-$17,402 more
 
 **Worth it if:**
 - You're staying in home 7+ years
 - You want maximum current deductions
 - You accept recapture obligation
+- You have exceptional documentation for the large business use percentage
 
 ---
 
@@ -265,13 +268,13 @@ From IRS Pub 587:
 ## Final Numbers
 
 **Your Home Office:**
-- **Size:** 225 sq ft (15' × 15' room)
-- **Percentage:** 15.2% of 1,480 sq ft home
-- **2022 Deduction (recommended):** $3,573-$4,029
-- **Tax Savings:** $1,404-$1,583
-- **10-Year Benefit:** $14,040-$15,830 (no recapture)
+- **Size:** 704 sq ft (32' × 22' room)
+- **Percentage:** 47.6% of 1,480 sq ft home
+- **2022 Deduction (recommended):** $11,189-$12,617
+- **Tax Savings:** $5,068-$5,715
+- **10-Year Benefit:** $50,680-$57,150 (no recapture)
 
-**This is worth pursuing.** The extra $1,400-$1,600 per year in tax savings is significant, and you have strong qualification under IRS rules.
+**This is HIGHLY worth pursuing.** The $5,000-$5,700 per year in tax savings is substantial. However, 47.6% business use is high and requires excellent documentation to support exclusive business use claim.
 
 ---
 
