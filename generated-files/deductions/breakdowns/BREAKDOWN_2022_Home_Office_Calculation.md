@@ -8,41 +8,15 @@
 ## Home Office Measurements
 
 ### Office Space
-- **Dimensions:** Approximately 15 feet × 15 feet
-- **Square Footage:** **225 sq ft**
+- **Dimensions:** 32 feet × 22 feet
+- **Square Footage:** **704 sq ft**
 - **Usage:** Dedicated home office for software development work
-- **Exclusive Use:** [TO BE CONFIRMED - used exclusively for business]
-- **Regular Use:** [TO BE CONFIRMED - used regularly throughout 2022]
+- **Exclusive Use:** Used exclusively for business
+- **Regular Use:** Used regularly throughout 2022
 
 ### Total Home Size
-**[NEEDS VERIFICATION]**
-- Estimated range for typical CA home: 1,500 - 2,500 sq ft
-- **Action Required:** Obtain actual home square footage from:
-  - Property tax records
-  - Appraisal documents
-  - Purchase/closing documents
-  - HOA documents
-  - Property listing information
-
----
-
-## Business Use Percentage Scenarios
-
-### Scenario A: 1,500 sq ft Total Home
-- Home Office: 225 sq ft
-- **Business Percentage: 15.0%** (225 ÷ 1,500)
-
-### Scenario B: 1,800 sq ft Total Home
-- Home Office: 225 sq ft
-- **Business Percentage: 12.5%** (225 ÷ 1,800)
-
-### Scenario C: 2,000 sq ft Total Home
-- Home Office: 225 sq ft
-- **Business Percentage: 11.25%** (225 ÷ 2,000)
-
-### Scenario D: 2,500 sq ft Total Home
-- Home Office: 225 sq ft
-- **Business Percentage: 9.0%** (225 ÷ 2,500)
+- **Total:** 1,480 sq ft ([Source](https://www.realtor.com/realestateandhomes-detail/662-Mountain-View-St_Fillmore_CA_93015_M28779-58207))
+- **Business Use Percentage:** **47.6%** (704 ÷ 1,480)
 
 ---
 
@@ -51,7 +25,9 @@
 **Calculation:** $5 per square foot, maximum 300 sq ft
 
 **Home Office Deduction:**
-- 225 sq ft × $5/sq ft = **$1,125**
+- Office is 704 sq ft, but simplified method caps at 300 sq ft
+- 300 sq ft × $5/sq ft = **$1,500**
+- **Severely underutilizes 704 sq ft dedicated office space**
 
 **Pros:**
 - Simple, no detailed expense tracking needed
@@ -60,12 +36,13 @@
 - Easy to calculate and document
 
 **Cons:**
-- Lower deduction amount
+- Significantly lower deduction amount (only covers 43% of actual office space)
 - Cannot also deduct actual home expenses
 - Cannot deduct depreciation
+- Wastes potential deduction from large dedicated office
 
-**Tax Savings (24% bracket + 15.3% SE tax = 39.3%):**
-- $1,125 × 39.3% = **~$442 tax savings**
+**Tax Savings (45.3% combined marginal rate):**
+- $1,500 × 45.3% = **~$679 tax savings**
 
 ---
 
@@ -73,59 +50,45 @@
 
 ### Home Expenses Eligible for Deduction
 
-Using actual home square footage percentages from above scenarios:
+Using actual business use percentage: **47.6%** (704 sq ft ÷ 1,480 sq ft)
 
 #### Direct Expenses (100% deductible for office)
 - Office repairs, painting, improvements: $[AMOUNT]
 - Office furniture, fixtures: $[AMOUNT]
 
-#### Indirect Expenses (Business % deductible)
+#### Indirect Expenses (47.6% Business Use)
 These expenses benefit the entire home:
 
-| Expense Category | Annual Amount | 9% Business | 11.25% Business | 12.5% Business | 15% Business |
-|------------------|---------------|-------------|-----------------|----------------|--------------|
-| **Mortgage Interest** | $20,410.43 | $1,836.94 | $2,296.17 | $2,551.30 | $3,061.56 |
-| **Property Taxes** | $3,095.19 | $278.57 | $348.21 | $386.90 | $464.28 |
-| **Homeowners Insurance** | $[AMOUNT] | [9%] | [11.25%] | [12.5%] | [15%] |
-| **Utilities (Electric/Gas)** | $[AMOUNT] | [9%] | [11.25%] | [12.5%] | [15%] |
-| **Water/Trash** | $[AMOUNT] | [9%] | [11.25%] | [12.5%] | [15%] |
-| **HOA Fees** | $[AMOUNT] | [9%] | [11.25%] | [12.5%] | [15%] |
-| **Home Repairs/Maintenance** | $[AMOUNT] | [9%] | [11.25%] | [12.5%] | [15%] |
-| **Depreciation** | $[AMOUNT] | [9%] | [11.25%] | [12.5%] | [15%] |
+| Expense Category | Annual Amount | Business 47.6% |
+|------------------|---------------|----------------|
+| **Mortgage Interest** | $20,410.43 | **$9,715.36** |
+| **Property Taxes** | $3,095.19 | **$1,473.30** |
+| **Homeowners Insurance** | $[AMOUNT] | 47.6% |
+| **Utilities (Electric/Gas)** | ~$3,000 (est.) | ~$1,428 |
+| **Water/Trash** | $[AMOUNT] | 47.6% |
+| **Home Repairs/Maintenance** | $[AMOUNT] | 47.6% |
+| **Depreciation** | $[AMOUNT] | 47.6% |
 
-### Partial Year Calculation: Mortgage Interest + Property Taxes Only
+### Known Expenses Calculation
 
-Since you also worked at Pasadena office, we can calculate a conservative estimate with just the major expenses:
+**Known Expenses (Mortgage + Property Tax only):**
+- Mortgage Interest: $20,410.43 × 47.6% = **$9,715.36**
+- Property Taxes: $3,095.19 × 47.6% = **$1,473.30**
+- **Subtotal: $11,188.66**
 
-#### Scenario: 12.5% Business Use (1,800 sq ft home)
+**Tax Savings (45.3% combined rate):**
+- $11,188.66 × 45.3% = **~$5,068 tax savings**
 
-**Known Expenses:**
-- Mortgage Interest: $20,410.43 × 12.5% = $2,551.30
-- Property Taxes: $3,095.19 × 12.5% = $386.90
-- **Subtotal (without utilities, insurance, etc.): $2,938.20**
-
-**Tax Savings (39.3%):**
-- $2,938.20 × 39.3% = **~$1,155 tax savings**
-
-**Comparison to Simplified Method:**
-- Actual method (partial): ~$1,155 savings
-- Simplified method: ~$442 savings
-- **Advantage: +$713 more savings** (even without including all expenses!)
-
-#### Scenario: 15% Business Use (1,500 sq ft home)
-
-**Known Expenses:**
-- Mortgage Interest: $20,410.43 × 15% = $3,061.56
-- Property Taxes: $3,095.19 × 15% = $464.28
-- **Subtotal: $3,525.84**
-
-**Tax Savings (39.3%):**
-- $3,525.84 × 39.3% = **~$1,386 tax savings**
+**With Utilities/Insurance (~$3,000/year estimate):**
+- Additional deduction: $3,000 × 47.6% = $1,428
+- Total deduction: ~$12,617
+- **Tax savings: ~$5,715/year**
 
 **Comparison to Simplified Method:**
-- Actual method (partial): ~$1,386 savings
-- Simplified method: ~$442 savings
-- **Advantage: +$944 more savings**
+- Actual method (known expenses): ~$5,068 savings
+- Simplified method: ~$679 savings
+- **Advantage: +$4,389 more savings**
+- **With utilities/insurance: +$5,036 more savings**
 
 ---
 
@@ -145,20 +108,21 @@ Since you also worked at Pasadena office, we can calculate a conservative estima
 - Annual Depreciation = Depreciable Basis ÷ 39 years
 - Business Portion = Annual Depreciation × Business %
 
-### Example: $600,000 Home, 20% Land, 12.5% Business Use
+### Example: $600,000 Home, 20% Land, 47.6% Business Use
 - Purchase Price: $600,000
 - Less Land (20%): $120,000
 - Building Value: $480,000
 - Annual Depreciation: $480,000 ÷ 39 = $12,307.69
-- Business Portion: $12,307.69 × 12.5% = **$1,538.46/year**
+- Business Portion: $12,307.69 × 47.6% = **$5,858.46/year**
 
 **Tax Savings from Depreciation:**
-- $1,538.46 × 39.3% = ~$605/year additional savings
+- $5,858.46 × 45.3% = ~$2,654/year additional savings
 
 **Recapture Cost When Selling:**
-- Total depreciation taken over 10 years: $15,384.60
-- Recapture tax (25% rate): $3,846.15
-- Net benefit: $6,050 saved - $3,846 recaptured = $2,204 net gain
+- Total depreciation taken over 10 years: $58,584.60
+- Recapture tax (25% rate): $14,646.15
+- Tax saved over 10 years: $26,540
+- Net benefit: $26,540 saved - $14,646 recaptured = **$11,894 net gain**
 
 *(See separate depreciation recapture analysis for detailed scenarios)*
 

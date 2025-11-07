@@ -97,13 +97,16 @@ This document summarizes potential 2022 tax deductions identified through detail
 ## 4. Home Office Deduction
 
 **Method:** Simplified method ($5/sq ft) - avoids depreciation recapture
-**Office Size:** 225 sq ft
-**Deduction:** $1,125 (225 sq ft × $5)
+**Office Size:** 704 sq ft (32' × 22')
+**Total Home:** 1,480 sq ft
+**Business Use:** 47.6%
+**Deduction:** $1,500 (capped at 300 sq ft max, actual office is 704 sq ft)
 
-**Alternative (Actual Expenses - NOT recommended):**
-- Total deduction: $3,573 (15.2% business use)
-- Includes mortgage interest, utilities, insurance, property tax
-- Adds $549/year vs. simplified but requires depreciation recapture on sale
+**Alternative (Actual Expenses - RECOMMENDED for large dedicated office):**
+- Total deduction: $11,189-$12,617 (47.6% business use)
+- Includes mortgage interest ($9,715), property tax ($1,473), utilities, insurance
+- Adds $9,689-$11,117/year vs. simplified, no depreciation if not claimed
+- Tax savings: $5,068-$5,715/year (vs. $679 with simplified method)
 
 **Documentation:** Office measurements, photos, home square footage
 **Detailed Breakdowns:**

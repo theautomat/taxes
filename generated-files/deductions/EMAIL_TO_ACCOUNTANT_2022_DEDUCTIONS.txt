@@ -46,7 +46,7 @@ QUESTIONS FOR YOU:
 
 1. S-Corp Amendment - Should we include the software services in the 1120-S amendment, or claim them elsewhere? Need co-shareholder (Chris Whitman) approval.
 
-2. Home Office - Simplified method ($1,125) vs. actual expenses ($3,573)? Simplified avoids depreciation recapture complications.
+2. Home Office - Office is 704 sq ft (32' × 22') in a 1,480 sq ft home (47.6% business use). Simplified method ($1,500 capped at 300 sq ft) vs. actual expenses ($11,189-$12,617)? Simplified avoids depreciation recapture complications but significantly underutilizes the large dedicated office space.
 
 3. Vehicle Deduction - Standard mileage vs. actual expenses? Mileage is clearly better ($3,047 vs. $216).
 
