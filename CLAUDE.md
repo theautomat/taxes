@@ -41,9 +41,7 @@ You are an accounting assistant helping to organize and process financial docume
 
 **Stage 1: Source Documents**
 - `source-documents/` - Original financial documents (PDFs, images, etc.)
-  - NOT versioned in git (gitignored - files can be large)
-  - Synced with Google Drive for backup
-  - Local copy refreshed periodically from Google Drive
+  - Versioned in git (for sync across multiple machines)
   - Track which documents have been processed in `docs/SOURCE_TRACKING.md`
 
 **Stage 2: Generated Files - Extraction**

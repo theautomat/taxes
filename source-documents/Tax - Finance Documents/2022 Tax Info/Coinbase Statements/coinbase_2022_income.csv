@@ -1,0 +1,33 @@
+Date,Income_Type,Asset,Amount_Received,FMV_USD,Description,Notes
+2022-01-02,USDC Staking Rewards,USDC,0.080217,0.08,Coinbase Rewards,Ordinary income
+2022-02-02,USDC Staking Rewards,USDC,0.073432,0.07,Coinbase Rewards,Ordinary income
+2022-03-02,USDC Staking Rewards,USDC,0.042672,0.04,Coinbase Rewards,Ordinary income
+2022-03-03,USDC Staking Rewards,USDC,0.00357,0.00,Coinbase Rewards,Ordinary income
+2022-04-02,USDC Staking Rewards,USDC,0.215268,0.22,Coinbase Rewards,Ordinary income
+2022-04-04,USDC Staking Rewards,USDC,0.215267,0.22,Coinbase Rewards,Ordinary income
+2022-05-03,USDC Staking Rewards,USDC,1.805671,1.81,Coinbase Rewards,Ordinary income
+2022-05-06,USDC Staking Rewards,USDC,1.805501,1.81,Coinbase Rewards,Ordinary income
+2022-06-03,USDC Staking Rewards,USDC,0.03952,0.04,Coinbase Rewards,Ordinary income
+2022-06-04,USDC Staking Rewards,USDC,0.03952,0.04,Coinbase Rewards,Ordinary income
+2022-07-02,USDC Staking Rewards,USDC,0.000454,0.00,Coinbase Rewards,Ordinary income
+2022-07-04,USDC Staking Rewards,USDC,0.000454,0.00,Coinbase Rewards,Ordinary income
+2022-07-09,Bonus - FLOW,FLOW,75000,124425.00,Received 75000 FLOW from employer,Bonus from C-Corp (NFT Genius) - ordinary income
+2022-08-08,USDC Staking Rewards,USDC,9.878602,9.88,Coinbase Rewards,Ordinary income
+2022-08-25,USDC Staking Rewards,USDC,9.878603,9.88,Coinbase Rewards,Ordinary income
+2022-09-02,USDC Staking Rewards,USDC,14.613382,14.61,Coinbase Rewards,Ordinary income
+2022-09-04,USDC Staking Rewards,USDC,14.613381,14.61,Coinbase Rewards,Ordinary income
+2022-10-02,USDC Staking Rewards,USDC,13.595198,13.60,Coinbase Rewards,Ordinary income
+2022-10-03,USDC Staking Rewards,USDC,13.595196,13.60,Coinbase Rewards,Ordinary income
+2022-11-02,USDC Staking Rewards,USDC,38.363185,38.36,Coinbase Rewards,Ordinary income
+2022-11-17,USDC Staking Rewards,USDC,38.363183,38.36,Coinbase Rewards,Ordinary income
+2022-12-02,USDC Staking Rewards,USDC,135.219899,135.22,Coinbase Rewards,Ordinary income
+2022-12-03,USDC Staking Rewards,USDC,135.2199,135.22,Coinbase Rewards,Ordinary income
+2022-12-06,Bonus - FLOW,FLOW,37912.7,41912.49,Received 37912.7 FLOW from employer,Christmas bonus from C-Corp (NFT Genius) - ordinary income
+
+SUMMARY
+-------
+Category,Total_USD
+USDC Staking Rewards,427.67
+FLOW Bonus (July),124425.00
+FLOW Bonus (December),41912.49
+TOTAL ORDINARY INCOME,166765.16

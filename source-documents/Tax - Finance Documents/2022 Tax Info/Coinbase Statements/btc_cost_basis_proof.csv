@@ -1,0 +1,183 @@
+BTC COST BASIS PROOF OF WORK
+============================
+
+PART 1: THE 2022 BTC DISPOSALS (FROM SOURCE CSV)
+================================================
+These are the BTC conversions from coinbase_2022_transactions_source.csv:
+
+Date,Transaction,BTC Amount,Proceeds
+2022-03-17,Convert BTC to ETH,0.979424,$39,443.30
+2022-03-17,Convert BTC to ETH,0.024364,$981.57
+2022-03-24,Convert BTC to ETH,0.116382,$4,904.06
+2022-03-28,Convert BTC to APE,0.042086,$1,958.57
+2022-03-29,Convert BTC to USDC,0.447562,$21,021.18
+-------------------------------------------------
+TOTAL DISPOSED:,1.609818,$68,308.68
+
+
+PART 2: ALL BTC TRANSACTIONS YOU PROVIDED (2018-2022)
+=====================================================
+Let me list every transaction chronologically:
+
+Date,Type,BTC Amount,USD Value,Running Balance,Notes
+2018-11-21,Receive,+0.011,$49.00,0.011,
+2018-12-08,Receive,+0.00293,$10.00,0.01393,
+2019-01-02,Buy,+0.516,$2,000.00,0.52993,
+2019-01-02,Send,-0.263,$999.95,0.26693,
+2019-02-11,Buy,+0.144,$525.00,0.41093,
+2019-05-11,Sell,-0.271,$1,097.70,0.13993,
+2019-11-21,Convert In,+0.49972,$3,963.00,0.63965,From EOS
+2020-01-16,Convert In,+0.0443,$384.00,0.68395,
+2020-02-12,Convert In,+0.61529,$6,433.00,1.29924,
+2020-04-09,Receive,+0.00137,$9.00,1.30061,
+2020-04-15,Send,-0.015,$75.00,1.28561,
+2020-04-15,Send,-0.00688,$45.00,1.27873,
+2020-06-23,Send,-0.00157,$15.00,1.27716,
+2020-08-15,Convert In,+0.0816,$971.38,1.35876,From EOS
+2021-02-07,Receive,+0.263,$10,147.39,1.62176,
+2021-02-12,Send,-0.308,$17,188.64,1.31376,
+2021-02-14,Send,-0.00621,$303.52,1.30755,
+2021-02-16,Send,-0.00204,$101.55,1.30551,
+2021-03-08,Receive,+0.41325,$21,547.03,1.71876,CORRECTED per screenshot
+2021-03-24,Receive,+0.191,$9,996.13,1.90976,
+2021-03-30,Send,-0.001173,$101.52,1.90859,
+2021-03-30,Send,-0.00854,$501.46,1.90005,
+2021-04-19,Send,-0.0054,$363.65,1.89465,
+2021-06-05,Send,-0.00277,$101.10,1.89188,
+2021-09-25,Convert In,+0.00236,$99.98,1.89424,
+2022-01-28,Send,-0.0264,$999.68,1.86784,*** IN 2022 SOURCE CSV ***
+2022-02-08,Send,-0.114,$4,992.05,1.75384,*** IN 2022 SOURCE CSV ***
+2022-03-16,Convert In,+0.979,$40,200.00,2.73284,*** SAME-DAY - sold next day ***
+2022-03-16,Convert In,+0.0244,$1,000.01,2.75724,*** SAME-DAY - sold next day ***
+2022-03-17,Convert Out,-0.979424,$39,443.30,1.77782,*** IN 2022 SOURCE CSV ***
+2022-03-17,Convert Out,-0.024364,$981.57,1.75345,*** IN 2022 SOURCE CSV ***
+2022-03-23,Convert In,+0.116,$4,996.00,1.86945,*** SAME-DAY - sold next day ***
+2022-03-24,Convert Out,-0.116382,$4,904.06,1.75307,*** IN 2022 SOURCE CSV ***
+2022-03-28,Convert In,+0.0421,$1,999.99,1.79517,*** SAME-DAY - sold same day ***
+2022-03-28,Convert Out,-0.042086,$1,958.57,1.75308,*** IN 2022 SOURCE CSV ***
+2022-03-29,Convert Out,-0.447562,$21,021.18,1.30552,*** IN 2022 SOURCE CSV ***
+
+
+PART 3: IDENTIFYING DUPLICATES
+==============================
+Looking at this, I notice that in March 2022 there were CONVERT IN transactions
+(where you converted something TO BTC) followed immediately by CONVERT OUT
+transactions (where you converted BTC TO something else).
+
+These are NOT duplicates - they are pairs:
+- 2022-03-16: Convert IN 0.979 + 0.0244 BTC (you acquired BTC)
+- 2022-03-17: Convert OUT 0.979424 + 0.024364 BTC (you disposed of that BTC)
+
+The slight differences (0.979 vs 0.979424) might be rounding in your records.
+
+The Jan/Feb 2022 sends ARE in our source CSV already - those were transfers, not sales.
+
+
+PART 4: BALANCE CHECK BEFORE THE MARCH 2022 SALES
+=================================================
+Balance after 2021-09-25 (last transaction before 2022): 1.89424 BTC
+
+2022 transactions before the March conversions:
+- 2022-01-28: Send -0.0264 BTC (transfer, not sale)
+- 2022-02-08: Send -0.114 BTC (transfer, not sale)
+
+Balance before March 2022 activity: 1.89424 - 0.0264 - 0.114 = 1.75384 BTC
+
+This is LESS than 1.609818 BTC we need to sell... wait, that's fine because
+we also had the same-day Convert INs in March.
+
+
+PART 5: THE ACTUAL DISPOSALS - WHERE DID THE BTC COME FROM?
+===========================================================
+
+DISPOSAL 1: 2022-03-17 - 0.979424 BTC to ETH
+Origin: Converted IN on 2022-03-16 for $40,200.00
+Cost Basis: $40,200.00
+Proceeds: $39,443.30
+Gain/Loss: -$756.70 (LOSS)
+
+DISPOSAL 2: 2022-03-17 - 0.024364 BTC to ETH
+Origin: Converted IN on 2022-03-16 for $1,000.01
+Cost Basis: $1,000.01
+Proceeds: $981.57
+Gain/Loss: -$18.44 (LOSS)
+
+DISPOSAL 3: 2022-03-24 - 0.116382 BTC to ETH
+Origin: Converted IN on 2022-03-23 for $4,996.00
+Cost Basis: $4,996.00
+Proceeds: $4,904.06
+Gain/Loss: -$91.94 (LOSS)
+
+DISPOSAL 4: 2022-03-28 - 0.042086 BTC to APE
+Origin: Converted IN on 2022-03-28 for $1,999.99
+Cost Basis: $1,999.99
+Proceeds: $1,958.57
+Gain/Loss: -$41.42 (LOSS)
+
+DISPOSAL 5: 2022-03-29 - 0.447562 BTC to USDC
+Origin: This came from OLDER holdings (not same-day)
+This is the one that needs LIFO analysis.
+
+
+PART 6: LIFO ANALYSIS FOR THE 0.447562 BTC SOLD ON 2022-03-29
+=============================================================
+
+Available BTC lots before 2022-03-29 (after the same-day conversions):
+The balance was 1.75384 BTC, and we need 0.447562 BTC.
+
+Using LIFO (Last In, First Out), we take from the most recent acquisitions:
+
+LOT 1 (Most Recent): 2021-09-25 Convert In
+Amount Available: 0.00236 BTC
+Cost: $99.98
+Cost per BTC: $42,364.41
+USED: 0.00236 BTC @ $42,364.41 = $99.98 cost basis
+Proceeds portion: 0.00236/0.447562 * $21,021.18 = $110.89
+Gain/Loss: $110.89 - $99.98 = +$10.91 (GAIN)
+
+LOT 2: 2021-03-24 Receive
+Amount Available: 0.191 BTC
+Cost: $9,996.13
+Cost per BTC: $52,335.76
+USED: 0.191 BTC @ $52,335.76 = $9,996.13 cost basis
+Proceeds portion: 0.191/0.447562 * $21,021.18 = $8,970.49
+Gain/Loss: $8,970.49 - $9,996.13 = -$1,025.64 (LOSS)
+
+LOT 3: 2021-03-08 Receive
+Amount Available: 0.41325 BTC (but we only need 0.254202 more)
+Cost per BTC: $52,140.43 ($21,547.03 / 0.41325)
+USED: 0.254202 BTC @ $52,140.43 = $13,254.02 cost basis
+(0.254202 = 0.447562 - 0.00236 - 0.191)
+Proceeds portion: 0.254202/0.447562 * $21,021.18 = $11,939.80
+Gain/Loss: $11,939.80 - $13,254.02 = -$1,314.22 (LOSS)
+
+TOTAL FOR 0.447562 BTC DISPOSAL:
+Lots Used: 0.00236 + 0.191 + 0.254202 = 0.447562 BTC ✓
+Total Cost Basis: $99.98 + $9,996.13 + $13,254.02 = $23,350.13
+Total Proceeds: $21,021.18
+Net Gain/Loss: -$2,328.95 (LOSS)
+
+
+PART 7: SUMMARY OF ALL BTC GAINS/LOSSES FOR 2022
+================================================
+
+Disposal,Date,BTC,Proceeds,Cost Basis,Gain/Loss,Term
+1,2022-03-17,0.979424,$39,443.30,$40,200.00,-$756.70,Short-term
+2,2022-03-17,0.024364,$981.57,$1,000.01,-$18.44,Short-term
+3,2022-03-24,0.116382,$4,904.06,$4,996.00,-$91.94,Short-term
+4,2022-03-28,0.042086,$1,958.57,$1,999.99,-$41.42,Short-term
+5,2022-03-29,0.447562,$21,021.18,$23,350.13,-$2,328.95,Short-term
+------------------------------------------------------------------------
+TOTAL,1.609818,$68,308.68,$71,546.13,-$3,237.45,Short-term
+
+
+PART 8: VERIFICATION
+====================
+Total BTC Disposed: 0.979424 + 0.024364 + 0.116382 + 0.042086 + 0.447562 = 1.609818 ✓
+Total Proceeds: $39,443.30 + $981.57 + $4,904.06 + $1,958.57 + $21,021.18 = $68,308.68 ✓
+Total Cost Basis: $40,200.00 + $1,000.01 + $4,996.00 + $1,999.99 + $23,350.13 = $71,546.13
+Net Loss: $68,308.68 - $71,546.13 = -$3,237.45
+
+All short-term because:
+- Same-day conversions: held < 1 day
+- LIFO lots from 2021: held < 1 year when sold in March 2022

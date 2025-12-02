@@ -1,0 +1,120 @@
+COINBASE 2022 TAX SUMMARY (DETAILED)
+====================================
+Prepared for: Kurtis Braget
+Tax Year: 2022
+Account: kurtybot@gmail.com
+
+
+PART 1: CAPITAL GAINS/LOSSES (Form 8949)
+========================================
+
+ACQUISITIONS (Cost Basis)
+-------------------------
+Date Acquired,Asset,Amount,Cost Basis,Price per Unit,Source
+2022-03-28,BTC,0.042086,$1,999.99,$47,521.58,Convert In (same-day)
+2022-03-23,BTC,0.116382,$4,996.00,$42,928.97,Convert In (same-day)
+2022-03-16,BTC,0.024364,$1,000.01,$41,044.53,Convert In (same-day)
+2022-03-16,BTC,0.979424,$40,200.00,$41,044.53,Convert In (same-day)
+2021-09-25,BTC,0.00236,$99.98,$42,364.41,Convert In (LIFO lot 1)
+2021-03-24,BTC,0.191,$9,996.13,$52,335.76,Receive (LIFO lot 2)
+2021-03-08,BTC,0.254202,$13,254.02,$52,140.43,Receive (LIFO lot 3 - partial)
+2022-07-09,FLOW,73,884.69,$122,575.85,$1.659,Bonus from employer
+2022-12-06,FLOW,38,714.19,$42,798.94,$1.1055,Bonus from employer
+TOTAL,,,$236,920.92,,
+
+DISPOSALS (Proceeds)
+--------------------
+Date Sold,Asset,Amount,Proceeds,Price per Unit,Destination
+2022-03-17,BTC,0.979424,$39,443.30,$40,271.07,Converted to ETH
+2022-03-17,BTC,0.024364,$981.57,$40,287.94,Converted to ETH
+2022-03-24,BTC,0.116382,$4,904.06,$42,139.07,Converted to ETH
+2022-03-28,BTC,0.042086,$1,958.57,$46,536.06,Converted to APE
+2022-03-29,BTC,0.447562,$21,021.18,$46,972.02,Converted to USDC
+2022-07-11,FLOW,73,884.69,$115,297.68,$1.5865,Converted to USDC
+2022-12-09,FLOW,38,714.19,$38,998.39,$1.0315,Converted to USDC
+TOTAL,,,$222,604.75,,
+
+GAIN/LOSS SUMMARY
+-----------------
+Asset,Cost Basis,Proceeds,Gain/Loss,Term
+BTC,$71,546.13,$68,308.68,-$3,237.45,Short-term
+FLOW,$165,374.79,$154,296.07,-$11,078.72,Short-term
+TOTAL,$236,920.92,$222,604.75,-$14,316.17,Short-term
+
+METHODOLOGY NOTES:
+- BTC cost basis calculated using LIFO (Last In, First Out) method
+- Four BTC disposals were same-day conversions (acquired and sold within 24 hours)
+- One BTC disposal (0.447562 BTC on 2022-03-29) came from older holdings:
+  - 0.00236 BTC from 2021-09-25 @ $42,364/BTC
+  - 0.191 BTC from 2021-03-24 @ $52,336/BTC
+  - 0.254202 BTC from 2021-03-08 @ $52,140/BTC
+- FLOW cost basis = Fair Market Value at time of receipt (bonus income)
+
+
+PART 2: ORDINARY INCOME
+=======================
+
+USDC STAKING REWARDS (Coinbase Rewards Program)
+-----------------------------------------------
+Date,Amount (USDC),Amount (USD)
+2022-01-02,0.080217,$0.08
+2022-02-02,0.073432,$0.07
+2022-03-02,0.042672,$0.04
+2022-03-03,0.00357,$0.00
+2022-04-02,0.215268,$0.22
+2022-04-04,0.215267,$0.22
+2022-05-03,1.805671,$1.81
+2022-05-06,1.805501,$1.81
+2022-06-03,0.03952,$0.04
+2022-06-04,0.03952,$0.04
+2022-07-02,0.000454,$0.00
+2022-07-04,0.000454,$0.00
+2022-08-08,9.878602,$9.88
+2022-08-25,9.878603,$9.88
+2022-09-02,14.613382,$14.61
+2022-09-04,14.613381,$14.61
+2022-10-02,13.595198,$13.60
+2022-10-03,13.595196,$13.60
+2022-11-02,38.363185,$38.36
+2022-11-17,38.363183,$38.36
+2022-12-02,135.219899,$135.22
+2022-12-03,135.2199,$135.22
+SUBTOTAL USDC REWARDS,,$427.67
+
+FLOW BONUS INCOME (Employer Compensation)
+-----------------------------------------
+Date,Amount (FLOW),FMV per FLOW,Amount (USD),Notes
+2022-07-09,75,000,$1.659,$124,425.00,Bonus from NFT Genius (C-Corp)
+2022-12-06,37,912.7,$1.1055,$41,912.49,Christmas bonus from NFT Genius (C-Corp)
+SUBTOTAL FLOW BONUSES,,,$166,337.49,
+
+TOTAL ORDINARY INCOME: $166,765.16
+
+NOTES ON FLOW BONUSES:
+- Received as compensation from employer (NFT Genius)
+- Employer is no longer in business
+- No W-2 or 1099 documentation available from employer
+- FMV determined by Coinbase price at time of receipt
+- Original Coinbase transaction records available upon request
+
+
+PART 3: SUMMARY
+===============
+
+ORDINARY INCOME
+---------------
+USDC Staking Rewards: $427.67
+FLOW Bonus (July): $124,425.00
+FLOW Bonus (December): $41,912.49
+TOTAL ORDINARY INCOME: $166,765.16
+
+CAPITAL GAINS/LOSSES
+--------------------
+BTC Short-term Loss: -$3,237.45
+FLOW Short-term Loss: -$11,078.72
+TOTAL SHORT-TERM CAPITAL LOSS: -$14,316.17
+
+SUPPORTING DOCUMENTATION AVAILABLE:
+- Original Coinbase monthly statements (12 PDFs)
+- Full BTC transaction history 2018-2022
+- LIFO cost basis calculations

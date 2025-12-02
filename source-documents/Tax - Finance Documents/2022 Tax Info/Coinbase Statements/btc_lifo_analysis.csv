@@ -1,0 +1,126 @@
+BTC LIFO COST BASIS ANALYSIS (CORRECTED)
+=========================================
+
+STEP 1: Understanding the 2022 BTC Disposals
+---------------------------------------------
+From our source CSV, in 2022 you converted BTC to other crypto:
+- 2022-03-17: 0.979424 BTC -> ETH (proceeds: $39,443.30)
+- 2022-03-17: 0.024364 BTC -> ETH (proceeds: $981.57)
+- 2022-03-24: 0.116382 BTC -> ETH (proceeds: $4,904.06)
+- 2022-03-28: 0.042086 BTC -> APE (proceeds: $1,958.57)
+- 2022-03-29: 0.447562 BTC -> USDC (proceeds: $21,021.18)
+TOTAL DISPOSED: 1.609818 BTC for $68,308.68
+
+STEP 2: Matching with your transaction history
+-----------------------------------------------
+You mentioned Convert IN transactions in March 2022:
+- 2022-03-16: +0.979 BTC (cost: $40,200.00) - immediately converted out on 03-17
+- 2022-03-16: +0.0244 BTC (cost: $1,000.01) - immediately converted out on 03-17
+- 2022-03-23: +0.116 BTC (cost: $4,996.00) - immediately converted out on 03-24
+- 2022-03-28: +0.0421 BTC (cost: $1,999.99) - immediately converted out on 03-28
+
+These appear to be same-day or next-day conversions (in then out).
+This means the cost basis ≈ proceeds for these portions.
+
+STEP 3: Identifying older BTC that was sold
+--------------------------------------------
+Total BTC disposed in 2022: 1.609818 BTC
+BTC acquired in March 2022: 1.1615 BTC (0.979 + 0.0244 + 0.116 + 0.0421)
+Older BTC that must have been sold: 0.448318 BTC
+
+This 0.448318 BTC came from your pre-2022 holdings.
+
+STEP 4: Pre-2022 BTC Holdings (for LIFO)
+-----------------------------------------
+Working backwards from your transaction history:
+
+Date,Type,BTC,USD_Value,Cost_per_BTC,Notes
+2021-09-25,Convert In,0.00236,99.98,42364.41,Most recent acquisition
+2021-03-24,Receive,0.191,9996.13,52335.76,
+2021-03-08,Receive,0.41325,21547.03,52140.43,CORRECTED per Coinbase screenshot
+2021-02-07,Receive,0.263,10147.39,38583.38,
+2020-08-15,Convert In,0.0816,971.38,11904.17,
+2020-02-12,Convert In,0.61529,6433.00,10455.28,
+2020-01-16,Convert In,0.0443,384.00,8668.17,
+2019-11-21,Convert In,0.49972,3963.00,7930.67,
+2019-02-11,Buy,0.144,525.00,3645.83,
+2019-01-02,Buy,0.516,2000.00,3875.97,Earliest significant purchase
+
+STEP 5: Calculate BTC Balance Entering 2022
+---------------------------------------------
+All acquisitions (buys, receives, converts in):
+2018-11-21: +0.011
+2018-12-08: +0.00293
+2019-01-02: +0.516
+2019-02-11: +0.144
+2019-11-21: +0.49972
+2020-01-16: +0.0443
+2020-02-12: +0.61529
+2020-04-09: +0.00137
+2020-08-15: +0.0816
+2021-02-07: +0.263
+2021-03-08: +0.41325 (CORRECTED)
+2021-03-24: +0.191
+2021-09-25: +0.00236
+SUBTOTAL ACQUIRED: 2.78552 BTC
+
+All disposals (sells, sends) before 2022:
+2019-01-02: -0.263
+2019-05-11: -0.271
+2020-04-15: -0.015
+2020-04-15: -0.00688
+2020-06-23: -0.00157
+2021-02-12: -0.308
+2021-02-14: -0.00621
+2021-02-16: -0.00204
+2021-03-30: -0.001173
+2021-03-30: -0.00854
+2021-04-19: -0.0054
+2021-06-05: -0.00277
+SUBTOTAL DISPOSED PRE-2022: -0.89137 BTC
+
+Disposals in Jan-Feb 2022 (sends, not the March conversions):
+2022-01-28: -0.0264
+2022-02-08: -0.114
+SUBTOTAL DISPOSED JAN-FEB 2022: -0.1404 BTC
+
+BALANCE BEFORE MARCH 2022 CONVERSIONS: 2.78552 - 0.89137 - 0.1404 = 1.75375 BTC
+
+STEP 6: LIFO Analysis for the 0.448318 BTC from old holdings
+--------------------------------------------------------------
+Using LIFO, the 0.448318 BTC of older stock sold came from (most recent first):
+
+Lot 1: 2021-09-25, 0.00236 BTC @ $42,364.41/BTC = $99.98 cost basis
+Lot 2: 2021-03-24, 0.191 BTC @ $52,335.76/BTC = $9,996.13 cost basis
+Lot 3: 2021-03-08, 0.254958 BTC @ $52,140.43/BTC = $13,293.93 cost basis (CORRECTED)
+(0.254958 = 0.448318 - 0.00236 - 0.191)
+
+TOTAL OLD BTC COST BASIS: $99.98 + $9,996.13 + $13,293.93 = $23,390.04
+
+STEP 7: Total Cost Basis Calculation
+-------------------------------------
+March 2022 same-day conversions (cost ≈ what you paid to convert in):
+- 0.979 BTC: $40,200.00
+- 0.0244 BTC: $1,000.01
+- 0.116 BTC: $4,996.00
+- 0.0421 BTC: $1,999.99
+Subtotal new BTC: $48,196.00
+
+Old BTC (LIFO from pre-2022):
+- 0.448318 BTC: $23,390.04
+
+TOTAL COST BASIS: $48,196.00 + $23,390.04 = $71,586.04
+
+STEP 8: Gain/Loss Calculation
+------------------------------
+Total Proceeds: $68,308.68
+Total Cost Basis: $71,586.04
+------------------------
+LOSS: -$3,277.36
+
+This is a SHORT-TERM LOSS because:
+- The March 2022 conversions were same-day (short-term)
+- The 2021 lots were held less than 1 year when sold in March 2022
+
+CORRECTION NOTE: March 8, 2021 receive was verified via Coinbase screenshot:
+0.41325 BTC at $21,547.03 (price: $52,140.43/BTC)

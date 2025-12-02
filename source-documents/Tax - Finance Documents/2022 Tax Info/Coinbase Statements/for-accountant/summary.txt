@@ -1,0 +1,23 @@
+COINBASE 2022 TAX SUMMARY
+=========================
+Taxpayer: Kurtis Braget
+Tax Year: 2022
+
+ORDINARY INCOME
+---------------
+USDC Staking Rewards:     $427.67
+FLOW Bonus (July):        $124,425.00
+FLOW Bonus (December):    $41,912.49
+---------------------------------
+TOTAL ORDINARY INCOME:    $166,765.16
+
+CAPITAL GAINS/LOSSES (Form 8949)
+--------------------------------
+Net Short-term Loss:      -$14,316.17
+
+NOTES
+-----
+- FLOW bonuses were received as compensation from employer (NFT Genius, C-Corp)
+- Employer is no longer in business; no W-2/1099 documentation available
+- BTC cost basis calculated using LIFO method
+- Original Coinbase transaction records available upon request

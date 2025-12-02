@@ -1,0 +1,43 @@
+Description,Date_Acquired,Date_Sold,Proceeds,Cost_Basis,Gain_Loss,Term,Notes
+0.979424 BTC converted to ETH,2022-03-16,2022-03-17,39443.30,40200.00,-756.70,Short-term,Same-day conversion - cost basis from convert in
+0.024364 BTC converted to ETH,2022-03-16,2022-03-17,981.57,1000.01,-18.44,Short-term,Same-day conversion - cost basis from convert in
+0.116382 BTC converted to ETH,2022-03-23,2022-03-24,4904.06,4996.00,-91.94,Short-term,Same-day conversion - cost basis from convert in
+0.042086 BTC converted to APE,2022-03-28,2022-03-28,1958.57,1999.99,-41.42,Short-term,Same-day conversion - cost basis from convert in
+0.447562 BTC converted to USDC (LIFO lot 1),2021-09-25,2022-03-29,496.47,99.98,396.49,Short-term,0.00236 BTC from Sept 2021 convert @ $42364/BTC
+0.447562 BTC converted to USDC (LIFO lot 2),2021-03-24,2022-03-29,8975.02,9996.13,-1021.11,Short-term,0.191 BTC from Mar 24 2021 receive @ $52336/BTC
+0.447562 BTC converted to USDC (LIFO lot 3),2021-03-08,2022-03-29,11549.69,13293.93,-1744.24,Short-term,0.254958 BTC from Mar 8 2021 receive @ $52140/BTC
+3000 USDC converted to ETH,Various,2022-04-05,2941.29,3000.00,-58.71,Short-term,Loss from conversion fees/spread
+3000 USDC converted to ETH,Various,2022-05-01,2938.71,3000.00,-61.29,Short-term,Loss from conversion fees/spread
+10094.59 USDC converted to ETH,Various,2022-05-01,9944.60,10094.59,-149.99,Short-term,Loss from conversion fees/spread
+73884.69 FLOW converted to USDC,2022-07-09,2022-07-11,115297.68,122575.85,-7278.17,Short-term,Cost basis = FLOW received as bonus @ $1.659/FLOW
+5000 USDC converted to ETH,Various,2022-08-28,4891.47,5000.00,-108.53,Short-term,Loss from conversion fees/spread
+38714.19 FLOW converted to USDC,2022-12-06,2022-12-09,38998.39,42798.94,-3800.55,Short-term,Cost basis = FLOW received as bonus @ $1.1055/FLOW
+
+SUMMARY - ALL GAINS/LOSSES
+----------------------------
+Category,Amount
+BTC Same-Day Conversion Losses,-908.50
+BTC Older Holdings (LIFO),-2368.86
+USDC Conversion Losses,-378.52
+FLOW Short-term Losses,-11078.72
+----------------------------
+TOTAL SHORT-TERM LOSSES,-14734.60
+
+FORM 8949 SUMMARY
+-----------------
+All transactions are SHORT-TERM (held less than 1 year)
+Total Proceeds: $241,420.82
+Total Cost Basis: $256,155.42
+Net Short-Term Capital Loss: -$14,734.60
+
+LIFO METHODOLOGY NOTES
+----------------------
+BTC cost basis calculated using Last-In-First-Out method:
+- March 2022 same-day conversions: cost = what was paid to convert in
+- Older BTC (0.448318 BTC) matched to most recent acquisitions:
+  - Lot 1: 0.00236 BTC from 2021-09-25 @ $42,364.41/BTC
+  - Lot 2: 0.191 BTC from 2021-03-24 @ $52,335.76/BTC
+  - Lot 3: 0.254958 BTC from 2021-03-08 @ $52,140.43/BTC (verified via Coinbase screenshot)
+
+FLOW cost basis = FMV at receipt (bonus income from employer)
+USDC cost basis = $1.00 per USDC (stablecoin)
