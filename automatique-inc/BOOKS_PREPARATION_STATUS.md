@@ -36,11 +36,11 @@ Prepare clean, simple financial summary for accountant Brandon to:
 ### 2024 (Full Year)
 | Category | Amount | Notes |
 |----------|--------|-------|
-| Revenue (BlendFi) | $14,600 | Software dev services (Feb + Apr) |
-| Revenue (Maxima) | $0 | Deposit received then refunded |
+| Revenue (KOOP CO.) | $12,100 | Software dev ($9,600 + $2,500 on Apr 8) |
+| Revenue (Studio Maxima) | $0 | $2,500 deposit (Feb 22) then refunded (May 10) |
 | Capital Contribution | $20,000 | Rami wire Jun 14 (NOT revenue) |
 | Expenses (Mercury) | -$15,857.41 | Contractors, SaaS, fees |
-| **Net Operating** | **-$1,257.41** | Loss before personal expenses |
+| **Net Operating** | **-$3,757.41** | Loss before personal expenses |
 
 **Key 2024 Expenses (from Mercury):**
 | Vendor | Amount | Category |
