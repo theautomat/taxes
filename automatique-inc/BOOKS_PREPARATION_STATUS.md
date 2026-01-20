@@ -5,7 +5,7 @@
 Prepare clean, simple financial summary for accountant Brandon to:
 1. See income, expenses, profit/loss at a glance (2023, 2024, 2025)
 2. Advise on C-Corp vs S-Corp election
-3. Determine optimal payment structure (Beau, Rami)
+3. Determine optimal payment structure (Kurt, Rami)
 4. File taxes correctly
 
 ---
@@ -16,9 +16,9 @@ Prepare clean, simple financial summary for accountant Brandon to:
 |--------|-------------|--------|--------|
 | **Mercury Bank** | Company checking account | ✅ DONE | `mercury-checking-2024.csv`, `mercury-checking-2025.csv` |
 | **Stripe Atlas** | Incorporation docs, EIN | ✅ DONE | `COMPANY_PROFILE.md` |
-| **Wells Fargo** | Personal expenses for business | ⏳ WAITING | Need statements from Beau |
+| **Wells Fargo** | Personal expenses for business | ⏳ WAITING | Need statements from Kurt |
 | **Privacy.com** | Virtual cards for subscriptions | ⏳ WAITING | Need 2024-2025 statements |
-| **Other receipts** | Any business expenses paid elsewhere | ⏳ WAITING | Need from Beau |
+| **Other receipts** | Any business expenses paid elsewhere | ⏳ WAITING | Need from Kurt |
 
 ---
 
@@ -71,13 +71,13 @@ Prepare clean, simple financial summary for accountant Brandon to:
 ## What's Missing
 
 ### 1. Personal Expenses Paid for Business (Wells Fargo / Privacy.com)
-These are business expenses Beau paid personally that should be tracked:
+These are business expenses Kurt paid personally that should be tracked:
 - Software subscriptions
 - Domain registrations
 - Hosting services
 - Any other business tools
 
-**Action:** Beau to provide Wells Fargo and Privacy.com statements
+**Action:** Kurt to provide Wells Fargo and Privacy.com statements
 
 ### 2. Categorization Verification
 Clarified transactions:
@@ -125,13 +125,13 @@ CAPITAL
   Rami contribution  $0       $20,000         $0
 
 POTENTIAL PAYMENTS
-  Beau (owner)       TBD         TBD          TBD
+  Kurt (owner)       TBD         TBD          TBD
   Rami (partner)     TBD         TBD          TBD
 
 QUESTIONS FOR ACCOUNTANT
 1. Should we elect S-Corp retroactively?
 2. How to handle Rami's $20k (equity vs loan vs contribution)?
-3. Optimal payment structure for Beau and Rami?
+3. Optimal payment structure for Kurt and Rami?
 4. Any penalties for late filing 2023/2024?
 5. George 1099 - required for international contractor?
 ```
@@ -141,8 +141,8 @@ QUESTIONS FOR ACCOUNTANT
 ## Next Steps
 
 ### Immediate
-1. [ ] Beau provides Wells Fargo 2023-2024 statements
-2. [ ] Beau provides Privacy.com 2024-2025 CSV exports
+1. [ ] Kurt provides Wells Fargo 2023-2024 statements
+2. [ ] Kurt provides Privacy.com 2024-2025 CSV exports
 3. [ ] Clarify PARO MARKETPLACE and Maxima transactions
 
 ### After Data Received
@@ -153,14 +153,14 @@ QUESTIONS FOR ACCOUNTANT
 ### Final Preparation
 7. [ ] Create clean summary for accountant
 8. [ ] Model C-Corp vs S-Corp scenarios
-9. [ ] Model payment scenarios (Beau + Rami at different amounts)
+9. [ ] Model payment scenarios (Kurt + Rami at different amounts)
 10. [ ] Send to Brandon for review
 
 ---
 
 ## Questions to Answer Before Accountant Meeting
 
-**For Beau:**
+**For Kurt:**
 - How much do you want to pay yourself? (affects tax bracket)
 - Any other income in 2024 from other sources?
 - Are there expenses from 2023 we should capture?

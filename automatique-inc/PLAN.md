@@ -46,7 +46,7 @@
 - [ ] **Calculate both scenarios** - Once we have income/expense numbers, model tax liability both ways
 
 ### Payments to Founders/Contractors
-- [ ] **How to pay Beau and Rami** - W-2 wages vs distributions vs combination
+- [ ] **How to pay Kurt and Rami** - W-2 wages vs distributions vs combination
 - [ ] **Contractor payments** - Need 1099s for any payments over $600
 - [ ] **Backpay considerations** - How to handle payments owed from prior periods
 
@@ -74,7 +74,7 @@
 
 **Note:** Privacy.com transactions will also appear in Wells Fargo when they post. We'll use the same deduplication strategy from 2022 (Privacy.com record preferred, match within 5-day window by amount).
 
-### From Personal Records (Beau)
+### From Personal Records (Kurt)
 - [ ] Wells Fargo transactions related to Automatique expenses
 - [ ] Any contractor payment records
 - [ ] Outgoing wires for business expenses
@@ -137,7 +137,7 @@ Corporate Level:
   After-Tax Profit: $___
 
 Personal Level (if distributed as dividends):
-  Qualified Dividends to Beau: $___
+  Qualified Dividends to Kurt: $___
   Qualified Dividends to Rami: $___
   Tax on Dividends (~20% federal + 13.3% CA): $___
 
@@ -148,16 +148,16 @@ Total Tax Burden: $___
 ```
 Pass-Through Income:
   Net Profit: $___
-  Beau's Share (___%): $___
+  Kurt's Share (___%): $___
   Rami's Share (___%): $___
 
 Reasonable Salary Requirement:
-  Beau's W-2 Wages: $___
+  Kurt's W-2 Wages: $___
   Rami's W-2 Wages: $___
   Payroll Taxes on Wages: $___
 
 Remaining Distributions (no payroll tax):
-  Beau's Distributions: $___
+  Kurt's Distributions: $___
   Rami's Distributions: $___
 
 Personal Tax on Pass-Through:
@@ -171,7 +171,7 @@ Total Tax Burden: $___
 | Metric | C-Corp | S-Corp | Difference |
 |--------|--------|--------|------------|
 | Total Tax | $__ | $__ | $__ |
-| Cash to Beau | $__ | $__ | $__ |
+| Cash to Kurt | $__ | $__ | $__ |
 | Cash to Rami | $__ | $__ | $__ |
 
 ---
