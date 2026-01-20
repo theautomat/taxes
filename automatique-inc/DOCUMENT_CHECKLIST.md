@@ -39,24 +39,36 @@
 
 ---
 
-### From Mercury (https://mercury.com)
+### From Mercury (https://mercury.com) - PROCESSED
+
+**Status:** Mercury checking account statements (Feb 2024 - Jan 2025) extracted to CSV.
+**Output:** `generated-files/extracted/mercury-checking-2024.csv` and `mercury-checking-2025.csv`
 
 **Bank Statements:**
-- [ ] 2024 monthly statements (Jan-Dec) - PDF or download all at once
-- [ ] 2025 monthly statements (Jan only so far)
+- [x] 2024 monthly statements (Feb-Dec) - **Extracted 42 transactions**
+- [x] 2025 monthly statements (Jan only) - **Extracted 9 transactions**
+- Note: Checking account #7968 only - Savings #2599 and Choice Sweep had no activity
 
-**Transaction Export (MOST IMPORTANT):**
-- [ ] 2024 full year CSV export (all transactions)
-- [ ] 2025 YTD CSV export
-- How to export: Dashboard → Transactions → Export → CSV
+**Financial Summary (2024):**
+- Total deposits: **$34,600** ($14,600 client revenue + $20,000 Rami capital contribution)
+- Total withdrawals: **$15,857.41** (contractor payments + SaaS subscriptions)
+- Ending balance: **$18,742.59**
+
+**Key Transactions Found:**
+- Feb 22, 2024: $2,500 Auto Routing (client payment)
+- Apr 8, 2024: $12,100 Auto Routing ($2,500 + $9,600 client payments)
+- **Jun 14, 2024: $20,000 wire from RAMI A ELHAJ (capital contribution)**
+- May-Jun 2024: ~$10,600 payments to "George" (international contractor)
+- Jul 9, 2024: $3,449.60 PARO MARKETPLACE
+- Sep-Dec 2024: Software subscriptions (Bitrise, OpenAI, Heroku, Notion, etc.)
 
 **Tax Documents:**
 - [ ] Any 1099s from Mercury (1099-INT for interest income)
 - [ ] Year-end tax statement if available
 
 **Account Info:**
-- [ ] Account number and routing number (for records)
-- [ ] Any connected accounts or cards
+- [x] Account number: 202308267968 (Checking)
+- [x] Routing number: 091311229
 
 ---
 

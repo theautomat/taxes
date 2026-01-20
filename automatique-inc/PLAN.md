@@ -92,26 +92,37 @@
 ### Income (2024 + 2025)
 | Source | 2024 | 2025 | Notes |
 |--------|------|------|-------|
-| Client payments | TBD | TBD | From Mercury statements |
-| Other revenue | TBD | TBD | |
-| **Total Income** | | | |
+| Client payments (Auto Routing) | $14,600 | $0 | Feb $2,500 + Apr $12,100 |
+| Capital contribution (Rami wire) | $20,000 | $0 | Jun 14, 2024 - NOT REVENUE |
+| **Total Revenue** | **$14,600** | **$0** | Excludes Rami's capital |
 
 ### Expenses (2024 + 2025)
 | Category | 2024 | 2025 | Notes |
 |----------|------|------|-------|
-| Software/SaaS | TBD | TBD | Subscriptions |
-| Hosting/Infrastructure | TBD | TBD | |
-| Contractor payments | TBD | TBD | Need 1099s |
-| Professional services | TBD | TBD | Legal, accounting |
-| Banking fees | TBD | TBD | Mercury fees |
-| Expenses paid by Beau personally | TBD | TBD | From Wells Fargo |
-| **Total Expenses** | | | |
+| George (contractor) | $10,601.06 | $0 | International wire payments |
+| Exchange fees | $80.90 | $0 | Wire transfer fees |
+| Maxima | $2,500.00 | $0 | ACH payment (unknown) |
+| PARO MARKETPLACE | $3,449.60 | $0 | ACH pull (unknown) |
+| Bitrise Limited | $840.00 | $210.00 | CI/CD service |
+| OpenAI | $360.00 | $200.00 | AI API |
+| Heroku | $259.60 | $118.48 | Hosting |
+| Notion | $242.00 | $44.00 | Productivity |
+| Google Workspace | $72.00 | $24.00 | Email/docs |
+| Google Cloud | $2.13 | $0.54 | Cloud services |
+| Slack | $12.41 | $42.29 | Communication |
+| Whimsical | $0 | $12.00 | Design tool |
+| **Total Expenses** | **$15,857.41** | **$651.31** | |
 
-### Net Profit
-| Year | Income | Expenses | Net Profit |
-|------|--------|----------|------------|
-| 2024 | TBD | TBD | TBD |
-| 2025 | TBD | TBD | TBD |
+### Net Profit (UPDATED)
+| Year | Revenue | Expenses | Net Profit | Notes |
+|------|---------|----------|------------|-------|
+| 2024 | $14,600 | $15,857.41 | **-$1,257.41** | Operating loss |
+| 2025 (Jan) | $0 | $651.31 | -$651.31 | YTD |
+
+**Important Notes:**
+- Rami's $20,000 wire is capital contribution, not revenue
+- George contractor payments (~$10,600) may require 1099 filing
+- Operating at a loss in 2024 despite appearances (Rami's capital masked it)
 
 ---
 
