@@ -36,7 +36,8 @@ Prepare clean, simple financial summary for accountant Brandon to:
 ### 2024 (Full Year)
 | Category | Amount | Notes |
 |----------|--------|-------|
-| Revenue (Client) | $14,600 | Auto Routing payments (Feb + Apr) |
+| Revenue (BlendFi) | $14,600 | Software dev services (Feb + Apr) |
+| Revenue (Maxima) | $0 | Deposit received then refunded |
 | Capital Contribution | $20,000 | Rami wire Jun 14 (NOT revenue) |
 | Expenses (Mercury) | -$15,857.41 | Contractors, SaaS, fees |
 | **Net Operating** | **-$1,257.41** | Loss before personal expenses |
@@ -44,9 +45,9 @@ Prepare clean, simple financial summary for accountant Brandon to:
 **Key 2024 Expenses (from Mercury):**
 | Vendor | Amount | Category |
 |--------|--------|----------|
-| George (contractor) | $10,601.06 | Contractor - may need 1099 |
-| PARO MARKETPLACE | $3,449.60 | Unknown - need to clarify |
-| Maxima | $2,500.00 | Unknown - need to clarify |
+| George (contractor) | $10,601.06 | Contractor - international, may need 1099 |
+| PARO MARKETPLACE | $3,449.60 | **Accounting firm** (bad experience, couldn't cancel) |
+| Maxima | $2,500.00 | **Client refund** (difficult client, we refunded deposit) |
 | Bitrise Limited | $840.00 | CI/CD Software |
 | OpenAI | $360.00 | AI API |
 | Heroku | $259.60 | Hosting |
@@ -55,6 +56,8 @@ Prepare clean, simple financial summary for accountant Brandon to:
 | Google Workspace | $72.00 | Email/Docs |
 | Slack | $12.41 | Communication |
 | Google Cloud | $2.13 | Cloud |
+
+**Note on Maxima:** The -$2,500 expense was a refund of a deposit they paid. If the original deposit came in before Feb 2024 or via different account, we need to find it. Net revenue from Maxima = $0.
 
 ### 2025 (YTD - January only)
 | Category | Amount | Notes |
@@ -77,10 +80,10 @@ These are business expenses Beau paid personally that should be tracked:
 **Action:** Beau to provide Wells Fargo and Privacy.com statements
 
 ### 2. Categorization Verification
-Some Mercury transactions need clarification:
-- [ ] **PARO MARKETPLACE** ($3,449.60) - What is this?
-- [ ] **Maxima** ($2,500.00) - What is this?
-- [ ] **Auto Routing** ($14,600) - Which client(s)? Is this Bloom or other?
+Clarified transactions:
+- [x] **PARO MARKETPLACE** ($3,449.60) - Accounting firm (bad experience, couldn't stop payment). Category: Professional Services - Accounting
+- [x] **Maxima** ($2,500.00) - REFUND to client. They paid deposit for dev work, we refunded because difficult client. NET REVENUE FROM MAXIMA = $0
+- [x] **Auto Routing** ($14,600) - Payments from **BlendFi** (1/BLENDFI INC) for software development services
 
 ### 3. George Contractor Info (for 1099)
 - [ ] Full legal name
