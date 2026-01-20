@@ -1,0 +1,278 @@
+Date,Description,Type,Amount,Balance,Source,Notes
+2025-01-02,Google Workspace,Card,-24.00,,automatique-inc-7968-monthly-statement-2025-01.pdf,Business email/docs
+2025-01-02,Google Cloud,Card,-0.54,18718.05,automatique-inc-7968-monthly-statement-2025-01.pdf,Cloud services
+2025-01-03,Slack,Card,-24.79,18693.26,automatique-inc-7968-monthly-statement-2025-01.pdf,Team communication
+2025-01-09,OpenAI,Card,-200.00,18493.26,automatique-inc-7968-monthly-statement-2025-01.pdf,AI subscription
+2025-01-10,Bitrise Limited,Card,-210.00,18283.26,automatique-inc-7968-monthly-statement-2025-01.pdf,CI/CD platform
+2025-01-13,Notion,Card,-44.00,18239.26,automatique-inc-7968-monthly-statement-2025-01.pdf,Productivity software
+2025-01-19,Slack,Card,-17.50,18221.76,automatique-inc-7968-monthly-statement-2025-01.pdf,Team communication
+2025-01-25,Heroku,Card,-118.48,18103.28,automatique-inc-7968-monthly-statement-2025-01.pdf,Cloud hosting
+2025-01-27,Whimsical,Card,-12.00,18091.28,automatique-inc-7968-monthly-statement-2025-01.pdf,Design tool
+2025-02-02,Google Workspace,Card,-24.00,,automatique-inc-7968-monthly-statement-2025-02.pdf,Business email/docs
+2025-02-02,Google Cloud,Card,-0.54,18066.74,automatique-inc-7968-monthly-statement-2025-02.pdf,Cloud services
+2025-02-04,Cursor,Card,-20.00,18046.74,automatique-inc-7968-monthly-statement-2025-02.pdf,AI code editor
+2025-02-06,Lemon Squeezy,Card,-29.00,18017.74,automatique-inc-7968-monthly-statement-2025-02.pdf,Payment platform
+2025-02-09,Meshy,Card,-20.00,17997.74,automatique-inc-7968-monthly-statement-2025-02.pdf,AI 3D tool
+2025-02-10,Bitrise Limited,Card,-210.00,17787.74,automatique-inc-7968-monthly-statement-2025-02.pdf,CI/CD platform
+2025-02-11,Heroku,Card,-111.75,17675.99,automatique-inc-7968-monthly-statement-2025-02.pdf,Cloud hosting
+2025-02-13,Notion,Card,-44.00,17631.99,automatique-inc-7968-monthly-statement-2025-02.pdf,Productivity software
+2025-02-16,Slack,Card,-26.81,,automatique-inc-7968-monthly-statement-2025-02.pdf,Team communication
+2025-02-16,OpenAI,Card,-200.00,17405.18,automatique-inc-7968-monthly-statement-2025-02.pdf,AI subscription
+2025-02-21,Cursor,Card,-20.00,17385.18,automatique-inc-7968-monthly-statement-2025-02.pdf,AI code editor
+2025-02-22,Twitter,Card,-40.00,17345.18,automatique-inc-7968-monthly-statement-2025-02.pdf,Social media/ads
+2025-02-25,Anthropic,Card,-20.00,17325.18,automatique-inc-7968-monthly-statement-2025-02.pdf,AI subscription
+2025-02-26,Cursor,Card,-20.00,17305.18,automatique-inc-7968-monthly-statement-2025-02.pdf,AI code editor
+2025-02-27,Anthropic,Card,-100.00,,automatique-inc-7968-monthly-statement-2025-02.pdf,AI subscription
+2025-02-27,Whimsical,Card,-12.00,,automatique-inc-7968-monthly-statement-2025-02.pdf,Design tool
+2025-02-27,Auto Routing,Payment Request,10000.00,27193.18,automatique-inc-7968-monthly-statement-2025-02.pdf,Client revenue
+2025-02-28,Anthropic,Card,-100.00,,automatique-inc-7968-monthly-statement-2025-02.pdf,AI subscription
+2025-02-28,OpenRouter,Card,-25.00,27068.18,automatique-inc-7968-monthly-statement-2025-02.pdf,AI routing service
+2025-03-02,GoDaddy,Card,-151.99,,automatique-inc-7968-monthly-statement-2025-03.pdf,Domain registration
+2025-03-02,Google Cloud,Card,-0.50,,automatique-inc-7968-monthly-statement-2025-03.pdf,Cloud services
+2025-03-02,Google Workspace,Card,-24.00,26891.69,automatique-inc-7968-monthly-statement-2025-03.pdf,Business email/docs
+2025-03-04,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-03.pdf,AI code editor
+2025-03-04,Midjourney,Card,-30.00,,automatique-inc-7968-monthly-statement-2025-03.pdf,AI image generation
+2025-03-04,Cursor,Card,-4.84,,automatique-inc-7968-monthly-statement-2025-03.pdf,AI code editor
+2025-03-04,Auto Routing,Payment Request,5000.00,,automatique-inc-7968-monthly-statement-2025-03.pdf,Client revenue
+2025-03-04,Runway,Card,-15.00,31821.85,automatique-inc-7968-monthly-statement-2025-03.pdf,AI video tool
+2025-03-07,GUSTO,ACH In,0.01,31821.86,automatique-inc-7968-monthly-statement-2025-03.pdf,Payroll verification
+2025-03-09,Anthropic,Card,-250.00,31571.86,automatique-inc-7968-monthly-statement-2025-03.pdf,AI subscription
+2025-03-10,Bitrise Limited,Card,-210.00,31361.86,automatique-inc-7968-monthly-statement-2025-03.pdf,CI/CD platform
+2025-03-11,Heroku,Card,-91.00,31270.86,automatique-inc-7968-monthly-statement-2025-03.pdf,Cloud hosting
+2025-03-13,Notion,Card,-44.00,,automatique-inc-7968-monthly-statement-2025-03.pdf,Productivity software
+2025-03-13,GitHub,Card,-4.00,,automatique-inc-7968-monthly-statement-2025-03.pdf,Code hosting
+2025-03-13,GitHub,Card,-20.00,31202.86,automatique-inc-7968-monthly-statement-2025-03.pdf,Code hosting
+2025-03-14,Auto Routing,Payment Request,7000.00,38202.86,automatique-inc-7968-monthly-statement-2025-03.pdf,Client revenue
+2025-03-15,Slack,Card,-12.81,38190.05,automatique-inc-7968-monthly-statement-2025-03.pdf,Team communication
+2025-03-16,OpenAI,Card,-200.00,37990.05,automatique-inc-7968-monthly-statement-2025-03.pdf,AI subscription
+2025-03-17,Framer,Card,-40.00,37950.05,automatique-inc-7968-monthly-statement-2025-03.pdf,Design tool
+2025-03-19,Anthropic,Card,-250.00,37700.05,automatique-inc-7968-monthly-statement-2025-03.pdf,AI subscription
+2025-03-21,GoDaddy,Card,-15.51,37684.54,automatique-inc-7968-monthly-statement-2025-03.pdf,Domain registration
+2025-03-22,Twitter,Card,-40.00,37644.54,automatique-inc-7968-monthly-statement-2025-03.pdf,Social media/ads
+2025-03-25,ElevenLabs,Card,-11.00,37633.54,automatique-inc-7968-monthly-statement-2025-03.pdf,AI voice synthesis
+2025-03-27,Whimsical,Card,-12.00,37621.54,automatique-inc-7968-monthly-statement-2025-03.pdf,Design tool
+2025-03-28,Codeium,Card,-15.00,37606.54,automatique-inc-7968-monthly-statement-2025-03.pdf,AI code completion
+2025-03-29,Cursor,Card,-20.04,37586.50,automatique-inc-7968-monthly-statement-2025-03.pdf,AI code editor
+2025-03-30,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-03.pdf,AI code editor
+2025-03-30,Suno,Card,-10.00,37556.50,automatique-inc-7968-monthly-statement-2025-03.pdf,AI music generation
+2025-03-31,Wispr,Card,-15.00,37541.50,automatique-inc-7968-monthly-statement-2025-03.pdf,AI voice tool
+2025-04-02,Google Workspace,Card,-27.35,,automatique-inc-7968-monthly-statement-2025-04.pdf,Business email/docs
+2025-04-02,Google Cloud,Card,-0.54,37513.61,automatique-inc-7968-monthly-statement-2025-04.pdf,Cloud services
+2025-04-03,Cursor,Card,-20.00,37493.61,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-04,Cursor,Card,-20.00,37473.61,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-05,OpenAI,Card,-20.00,37453.61,automatique-inc-7968-monthly-statement-2025-04.pdf,AI subscription
+2025-04-06,Cursor,Card,-6.00,37447.61,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-08,Heroku,Card,-2.44,,automatique-inc-7968-monthly-statement-2025-04.pdf,Cloud hosting
+2025-04-08,Heroku,Card,-91.00,,automatique-inc-7968-monthly-statement-2025-04.pdf,Cloud hosting
+2025-04-08,Heroku,Card,-10.56,,automatique-inc-7968-monthly-statement-2025-04.pdf,Cloud hosting
+2025-04-08,LastPass,Card,-36.00,37307.61,automatique-inc-7968-monthly-statement-2025-04.pdf,Password manager
+2025-04-09,GitHub,Card,-0.65,37306.96,automatique-inc-7968-monthly-statement-2025-04.pdf,Code hosting
+2025-04-10,Bitrise Limited,Card,-210.00,37096.96,automatique-inc-7968-monthly-statement-2025-04.pdf,CI/CD platform
+2025-04-11,Cursor,Card,-20.00,37076.96,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-13,Notion,Card,-44.00,37032.96,automatique-inc-7968-monthly-statement-2025-04.pdf,Productivity software
+2025-04-14,GitHub,Card,-4.00,,automatique-inc-7968-monthly-statement-2025-04.pdf,Code hosting
+2025-04-14,GitHub,Card,-24.00,37004.96,automatique-inc-7968-monthly-statement-2025-04.pdf,Code hosting
+2025-04-15,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-15,Slack,Card,-17.50,36967.46,automatique-inc-7968-monthly-statement-2025-04.pdf,Team communication
+2025-04-16,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-16,OpenAI,Card,-200.00,36747.46,automatique-inc-7968-monthly-statement-2025-04.pdf,AI subscription
+2025-04-17,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-17,Auto Routing,Payment Request,8000.00,44727.46,automatique-inc-7968-monthly-statement-2025-04.pdf,Client revenue
+2025-04-18,Cursor,Card,-20.00,44707.46,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-21,Midjourney,Card,-10.00,44697.46,automatique-inc-7968-monthly-statement-2025-04.pdf,AI image generation
+2025-04-22,Twitter,Card,-40.00,,automatique-inc-7968-monthly-statement-2025-04.pdf,Social media/ads
+2025-04-22,Cursor,Card,-20.00,44637.46,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-27,GoDaddy,Card,-49.99,44587.47,automatique-inc-7968-monthly-statement-2025-04.pdf,Domain registration
+2025-04-28,Codeium,Card,-15.00,44572.47,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code completion
+2025-04-29,Cursor,Card,-20.00,44552.47,automatique-inc-7968-monthly-statement-2025-04.pdf,AI code editor
+2025-04-30,Suno,Card,-10.00,44542.47,automatique-inc-7968-monthly-statement-2025-04.pdf,AI music generation
+2025-05-01,Wispr,Card,-15.00,44527.47,automatique-inc-7968-monthly-statement-2025-05.pdf,AI voice tool
+2025-05-02,Google Workspace,Card,-38.88,44488.59,automatique-inc-7968-monthly-statement-2025-05.pdf,Business email/docs
+2025-05-05,Adobe,Card,-22.99,44465.60,automatique-inc-7968-monthly-statement-2025-05.pdf,Creative software
+2025-05-06,Framer,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Design tool
+2025-05-06,Framer,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Design tool
+2025-05-06,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-06,Cursor,Card,-20.00,44385.60,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-07,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-07,Stripe,Card,-100.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Payment processing
+2025-05-07,GoDaddy,Card,-62.98,44202.62,automatique-inc-7968-monthly-statement-2025-05.pdf,Domain registration
+2025-05-08,Heroku,Card,-14.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Cloud hosting
+2025-05-08,Heroku,Card,-104.58,,automatique-inc-7968-monthly-statement-2025-05.pdf,Cloud hosting
+2025-05-08,Cursor,Card,-10.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-08,Heroku,Card,-7.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Cloud hosting
+2025-05-08,Cursor,Card,-14.85,44052.19,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-09,Cursor,Card,-20.00,44032.19,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-10,Bitrise Limited,Card,-210.00,43822.19,automatique-inc-7968-monthly-statement-2025-05.pdf,CI/CD platform
+2025-05-14,GitHub,Card,-24.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Code hosting
+2025-05-14,GitHub,Card,-4.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Code hosting
+2025-05-14,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-14,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-14,Auto Routing,Payment Request,5000.00,48754.19,automatique-inc-7968-monthly-statement-2025-05.pdf,Client revenue
+2025-05-15,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-15,Slack,Card,-17.50,48716.69,automatique-inc-7968-monthly-statement-2025-05.pdf,Team communication
+2025-05-16,Cursor,Card,-20.18,,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-16,OpenAI,Card,-200.00,48496.51,automatique-inc-7968-monthly-statement-2025-05.pdf,AI subscription
+2025-05-17,Cursor,Card,-20.00,48476.51,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-18,Cursor,Card,-20.04,48456.47,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-19,GoDaddy,Card,-49.99,48406.48,automatique-inc-7968-monthly-statement-2025-05.pdf,Domain registration
+2025-05-20,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-20,GoDaddy,Card,-67.16,48319.32,automatique-inc-7968-monthly-statement-2025-05.pdf,Domain registration
+2025-05-21,Notion,Card,-44.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Productivity software
+2025-05-21,Midjourney,Card,-10.00,48265.32,automatique-inc-7968-monthly-statement-2025-05.pdf,AI image generation
+2025-05-22,Twitter,Card,-40.00,48225.32,automatique-inc-7968-monthly-statement-2025-05.pdf,Social media/ads
+2025-05-28,Codeium,Card,-15.00,48210.32,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code completion
+2025-05-29,Twitter,Card,-8.00,,automatique-inc-7968-monthly-statement-2025-05.pdf,Social media/ads
+2025-05-29,Cursor,Card,-20.00,48182.32,automatique-inc-7968-monthly-statement-2025-05.pdf,AI code editor
+2025-05-30,Suno,Card,-10.00,48172.32,automatique-inc-7968-monthly-statement-2025-05.pdf,AI music generation
+2025-06-02,Google Workspace,Card,-44.56,48127.76,automatique-inc-7968-monthly-statement-2025-06.pdf,Business email/docs
+2025-06-03,Iwispr,Card,-15.00,48112.76,automatique-inc-7968-monthly-statement-2025-06.pdf,AI voice tool
+2025-06-04,Cursor,Card,-20.00,,automatique-inc-7968-monthly-statement-2025-06.pdf,AI code editor
+2025-06-04,Adobe,Card,-22.99,48069.77,automatique-inc-7968-monthly-statement-2025-06.pdf,Creative software
+2025-06-06,Framer,Card,-40.00,48029.77,automatique-inc-7968-monthly-statement-2025-06.pdf,Design tool
+2025-06-09,Cursor,Card,-79.56,47950.21,automatique-inc-7968-monthly-statement-2025-06.pdf,AI code editor
+2025-06-10,Heroku,Card,-64.40,,automatique-inc-7968-monthly-statement-2025-06.pdf,Cloud hosting
+2025-06-10,Heroku,Card,-13.60,,automatique-inc-7968-monthly-statement-2025-06.pdf,Cloud hosting
+2025-06-10,Bitrise Limited,Card,-210.00,,automatique-inc-7968-monthly-statement-2025-06.pdf,CI/CD platform
+2025-06-10,Heroku,Card,-14.00,47648.21,automatique-inc-7968-monthly-statement-2025-06.pdf,Cloud hosting
+2025-06-13,Notion,Card,-77.35,47570.86,automatique-inc-7968-monthly-statement-2025-06.pdf,Productivity software
+2025-06-14,GitHub,Card,-24.00,,automatique-inc-7968-monthly-statement-2025-06.pdf,Code hosting
+2025-06-14,GitHub,Card,-4.00,47542.86,automatique-inc-7968-monthly-statement-2025-06.pdf,Code hosting
+2025-06-15,Slack,Card,-34.15,47508.71,automatique-inc-7968-monthly-statement-2025-06.pdf,Team communication
+2025-06-16,OpenAI,Card,-200.00,47308.71,automatique-inc-7968-monthly-statement-2025-06.pdf,AI subscription
+2025-06-21,Midjourney,Card,-10.00,47298.71,automatique-inc-7968-monthly-statement-2025-06.pdf,AI image generation
+2025-06-22,Twitter,Card,-40.00,47258.71,automatique-inc-7968-monthly-statement-2025-06.pdf,Social media/ads
+2025-06-25,Whimsical,Card,-12.00,47246.71,automatique-inc-7968-monthly-statement-2025-06.pdf,Design tool
+2025-06-26,Sketch.com,Card,-120.00,47126.71,automatique-inc-7968-monthly-statement-2025-06.pdf,Design tool
+2025-06-28,Google Workspace,Card,-86.40,47040.31,automatique-inc-7968-monthly-statement-2025-06.pdf,Business email/docs
+2025-07-02,Google Workspace,Card,-67.44,,automatique-inc-7968-monthly-statement-2025-07.pdf,Business email/docs
+2025-07-02,Google Workspace,Card,-12.96,46959.91,automatique-inc-7968-monthly-statement-2025-07.pdf,Business email/docs
+2025-07-04,Cursor,Card,-20.00,46939.91,automatique-inc-7968-monthly-statement-2025-07.pdf,AI code editor
+2025-07-06,Framer,Card,-40.00,46899.91,automatique-inc-7968-monthly-statement-2025-07.pdf,Design tool
+2025-07-07,Cursor,Card,-93.16,,automatique-inc-7968-monthly-statement-2025-07.pdf,AI code editor
+2025-07-07,STRIPE,ACH In,466.16,47272.91,automatique-inc-7968-monthly-statement-2025-07.pdf,Stripe payout
+2025-07-08,Auto Routing,Payment Request,15000.00,62272.91,automatique-inc-7968-monthly-statement-2025-07.pdf,Client revenue
+2025-07-10,Twitter,Card,-8.00,,automatique-inc-7968-monthly-statement-2025-07.pdf,Social media/ads
+2025-07-10,Heroku,Card,-49.00,,automatique-inc-7968-monthly-statement-2025-07.pdf,Cloud hosting
+2025-07-10,Heroku,Card,-14.00,,automatique-inc-7968-monthly-statement-2025-07.pdf,Cloud hosting
+2025-07-10,Heroku,Card,-14.00,62187.91,automatique-inc-7968-monthly-statement-2025-07.pdf,Cloud hosting
+2025-07-14,GitHub,Card,-24.00,,automatique-inc-7968-monthly-statement-2025-07.pdf,Code hosting
+2025-07-14,GitHub,Card,-4.00,62159.91,automatique-inc-7968-monthly-statement-2025-07.pdf,Code hosting
+2025-07-15,Slack,Card,-26.25,62133.66,automatique-inc-7968-monthly-statement-2025-07.pdf,Team communication
+2025-07-19,OpenAI,Card,-200.00,61933.66,automatique-inc-7968-monthly-statement-2025-07.pdf,AI subscription
+2025-07-22,Twitter,Card,-40.00,61893.66,automatique-inc-7968-monthly-statement-2025-07.pdf,Social media/ads
+2025-07-25,Whimsical,Card,-12.00,,automatique-inc-7968-monthly-statement-2025-07.pdf,Design tool
+2025-07-25,STRIPE,ACH In,19.12,61900.78,automatique-inc-7968-monthly-statement-2025-07.pdf,Stripe payout
+2025-08-02,Google Workspace,Card,-43.57,61857.21,automatique-inc-7968-monthly-statement-2025-08.pdf,Business email/docs
+2025-08-03,Adobe,Card,-22.99,61834.22,automatique-inc-7968-monthly-statement-2025-08.pdf,Creative software
+2025-08-04,Cursor,Card,-20.00,61814.22,automatique-inc-7968-monthly-statement-2025-08.pdf,AI code editor
+2025-08-06,Framer,Card,-40.00,61774.22,automatique-inc-7968-monthly-statement-2025-08.pdf,Design tool
+2025-08-08,Heroku,Card,-14.00,,automatique-inc-7968-monthly-statement-2025-08.pdf,Cloud hosting
+2025-08-08,Heroku,Card,-4.50,,automatique-inc-7968-monthly-statement-2025-08.pdf,Cloud hosting
+2025-08-08,Heroku,Card,-31.00,,automatique-inc-7968-monthly-statement-2025-08.pdf,Cloud hosting
+2025-08-08,Heroku,Card,-9.50,61715.22,automatique-inc-7968-monthly-statement-2025-08.pdf,Cloud hosting
+2025-08-10,Cursor,Card,-51.47,,automatique-inc-7968-monthly-statement-2025-08.pdf,AI code editor
+2025-08-10,Notion,Card,-66.00,,automatique-inc-7968-monthly-statement-2025-08.pdf,Productivity software
+2025-08-10,X Corp. Paid Features,Card,-8.00,61589.75,automatique-inc-7968-monthly-statement-2025-08.pdf,Social media/ads
+2025-08-13,GOOGLE,ACH In,0.19,61589.94,automatique-inc-7968-monthly-statement-2025-08.pdf,Google payout
+2025-08-14,GitHub,Card,-4.00,,automatique-inc-7968-monthly-statement-2025-08.pdf,Code hosting
+2025-08-14,GitHub,Card,-24.00,61561.94,automatique-inc-7968-monthly-statement-2025-08.pdf,Code hosting
+2025-08-15,Slack,Card,-26.25,,automatique-inc-7968-monthly-statement-2025-08.pdf,Team communication
+2025-08-15,1/BLENDFI INC,Payment Request,5000.00,,automatique-inc-7968-monthly-statement-2025-08.pdf,Client revenue
+2025-08-15,GOOGLE,ACH Pull,-129.98,66405.71,automatique-inc-7968-monthly-statement-2025-08.pdf,Google Ads
+2025-08-18,SUO TECH INC,Payment Request,7500.00,73905.71,automatique-inc-7968-monthly-statement-2025-08.pdf,Client revenue
+2025-08-19,OpenAI,Card,-200.00,73705.71,automatique-inc-7968-monthly-statement-2025-08.pdf,AI subscription
+2025-08-20,GOOGLE,ACH Pull,-87.60,73618.11,automatique-inc-7968-monthly-statement-2025-08.pdf,Google Ads
+2025-08-21,GoDaddy,Card,-12.19,73605.92,automatique-inc-7968-monthly-statement-2025-08.pdf,Domain registration
+2025-08-25,Whimsical,Card,-12.00,73593.92,automatique-inc-7968-monthly-statement-2025-08.pdf,Design tool
+2025-08-27,STRIPE,ACH In,18.84,73612.76,automatique-inc-7968-monthly-statement-2025-08.pdf,Stripe payout
+2025-09-01,Notion,Card,-66.00,73546.76,automatique-inc-7968-monthly-statement-2025-09.pdf,Productivity software
+2025-09-03,Cursor,Card,-20.00,73526.76,automatique-inc-7968-monthly-statement-2025-09.pdf,AI code editor
+2025-09-04,Cursor,Card,-20.00,73506.76,automatique-inc-7968-monthly-statement-2025-09.pdf,AI code editor
+2025-09-06,Framer,Card,-40.00,73466.76,automatique-inc-7968-monthly-statement-2025-09.pdf,Design tool
+2025-09-09,Heroku,Card,-7.00,,automatique-inc-7968-monthly-statement-2025-09.pdf,Cloud hosting
+2025-09-09,Heroku,Card,-14.00,,automatique-inc-7968-monthly-statement-2025-09.pdf,Cloud hosting
+2025-09-09,Heroku,Card,-21.00,,automatique-inc-7968-monthly-statement-2025-09.pdf,Cloud hosting
+2025-09-09,Heroku,Card,-7.00,73417.76,automatique-inc-7968-monthly-statement-2025-09.pdf,Cloud hosting
+2025-09-10,Twitter,Card,-8.00,,automatique-inc-7968-monthly-statement-2025-09.pdf,Social media/ads
+2025-09-10,Cursor,Card,-15.47,73394.29,automatique-inc-7968-monthly-statement-2025-09.pdf,AI code editor
+2025-09-14,GitHub,Card,-24.00,,automatique-inc-7968-monthly-statement-2025-09.pdf,Code hosting
+2025-09-14,GitHub,Card,-4.00,73366.29,automatique-inc-7968-monthly-statement-2025-09.pdf,Code hosting
+2025-09-15,Slack,Card,-10.44,73355.85,automatique-inc-7968-monthly-statement-2025-09.pdf,Team communication
+2025-09-19,OpenAI,Card,-200.00,73155.85,automatique-inc-7968-monthly-statement-2025-09.pdf,AI subscription
+2025-09-25,Whimsical,Card,-12.00,,automatique-inc-7968-monthly-statement-2025-09.pdf,Design tool
+2025-09-25,STRIPE,ACH In,18.98,73162.83,automatique-inc-7968-monthly-statement-2025-09.pdf,Stripe payout
+2025-10-01,Notion,Card,-44.00,73118.83,automatique-inc-7968-monthly-statement-2025-10.pdf,Productivity software
+2025-10-04,Cursor,Card,-20.00,73098.83,automatique-inc-7968-monthly-statement-2025-10.pdf,AI code editor
+2025-10-06,Framer,Card,-40.00,73058.83,automatique-inc-7968-monthly-statement-2025-10.pdf,Design tool
+2025-10-08,Heroku,Card,-14.00,,automatique-inc-7968-monthly-statement-2025-10.pdf,Cloud hosting
+2025-10-08,Heroku,Card,-21.00,,automatique-inc-7968-monthly-statement-2025-10.pdf,Cloud hosting
+2025-10-08,Heroku,Card,-7.00,,automatique-inc-7968-monthly-statement-2025-10.pdf,Cloud hosting
+2025-10-08,Heroku,Card,-7.00,73009.83,automatique-inc-7968-monthly-statement-2025-10.pdf,Cloud hosting
+2025-10-10,Twitter,Card,-8.00,,automatique-inc-7968-monthly-statement-2025-10.pdf,Social media/ads
+2025-10-10,Amazon,Card,-975.43,72026.40,automatique-inc-7968-monthly-statement-2025-10.pdf,Equipment/supplies
+2025-10-14,GitHub,Card,-24.00,,automatique-inc-7968-monthly-statement-2025-10.pdf,Code hosting
+2025-10-14,GitHub,Card,-4.00,71998.40,automatique-inc-7968-monthly-statement-2025-10.pdf,Code hosting
+2025-10-16,Slack,Card,-17.50,,automatique-inc-7968-monthly-statement-2025-10.pdf,Team communication
+2025-10-16,Cursor,Card,-5.11,71975.79,automatique-inc-7968-monthly-statement-2025-10.pdf,AI code editor
+2025-10-18,GoDaddy,Card,-4.99,71970.80,automatique-inc-7968-monthly-statement-2025-10.pdf,Domain registration
+2025-10-19,OpenAI,Card,-200.00,71770.80,automatique-inc-7968-monthly-statement-2025-10.pdf,AI subscription
+2025-10-26,Whimsical,Card,-12.00,,automatique-inc-7968-monthly-statement-2025-10.pdf,Design tool
+2025-10-26,Vpn* Anhegranbj,Card,-5.81,71752.99,automatique-inc-7968-monthly-statement-2025-10.pdf,VPN service
+2025-10-27,STRIPE,ACH In,18.98,71771.97,automatique-inc-7968-monthly-statement-2025-10.pdf,Stripe payout
+2025-10-29,1/BLENDFI INC,Payment Request,10000.00,81771.97,automatique-inc-7968-monthly-statement-2025-10.pdf,Client revenue
+2025-11-02,Google Workspace,Card,-3.25,,automatique-inc-7968-monthly-statement-2025-11.pdf,Business email/docs
+2025-11-02,Google Workspace,Card,-76.75,81691.97,automatique-inc-7968-monthly-statement-2025-11.pdf,Business email/docs
+2025-11-04,Cursor,Card,-20.00,81671.97,automatique-inc-7968-monthly-statement-2025-11.pdf,AI code editor
+2025-11-05,Cursor,Card,-6.84,,automatique-inc-7968-monthly-statement-2025-11.pdf,AI code editor
+2025-11-05,GOOGLE,ACH Pull,-28.29,81636.84,automatique-inc-7968-monthly-statement-2025-11.pdf,Google Ads
+2025-11-06,Framer,Card,-40.00,81596.84,automatique-inc-7968-monthly-statement-2025-11.pdf,Design tool
+2025-11-08,Agora.io Singapore,Card,-1.00,81595.84,automatique-inc-7968-monthly-statement-2025-11.pdf,Real-time communication
+2025-11-11,Heroku,Card,-21.00,,automatique-inc-7968-monthly-statement-2025-11.pdf,Cloud hosting
+2025-11-11,Heroku,Card,-14.00,,automatique-inc-7968-monthly-statement-2025-11.pdf,Cloud hosting
+2025-11-11,Heroku,Card,-7.00,,automatique-inc-7968-monthly-statement-2025-11.pdf,Cloud hosting
+2025-11-11,Heroku,Card,-7.00,81546.84,automatique-inc-7968-monthly-statement-2025-11.pdf,Cloud hosting
+2025-11-12,Cursor,Card,-13.11,81533.73,automatique-inc-7968-monthly-statement-2025-11.pdf,AI code editor
+2025-11-13,1/BLENDFI INC,Payment Request,5000.00,86533.73,automatique-inc-7968-monthly-statement-2025-11.pdf,Client revenue
+2025-11-14,GitHub,Card,-4.00,,automatique-inc-7968-monthly-statement-2025-11.pdf,Code hosting
+2025-11-14,GitHub,Card,-24.00,86505.73,automatique-inc-7968-monthly-statement-2025-11.pdf,Code hosting
+2025-11-15,Slack,Card,-17.50,86488.23,automatique-inc-7968-monthly-statement-2025-11.pdf,Team communication
+2025-11-19,OpenAI,Card,-200.00,,automatique-inc-7968-monthly-statement-2025-11.pdf,AI subscription
+2025-11-19,Cursor,Card,-40.25,86247.98,automatique-inc-7968-monthly-statement-2025-11.pdf,AI code editor
+2025-11-24,Sound Strats LLC,ACH Payment,-2000.00,84247.98,automatique-inc-7968-monthly-statement-2025-11.pdf,Contractor payment
+2025-11-26,STRIPE,ACH In,18.98,,automatique-inc-7968-monthly-statement-2025-11.pdf,Stripe payout
+2025-11-26,Cursor,Card,-60.00,84206.96,automatique-inc-7968-monthly-statement-2025-11.pdf,AI code editor
+2025-11-28,Cursor,Card,-80.00,84126.96,automatique-inc-7968-monthly-statement-2025-11.pdf,AI code editor
+2025-12-01,1/BLENDFI INC,Payment Request,5000.00,89126.96,automatique-inc-7968-monthly-statement-2025-12.pdf,Client revenue
+2025-12-02,Google Workspace,Card,-33.60,,automatique-inc-7968-monthly-statement-2025-12.pdf,Business email/docs
+2025-12-02,VPN,Card,-11.61,89081.75,automatique-inc-7968-monthly-statement-2025-12.pdf,VPN service
+2025-12-03,Cursor,Card,-80.04,,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-03,Bitrise Limited,Card,-210.00,88791.71,automatique-inc-7968-monthly-statement-2025-12.pdf,CI/CD platform
+2025-12-04,Cursor,Card,-20.00,88771.71,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-05,Cursor,Card,-102.11,,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-05,Cursor,Card,-26.89,,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-05,GOOGLE,ACH Pull,-44.40,88598.31,automatique-inc-7968-monthly-statement-2025-12.pdf,Google Ads
+2025-12-06,Framer,Card,-40.00,,automatique-inc-7968-monthly-statement-2025-12.pdf,Design tool
+2025-12-06,Cursor,Card,-100.05,,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-06,Bitrise Limited,Card,210.00,88668.26,automatique-inc-7968-monthly-statement-2025-12.pdf,CI/CD platform refund
+2025-12-08,Suno,Card,-10.00,88658.26,automatique-inc-7968-monthly-statement-2025-12.pdf,AI music generation
+2025-12-09,Heroku,Card,-7.00,,automatique-inc-7968-monthly-statement-2025-12.pdf,Cloud hosting
+2025-12-09,Heroku,Card,-14.00,,automatique-inc-7968-monthly-statement-2025-12.pdf,Cloud hosting
+2025-12-09,Heroku,Card,-8.37,,automatique-inc-7968-monthly-statement-2025-12.pdf,Cloud hosting
+2025-12-09,Heroku,Card,-9.77,,automatique-inc-7968-monthly-statement-2025-12.pdf,Cloud hosting
+2025-12-09,Heroku,Card,-21.96,,automatique-inc-7968-monthly-statement-2025-12.pdf,Cloud hosting
+2025-12-09,Cursor,Card,-100.01,88497.15,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-11,Bitrise Limited,Card,-99.00,,automatique-inc-7968-monthly-statement-2025-12.pdf,CI/CD platform
+2025-12-11,1/BLENDFI INC,Payment Request,5000.00,93398.15,automatique-inc-7968-monthly-statement-2025-12.pdf,Client revenue
+2025-12-12,OpenAI,Card,-20.00,93378.15,automatique-inc-7968-monthly-statement-2025-12.pdf,AI subscription
+2025-12-13,Cursor,Card,-101.09,93277.06,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-14,GitHub,Card,-24.00,,automatique-inc-7968-monthly-statement-2025-12.pdf,Code hosting
+2025-12-14,GitHub,Card,-4.00,93249.06,automatique-inc-7968-monthly-statement-2025-12.pdf,Code hosting
+2025-12-15,Slack,Card,-17.50,93231.56,automatique-inc-7968-monthly-statement-2025-12.pdf,Team communication
+2025-12-18,Cursor,Card,-100.13,93131.43,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-20,Cursor,Card,-100.75,93030.68,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-23,Cursor,Card,-100.93,92929.75,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-24,Cursor,Card,-100.60,,automatique-inc-7968-monthly-statement-2025-12.pdf,AI code editor
+2025-12-24,Anthropic,Card,-200.00,,automatique-inc-7968-monthly-statement-2025-12.pdf,AI subscription
+2025-12-24,STRIPE,ACH In,18.98,92648.13,automatique-inc-7968-monthly-statement-2025-12.pdf,Stripe payout
+2025-12-25,OpenRouter,Card,-10.80,92637.33,automatique-inc-7968-monthly-statement-2025-12.pdf,AI routing service
+2025-12-30,OpenAI,Card,-20.00,92617.33,automatique-inc-7968-monthly-statement-2025-12.pdf,AI subscription
