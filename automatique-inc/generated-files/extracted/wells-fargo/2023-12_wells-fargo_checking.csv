@@ -1,0 +1,212 @@
+Date,Description,Amount,Balance,Type,Source,Notes
+2023-12-01,Apple.Com/Bill,-74.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-01,Sp Rancho LA Casa,-643.50,,Debit,123123 WellsFargo.pdf,
+2023-12-01,Doordash Dashpass,-9.99,,Debit,123123 WellsFargo.pdf,Subscription - Food Delivery
+2023-12-01,Tesla,-250.00,,Debit,123123 WellsFargo.pdf,Tesla Purchase/Service
+2023-12-01,Tesla,-250.00,,Debit,123123 WellsFargo.pdf,Tesla Purchase/Service
+2023-12-01,Pwp Twitter Pai Privacycom,-8.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Dev Tools Twitter/X API
+2023-12-01,Pwp Sentry Privacycom,-29.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Error Tracking
+2023-12-01,Pwp Bitrise Lim Privacycom,-71.07,,Debit,123123 WellsFargo.pdf,DUPLICATE - CI/CD Bitrise
+2023-12-01,Mortgage Serv CT Mtg Paymt,-4353.67,251306.00,Debit,123123 WellsFargo.pdf,Mortgage Payment
+2023-12-04,Apple.Com/Bill,-18.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-04,AMC 4147 Thousand Oaks,-62.68,,Debit,123123 WellsFargo.pdf,Entertainment - Movies
+2023-12-04,Google *Gsuite_Fak CC,-94.32,,Debit,123123 WellsFargo.pdf,Business - Google Workspace
+2023-12-04,LA Arboretum,-66.00,,Debit,123123 WellsFargo.pdf,Entertainment
+2023-12-04,LA Arboretum,-15.00,,Debit,123123 WellsFargo.pdf,Entertainment
+2023-12-04,Sq *The Fresh Gour Arcadia,-20.95,,Debit,123123 WellsFargo.pdf,Food
+2023-12-04,Sq *Peacock Cafe A Arcadia,-19.84,,Debit,123123 WellsFargo.pdf,Food - Coffee
+2023-12-04,Uber Eats,-70.32,,Debit,123123 WellsFargo.pdf,Food Delivery
+2023-12-04,SSA Los Angeles Zoo,-26.24,,Debit,123123 WellsFargo.pdf,Entertainment - LA Zoo
+2023-12-04,SSA Los Angeles Zoo,-15.85,,Debit,123123 WellsFargo.pdf,Entertainment - LA Zoo
+2023-12-04,SSA Los Angeles Zoo,-7.65,,Debit,123123 WellsFargo.pdf,Entertainment - LA Zoo
+2023-12-04,Zelle to Ed - Saltillo,-330.00,,Debit,123123 WellsFargo.pdf,
+2023-12-04,Tesla Inc Supercharger,-8.28,,Debit,123123 WellsFargo.pdf,Auto - Electric Charging
+2023-12-04,Zelle to Leland - Light Installation,-249.00,,Debit,123123 WellsFargo.pdf,Home Improvement - Electrical
+2023-12-04,Pwp Amazon Web Privacycom,-2.29,,Debit,123123 WellsFargo.pdf,DUPLICATE - Hosting AWS
+2023-12-04,Pwp Amzn Mktp U Privacycom,-10.71,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-04,Pwp Google *War Privacycom,-12.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Google
+2023-12-04,Pwp Chatgpt Sub Privacycom,-20.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - AI Tools ChatGPT
+2023-12-04,Pwp Ecm A Lega Privacycom,-29.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Legal Service
+2023-12-04,Pwp Amazon.Com* Privacycom,-32.18,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-04,Pwp Amzn Mktp U Privacycom,-48.64,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-04,Pwp Quicknode Privacycom,-49.00,250097.06,Debit,123123 WellsFargo.pdf,DUPLICATE - Blockchain API
+2023-12-05,Wholefds Plv #1053 Playa Vista,-131.00,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-05,Lego Store Century Los Angeles,-14.22,,Debit,123123 WellsFargo.pdf,Shopping
+2023-12-05,Lush Cosmetics LLC Los Angeles,-116.08,,Debit,123123 WellsFargo.pdf,Personal Care
+2023-12-05,Sq *Blue Bottle CO Century City,-9.25,,Debit,123123 WellsFargo.pdf,Food - Coffee
+2023-12-05,Laz Parking 670880 Los Angeles,-10.00,,Debit,123123 WellsFargo.pdf,Parking
+2023-12-05,Pwp Wasabi Tech Privacycom,-6.99,,Debit,123123 WellsFargo.pdf,DUPLICATE - Cloud Storage
+2023-12-05,So Cal Gas Paid,-45.50,,Debit,123123 WellsFargo.pdf,Utilities - Gas
+2023-12-05,Home Depot Online Pmt,-390.58,249373.44,Debit,123123 WellsFargo.pdf,Home Improvement
+2023-12-06,Apple.Com/Bill,16.28,,Credit,123123 WellsFargo.pdf,Apple Refund
+2023-12-06,Apple.Com/Bill,-24.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-06,Tst* Alfred Coffee Marina Del Rey,-17.39,,Debit,123123 WellsFargo.pdf,Food - Coffee
+2023-12-06,Trader Joe S #205 Marina Del Rey,-8.98,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-06,Tst* Din Tai Fung Los Angeles,-65.03,,Debit,123123 WellsFargo.pdf,Food - Restaurant
+2023-12-06,Aa CA252 Cb 103421 Los Angeles,-20.21,,Debit,123123 WellsFargo.pdf,Travel - American Airlines
+2023-12-06,Wholefds Val 10178 Santa Clarita,-18.96,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-06,Pwp Dnh*Godaddy Privacycom,-22.17,,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains GoDaddy
+2023-12-06,Pwp Midjourney Privacycom,-60.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - AI Tools Midjourney
+2023-12-06,Pwp Amazon.Com* Privacycom,-193.04,248958.95,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-07,Apple.Com/Bill,-11.97,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-07,Uber Eats,-86.02,,Debit,123123 WellsFargo.pdf,Food Delivery
+2023-12-07,Pwp Google*Doma Privacycom,-12.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains
+2023-12-07,Venmo Payment Jojo McFly,-25.99,248822.97,Debit,123123 WellsFargo.pdf,Venmo
+2023-12-08,Santa Clara Valley,-300.00,,Debit,123123 WellsFargo.pdf,
+2023-12-08,Santa Clara Valley,-49.69,,Debit,123123 WellsFargo.pdf,
+2023-12-08,Apple.Com/Bill,-9.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-08,Uber Eats,-58.89,,Debit,123123 WellsFargo.pdf,Food Delivery
+2023-12-08,Pwp Amzn Mktp U Privacycom,-30.00,248374.40,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-11,Apple.Com/Bill,-74.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-11,Apple.Com/Bill,-24.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-11,The Home Depot #66 Simi Valley,-50.00,,Debit,123123 WellsFargo.pdf,Home Improvement
+2023-12-11,Google *Google Store,-1.99,,Debit,123123 WellsFargo.pdf,Google
+2023-12-11,Uber Eats,-59.21,,Debit,123123 WellsFargo.pdf,Food Delivery
+2023-12-11,Uber Eats,-94.55,,Debit,123123 WellsFargo.pdf,Food Delivery
+2023-12-11,The Home Depot #66 Simi Valley,-3527.30,,Debit,123123 WellsFargo.pdf,Home Improvement - Large Purchase
+2023-12-11,Apple.Com/Bill,-19.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-11,Pwp Microsoft#G Privacycom,-2.06,,Debit,123123 WellsFargo.pdf,DUPLICATE - Microsoft
+2023-12-11,Pwp Amazon Tips Privacycom,-10.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-11,Pwp Twitter Pai Privacycom,-16.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Dev Tools Twitter/X API
+2023-12-11,Pwp Amazon.Com* Privacycom,-41.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-11,Pwp Heroku* Nov Privacycom,-60.30,,Debit,123123 WellsFargo.pdf,DUPLICATE - Hosting Heroku
+2023-12-11,Pwp Amzn Mktp U Privacycom,-174.81,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-11,Pwp Amazon.Com* Privacycom,-214.41,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-11,Pwp Amzn Mktp U Privacycom,-185.40,243817.40,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-12,Popstand Inc Direct Dep,2223.33,,Credit,123123 WellsFargo.pdf,INCOME - Popstand Deposit
+2023-12-12,Uber Eats,-121.26,,Debit,123123 WellsFargo.pdf,Food Delivery
+2023-12-12,State of Calif DMV,-324.00,,Debit,123123 WellsFargo.pdf,Auto - DMV Registration
+2023-12-12,Ush Ticketing Onli (Universal Studios),-1112.00,,Debit,123123 WellsFargo.pdf,Entertainment - Universal Studios
+2023-12-12,Tesla,-9.99,,Debit,123123 WellsFargo.pdf,Tesla Subscription
+2023-12-12,Stash Capital S ACH,-3.00,,Debit,123123 WellsFargo.pdf,Investment
+2023-12-12,Pwp Dnh*Godaddy Privacycom,-22.17,,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains GoDaddy
+2023-12-12,Pwp Amzn Mktp U Privacycom,-53.57,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-12,Pwp Amazon.Com* Privacycom,-95.74,244299.00,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-13,CA Dmv Fee,-6.32,,Debit,123123 WellsFargo.pdf,Auto - DMV Fee
+2023-12-13,Costco Whse #0447 Santa Clarita,-48.73,,Debit,123123 WellsFargo.pdf,Shopping - Wholesale
+2023-12-13,Pwp Amazon Tips Privacycom,-7.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-13,Pwp Google*Doma Privacycom,-14.40,,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains
+2023-12-13,Pwp Github Inc Privacycom,-24.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Dev Tools GitHub
+2023-12-13,Pwp Dnh*Godaddy Privacycom,-26.17,244172.38,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains GoDaddy
+2023-12-14,Apple.Com/Bill,-23.97,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-14,Wholefds Val 10178 Santa Clarita,-8.76,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-14,Target 0002 Canyon Country,-137.50,,Debit,123123 WellsFargo.pdf,Shopping
+2023-12-14,Tesla Inc Supercharger,-12.00,,Debit,123123 WellsFargo.pdf,Auto - Electric Charging
+2023-12-14,Apple.Com/Bill,-11.00,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-14,Ush Ticketing Onli (Universal Studios),-139.00,,Debit,123123 WellsFargo.pdf,Entertainment - Universal Studios
+2023-12-14,Pwp Amzn Mktp U Privacycom,-21.34,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-14,Pwp Dnh*Godaddy Privacycom,-22.17,,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains GoDaddy
+2023-12-14,Pwp Amzn Mktp U Privacycom,-22.50,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-14,Pwp Amzn Mktp U Privacycom,-24.66,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-14,Pwp Amzn Mktp U Privacycom,-25.58,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-14,Pwp Amzn Mktp U Privacycom,-82.22,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-14,Pwp Amzn Mktp U Privacycom,-99.59,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-14,Pwp Amzn Mktp U Privacycom,-246.32,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-14,Pwp Target.Com Privacycom,-406.09,242889.68,Debit,123123 WellsFargo.pdf,DUPLICATE - Target
+2023-12-15,Nft Genius Inc Payroll,3507.69,,Credit,123123 WellsFargo.pdf,INCOME - W2 Payroll NFT Genius
+2023-12-15,ATT* Bill Payment,-154.30,,Debit,123123 WellsFargo.pdf,Utilities - Phone
+2023-12-15,Pwp Google *Clo Privacycom,-0.31,,Debit,123123 WellsFargo.pdf,DUPLICATE - Google Cloud
+2023-12-15,Pwp Amazon.Com* Privacycom,-13.38,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-15,Pwp Amzn Mktp U Privacycom,-22.51,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-15,Pwp Amzn Mktp U Privacycom,-42.88,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-15,Pwp Amazon.Com* Privacycom,-112.60,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-15,Venmo Payment Jojo McFly,-462.62,245588.77,Debit,123123 WellsFargo.pdf,Venmo
+2023-12-18,Pwp Target.Com Privacycom,63.90,,Credit,123123 WellsFargo.pdf,DUPLICATE - Target Refund
+2023-12-18,Pwp Target.Com Privacycom,342.19,,Credit,123123 WellsFargo.pdf,DUPLICATE - Target Refund
+2023-12-18,Vons #2442 Fillmore,-38.16,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-18,Apple.Com/Bill,-7.98,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-18,Wdc Kitchen & Bath Oxnard,-2028.83,,Debit,123123 WellsFargo.pdf,Home Improvement - Kitchen/Bath
+2023-12-18,Eataly LA Catapult Los Angeles,-26.49,,Debit,123123 WellsFargo.pdf,Food
+2023-12-18,Sq *Blue Bottle CO Century City,-8.25,,Debit,123123 WellsFargo.pdf,Food - Coffee
+2023-12-18,Pressed Juicery Los Angeles,-14.00,,Debit,123123 WellsFargo.pdf,Food
+2023-12-18,Laz Parking 670880 Los Angeles,-13.00,,Debit,123123 WellsFargo.pdf,Parking
+2023-12-18,Apple.Com/Bill,-3.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-18,Tesla Inc Supercharger,-0.48,,Debit,123123 WellsFargo.pdf,Auto - Electric Charging
+2023-12-18,Target T-0257 Valencia,-170.91,,Debit,123123 WellsFargo.pdf,Shopping
+2023-12-18,Pwp Blink Privacycom,-10.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Blink Security
+2023-12-18,Pwp Amzn Mktp U Privacycom,-21.44,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-18,Pwp Dnh*Godaddy Privacycom,-22.17,,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains GoDaddy
+2023-12-18,Pwp Amzn Mktp U Privacycom,-47.98,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-18,Pwp Amzn Mktp U Privacycom,-49.32,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-18,Pwp Amzn Mktp U Privacycom,-214.49,243317.37,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-19,Apple.Com/Bill,-99.98,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-19,Tst* Bourbon Steak Glendale,-289.24,,Debit,123123 WellsFargo.pdf,Food - Restaurant
+2023-12-19,Laz Parking 670235 Glendale,-15.00,,Debit,123123 WellsFargo.pdf,Parking
+2023-12-19,Jane Bond Surety A,-2885.00,,Debit,123123 WellsFargo.pdf,Insurance/Bond
+2023-12-19,Pwp Dnh*Godaddy Privacycom,-11.99,,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains GoDaddy
+2023-12-19,Pwp Heroku* Oct Privacycom,-45.09,,Debit,123123 WellsFargo.pdf,DUPLICATE - Hosting Heroku
+2023-12-19,Pwp Heroku* Nov Privacycom,-45.15,,Debit,123123 WellsFargo.pdf,DUPLICATE - Hosting Heroku
+2023-12-19,Venmo Payment Jojo McFly,-51.87,239874.05,Debit,123123 WellsFargo.pdf,Venmo
+2023-12-20,Apple.Com/Bill,-2.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-20,Apple.Com/Bill,-21.97,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-20,Pablochat Httpsdiscord.,-20.00,,Debit,123123 WellsFargo.pdf,Subscription - Discord
+2023-12-20,Pwp Amzn Mktp U Privacycom,-73.52,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-20,Pwp Amazon.Com* Privacycom,-159.14,239596.43,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-21,Apple.Com/Bill,-9.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-21,Wal-Mart Super Center Santa Clarita,-70.08,,Debit,123123 WellsFargo.pdf,Shopping
+2023-12-21,Wal-Mart #5162 Santa Clarita,-342.74,,Debit,123123 WellsFargo.pdf,Shopping
+2023-12-21,Pwp Amazon Tips Privacycom,-10.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-21,Pwp Google*Doma Privacycom,-72.00,239091.62,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains
+2023-12-22,WT Fed Jpmorgan Chase Ban Popstand Inc Wire,5000.00,,Credit,123123 WellsFargo.pdf,INCOME - Wire Transfer from Popstand Inc
+2023-12-22,Wire Trans Svc Charge,-15.00,,Debit,123123 WellsFargo.pdf,Bank Fee - Wire Transfer
+2023-12-22,Apple.Com/Bill,-27.98,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-22,Doordash Dashpass,-9.99,,Debit,123123 WellsFargo.pdf,Subscription - Food Delivery
+2023-12-22,Lowe's #1510 Santa Clarita,-134.55,,Debit,123123 WellsFargo.pdf,Home Improvement
+2023-12-22,Apple Store #R462 Valencia,-1312.91,,Debit,123123 WellsFargo.pdf,Electronics - Apple
+2023-12-22,Lush Valencia,-144.63,,Debit,123123 WellsFargo.pdf,Personal Care
+2023-12-22,Journeys #0558 Valencia,-518.99,,Debit,123123 WellsFargo.pdf,Shopping - Shoes
+2023-12-22,Zelle to Damian - Oven Install,-500.00,,Debit,123123 WellsFargo.pdf,Home Improvement - Appliance Install
+2023-12-22,Pwp Amzn Mktp U Privacycom,-21.44,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-22,Pwp Dnh*Godaddy Privacycom,-22.17,,Debit,123123 WellsFargo.pdf,DUPLICATE - Domains GoDaddy
+2023-12-22,Pwp Amazon.Com* Privacycom,-138.52,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-22,Pwp Elevenlabs. Privacycom,-153.47,,Debit,123123 WellsFargo.pdf,DUPLICATE - AI Tools ElevenLabs
+2023-12-22,Venmo Payment Jojo McFly,-192.00,240899.97,Debit,123123 WellsFargo.pdf,Venmo
+2023-12-26,Popstand Inc Direct Dep,2223.33,,Credit,123123 WellsFargo.pdf,INCOME - Popstand Deposit
+2023-12-26,Wholefoods.Com,-249.99,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-26,Wholefds Val 10178 Santa Clarita,-49.92,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-26,Spencer Gifts #220 Valencia,-49.26,,Debit,123123 WellsFargo.pdf,Shopping
+2023-12-26,Wholefds Oks 10204 Thousand Oaks,-311.49,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-26,Voodoo Doughnuts Universal City,-10.68,,Debit,123123 WellsFargo.pdf,Food
+2023-12-26,Apple.Com/Bill,-10.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-26,Wand Cart Universal City,-258.42,,Debit,123123 WellsFargo.pdf,Shopping - Universal Studios
+2023-12-26,Cletus' Chickin Shack Universal City,-26.27,,Debit,123123 WellsFargo.pdf,Food - Universal Studios
+2023-12-26,Gladrags Universal City,-152.21,,Debit,123123 WellsFargo.pdf,Shopping - Universal Studios
+2023-12-26,Gladrags Universal City,-54.75,,Debit,123123 WellsFargo.pdf,Shopping - Universal Studios
+2023-12-26,Gladrags Universal City,-54.75,,Debit,123123 WellsFargo.pdf,Shopping - Universal Studios
+2023-12-26,Butterbeer Cart Universal City,-27.92,,Debit,123123 WellsFargo.pdf,Food - Universal Studios
+2023-12-26,Jurassic Outfitters Universal City,-4.38,,Debit,123123 WellsFargo.pdf,Shopping - Universal Studios
+2023-12-26,Apple.Com/Bill,-15.96,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-26,Wholefds Oks 10204 Thousand Oaks,-19.05,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-26,Apple.Com/Bill,-6.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-26,Wholefoods.Com,-279.97,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-26,Apple.Com/Bill,-7.98,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-26,Google *Youtubepre,-13.99,,Debit,123123 WellsFargo.pdf,Subscription - YouTube Premium
+2023-12-26,Playstation Networ,-14.99,,Debit,123123 WellsFargo.pdf,Entertainment - Gaming
+2023-12-26,Playstation Networ,-7.99,,Debit,123123 WellsFargo.pdf,Entertainment - Gaming
+2023-12-26,Playstation Networ,-4.99,,Debit,123123 WellsFargo.pdf,Entertainment - Gaming
+2023-12-26,Grocery Outlet of Fillmore,-34.65,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-26,Pwp Amazon Tips Privacycom,-7.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-26,Pwp Github Inc Privacycom,-10.00,,Debit,123123 WellsFargo.pdf,DUPLICATE - Dev Tools GitHub
+2023-12-26,Pwp Amzn Mktp U Privacycom,-39.32,241399.39,Debit,123123 WellsFargo.pdf,DUPLICATE - Amazon
+2023-12-27,Apple.Com/Bill,-3.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-27,Tesla_US_Service,-121.76,,Debit,123123 WellsFargo.pdf,Auto - Tesla Service
+2023-12-27,Playstation Networ,-4.99,,Debit,123123 WellsFargo.pdf,Entertainment - Gaming
+2023-12-27,Playstation Networ,-9.99,,Debit,123123 WellsFargo.pdf,Entertainment - Gaming
+2023-12-27,Uber Eats,-67.62,,Debit,123123 WellsFargo.pdf,Food Delivery
+2023-12-27,Pwp Bitrise Lim Privacycom,-71.07,241119.97,Debit,123123 WellsFargo.pdf,DUPLICATE - CI/CD Bitrise
+2023-12-28,Vons #2442 Fillmore,-121.02,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-28,Apple.Com/Bill,-74.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-28,Target T-2760 Oxnard,-655.48,,Debit,123123 WellsFargo.pdf,Shopping
+2023-12-28,Playstation Networ,-19.99,,Debit,123123 WellsFargo.pdf,Entertainment - Gaming
+2023-12-28,Pwp Mailchimp Privacycom,-13.00,240235.49,Debit,123123 WellsFargo.pdf,DUPLICATE - Email Marketing
+2023-12-29,Nft Genius Inc Payroll,3515.09,,Credit,123123 WellsFargo.pdf,INCOME - W2 Payroll NFT Genius
+2023-12-29,Bigstraw Boba Ventura,-18.02,,Debit,123123 WellsFargo.pdf,Food
+2023-12-29,Vons #2164 Ventura,-59.64,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-29,Wholefds Oxn #1031 Oxnard,-52.56,,Debit,123123 WellsFargo.pdf,Groceries
+2023-12-29,Apple.Com/Bill,-34.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-29,Apple.Com/Bill,-24.99,,Debit,123123 WellsFargo.pdf,Apple Services
+2023-12-29,Audible*1484P0Ve3,-14.95,,Debit,123123 WellsFargo.pdf,Subscription - Audiobooks
+2023-12-29,McDonald's F10962 Fillmore,-9.52,,Debit,123123 WellsFargo.pdf,Food
+2023-12-29,Vans #091 Valencia,-89.79,,Debit,123123 WellsFargo.pdf,Shopping - Shoes
+2023-12-29,Pwp Google *Spo Privacycom,-10.99,,Debit,123123 WellsFargo.pdf,DUPLICATE - Google
+2023-12-29,Interest Payment,2.08,243437.21,Credit,123123 WellsFargo.pdf,Bank Interest
