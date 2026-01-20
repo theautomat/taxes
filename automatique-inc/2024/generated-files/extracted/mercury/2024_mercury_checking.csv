@@ -1,0 +1,43 @@
+Date,Description,Type,Amount,Balance,Source,Notes
+2024-02-22,Auto Routing,Payment Request,2500.00,2500.00,automatique-inc-7968-monthly-statement-2024-02.pdf,Client revenue
+2024-04-08,Auto Routing,Payment Request,2500.00,,automatique-inc-7968-monthly-statement-2024-04.pdf,Client revenue
+2024-04-08,Auto Routing,Payment Request,9600.00,14600.00,automatique-inc-7968-monthly-statement-2024-04.pdf,Client revenue
+2024-05-02,George,Intl. Wire Payment,-106.78,,automatique-inc-7968-monthly-statement-2024-05.pdf,Contractor payment
+2024-05-02,Fees Exchange Fee,Exchange Fee,-1.06,14492.16,automatique-inc-7968-monthly-statement-2024-05.pdf,Wire fee
+2024-05-10,George,Intl. Wire Payment,-1343.08,,automatique-inc-7968-monthly-statement-2024-05.pdf,Contractor payment
+2024-05-10,Fees Exchange Fee,Exchange Fee,-13.43,,automatique-inc-7968-monthly-statement-2024-05.pdf,Wire fee
+2024-05-10,Maxima,ACH Payment,-2500.00,10635.65,automatique-inc-7968-monthly-statement-2024-05.pdf,
+2024-05-16,George,Intl. Wire Payment,-1352.45,,automatique-inc-7968-monthly-statement-2024-05.pdf,Contractor payment
+2024-05-16,Fees Exchange Fee,Exchange Fee,-13.52,9269.68,automatique-inc-7968-monthly-statement-2024-05.pdf,Wire fee
+2024-05-22,George,Intl. Wire Payment,-1357.07,,automatique-inc-7968-monthly-statement-2024-05.pdf,Contractor payment
+2024-05-22,Fees Exchange Fee,Exchange Fee,-13.57,7899.04,automatique-inc-7968-monthly-statement-2024-05.pdf,Wire fee
+2024-05-30,George,Intl. Wire Payment,-1242.37,,automatique-inc-7968-monthly-statement-2024-05.pdf,Contractor payment
+2024-05-30,Fees Exchange Fee,Exchange Fee,-12.42,6644.25,automatique-inc-7968-monthly-statement-2024-05.pdf,Wire fee
+2024-06-05,George,Intl. Wire Payment,-108.84,,automatique-inc-7968-monthly-statement-2024-06.pdf,Contractor payment
+2024-06-05,Fees Exchange Fee,Exchange Fee,-1.09,,automatique-inc-7968-monthly-statement-2024-06.pdf,Wire fee
+2024-06-05,George,Intl. Wire Payment,-1251.50,,automatique-inc-7968-monthly-statement-2024-06.pdf,Contractor payment
+2024-06-05,Fees Exchange Fee,Exchange Fee,-12.52,5270.30,automatique-inc-7968-monthly-statement-2024-06.pdf,Wire fee
+2024-06-12,George,Intl. Wire Payment,-1343.22,,automatique-inc-7968-monthly-statement-2024-06.pdf,Contractor payment
+2024-06-12,Fees Exchange Fee,Exchange Fee,-13.29,3913.79,automatique-inc-7968-monthly-statement-2024-06.pdf,Wire fee
+2024-06-14,RAMI A ELHAJ,Wire,20000.00,23913.79,automatique-inc-7968-monthly-statement-2024-06.pdf,Capital contribution from Rami
+2024-07-09,PARO MARKETPLACE,ACH Pull,-3449.60,20464.19,automatique-inc-7968-monthly-statement-2024-07.pdf,Freelancer platform
+2024-09-10,Bitrise Limited,Card,-210.00,20254.19,automatique-inc-7968-monthly-statement-2024-09.pdf,CI/CD platform
+2024-09-17,OpenAI,Card,-10.00,20244.19,automatique-inc-7968-monthly-statement-2024-09.pdf,AI subscription
+2024-09-25,OpenAI,Card,-50.00,20194.19,automatique-inc-7968-monthly-statement-2024-09.pdf,AI subscription
+2024-10-10,Bitrise Limited,Card,-210.00,19984.19,automatique-inc-7968-monthly-statement-2024-10.pdf,CI/CD platform
+2024-10-19,Heroku,Card,-79.00,,automatique-inc-7968-monthly-statement-2024-10.pdf,Cloud hosting
+2024-10-19,Google Cloud,Card,-0.53,19904.66,automatique-inc-7968-monthly-statement-2024-10.pdf,Cloud services
+2024-11-02,Google Cloud,Card,-0.54,19904.12,automatique-inc-7968-monthly-statement-2024-11.pdf,Cloud services
+2024-11-05,Google Workspace,Card,-48.00,19856.12,automatique-inc-7968-monthly-statement-2024-11.pdf,Business email/docs
+2024-11-10,Bitrise Limited,Card,-210.00,19646.12,automatique-inc-7968-monthly-statement-2024-11.pdf,CI/CD platform
+2024-11-12,Heroku,Card,-87.87,,automatique-inc-7968-monthly-statement-2024-11.pdf,Cloud hosting
+2024-11-12,Notion,Card,-66.00,19492.25,automatique-inc-7968-monthly-statement-2024-11.pdf,Productivity software
+2024-11-16,OpenAI,Card,-100.00,,automatique-inc-7968-monthly-statement-2024-11.pdf,AI subscription
+2024-11-16,Slack,Card,-12.41,19379.84,automatique-inc-7968-monthly-statement-2024-11.pdf,Team communication
+2024-11-21,Notion,Card,-66.00,19313.84,automatique-inc-7968-monthly-statement-2024-11.pdf,Productivity software
+2024-12-02,Google Cloud,Card,-0.52,,automatique-inc-7968-monthly-statement-2024-12.pdf,Cloud services
+2024-12-02,Google Workspace,Card,-24.00,19289.32,automatique-inc-7968-monthly-statement-2024-12.pdf,Business email/docs
+2024-12-09,OpenAI,Card,-200.00,19089.32,automatique-inc-7968-monthly-statement-2024-12.pdf,AI subscription
+2024-12-10,Bitrise Limited,Card,-210.00,,automatique-inc-7968-monthly-statement-2024-12.pdf,CI/CD platform
+2024-12-10,Heroku,Card,-92.73,18786.59,automatique-inc-7968-monthly-statement-2024-12.pdf,Cloud hosting
+2024-12-13,Notion,Card,-44.00,18742.59,automatique-inc-7968-monthly-statement-2024-12.pdf,Productivity software
