@@ -65,11 +65,11 @@
 
 ---
 
-## Incorporation & Setup Costs
+## Incorporation & Setup Costs (from Privacy.com)
 
 | Date | Description | Amount |
 |------|-------------|--------|
-| 2023-05-08 | Stripe Atlas - Incorporation Fee | $500.00 |
+| 2023-05-06 | Stripe Atlas - Incorporation Fee | $500.00 |
 | **Total Setup Costs** | | **$500.00** |
 
 ---
