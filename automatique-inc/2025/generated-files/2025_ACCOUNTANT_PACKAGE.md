@@ -3,7 +3,7 @@
 **Prepared for:** Brandon (Accountant)
 **Prepared by:** Kurt Braget
 **Date:** January 2025
-**Status:** YTD through January 2025
+**Status:** Full Year 2025
 
 ---
 
@@ -23,24 +23,91 @@
 
 ---
 
-## 2025 Tax Year Summary (YTD - January)
+## 2025 Tax Year Summary
 
-**Period:** January 1, 2025 - January 31, 2025
+**Period:** January 1, 2025 - December 31, 2025
 
 ### Financial Summary
 
 | | Amount |
 |---|--------|
-| **Total Revenue** | $0.00 |
-| **Total Expenses (Mercury)** | $651.31 |
-| **Total Expenses (Paid Personally)** | $624.00* |
-| **Total Expenses** | $1,275.31 |
-| **Net Operating Loss (YTD)** | **($1,275.31)** |
+| **Total Revenue** | $88,080.20 |
+| **Total Expenses (Mercury)** | $14,205.50 |
+| **Total Expenses (Paid Personally)** | $624.00 |
+| **Total Expenses** | $14,829.50 |
+| **Net Income** | **$73,250.70** |
 | | |
 | **Beginning Cash Balance** | $18,742.59 |
-| **Ending Cash Balance** | $18,091.28 |
+| **Ending Cash Balance** | $92,617.33 |
 
-*Personal expenses extrapolated for full year: LegalZoom $384 + Pablochat $240 = $624
+---
+
+## Revenue Detail
+
+### Client Revenue ($87,500.00)
+
+| Date | Client | Amount | Notes |
+|------|--------|--------|-------|
+| 2025-02-27 | Auto Routing | $10,000.00 | Software development |
+| 2025-03-04 | Auto Routing | $5,000.00 | Software development |
+| 2025-03-14 | Auto Routing | $7,000.00 | Software development |
+| 2025-04-17 | Auto Routing | $8,000.00 | Software development |
+| 2025-05-14 | Auto Routing | $5,000.00 | Software development |
+| 2025-07-08 | Auto Routing | $15,000.00 | Software development |
+| 2025-08-15 | 1/BLENDFI INC | $5,000.00 | Software development |
+| 2025-08-18 | SUO TECH INC | $7,500.00 | Software development |
+| 2025-10-29 | 1/BLENDFI INC | $10,000.00 | Software development |
+| 2025-11-13 | 1/BLENDFI INC | $5,000.00 | Software development |
+| 2025-12-01 | 1/BLENDFI INC | $5,000.00 | Software development |
+| 2025-12-11 | 1/BLENDFI INC | $5,000.00 | Software development |
+| | **Subtotal** | **$87,500.00** | |
+
+### Other Revenue ($580.20)
+
+| Date | Source | Amount | Notes |
+|------|--------|--------|-------|
+| 2025-07-07 | Stripe | $466.16 | Payout |
+| 2025-07-25 | Stripe | $19.12 | Payout |
+| 2025-08-13 | Google | $0.19 | Payout |
+| 2025-08-27 | Stripe | $18.84 | Payout |
+| 2025-09-25 | Stripe | $18.98 | Payout |
+| 2025-10-27 | Stripe | $18.98 | Payout |
+| 2025-11-26 | Stripe | $18.98 | Payout |
+| 2025-12-24 | Stripe | $18.98 | Payout |
+| 2025-03-07 | Gusto | $0.01 | Verification |
+| | **Subtotal** | **$580.24** | |
+
+**Total Revenue: $88,080.24**
+
+---
+
+## Expense Summary
+
+### Mercury (Paid by Company) - $14,205.50
+
+| Category | Amount | % of Total |
+|----------|--------|------------|
+| AI/ML Tools | $2,725.80 | 19.2% |
+| Developer Tools (Cursor, GitHub, Bitrise, Codeium) | $2,217.22 | 15.6% |
+| Contractor (Sound Strats LLC) | $2,000.00 | 14.1% |
+| Hosting (Heroku) | $863.61 | 6.1% |
+| Design Tools (Framer, Whimsical, Sketch) | $584.00 | 4.1% |
+| Software (Google Workspace) | $559.29 | 3.9% |
+| Communication (Slack) | $271.54 | 1.9% |
+| Productivity (Notion) | $473.35 | 3.3% |
+| Domains (GoDaddy) | $413.81 | 2.9% |
+| Marketing (Twitter/X, Google Ads) | $533.87 | 3.8% |
+| Other (Adobe, VPN, Suno, etc.) | $563.01 | 4.0% |
+| Bitrise Refund | +$210.00 | -1.5% |
+| **Total Mercury** | **$14,205.50** | |
+
+### Personal (Paid by Kurt) - $624.00
+
+| Category | Amount | Notes |
+|----------|--------|-------|
+| LegalZoom (Registered Agent) | $384.00 | 12 months × $32 |
+| Pablochat (Discord service) | $240.00 | 12 months × $20 |
+| **Total Personal** | **$624.00** | |
 
 ---
 
@@ -50,111 +117,50 @@
 |------|---------|----------|-----|
 | 2023 | $0 | $15,991 | ($15,991) |
 | 2024 | $12,100 | $14,018 | ($1,918) |
-| 2025 (Jan) | $0 | $1,275 | ($1,275) |
-| **Total** | **$12,100** | **$31,284** | **($19,184)** |
+| 2025 | $88,080 | $14,830 | $73,250 |
+| **Total** | **$100,180** | **$44,839** | **$55,341** |
 
-**Cumulative NOL:** ~$19,184
-
----
-
-## 2025 Expenses Detail
-
-### Mercury (Paid by Company) - January 2025
-
-| Date | Vendor | Amount | Category |
-|------|--------|--------|----------|
-| 2025-01-02 | Google Workspace | $24.00 | Software |
-| 2025-01-02 | Google Cloud | $0.54 | Cloud |
-| 2025-01-03 | Slack | $24.79 | Communication |
-| 2025-01-09 | OpenAI | $200.00 | AI/ML Tools |
-| 2025-01-10 | Bitrise Limited | $210.00 | Developer Tools |
-| 2025-01-13 | Notion | $44.00 | Productivity |
-| 2025-01-19 | Slack | $17.50 | Communication |
-| 2025-01-25 | Heroku | $118.48 | Hosting |
-| 2025-01-27 | Whimsical | $12.00 | Productivity |
-| | **Total Mercury** | **$651.31** | |
-
-### Wells Fargo (Paid Personally for AUTOMATIQUE) - Full Year 2025
-
-| Month | LegalZoom | Pablochat Discord | Total |
-|-------|-----------|-------------------|-------|
-| Jan | $32.00 | $20.00 | $52.00 |
-| Feb | $32.00 | $20.00 | $52.00 |
-| Mar | $32.00 | $20.00 | $52.00 |
-| Apr | $32.00 | - | $32.00 |
-| May | $32.00 | $40.00* | $72.00 |
-| Jun | $32.00 | $20.00 | $52.00 |
-| Jul | $32.00 | $20.00 | $52.00 |
-| Aug | $32.00 | $20.00 | $52.00 |
-| Sep | $32.00 | $20.00 | $52.00 |
-| Oct | $32.00 | $20.00 | $52.00 |
-| Nov | $32.00 | $20.00 | $52.00 |
-| Dec | $32.00 | $20.00 | $52.00 |
-| **Total** | **$384.00** | **$240.00** | **$624.00** |
-
-*May shows two Pablochat charges
-
-**Note on Google Workspace:** There are also Google Workspace charges on Wells Fargo ($57.60/mo Jan-Mar, $49.93 Apr) marked as "DUPLICATE - AUTOMATIQUE". These may overlap with Mercury charges or be a separate personal account used for business. Needs review.
+**Prior Year NOL Available:** $17,909 (2023 + 2024 losses)
 
 ---
 
-## Expense Categories Summary (Projected Full Year)
+## Key Questions for Brandon
 
-| Category | Mercury (Jan) | Personal (Full Yr) | Notes |
-|----------|---------------|-------------------|-------|
-| AI/ML Tools | $200.00 | - | OpenAI |
-| Developer Tools | $210.00 | - | Bitrise |
-| Hosting | $118.48 | - | Heroku |
-| Communication | $42.29 | - | Slack |
-| Productivity | $56.00 | - | Notion, Whimsical |
-| Software | $24.00 | - | Google Workspace |
-| Cloud | $0.54 | - | Google Cloud |
-| Legal Services | - | $384.00 | LegalZoom |
-| Software (Discord) | - | $240.00 | Pablochat |
-| **Total** | **$651.31** | **$624.00** | |
+### 1. SEP-IRA / Retirement Contribution
 
-**Projected 2025 Total (if Jan rate continues):** ~$651 × 12 + $624 = ~$8,436
+With $73k+ net income in 2025, can we:
+- Contribute to a SEP-IRA to reduce taxable income?
+- What's the maximum contribution allowed?
+- Can this be done retroactively for 2025 (before filing deadline)?
+- If we take $0 in salary, can we still contribute to retirement?
 
----
+### 2. Rami's $20,000 Contribution (2024)
 
-## Important Notes
+Still not documented. Options:
+- Stock issuance (requires valuation)
+- Convertible note / SAFE
+- Shareholder loan (to be repaid)
+- Capital contribution
 
-### 1. No Revenue Yet in 2025
+**Which is cleanest given we're now in 2025?**
 
-No client payments received as of January 2025. Company is operating on remaining cash from Rami's 2024 contribution.
+### 3. S-Corp vs C-Corp Election
 
-### 2. Burn Rate
+With profitable 2025:
+- Should we elect S-Corp for 2025 or 2026?
+- How does this affect using the $17.9k NOL carryforward?
+- What's the optimal salary/distribution split?
 
-- Monthly Mercury expenses: ~$651 (based on January)
-- Monthly personal expenses: ~$52
-- **Total monthly burn: ~$703**
-- **Cash runway: ~26 months** at current rate ($18,091 / $703)
+### 4. NOL Utilization
 
-### 3. Recurring Subscriptions (Monthly)
+- Can the $17.9k prior year losses offset 2025 income?
+- Any limitations on C-Corp NOL usage?
 
-| Vendor | Amount | Source |
-|--------|--------|--------|
-| Bitrise | $210.00 | Mercury |
-| OpenAI | $200.00 | Mercury |
-| Heroku | ~$118.00 | Mercury |
-| Notion | ~$44.00 | Mercury |
-| Slack | ~$42.00 | Mercury |
-| LegalZoom | $32.00 | Personal |
-| Google Workspace | $24.00 | Mercury |
-| Pablochat | $20.00 | Personal |
+### 5. Kurt's Personal Expenses
 
----
-
-## Questions for Brandon
-
-### 2025 Specific
-1. **Running at a loss:** With no 2025 revenue yet, how long can we operate before needing to address?
-2. **Personal expenses:** Should Kurt's 2025 personal payments ($624) be reimbursed by the company?
-
-### Carryover from 2024
-3. **Rami's $20k:** Still not documented - how to formalize?
-4. **S-Corp election:** Decision needed for 2025
-5. **Cumulative NOL:** ~$19k in losses - how to best utilize?
+Kurt paid $624 personally for business expenses in 2025. Should this be:
+- Reimbursed by the company?
+- Treated as additional capital contribution?
 
 ---
 
@@ -163,15 +169,15 @@ No client payments received as of January 2025. Company is operating on remainin
 | Document | Description |
 |----------|-------------|
 | `2025_ACCOUNTANT_PACKAGE.md` | This summary (start here) |
-| `extracted/mercury-checking-2025.csv` | Mercury transactions (Jan) |
-| `extracted/wells-fargo/2025-*.csv` | Personal bank statements |
+| `extracted/mercury/2025_mercury_checking.csv` | Full year Mercury transactions (278 lines) |
+| `extracted/privacy-com/2025_privacy-com_automatique.csv` | LegalZoom charges |
+| `extracted/wells-fargo/2025-*.csv` | Personal bank statements (12 months) |
 
 ### Related Documents
 | Document | Location |
 |----------|----------|
 | 2024 Package | `../2024/generated-files/2024_ACCOUNTANT_PACKAGE.md` |
 | 2023 Package | `../2023/generated-files/2023_ACCOUNTANT_PACKAGE.md` |
-| Brandon Summary | `../BRANDON_SUMMARY.md` |
 
 ---
 
@@ -182,22 +188,21 @@ AUTOMATIQUE, INC.
 Financial Summary 2023-2025
 
 ═══════════════════════════════════════════════════════════════
-                        2023        2024        2025 (YTD)
+                        2023        2024        2025
 ═══════════════════════════════════════════════════════════════
-REVENUE                   $0      $12,100            $0
-EXPENSES             $15,991      $14,018        $1,275*
+REVENUE                   $0      $12,100      $88,080
+EXPENSES             $15,991      $14,018      $14,830
 ───────────────────────────────────────────────────────────────
-NET INCOME          ($15,991)    ($1,918)      ($1,275)
+NET INCOME          ($15,991)    ($1,918)     $73,250
 
 CAPITAL
-  Rami contribution       $0      $20,000            $0
+  Rami contribution       $0      $20,000           $0
 
-CASH (EOY)                $0      $18,743       $18,091
+CASH (EOY)                $0      $18,743      $92,617
 ═══════════════════════════════════════════════════════════════
 
-* 2025 expenses: $651 Mercury (Jan) + $624 Personal (full year)
-
-Cumulative NOL: ~$19,184
+Prior Year NOL: $17,909 (available to offset 2025 income)
+2025 Net After NOL: ~$55,341 (estimated taxable)
 ```
 
 ---
