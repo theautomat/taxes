@@ -7,7 +7,7 @@ This document tracks ongoing improvements and fixes for the taxes project docume
 ### Documentation Consistency Issues
 
 - [ ] **Clarify stage numbering** - Decide on 3 or 4 stages and be consistent across all documentation
-- [ ] **Create placeholder directories** - Add `generated-files/final/` with explanatory README
+- [x] **Create placeholder directories** - `generated-files/final/` exists (empty, ready for final processed data)
 - [ ] **Remove hardcoded paths** - Replace `/Users/beau/Projects/taxes` with relative paths or placeholders in CLAUDE.md
 
 ### Income Reconciliation
@@ -21,13 +21,17 @@ This document tracks ongoing improvements and fixes for the taxes project docume
 
 ### Deduction Research - 2022
 
-- [ ] **Research Personal Assistant deductibility** - Complete analysis of $1,500 Mark Cousineau payment. Stub created in `BREAKDOWN_2022_Personal_Assistants.md`. Need to: verify 1099-NEC filing, document business vs personal tasks, consult tax preparer.
-- [ ] **Research Accountable Plan implementation** - Evaluate accountable plan for separate office unit. Stub created in `BREAKDOWN_2022_Accountable_Plan.md`. Need to: consult tax preparer, calculate cost/benefit vs Form 8829, determine if retroactive implementation feasible.
-- [ ] **Research First Time Abatement eligibility** - Verify clean compliance history 2019-2021 for potential penalty relief. Stub created in `BREAKDOWN_2022_First_Time_Abatement.md`. Keep as backup option if filing issues arise.
-- [ ] **Research Reasonable Cause criteria** - Document reasonable cause penalty relief requirements. Stub created in `BREAKDOWN_2022_Reasonable_Cause.md`. Alternative to FTA if needed for income reconciliation delays.
+- [x] **Research Personal Assistant deductibility** - Analysis COMPLETE in `BREAKDOWN_2022_Personal_Assistants.md`. Remaining actions: verify 1099-NEC was filed, consult tax preparer on deductibility.
+- [x] **Research Accountable Plan implementation** - Analysis COMPLETE in `BREAKDOWN_2022_Accountable_Plan.md`. Remaining actions: consult tax preparer on retroactive implementation feasibility.
+- [x] **Research First Time Abatement eligibility** - Stub in `BREAKDOWN_2022_First_Time_Abatement.md`. Keep as backup option if penalties assessed.
+- [x] **Research Reasonable Cause criteria** - Stub in `BREAKDOWN_2022_Reasonable_Cause.md`. Alternative to FTA if needed.
 
 ## Completed Tasks
 
+- [x] **Wells Fargo 2022 extraction** - All 12 months extracted to CSV
+  - 2,024 transactions extracted
+  - Merged and deduplicated
+  - Output: `generated-files/extracted/wells-fargo/`, `generated-files/merged-deduped/2022_deduped_2025-10-16_162510.csv`
 - [x] **Standardize CSV format** - Migrated from Deposits/Withdrawals to single Amount column (negative for expenses, positive for income)
   - Converted all 16 existing CSV files (14 extracted + 2 merged)
   - Updated all conversion scripts (fix_wells_fargo_schema.py, convert_privacy_com_to_standard_csv.py, merge_all_csvs.py)
