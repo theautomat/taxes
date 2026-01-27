@@ -73,34 +73,42 @@ Tax Structure & Planning
      filing to reduce taxable income? Does Kurt need to take a salary
      first?
 
+  4. Salaries / Compensation
+     No salaries have been paid to anyone in 2023, 2024, or 2025. Kurt
+     and Rami have both been working in the business. What's the best way
+     to start paying compensation? Should we set up payroll going forward,
+     or is there a way to retroactively pay salaries for prior years?
+     This is especially relevant if we elect S-Corp, since the IRS
+     requires reasonable compensation before distributions.
+
 Open Items
 
-  4. Rami's $20,000 Contribution
+  5. Rami's $20,000 Contribution
      $20,000 wired to Mercury in June 2024. Not documented. Should this
      be a capital contribution, shareholder loan, or something else?
 
-  5. Personally-Paid Business Expenses
+  6. Personally-Paid Business Expenses
      Kurt paid ~$23k of business expenses from personal accounts across
      2023-2025. Should this be treated as shareholder loan or capital
      contribution? Can the company reimburse Kurt?
 
-  6. Accountable Plan
+  7. Accountable Plan
      Should Automatique establish an accountable plan so Kurt can be
      reimbursed for home office, cell phone, and similar expenses going
      forward?
 
 Compliance
 
-  7. Filing Status
+  8. Filing Status
      What are the deadlines and any late-filing penalties for 2023 and
      2024? What's the 2025 deadline?
 
-  8. 1099s
+  9. 1099s
      - 2023: $10k to Popstand (domestic, Zelle)
      - 2024: $8.1k to George (international, wire)
      - 2025: $2k to Sound Strats LLC
 
-  9. State Compliance
+ 10. State Compliance
      Delaware franchise tax owed for 2023-2025? Any California foreign
      corp requirements?
 
