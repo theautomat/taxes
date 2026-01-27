@@ -2,7 +2,7 @@
 
 **Prepared for:** Brandon (Accountant)
 **Prepared by:** Kurt Braget
-**Date:** January 2025
+**Date:** January 2025 (Updated January 2026)
 **Status:** Full Year 2025
 
 ---
@@ -116,11 +116,11 @@
 | Year | Revenue | Expenses | Net |
 |------|---------|----------|-----|
 | 2023 | $0 | $15,991 | ($15,991) |
-| 2024 | $12,100 | $14,018 | ($1,918) |
+| 2024 | $12,100 | ~$19,903 | ~($7,803) |
 | 2025 | $88,080 | $14,830 | $73,250 |
-| **Total** | **$100,180** | **$44,839** | **$55,341** |
+| **Total** | **$100,180** | **~$50,724** | **~$49,456** |
 
-**Prior Year NOL Available:** $17,909 (2023 + 2024 losses)
+**Prior Year NOL Available:** ~$23,794 (2023 + 2024 losses, updated after Privacy.com audit)
 
 ---
 
@@ -148,13 +148,14 @@ Still not documented. Options:
 
 With profitable 2025:
 - Should we elect S-Corp for 2025 or 2026?
-- How does this affect using the $17.9k NOL carryforward?
+- How does this affect using the ~$23.8k NOL carryforward?
 - What's the optimal salary/distribution split?
 
 ### 4. NOL Utilization
 
-- Can the $17.9k prior year losses offset 2025 income?
+- Can the ~$23.8k prior year losses offset 2025 income?
 - Any limitations on C-Corp NOL usage?
+- 2024 NOL increased from ~$1.9k to ~$7.8k after Privacy.com audit (see 2024 package for details)
 
 ### 5. Kurt's Personal Expenses
 
@@ -169,6 +170,7 @@ Kurt paid $624 personally for business expenses in 2025. Should this be:
 | Document | Description |
 |----------|-------------|
 | `2025_ACCOUNTANT_PACKAGE.md` | This summary (start here) |
+| `2025_EXPENSES_SUMMARY.md` | Detailed expense breakdown with vendor-level detail |
 | `extracted/mercury/2025_mercury_checking.csv` | Full year Mercury transactions (278 lines) |
 | `extracted/privacy-com/2025_privacy-com_automatique.csv` | LegalZoom charges |
 | `extracted/wells-fargo/2025-*.csv` | Personal bank statements (12 months) |
@@ -191,9 +193,9 @@ Financial Summary 2023-2025
                         2023        2024        2025
 ═══════════════════════════════════════════════════════════════
 REVENUE                   $0      $12,100      $88,080
-EXPENSES             $15,991      $14,018      $14,830
+EXPENSES             $15,991     ~$19,903      $14,830
 ───────────────────────────────────────────────────────────────
-NET INCOME          ($15,991)    ($1,918)     $73,250
+NET INCOME          ($15,991)   ~($7,803)     $73,250
 
 CAPITAL
   Rami contribution       $0      $20,000           $0
@@ -201,10 +203,13 @@ CAPITAL
 CASH (EOY)                $0      $18,743      $92,617
 ═══════════════════════════════════════════════════════════════
 
-Prior Year NOL: $17,909 (available to offset 2025 income)
-2025 Net After NOL: ~$55,341 (estimated taxable)
+Prior Year NOL: ~$23,794 (available to offset 2025 income)
+2025 Net After NOL: ~$49,456 (estimated taxable)
+
+Note: 2024 expenses updated after Privacy.com audit found
+~$5,886 in uncaptured business SaaS expenses.
 ```
 
 ---
 
-*Generated: 2025-01-21*
+*Generated: 2025-01-21 | Updated: 2026-01-27*
