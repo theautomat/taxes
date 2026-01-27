@@ -13,10 +13,8 @@ EIN:              38-4207516
 Entity Type:      C-Corporation
 State:            Delaware
 Incorporated:     May 7, 2023
-Address:          662 Mountain View Street, Fillmore, CA 93015
 Registered Agent: Legalinc Corporate Services (via LegalZoom)
 Banking:          Mercury
-Owner:            Kurt Braget (100%)
 
 
 THREE-YEAR FINANCIAL SUMMARY
