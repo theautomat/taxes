@@ -1,0 +1,90 @@
+AUTOMATIQUE INC - 2025 TAX YEAR
+===============================
+
+Period: January 1, 2025 - December 31, 2025
+
+
+FINANCIAL SUMMARY
+-----------------
+Total Revenue:                       $88,080.24
+Total Expenses (Mercury):           $14,205.50
+Total Expenses (Paid Personally):       $624.00
+Total Expenses:                      $14,829.50
+Net Income:                          $73,250.74
+
+Beginning Cash Balance:              $18,742.59
+Ending Cash Balance:                 $92,617.33
+
+
+REVENUE DETAIL
+--------------
+
+Client Revenue ($87,500.00)
+
+Date          Client            Amount
+----------    ---------------   ----------
+2025-02-27    Auto Routing      $10,000.00
+2025-03-04    Auto Routing       $5,000.00
+2025-03-14    Auto Routing       $7,000.00
+2025-04-17    Auto Routing       $8,000.00
+2025-05-14    Auto Routing       $5,000.00
+2025-07-08    Auto Routing      $15,000.00
+2025-08-15    1/BLENDFI INC      $5,000.00
+2025-08-18    SUO TECH INC       $7,500.00
+2025-10-29    1/BLENDFI INC     $10,000.00
+2025-11-13    1/BLENDFI INC      $5,000.00
+2025-12-01    1/BLENDFI INC      $5,000.00
+2025-12-11    1/BLENDFI INC      $5,000.00
+
+Other Revenue ($580.24)
+
+Source            Amount     Notes
+--------------    -------    ------------------
+Stripe payouts    $580.04    7 payouts (Jul-Dec)
+Google payout       $0.19    Aug
+Gusto               $0.01    Verification deposit
+
+Total Revenue: $88,080.24
+
+
+EXPENSE DETAIL
+--------------
+
+Mercury (Paid by Company) - $14,205.50
+---------------------------------------
+Category                                       Amount
+--------------------------------------------   ----------
+AI/ML Tools (Cursor, OpenAI, Anthropic, etc.)   $2,725.80
+Developer Tools (Cursor, GitHub, Bitrise)        $2,217.22
+Contractor (Sound Strats LLC)                    $2,000.00
+Hosting (Heroku)                                   $863.61
+Design Tools (Framer, Whimsical, Sketch)           $584.00
+Software (Google Workspace)                        $559.29
+Marketing (Twitter/X, Google Ads)                  $533.87
+Productivity (Notion)                              $473.35
+Domains (GoDaddy)                                  $413.81
+Communication (Slack)                              $271.54
+Other (Adobe, VPN, Suno, etc.)                     $563.01
+Bitrise Refund                                    +$210.00
+                                                ----------
+Mercury Total                                   $14,205.50
+
+Contractor note: $2,000 paid to Sound Strats LLC on 2025-11-24.
+
+
+Personal (Paid by Kurt) - $624.00
+----------------------------------
+Category          Vendor                        Amount
+--------------    --------------------------    -------
+Legal Services    LegalZoom (registered agent)  $384.00
+Software Service  Pablochat (Discord)           $240.00
+                                                -------
+                  Personal Total                $624.00
+
+
+TOTAL 2025 EXPENSES
+-------------------
+Mercury (company paid):    $14,205.50
+Personally paid:              $624.00
+                           ----------
+Total:                     $14,829.50

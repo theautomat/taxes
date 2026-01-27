@@ -1,0 +1,29 @@
+Subject: Automatique Inc - Tax Filing Package (2023-2025)
+
+Hi Brandon,
+
+Attached is the tax filing package for Automatique, Inc. (EIN 38-4207516)
+covering 2023, 2024, and 2025.
+
+Quick overview:
+- C-Corp incorporated in Delaware, May 2023
+- 2023: $0 revenue, $16k loss (startup year)
+- 2024: $12k revenue, ~$8k loss (first clients)
+- 2025: $88k revenue, $73k profit (strong year)
+- Cumulative NOL from 2023+2024: ~$23,794
+
+What's in the package:
+- SUMMARY.txt -- Start here. High-level overview with all my questions.
+- 2023/, 2024/, 2025/ -- Detailed packages for each year.
+
+Biggest questions:
+1. Can we use the ~$24k NOL to offset 2025 income?
+2. Should we elect S-Corp (and for which year)?
+3. Can we set up a SEP-IRA to reduce 2025 taxable income?
+4. How do we formalize Rami's $20k contribution from 2024?
+
+Everything is detailed in the SUMMARY.txt. Let me know if you need
+anything else.
+
+Thanks,
+Kurt
