@@ -74,12 +74,15 @@ Tax Structure & Planning
      first?
 
   4. Salaries / Compensation
-     No salaries have been paid to anyone in 2023, 2024, or 2025. Kurt
-     and Rami have both been working in the business. What's the best way
-     to start paying compensation? Should we set up payroll going forward,
-     or is there a way to retroactively pay salaries for prior years?
-     This is especially relevant if we elect S-Corp, since the IRS
-     requires reasonable compensation before distributions.
+     Kurt and Rami have both been working in the business but have not
+     paid themselves any compensation. Contractors were paid, but the
+     two of them have taken nothing. They want to start paying
+     themselves. What's the best way to do this? Can we recognize unpaid
+     compensation from prior years as an accrued expense (i.e., the
+     company owed them but hadn't paid yet), or do we just start paying
+     salaries going forward and treat all prior income as profit? What
+     approach works best depending on how we incorporate (C-Corp vs.
+     S-Corp)?
 
 Open Items
 
