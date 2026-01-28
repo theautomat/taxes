@@ -1,0 +1,181 @@
+RAMI ELHAJ - PROFIT SHARING ANALYSIS
+=====================================
+
+Date: January 2026
+Period: June 14, 2024 (date of Rami's $20,000 contribution) through
+        December 31, 2025
+
+
+ASSUMPTIONS
+-----------
+- Profit sharing begins on date of Rami's capital contribution (June 14, 2024)
+- All calculations are based on PROFIT (revenue minus expenses), not revenue
+- "BlendFi" includes payments from both "Auto Routing" and "1/BLENDFI INC"
+  (same client, different Mercury labels)
+- NOTE: "Bloom" referenced in discussion -- assumed to mean BlendFi. If
+  Bloom is a separate company, this analysis needs updating.
+
+
+REVENUE (June 14, 2024 - December 31, 2025)
+--------------------------------------------
+
+2024 (post-June 14): No client revenue received after Rami's contribution.
+All 2024 client revenue ($12,100) came in February-April, before June 14.
+
+2025: All revenue falls within the profit-sharing period.
+
+By client:
+
+  Client                              Amount
+  ----------------------------------  ----------
+  BlendFi (Auto Routing)              $50,000.00
+  BlendFi (1/BLENDFI INC)             $30,000.00
+  SUO TECH INC                         $7,500.00
+  Stripe payouts                          $580.04
+  Google payout                             $0.19
+  Gusto (verification)                      $0.01
+                                      ----------
+  TOTAL REVENUE                       $88,080.24
+
+Revenue by group:
+  BlendFi + SUO TECH (exception clients):  $87,500.00   (99.3%)
+  Other (Stripe/Google/Gusto):                 $580.24    (0.7%)
+
+
+EXPENSES (June 14, 2024 - December 31, 2025)
+---------------------------------------------
+
+2024 Mercury (post-June 14, exact):
+
+  Date        Vendor                Amount
+  ----------  --------------------  ----------
+  2024-07-09  PARO Marketplace      $3,449.60
+  2024-09-10  Bitrise                 $210.00
+  2024-09-17  OpenAI                   $10.00
+  2024-09-25  OpenAI                   $50.00
+  2024-10-10  Bitrise                 $210.00
+  2024-10-19  Heroku                   $79.00
+  2024-10-19  Google Cloud              $0.53
+  2024-11-02  Google Cloud              $0.54
+  2024-11-05  Google Workspace         $48.00
+  2024-11-10  Bitrise                 $210.00
+  2024-11-12  Heroku                   $87.87
+  2024-11-12  Notion                   $66.00
+  2024-11-16  OpenAI                  $100.00
+  2024-11-16  Slack                    $12.41
+  2024-11-21  Notion                   $66.00
+  2024-12-02  Google Cloud              $0.52
+  2024-12-02  Google Workspace         $24.00
+  2024-12-09  OpenAI                  $200.00
+  2024-12-10  Bitrise                 $210.00
+  2024-12-10  Heroku                   $92.73
+  2024-12-13  Notion                   $44.00
+              --------------------  ----------
+              2024 Mercury total    $5,172.70
+
+  * Note: PARO Marketplace ($3,449.60) was a failed accounting firm
+    engagement. If excluded as a one-time loss, 2024 Mercury expenses
+    drop to $1,723.10.
+
+2024 Privacy.com (post-June 14, estimated):
+
+  Prorated from full-year Privacy.com subscriptions that were active
+  after June 14 (Heroku, Midjourney, GoDaddy, Slack, etc.)
+
+  Estimated total:                     ~$2,700
+
+2025 expenses (full year):
+
+  Mercury:                            $14,205.50
+  Personal (LegalZoom + Pablochat):      $624.00
+              --------------------  ----------
+              2025 total            $14,829.50
+
+
+TOTAL EXPENSES SUMMARY
+  2024 Mercury (post June 14):         $5,172.70
+  2024 Privacy.com (post June 14):    ~$2,700.00
+  2025 (full year):                   $14,829.50
+                                      ----------
+  TOTAL EXPENSES:                    ~$22,702.20
+
+
+PROFIT CALCULATION
+------------------
+
+  Total Revenue:                      $88,080.24
+  Total Expenses:                    ~$22,702.20
+                                      ----------
+  TOTAL PROFIT:                      ~$65,378.04
+
+
+SCENARIO A: FLAT 10%
+---------------------
+
+  Rami's share: 10% x ~$65,378 = ~$6,537.80
+
+
+SCENARIO B: FLAT 50%
+---------------------
+
+  Rami's share: 50% x ~$65,378 = ~$32,689.02
+
+
+SCENARIO C: HYBRID (BlendFi/SUO TECH at 50%, other at 10%)
+-----------------------------------------------------------
+
+Expenses allocated proportionally by revenue share:
+
+  BlendFi + SUO TECH revenue:         $87,500.00   (99.3% of total)
+  Other revenue:                          $580.24    (0.7% of total)
+
+  BlendFi + SUO TECH expenses (99.3%): ~$22,543.10
+  Other expenses (0.7%):                   ~$159.10
+
+  BlendFi + SUO TECH profit:          ~$64,956.90
+  Other profit:                           ~$421.14
+
+  Rami's share:
+    50% of BlendFi/SUO TECH profit:   ~$32,478.45
+    10% of other profit:                   ~$42.11
+                                      ----------
+    TOTAL:                            ~$32,520.56
+
+  Note: Because BlendFi/SUO TECH represent 99.3% of revenue, the
+  hybrid scenario is nearly identical to the flat 50% scenario.
+
+
+SUMMARY
+-------
+
+  Scenario                    Rami's Share
+  --------------------------  ------------
+  A. Flat 10%                   ~$6,538
+  B. Flat 50%                  ~$32,689
+  C. Hybrid (50%/10%)         ~$32,521
+
+
+NOTES
+-----
+
+1. These calculations do not account for taxes owed by the company.
+   The actual distributable profit will be lower after corporate tax.
+
+2. The ~$2,700 Privacy.com estimate for post-June-14 2024 is a rough
+   proration. Exact amounts can be calculated from the full Privacy.com
+   source data if needed.
+
+3. Rami's original $20,000 contribution is NOT included as revenue or
+   profit. It was a capital contribution and is separate from operating
+   results.
+
+4. How profit sharing is structured (distributions, salary, contractor
+   payments, etc.) has tax implications. This should be discussed with
+   Brandon before making any payments.
+
+5. The PARO Marketplace charge ($3,449.60) inflates 2024 expenses. If
+   that is excluded as a non-recurring cost, total profit increases to
+   ~$68,828 and Rami's shares would be:
+     A. Flat 10%:       ~$6,883
+     B. Flat 50%:      ~$34,414
+     C. Hybrid 50/10%: ~$34,237
