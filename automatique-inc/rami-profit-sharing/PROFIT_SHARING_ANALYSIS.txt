@@ -10,10 +10,8 @@ ASSUMPTIONS
 -----------
 - Profit sharing begins on date of Rami's capital contribution (June 14, 2024)
 - All calculations are based on PROFIT (revenue minus expenses), not revenue
-- "BlendFi" includes payments from both "Auto Routing" and "1/BLENDFI INC"
-  (same client, different Mercury labels)
-- NOTE: "Bloom" referenced in discussion -- assumed to mean BlendFi. If
-  Bloom is a separate company, this analysis needs updating.
+- SUO TECH INC revenue: 50% profit share
+- All other revenue (BlendFi, Stripe, etc.): 15% profit share
 
 
 REVENUE (June 14, 2024 - December 31, 2025)
@@ -37,122 +35,103 @@ By client:
                                       ----------
   TOTAL REVENUE                       $88,080.24
 
-Revenue by group:
-  BlendFi + SUO TECH (exception clients):  $87,500.00   (99.3%)
-  Other (Stripe/Google/Gusto):                 $580.24    (0.7%)
+
+SUO TECH INC TRANSACTION (50% tier)
+------------------------------------
+
+  Date        Client         Amount      Description
+  ----------  -------------  ----------  -----------
+  2025-08-18  SUO TECH INC   $7,500.00   Software development
+
+  SUO TECH TOTAL:            $7,500.00
+
+
+ALL OTHER REVENUE (15% tier)
+-----------------------------
+
+  Date        Client              Amount
+  ----------  ------------------  ----------
+  2025-02-27  Auto Routing        $10,000.00
+  2025-03-04  Auto Routing         $5,000.00
+  2025-03-14  Auto Routing         $7,000.00
+  2025-04-17  Auto Routing         $8,000.00
+  2025-05-14  Auto Routing         $5,000.00
+  2025-07-08  Auto Routing        $15,000.00
+  2025-08-15  1/BLENDFI INC        $5,000.00
+  2025-10-29  1/BLENDFI INC       $10,000.00
+  2025-11-13  1/BLENDFI INC        $5,000.00
+  2025-12-01  1/BLENDFI INC        $5,000.00
+  2025-12-11  1/BLENDFI INC        $5,000.00
+  2025-07-07  Stripe                 $466.16
+  2025-07-25  Stripe                  $19.12
+  2025-08-13  Google                   $0.19
+  2025-08-27  Stripe                  $18.84
+  2025-09-25  Stripe                  $18.98
+  2025-10-27  Stripe                  $18.98
+  2025-11-26  Stripe                  $18.98
+  2025-12-24  Stripe                  $18.98
+  2025-03-07  Gusto                    $0.01
+              ------------------  ----------
+              OTHER TOTAL        $80,580.24
+
+
+REVENUE SUMMARY BY TIER
+------------------------
+
+  Tier                Revenue       % of Total
+  ------------------  ----------    ----------
+  SUO TECH (50%)       $7,500.00       8.5%
+  Other (15%)         $80,580.24      91.5%
+                      ----------
+  TOTAL               $88,080.24     100.0%
 
 
 EXPENSES (June 14, 2024 - December 31, 2025)
 ---------------------------------------------
 
-2024 Mercury (post-June 14, exact):
-
-  Date        Vendor                Amount
-  ----------  --------------------  ----------
-  2024-07-09  PARO Marketplace      $3,449.60
-  2024-09-10  Bitrise                 $210.00
-  2024-09-17  OpenAI                   $10.00
-  2024-09-25  OpenAI                   $50.00
-  2024-10-10  Bitrise                 $210.00
-  2024-10-19  Heroku                   $79.00
-  2024-10-19  Google Cloud              $0.53
-  2024-11-02  Google Cloud              $0.54
-  2024-11-05  Google Workspace         $48.00
-  2024-11-10  Bitrise                 $210.00
-  2024-11-12  Heroku                   $87.87
-  2024-11-12  Notion                   $66.00
-  2024-11-16  OpenAI                  $100.00
-  2024-11-16  Slack                    $12.41
-  2024-11-21  Notion                   $66.00
-  2024-12-02  Google Cloud              $0.52
-  2024-12-02  Google Workspace         $24.00
-  2024-12-09  OpenAI                  $200.00
-  2024-12-10  Bitrise                 $210.00
-  2024-12-10  Heroku                   $92.73
-  2024-12-13  Notion                   $44.00
-              --------------------  ----------
-              2024 Mercury total    $5,172.70
-
-  * Note: PARO Marketplace ($3,449.60) was a failed accounting firm
-    engagement. If excluded as a one-time loss, 2024 Mercury expenses
-    drop to $1,723.10.
-
-2024 Privacy.com (post-June 14, estimated):
-
-  Prorated from full-year Privacy.com subscriptions that were active
-  after June 14 (Heroku, Midjourney, GoDaddy, Slack, etc.)
-
-  Estimated total:                     ~$2,700
-
-2025 expenses (full year):
-
-  Mercury:                            $14,205.50
-  Personal (LegalZoom + Pablochat):      $624.00
-              --------------------  ----------
-              2025 total            $14,829.50
-
-
-TOTAL EXPENSES SUMMARY
-  2024 Mercury (post June 14):         $5,172.70
-  2024 Privacy.com (post June 14):    ~$2,700.00
-  2025 (full year):                   $14,829.50
+2024 Mercury (post-June 14):           $5,172.70
+2024 Privacy.com (post-June 14, est): ~$2,700.00
+2025 Mercury:                         $14,205.50
+2025 Personal:                           $624.00
                                       ----------
-  TOTAL EXPENSES:                    ~$22,702.20
+TOTAL EXPENSES:                      ~$22,702.20
 
 
-PROFIT CALCULATION
-------------------
-
-  Total Revenue:                      $88,080.24
-  Total Expenses:                    ~$22,702.20
-                                      ----------
-  TOTAL PROFIT:                      ~$65,378.04
-
-
-SCENARIO A: FLAT 10%
----------------------
-
-  Rami's share: 10% x ~$65,378 = ~$6,537.80
-
-
-SCENARIO B: FLAT 50%
----------------------
-
-  Rami's share: 50% x ~$65,378 = ~$32,689.02
-
-
-SCENARIO C: HYBRID (BlendFi/SUO TECH at 50%, other at 10%)
------------------------------------------------------------
+PROFIT CALCULATION BY TIER
+---------------------------
 
 Expenses allocated proportionally by revenue share:
 
-  BlendFi + SUO TECH revenue:         $87,500.00   (99.3% of total)
-  Other revenue:                          $580.24    (0.7% of total)
+  SUO TECH expenses (8.5%):           ~$1,929.69
+  Other expenses (91.5%):            ~$20,772.51
 
-  BlendFi + SUO TECH expenses (99.3%): ~$22,543.10
-  Other expenses (0.7%):                   ~$159.10
+Profit by tier:
 
-  BlendFi + SUO TECH profit:          ~$64,956.90
-  Other profit:                           ~$421.14
-
-  Rami's share:
-    50% of BlendFi/SUO TECH profit:   ~$32,478.45
-    10% of other profit:                   ~$42.11
-                                      ----------
-    TOTAL:                            ~$32,520.56
-
-  Note: Because BlendFi/SUO TECH represent 99.3% of revenue, the
-  hybrid scenario is nearly identical to the flat 50% scenario.
+  Tier          Revenue       Expenses      Profit
+  ------------  ----------    ----------    ----------
+  SUO TECH       $7,500.00    ~$1,929.69    ~$5,570.31
+  Other         $80,580.24   ~$20,772.51   ~$59,807.73
+                ----------    ----------    ----------
+  TOTAL         $88,080.24   ~$22,702.20   ~$65,378.04
 
 
-SUMMARY
--------
+RAMI'S PROFIT SHARE
+--------------------
 
-  Scenario                    Rami's Share
-  --------------------------  ------------
-  A. Flat 10%                   ~$6,538
-  B. Flat 50%                  ~$32,689
-  C. Hybrid (50%/10%)         ~$32,521
+  SUO TECH profit:     ~$5,570.31  x  50%  =  ~$2,785.16
+  Other profit:       ~$59,807.73  x  15%  =  ~$8,971.16
+                                            ----------
+  RAMI'S TOTAL SHARE:                       ~$11,756.32
+
+
+COMPARISON SCENARIOS
+---------------------
+
+  Scenario                              Rami's Share
+  ------------------------------------  ------------
+  Actual (SUO TECH 50%, other 15%)       ~$11,756
+  If flat 15% on everything               ~$9,807
+  If flat 50% on everything              ~$32,689
 
 
 NOTES
@@ -173,9 +152,5 @@ NOTES
    payments, etc.) has tax implications. This should be discussed with
    Brandon before making any payments.
 
-5. The PARO Marketplace charge ($3,449.60) inflates 2024 expenses. If
-   that is excluded as a non-recurring cost, total profit increases to
-   ~$68,828 and Rami's shares would be:
-     A. Flat 10%:       ~$6,883
-     B. Flat 50%:      ~$34,414
-     C. Hybrid 50/10%: ~$34,237
+5. SUO TECH INC was a single payment of $7,500 on August 18, 2025.
+   If additional SUO TECH payments come in, they would also be at 50%.
