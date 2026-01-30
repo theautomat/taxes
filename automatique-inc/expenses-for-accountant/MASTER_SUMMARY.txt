@@ -1,0 +1,115 @@
+==============================================================================
+AUTOMATIQUE INC - COMPLETE EXPENSE SUMMARY
+For Tax Preparation (2024 & 2025)
+==============================================================================
+
+Prepared for: Brandon (Accountant)
+Prepared by: Kurt
+Date: January 2025
+
+PURPOSE
+-------
+This package contains ALL business expenses for Automatique Inc for tax years
+2024 and 2025. Expenses come from two sources:
+
+1. KURT'S PERSONAL EXPENSES - Business expenses paid personally via
+   Privacy.com virtual cards and Amazon, to be reimbursed or written off
+
+2. MERCURY CORPORATE EXPENSES - Business expenses paid through the
+   company's Mercury checking account using the corporate debit card
+
+Per Brandon's guidance, both 2024 and 2025 expenses will be applied to
+the 2025 tax filing.
+
+
+==============================================================================
+EXPENSE SUMMARY BY SOURCE
+==============================================================================
+
+KURT'S PERSONAL EXPENSES (Paid Personally)
+------------------------------------------
+  2024 Total:                                                       $7,477.16
+    Privacy.com (already in records):         $660.22
+    Privacy.com (additional confirmed):     $6,336.13
+    Amazon (confirmed business items):        $480.81
+
+  2025 Total:                                                       $1,534.72
+    Privacy.com (LegalZoom):                  $384.00
+    Amazon (confirmed business items):      $1,150.72
+
+                                                                   ----------
+  SUBTOTAL KURT'S PERSONAL:                                         $9,011.88
+
+
+MERCURY CORPORATE EXPENSES (Company Card)
+-----------------------------------------
+  2024 Total:                                                      $13,355.41
+    Contractor Payments:                   $11,633.81
+    Hosting & Infrastructure:                 $261.19
+    Developer Tools:                          $840.00
+    AI/ML Services:                           $360.00
+    Productivity & Collaboration:             $260.41
+
+  2025 Total:                                                      $13,978.16
+    AI/ML Services & Tools:                 $5,536.27
+    Hosting & Infrastructure:                 $989.03
+    Developer Tools:                        $1,423.65
+    Productivity & Collaboration:           $1,300.32
+    Design Tools:                             $524.00
+    Domains & Web Services:                   $414.80
+    Marketing & Advertising:                  $562.27
+    Other Software & Services:                $252.39
+    Equipment & Supplies:                     $975.43
+    Contractor Payments:                    $2,000.00
+
+                                                                   ----------
+  SUBTOTAL MERCURY CORPORATE:                                      $27,333.57
+
+
+==============================================================================
+GRAND TOTALS
+==============================================================================
+
+  2024 Business Expenses:                                          $20,832.57
+    Kurt's Personal:                        $7,477.16
+    Mercury Corporate:                     $13,355.41
+
+  2025 Business Expenses:                                          $15,512.88
+    Kurt's Personal:                        $1,534.72
+    Mercury Corporate:                     $13,978.16
+
+                                                                   ----------
+  TOTAL ALL BUSINESS EXPENSES (2024+2025):                         $36,345.45
+
+==============================================================================
+
+
+FOLDER CONTENTS
+---------------
+
+expenses-for-accountant/
+├── MASTER_SUMMARY.txt              <-- You are here
+├── kurt-personal-expenses/
+│   ├── 2024_BUSINESS_EXPENSES.txt  <-- Kurt's 2024 personal expenses
+│   ├── 2025_BUSINESS_EXPENSES.txt  <-- Kurt's 2025 personal expenses
+│   └── SUMMARY_FOR_BRANDON.txt     <-- Summary of Kurt's expenses
+└── mercury-corporate-expenses/
+    ├── 2024_MERCURY_EXPENSES.txt   <-- 2024 Mercury card expenses
+    └── 2025_MERCURY_EXPENSES.txt   <-- 2025 Mercury card expenses
+
+
+NOTES FOR ACCOUNTANT
+--------------------
+1. Kurt's Privacy.com 2024 expenses marked "already in records" ($660.22)
+   may already be captured in company books - please verify to avoid
+   double-counting
+
+2. All Amazon purchases were reviewed item-by-item; only confirmed
+   business equipment is included
+
+3. Mercury expenses are complete from corporate bank statements
+
+4. The $975.43 Amazon charge on Mercury (Oct 2025) may have some overlap
+   with Kurt's personal Amazon purchases - please verify
+
+==============================================================================

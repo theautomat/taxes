@@ -1,0 +1,233 @@
+AUTOMATIQUE INC - MERCURY CORPORATE CARD EXPENSES
+2025 TAX YEAR
+==============================================================================
+
+These expenses were paid through Automatique Inc's Mercury business
+checking account using the corporate debit card.
+
+==============================================================================
+AI/ML SERVICES & TOOLS
+==============================================================================
+
+OpenAI                                                              $2,260.00
+  Monthly subscriptions throughout 2025
+
+Cursor (AI Code Editor)                                             $2,084.47
+  Multiple monthly subscriptions and usage charges
+
+Anthropic                                                             $920.00
+  2025-02-25  Subscription                             $20.00
+  2025-02-27  Subscription                            $100.00
+  2025-02-28  Subscription                            $100.00
+  2025-03-09  Subscription                            $250.00
+  2025-03-19  Subscription                            $250.00
+  2025-12-24  Subscription                            $200.00
+
+Midjourney (AI Image Generation)                                       $60.00
+  2025-03-04  Subscription                             $30.00
+  2025-04-21  Subscription                             $10.00
+  2025-05-21  Subscription                             $10.00
+  2025-06-21  Subscription                             $10.00
+
+Codeium (AI Code Completion)                                           $45.00
+  2025-03-28  Subscription                             $15.00
+  2025-04-28  Subscription                             $15.00
+  2025-05-28  Subscription                             $15.00
+
+ElevenLabs (AI Voice Synthesis)                                        $11.00
+  2025-03-25  Subscription                             $11.00
+
+OpenRouter (AI Routing Service)                                        $35.80
+  2025-02-28  Subscription                             $25.00
+  2025-12-25  Subscription                             $10.80
+
+Suno (AI Music Generation)                                             $40.00
+  2025-03-30  Subscription                             $10.00
+  2025-04-30  Subscription                             $10.00
+  2025-05-30  Subscription                             $10.00
+  2025-12-08  Subscription                             $10.00
+
+Wispr/Iwispr (AI Voice Tool)                                           $45.00
+  2025-03-31  Subscription                             $15.00
+  2025-05-01  Subscription                             $15.00
+  2025-06-03  Subscription                             $15.00
+
+Meshy (AI 3D Tool)                                                     $20.00
+  2025-02-09  Subscription                             $20.00
+
+Runway (AI Video Tool)                                                 $15.00
+  2025-03-04  Subscription                             $15.00
+
+                                                                   ----------
+Subtotal AI/ML Services:                                            $5,536.27
+
+
+==============================================================================
+HOSTING & INFRASTRUCTURE
+==============================================================================
+
+Heroku (Cloud Hosting)                                                $986.91
+  Monthly hosting charges throughout 2025
+
+Google Cloud                                                            $2.12
+  Small monthly cloud services charges
+
+                                                                   ----------
+Subtotal Hosting & Infrastructure:                                    $989.03
+
+
+==============================================================================
+DEVELOPER TOOLS
+==============================================================================
+
+Bitrise Limited (CI/CD Platform)                                    $1,149.00
+  Monthly subscriptions (includes Dec refund adjustment)
+
+GitHub (Code Hosting)                                                 $274.65
+  Monthly subscriptions throughout 2025
+
+                                                                   ----------
+Subtotal Developer Tools:                                           $1,423.65
+
+
+==============================================================================
+PRODUCTIVITY & COLLABORATION
+==============================================================================
+
+Google Workspace (Business Email/Docs)                                $578.76
+  Monthly subscriptions throughout 2025
+
+Notion                                                                $473.35
+  Monthly subscriptions throughout 2025
+
+Slack                                                                 $248.21
+  Monthly subscriptions throughout 2025
+
+                                                                   ----------
+Subtotal Productivity & Collaboration:                              $1,300.32
+
+
+==============================================================================
+DESIGN TOOLS
+==============================================================================
+
+Framer                                                                $320.00
+  2025-03-17: $40  2025-05-06: $40  2025-06-06: $40
+  2025-07-06: $40  2025-08-06: $40  2025-09-06: $40
+  2025-10-06: $40  2025-11-06: $40
+
+Whimsical                                                              $84.00
+  Monthly subscriptions ($12/month)
+
+Sketch.com                                                            $120.00
+  2025-06-26  Annual subscription                     $120.00
+
+                                                                   ----------
+Subtotal Design Tools:                                                $524.00
+
+
+==============================================================================
+DOMAINS & WEB SERVICES
+==============================================================================
+
+GoDaddy (Domain Registrations)                                        $414.80
+  2025-03-02  Domain                                  $151.99
+  2025-03-21  Domain                                   $15.51
+  2025-04-27  Domain                                   $49.99
+  2025-05-07  Domain                                   $62.98
+  2025-05-19  Domain                                   $49.99
+  2025-05-20  Domain                                   $67.16
+  2025-08-21  Domain                                   $12.19
+  2025-10-18  Domain                                    $4.99
+
+                                                                   ----------
+Subtotal Domains & Web Services:                                      $414.80
+
+
+==============================================================================
+MARKETING & ADVERTISING
+==============================================================================
+
+Twitter/X                                                             $272.00
+  2025-02-22: $40  2025-03-22: $40  2025-04-22: $40
+  2025-05-22: $40  2025-05-29: $8   2025-06-22: $40
+  2025-07-10: $8   2025-07-22: $40  2025-08-10: $8
+  2025-09-10: $8
+
+Google Ads                                                            $290.27
+  2025-08-15  Ad spend                               $129.98
+  2025-08-20  Ad spend                                $87.60
+  2025-11-05  Ad spend                                $28.29
+  2025-12-05  Ad spend                                $44.40
+
+                                                                   ----------
+Subtotal Marketing & Advertising:                                     $562.27
+
+
+==============================================================================
+OTHER SOFTWARE & SERVICES
+==============================================================================
+
+Adobe (Creative Software)                                              $68.97
+  2025-05-05: $22.99  2025-06-04: $22.99  2025-08-03: $22.99
+
+LastPass (Password Manager)                                            $36.00
+  2025-04-08  Annual subscription                      $36.00
+
+Lemon Squeezy (Payment Platform)                                       $29.00
+  2025-02-06  Subscription                             $29.00
+
+Stripe (Payment Processing)                                           $100.00
+  2025-05-07  Processing fees                         $100.00
+
+VPN Services                                                           $17.42
+  2025-10-26  Subscription                              $5.81
+  2025-12-02  Subscription                             $11.61
+
+Agora.io (Real-time Communication)                                      $1.00
+  2025-11-08  Service charge                            $1.00
+
+                                                                   ----------
+Subtotal Other Software & Services:                                   $252.39
+
+
+==============================================================================
+EQUIPMENT & SUPPLIES
+==============================================================================
+
+Amazon                                                                $975.43
+  2025-10-10  Equipment/supplies                      $975.43
+
+                                                                   ----------
+Subtotal Equipment & Supplies:                                        $975.43
+
+
+==============================================================================
+CONTRACTOR PAYMENTS
+==============================================================================
+
+Sound Strats LLC                                                    $2,000.00
+  2025-11-24  Contractor payment                    $2,000.00
+
+                                                                   ----------
+Subtotal Contractor Payments:                                       $2,000.00
+
+
+==============================================================================
+2025 MERCURY EXPENSE TOTALS
+==============================================================================
+
+AI/ML Services & Tools:                                             $5,536.27
+Hosting & Infrastructure:                                             $989.03
+Developer Tools:                                                    $1,423.65
+Productivity & Collaboration:                                       $1,300.32
+Design Tools:                                                         $524.00
+Domains & Web Services:                                               $414.80
+Marketing & Advertising:                                              $562.27
+Other Software & Services:                                            $252.39
+Equipment & Supplies:                                                 $975.43
+Contractor Payments:                                                $2,000.00
+                                                                   ----------
+TOTAL 2025 MERCURY EXPENSES:                                       $13,978.16
+
+==============================================================================

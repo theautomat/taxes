@@ -1,0 +1,126 @@
+AUTOMATIQUE INC - MERCURY CORPORATE CARD EXPENSES
+2024 TAX YEAR
+==============================================================================
+
+These expenses were paid through Automatique Inc's Mercury business
+checking account using the corporate debit card.
+
+Note: This file includes ALL 2024 Mercury expenses. Expenses only started
+in May 2024 after the account was funded.
+
+==============================================================================
+CONTRACTOR PAYMENTS
+==============================================================================
+
+George (International Contractor)                                   $8,103.31
+  2024-05-02  Wire Payment                             $106.78
+  2024-05-10  Wire Payment                           $1,343.08
+  2024-05-16  Wire Payment                           $1,352.45
+  2024-05-22  Wire Payment                           $1,357.07
+  2024-05-30  Wire Payment                           $1,242.37
+  2024-06-05  Wire Payment                             $108.84
+  2024-06-05  Wire Payment                           $1,251.50
+  2024-06-12  Wire Payment                           $1,343.22
+
+Wire Exchange Fees                                                     $80.90
+  2024-05-02  Exchange Fee                              $1.06
+  2024-05-10  Exchange Fee                             $13.43
+  2024-05-16  Exchange Fee                             $13.52
+  2024-05-22  Exchange Fee                             $13.57
+  2024-05-30  Exchange Fee                             $12.42
+  2024-06-05  Exchange Fee                              $1.09
+  2024-06-05  Exchange Fee                             $12.52
+  2024-06-12  Exchange Fee                             $13.29
+
+PARO MARKETPLACE (Freelancer Platform)                              $3,449.60
+  2024-07-09  Freelancer payment                    $3,449.60
+
+                                                                   ----------
+Subtotal Contractor Payments:                                      $11,633.81
+
+
+==============================================================================
+HOSTING & INFRASTRUCTURE
+==============================================================================
+
+Heroku (Cloud Hosting)                                                $259.60
+  2024-10-19  Monthly hosting                          $79.00
+  2024-11-12  Monthly hosting                          $87.87
+  2024-12-10  Monthly hosting                          $92.73
+
+Google Cloud                                                            $1.59
+  2024-10-19  Cloud services                            $0.53
+  2024-11-02  Cloud services                            $0.54
+  2024-12-02  Cloud services                            $0.52
+
+                                                                   ----------
+Subtotal Hosting & Infrastructure:                                    $261.19
+
+
+==============================================================================
+DEVELOPER TOOLS
+==============================================================================
+
+Bitrise Limited (CI/CD Platform)                                      $840.00
+  2024-09-10  Monthly subscription                    $210.00
+  2024-10-10  Monthly subscription                    $210.00
+  2024-11-10  Monthly subscription                    $210.00
+  2024-12-10  Monthly subscription                    $210.00
+
+                                                                   ----------
+Subtotal Developer Tools:                                             $840.00
+
+
+==============================================================================
+AI/ML SERVICES
+==============================================================================
+
+OpenAI                                                                $360.00
+  2024-09-17  Subscription                             $10.00
+  2024-09-25  Subscription                             $50.00
+  2024-11-16  Subscription                            $100.00
+  2024-12-09  Subscription                            $200.00
+
+                                                                   ----------
+Subtotal AI/ML Services:                                              $360.00
+
+
+==============================================================================
+PRODUCTIVITY & COLLABORATION
+==============================================================================
+
+Notion                                                                $176.00
+  2024-11-12  Monthly subscription                     $66.00
+  2024-11-21  Monthly subscription                     $66.00
+  2024-12-13  Monthly subscription                     $44.00
+
+Google Workspace                                                       $72.00
+  2024-11-05  Monthly subscription                     $48.00
+  2024-12-02  Monthly subscription                     $24.00
+
+Slack                                                                  $12.41
+  2024-11-16  Monthly subscription                     $12.41
+
+                                                                   ----------
+Subtotal Productivity & Collaboration:                                $260.41
+
+
+==============================================================================
+2024 MERCURY EXPENSE TOTALS
+==============================================================================
+
+Contractor Payments:                                               $11,633.81
+Hosting & Infrastructure:                                             $261.19
+Developer Tools:                                                      $840.00
+AI/ML Services:                                                       $360.00
+Productivity & Collaboration:                                         $260.41
+                                                                   ----------
+TOTAL 2024 MERCURY EXPENSES:                                       $13,355.41
+
+==============================================================================
+
+Note: Excludes the $2,500 ACH payment to Maxima on 2024-05-10 which appears
+to be a refund of the $2,500 revenue received on 2024-02-22 from Studio
+Maxima LLC.
+
+==============================================================================
