@@ -17,42 +17,42 @@ TOTAL ALREADY CAPTURED: $660.22
 
 
 ================================================================================
-LIKELY BUSINESS - Please confirm
+CONFIRMED BUSINESS EXPENSES
 ================================================================================
 
-HOSTING & INFRASTRUCTURE
-------------------------
-[ ] Heroku (multiple charges)                    ~$1,859.31
+HOSTING & INFRASTRUCTURE - $2,071.31
+------------------------------------
+[Y] Heroku (multiple charges)                    ~$1,859.31
     Various months, cloud hosting for apps
 
-[ ] Google Cloud                                   ~$160.00
+[Y] Google Cloud                                   ~$160.00
     Cloud services, storage
 
-[ ] Wasabi Technologies                             $52.00
+[Y] Wasabi Technologies                             $52.00
     Cloud storage (8 charges @ ~$7 each)
 
 
-DEVELOPER TOOLS
----------------
-[ ] Bitrise Limited                               $846.97
+DEVELOPER TOOLS - $1,094.61
+---------------------------
+[Y] Bitrise Limited                               $846.97
     CI/CD platform (7 charges)
 
-[ ] GitHub                                        $160.64
+[Y] GitHub                                        $160.64
     Code hosting (multiple charges Jan-May)
 
-[ ] Sentry                                         $87.00
+[Y] Sentry                                         $87.00
     Error monitoring (3 charges @ $29)
 
 
-AI/ML TOOLS
------------
-[ ] Midjourney                                    $540.00
+AI/ML TOOLS - $920.00
+---------------------
+[Y] Midjourney                                    $540.00
     AI image generation (9 charges @ $60)
 
-[ ] ChatGPT/OpenAI                               ~$200.00
+[Y] ChatGPT/OpenAI                               ~$200.00
     AI subscription (10 charges @ $20)
 
-[ ] ElevenLabs                                     $99.00
+[Y] ElevenLabs                                     $99.00
     AI voice synthesis (1 charge)
 
 [ ] Perplexity AI                                  $20.00
@@ -68,62 +68,59 @@ AI/ML TOOLS
     AI (1 charge)
 
 
-DOMAINS
--------
-[ ] GoDaddy                                      ~$680.00
+DOMAINS - $895.00
+-----------------
+[Y] GoDaddy                                      ~$680.00
     Domain registrations (many charges)
 
-[ ] Google Domains                               ~$215.00
+[Y] Google Domains                               ~$215.00
     Domain registrations (many charges)
 
 
-MARKETING & SOCIAL
-------------------
-[ ] Twitter/X Paid Features                      ~$218.00
+MARKETING & SOCIAL - $483.55
+----------------------------
+[Y] Twitter/X Paid Features                      ~$218.00
     Blue checkmark, features (many charges)
 
-[ ] Twitter Online Ads                           $213.55
+[Y] Twitter Online Ads                           $213.55
     Advertising (1 charge)
 
-[ ] Mailchimp                                      $52.00
+[Y] Mailchimp                                      $52.00
     Email marketing (4 charges @ $13)
 
 
-COMMUNICATION
--------------
-[ ] Slack                                        ~$128.00
+COMMUNICATION - $128.00
+-----------------------
+[Y] Slack                                        ~$128.00
     Team communication (6 charges)
 
 
-DESIGN TOOLS
-------------
-[ ] Framer                                        ~$94.00
+DESIGN TOOLS - $94.00
+---------------------
+[Y] Framer                                        ~$94.00
     Design/prototyping (10 charges)
 
 
-BLOCKCHAIN/WEB3
----------------
-[ ] QuickNode                                    $147.00
+BLOCKCHAIN/WEB3 - $147.00
+-------------------------
+[Y] QuickNode                                    $147.00
     Blockchain node service (3 charges @ $49)
 
 
-PRODUCTIVITY
-------------
+CONTRACTORS - $126.65
+---------------------
+[Y] Upwork                                       $126.65
+    Freelancer platform (2 charges)
+
+
+STILL NEEDS REVIEW
+------------------
 [ ] Rive Pro Plan                                  $39.00
     Animation tool (1 charge)
 
 [ ] Runway                                         $15.00
     AI video tool (1 charge)
 
-
-CONTRACTORS
------------
-[ ] Upwork                                       $126.65
-    Freelancer platform (2 charges)
-
-
-OTHER POTENTIALLY BUSINESS
---------------------------
 [ ] Mixpanel                                       $35.28
     Analytics (1 charge)
 
@@ -195,23 +192,45 @@ LIKELY PERSONAL - Confirm exclusion
 
 
 ================================================================================
-SUMMARY - Estimated Totals
+SUMMARY - Updated Totals
 ================================================================================
 
-LIKELY BUSINESS (pending your review):         ~$5,886
-ALREADY CAPTURED:                                $660
-                                              --------
-POTENTIAL TOTAL BUSINESS:                      ~$6,546
+CONFIRMED BUSINESS (Kurt approved):
+  Hosting & Infrastructure:                    $2,071.31
+  Developer Tools:                             $1,094.61
+  AI/ML Tools (confirmed):                       $839.00
+  Domains:                                       $895.00
+  Marketing & Social:                            $483.55
+  Communication:                                 $128.00
+  Design Tools:                                   $94.00
+  Blockchain/Web3:                               $147.00
+  Contractors:                                   $126.65
+                                              ----------
+  CONFIRMED ADDITIONAL:                        $5,879.12
+
+ALREADY CAPTURED:                                $660.22
+                                              ----------
+TOTAL CONFIRMED BUSINESS:                      $6,539.34
+
+STILL NEEDS REVIEW:
+  AI Tools (Perplexity, HuggingFace, etc.):      $81.00
+  Productivity (Rive, Runway):                   $54.00
+  Other (Mixpanel, LastPass, LinkedIn, etc.):   $321.01
+                                              ----------
+  PENDING REVIEW:                               $456.01
 
 LIKELY PERSONAL:                              ~$10,400
+
+AMAZON PURCHASES:                             ~$8,500.00
+  (Need to export Amazon order history to identify business equipment)
 
 
 ================================================================================
 NEXT STEPS
 ================================================================================
 
-1. Go through each category above
-2. Mark [Y], [N], or [?] for each item
-3. For Amazon, let me know if you want to review individual purchases
-4. Once confirmed, I'll update the extracted files and recalculate totals
+1. Kurt to review remaining items in "STILL NEEDS REVIEW" section
+2. Export Amazon order history to identify business equipment purchases
+3. Update extracted files with final confirmed expenses
+4. Recalculate profit sharing totals
 

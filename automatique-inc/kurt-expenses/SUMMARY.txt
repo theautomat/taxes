@@ -29,20 +29,24 @@ kurt-expenses/
     └── PRIVACY_COM_REVIEW.txt     <-- 2025 expenses for Kurt to review
 
 
-ESTIMATED TOTALS (Pending Kurt's Review)
-----------------------------------------
+TOTALS (Partially Confirmed)
+----------------------------
 
 2024:
   Already captured:              $660.22
-  Additional likely business:  ~$5,886.00
-  POTENTIAL 2024 TOTAL:        ~$6,546.22
+  CONFIRMED additional:        $5,879.12
+  Still needs review:            $456.01
+  Amazon (needs breakdown):   ~$8,500.00
+                              ----------
+  CONFIRMED 2024 TOTAL:        $6,539.34
+  (+ pending items if approved)
 
 2025:
   Already captured:              $384.00
-  Additional likely business:       $0.00
-  POTENTIAL 2025 TOTAL:          $384.00
+  Additional confirmed:            $0.00
+  CONFIRMED 2025 TOTAL:          $384.00
 
-COMBINED 2024 + 2025:          ~$6,930.22
+COMBINED CONFIRMED:            $6,923.34
 
 
 WORKFLOW
@@ -72,8 +76,9 @@ This will decrease once Kurt's ~$6,930 in additional expenses are added.
 NEXT STEPS
 ----------
 
-[ ] Kurt reviews 2024/PRIVACY_COM_REVIEW.txt
+[X] Kurt reviews 2024/PRIVACY_COM_REVIEW.txt (MOSTLY DONE - pending ~$456 in misc items)
 [ ] Kurt reviews 2025/PRIVACY_COM_REVIEW.txt
+[ ] Export Amazon order history to identify business equipment
 [ ] Update extracted files with confirmed expenses
 [ ] Recalculate profit sharing
 [ ] Package for accountant
