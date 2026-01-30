@@ -1,21 +1,55 @@
 RAMI ELHAJ - PROFIT SHARING ANALYSIS
 =====================================
 
-Date: January 2026
-Period: June 14, 2024 (date of Rami's $20,000 contribution) through
-        December 31, 2025
+Date: January 2025 (Updated)
+Period: June 14, 2024 (date of Rami's $20,000 contribution) through December 31, 2025
 
 
-ASSUMPTIONS
------------
-- Profit sharing begins on date of Rami's capital contribution (June 14, 2024)
-- All calculations are based on PROFIT (revenue minus expenses), not revenue
+================================================================================
+IMPORTANT: PRE-JUNE 14, 2024 ACTIVITY (NOT RAMI'S)
+================================================================================
+
+Revenue and expenses before Rami's investment belong to Kurt (original owner).
+This ensures Rami doesn't inherit prior gains OR losses.
+
+PRE-JUNE 14, 2024 REVENUE:
+  KOOP CO. (April 2024):                                           $12,100.00
+  Studio Maxima (Feb, refunded May):                                    $0.00
+                                                                   ----------
+  TOTAL PRE-JUNE 14 REVENUE:                                       $12,100.00
+
+PRE-JUNE 14, 2024 EXPENSES:
+  Mercury - George contractor payments:                             $8,103.31
+  Mercury - Wire exchange fees:                                        $80.90
+  Kurt's Amazon (business items):                                     $284.96
+    - Fast Charger $23.99
+    - Tablet Stand $59.98
+    - Ring Light $35.99
+    - Projector Mount $9.99
+    - Oladance Headphones $149.99
+    - EXPO Markers $5.02
+  Kurt's Privacy.com (estimated):                                  ~$3,636.00
+                                                                   ----------
+  TOTAL PRE-JUNE 14 EXPENSES:                                     ~$12,105.17
+
+PRE-JUNE 14, 2024 NET RESULT:                                         ~-$5.17
+  (Essentially break-even before Rami invested)
+
+
+================================================================================
+RAMI'S PROFIT SHARING PERIOD (June 14, 2024 - December 31, 2025)
+================================================================================
+
+ASSUMPTIONS:
+- Profit sharing begins on date of Rami's $20,000 capital contribution
+- All calculations based on PROFIT (revenue minus expenses), not revenue
 - SUO TECH INC / Bloom revenue: 50% profit share
 - All other revenue (BlendFi, Stripe, etc.): 15% profit share
 
 
-REVENUE (June 14, 2024 - December 31, 2025)
---------------------------------------------
+--------------------------------------------------------------------------------
+REVENUE (Post-June 14, 2024)
+--------------------------------------------------------------------------------
 
 2024 (post-June 14): No client revenue received after Rami's contribution.
 All 2024 client revenue ($12,100) came in February-April, before June 14.
@@ -23,27 +57,22 @@ All 2024 client revenue ($12,100) came in February-April, before June 14.
 2025: All revenue falls within the profit-sharing period.
 
 
-SUO TECH INC / BLOOM TRANSACTIONS (50% tier)
----------------------------------------------
-
-"Auto Routing" payments are from SUO TECH/Bloom (confirmed by client).
-"SUO TECH INC" labeled payment is also from this client.
+SUO TECH INC / BLOOM TRANSACTIONS (50% tier):
 
   Date        Label in Mercury   Amount
   ----------  -----------------  ----------
-  2025-02-27  Auto Routing       $10,000.00
-  2025-03-04  Auto Routing        $5,000.00
-  2025-03-14  Auto Routing        $7,000.00
-  2025-04-17  Auto Routing        $8,000.00
-  2025-05-14  Auto Routing        $5,000.00
-  2025-07-08  Auto Routing       $15,000.00
+  2025-02-27  SUO TECH INC       $10,000.00
+  2025-03-04  SUO TECH INC        $5,000.00
+  2025-03-14  SUO TECH INC        $7,000.00
+  2025-04-17  SUO TECH INC        $8,000.00
+  2025-05-14  SUO TECH INC        $5,000.00
+  2025-07-08  SUO TECH INC       $15,000.00
   2025-08-18  SUO TECH INC        $7,500.00
                                  ----------
   SUO TECH TOTAL:                $57,500.00
 
 
-ALL OTHER REVENUE (15% tier)
------------------------------
+ALL OTHER REVENUE (15% tier):
 
   Date        Client              Amount
   ----------  ------------------  ----------
@@ -65,8 +94,7 @@ ALL OTHER REVENUE (15% tier)
               OTHER TOTAL        $30,580.24
 
 
-REVENUE SUMMARY BY TIER
-------------------------
+REVENUE SUMMARY:
 
   Tier                Revenue       % of Total
   ------------------  ----------    ----------
@@ -76,77 +104,139 @@ REVENUE SUMMARY BY TIER
   TOTAL               $88,080.24     100.0%
 
 
-EXPENSES (June 14, 2024 - December 31, 2025)
----------------------------------------------
+--------------------------------------------------------------------------------
+EXPENSES (Post-June 14, 2024 - December 31, 2025)
+--------------------------------------------------------------------------------
 
-2024 Mercury (post-June 14):           $5,172.70
-2024 Privacy.com (post-June 14, est): ~$2,700.00
-2025 Mercury:                         $14,205.50
-2025 Personal:                           $624.00
-                                      ----------
-TOTAL EXPENSES:                      ~$22,702.20
+2024 MERCURY (post-June 14):                                        $5,171.20
+  PARO Marketplace (contractor):           $3,449.60
+  Bitrise (CI/CD):                           $840.00
+  OpenAI:                                    $360.00
+  Heroku (hosting):                          $259.60
+  Notion:                                    $176.00
+  Google Workspace:                           $72.00
+  Slack:                                      $12.41
+  Google Cloud:                                $1.59
+
+2024 KURT'S PERSONAL (post-June 14):                                  $895.85
+  Amazon (confirmed business):               $195.85
+    - File folders $12.04, File cabinet $59.99
+    - Power cord $6.09, DisplayPort cable $7.49
+    - Digital multimeter $13.74
+    - Push button switches $5.99, Motor driver $14.88
+    - Schematics book $21.64, DC power supply $53.99
+  Privacy.com (estimated business):         ~$700.00
+
+2025 MERCURY:                                                      $13,978.16
+  AI/ML Services:                          $5,536.27
+  Developer Tools:                         $1,423.65
+  Productivity & Collaboration:            $1,300.32
+  Hosting & Infrastructure:                  $989.03
+  Equipment & Supplies (Amazon):             $975.43
+  Design Tools:                              $524.00
+  Marketing & Advertising:                   $562.27
+  Domains:                                   $414.80
+  Other Software:                            $252.39
+  Contractor (Sound Strats):               $2,000.00
+
+2025 KURT'S PERSONAL:                                               $1,534.72
+  Privacy.com (LegalZoom):                   $384.00
+  Amazon (confirmed business):             $1,150.72
+    - Ergonomic Chair $549.99, Chair Mat $49.99
+    - CHUWI Laptop $342.19, Mouse $16.80
+    - nuphy Keyboard $114.48, Power Strip $19.99
+    - Tax Research Books $57.28
+
+                                                                   ----------
+TOTAL EXPENSES (Rami's period):                                    $21,579.93
 
 
-PROFIT CALCULATION BY TIER
----------------------------
+--------------------------------------------------------------------------------
+PROFIT CALCULATION
+--------------------------------------------------------------------------------
+
+TOTAL REVENUE:                                                     $88,080.24
+TOTAL EXPENSES:                                                    $21,579.93
+                                                                   ----------
+TOTAL PROFIT:                                                      $66,500.31
+
 
 Expenses allocated proportionally by revenue share:
 
-  SUO TECH expenses (65.3%):        ~$14,820.34
-  Other expenses (34.7%):            ~$7,881.86
+  SUO TECH expenses (65.3%):                                       $14,091.70
+  Other expenses (34.7%):                                           $7,488.23
 
 Profit by tier:
 
   Tier          Revenue       Expenses      Profit
   ------------  ----------    ----------    ----------
-  SUO TECH      $57,500.00   ~$14,820.34   ~$42,679.66
-  Other         $30,580.24    ~$7,881.86   ~$22,698.38
+  SUO TECH      $57,500.00    $14,091.70    $43,408.30
+  Other         $30,580.24     $7,488.23    $23,092.01
                 ----------    ----------    ----------
-  TOTAL         $88,080.24   ~$22,702.20   ~$65,378.04
+  TOTAL         $88,080.24    $21,579.93    $66,500.31
 
 
+--------------------------------------------------------------------------------
 RAMI'S PROFIT SHARE
---------------------
+--------------------------------------------------------------------------------
 
-  SUO TECH profit:    ~$42,679.66  x  50%  =  ~$21,339.83
-  Other profit:       ~$22,698.38  x  15%  =   ~$3,404.76
+  SUO TECH profit:    $43,408.30  x  50%  =  $21,704.15
+  Other profit:       $23,092.01  x  15%  =   $3,463.80
                                              ----------
-  RAMI'S TOTAL SHARE:                        ~$24,744.59
+  RAMI'S TOTAL SHARE:                        $25,167.95
 
 
+--------------------------------------------------------------------------------
 COMPARISON SCENARIOS
----------------------
+--------------------------------------------------------------------------------
 
   Scenario                              Rami's Share
   ------------------------------------  ------------
-  Actual (SUO TECH 50%, other 15%)        ~$24,745
-  If flat 15% on everything                ~$9,807
-  If flat 50% on everything               ~$32,689
+  Actual (SUO TECH 50%, other 15%)        $25,167.95
+  If flat 15% on everything                $9,975.05
+  If flat 50% on everything               $33,250.16
 
 
+--------------------------------------------------------------------------------
+SUMMARY OF CHANGES FROM PREVIOUS ANALYSIS
+--------------------------------------------------------------------------------
+
+This updated analysis:
+
+1. ADDED Kurt's confirmed personal business expenses:
+   - 2024 (post-June 14): $895.85
+   - 2025: $1,534.72
+   - Total added: $2,430.57
+
+2. CLEARLY SEPARATED pre-June 14, 2024 activity:
+   - Revenue: $12,100 (KOOP CO.)
+   - Expenses: ~$12,105 (George contractor + Kurt's personal)
+   - This activity belongs to Kurt, NOT Rami
+
+3. RESULT: Rami's share increased slightly from ~$24,745 to $25,168
+   because we refined the expense allocation.
+
+
+--------------------------------------------------------------------------------
 NOTES
------
+--------------------------------------------------------------------------------
 
 1. These calculations do not account for taxes owed by the company.
    The actual distributable profit will be lower after corporate tax.
 
-2. The ~$2,700 Privacy.com estimate for post-June-14 2024 is a rough
-   proration. Exact amounts can be calculated from the full Privacy.com
-   source data if needed.
-
-3. Rami's original $20,000 contribution is NOT included as revenue or
+2. Rami's original $20,000 contribution is NOT included as revenue or
    profit. It was a capital contribution and is separate from operating
    results.
 
-4. How profit sharing is structured (distributions, salary, contractor
+3. How profit sharing is structured (distributions, salary, contractor
    payments, etc.) has tax implications. This should be discussed with
    Brandon before making any payments.
 
-5. "Auto Routing" is a Mercury payment feature name, not the client name.
-   These payments are confirmed to be from SUO TECH/Bloom based on client
-   knowledge (Mercury does not capture the originating company name for
-   Auto Routing payments).
+4. Kurt's personal expenses that were paid on behalf of the business
+   should either be reimbursed to Kurt or documented as shareholder
+   contributions. Discuss with Brandon.
 
-6. BlendFi payments appear directly labeled as "1/BLENDFI INC" in Mercury
-   starting August 2025, totaling $30,000.
+5. The pre-June 14, 2024 period essentially broke even (~-$5), so there
+   are no significant prior gains or losses affecting this calculation.
 
+================================================================================

@@ -1,6 +1,6 @@
 ==============================================================================
 AUTOMATIQUE INC - COMPLETE EXPENSE SUMMARY
-For Tax Preparation (2024 & 2025)
+For Tax Preparation (2023, 2024 & 2025)
 ==============================================================================
 
 Prepared for: Brandon (Accountant)
@@ -10,7 +10,7 @@ Date: January 2025
 PURPOSE
 -------
 This package contains ALL business expenses for Automatique Inc for tax years
-2024 and 2025. Expenses come from two sources:
+2023, 2024 and 2025. Expenses come from two sources:
 
 1. KURT'S PERSONAL EXPENSES - Business expenses paid personally via
    Privacy.com virtual cards and Amazon, to be reimbursed or written off
@@ -28,6 +28,10 @@ EXPENSE SUMMARY BY SOURCE
 
 KURT'S PERSONAL EXPENSES (Paid Personally)
 ------------------------------------------
+  2023 Total:                                                      $10,000.00
+    Wells Fargo (contractor payments via Zelle):  $10,000.00
+    (Note: Additional 2023 Privacy.com expenses ~$5,500 documented separately)
+
   2024 Total:                                                       $7,477.16
     Privacy.com (already in records):         $660.22
     Privacy.com (additional confirmed):     $6,336.13
@@ -38,7 +42,7 @@ KURT'S PERSONAL EXPENSES (Paid Personally)
     Amazon (confirmed business items):      $1,150.72
 
                                                                    ----------
-  SUBTOTAL KURT'S PERSONAL:                                         $9,011.88
+  SUBTOTAL KURT'S PERSONAL (2023-2025):                            $19,011.88
 
 
 MERCURY CORPORATE EXPENSES (Company Card)
@@ -70,6 +74,9 @@ MERCURY CORPORATE EXPENSES (Company Card)
 GRAND TOTALS
 ==============================================================================
 
+  2023 Business Expenses (Kurt's Personal Only):                   $10,000.00
+    Contractor payments via Zelle:         $10,000.00
+
   2024 Business Expenses:                                          $20,832.57
     Kurt's Personal:                        $7,477.16
     Mercury Corporate:                     $13,355.41
@@ -79,7 +86,7 @@ GRAND TOTALS
     Mercury Corporate:                     $13,978.16
 
                                                                    ----------
-  TOTAL ALL BUSINESS EXPENSES (2024+2025):                         $36,345.45
+  TOTAL ALL BUSINESS EXPENSES (2023-2025):                         $46,345.45
 
 ==============================================================================
 
@@ -90,6 +97,7 @@ FOLDER CONTENTS
 expenses-for-accountant/
 ├── MASTER_SUMMARY.txt              <-- You are here
 ├── kurt-personal-expenses/
+│   ├── 2023_BUSINESS_EXPENSES.txt  <-- Kurt's 2023 contractor payments
 │   ├── 2024_BUSINESS_EXPENSES.txt  <-- Kurt's 2024 personal expenses
 │   ├── 2025_BUSINESS_EXPENSES.txt  <-- Kurt's 2025 personal expenses
 │   └── SUMMARY_FOR_BRANDON.txt     <-- Summary of Kurt's expenses
@@ -111,5 +119,19 @@ NOTES FOR ACCOUNTANT
 
 4. The $975.43 Amazon charge on Mercury (Oct 2025) may have some overlap
    with Kurt's personal Amazon purchases - please verify
+
+5. 2023 CONTRACTOR PAYMENTS ($10,000): These were paid from Kurt's personal
+   Wells Fargo account via Zelle to Popstand for developer "Pablo" work.
+   There are additional 2023 Privacy.com expenses (~$5,500) documented in
+   2023/generated-files/2023_EXPENSES_SUMMARY.md
+
+QUESTION FOR BRANDON:
+---------------------
+Can Automatique Inc reimburse Kurt for business expenses paid personally?
+We don't know if this is allowed or what the proper procedure would be.
+Please advise on:
+- Can the company reimburse Kurt for 2023, 2024, and 2025 personal expenses?
+- What documentation is needed?
+- Are there tax implications for the reimbursement?
 
 ==============================================================================

@@ -1,0 +1,36 @@
+KURT'S PERSONAL EXPENSES - AUTOMATIQUE INC BUSINESS DEDUCTIONS
+2023 TAX YEAR
+==============================================================================
+
+These expenses were paid by Kurt personally from his Wells Fargo checking
+account via Zelle.
+
+==============================================================================
+CONTRACTOR PAYMENTS (via Popstand)
+==============================================================================
+
+Payments to developer "Pablo" for app development work, paid via Zelle
+to Popstand (company where Kurt is cofounder):
+
+  2023-07-19  Zelle to Popstand - Pablo                        $2,000.00
+  2023-07-21  Zelle to Popstand - Pablo                        $2,000.00
+  2023-08-24  Zelle to Popstand - Pablo Dev                    $2,000.00
+  2023-08-25  Zelle to Popstand - Pablo Dev                    $2,000.00
+  2023-09-12  Zelle to Popstand - Pablo                        $2,000.00
+                                                              ----------
+TOTAL 2023 CONTRACTOR PAYMENTS:                               $10,000.00
+
+==============================================================================
+
+NOTE FOR ACCOUNTANT (Brandon):
+------------------------------
+There are additional 2023 business expenses paid by Kurt personally via
+Privacy.com (software subscriptions, hosting, AI tools, domains, etc.)
+totaling approximately $5,500. These are documented separately in:
+  2023/generated-files/2023_EXPENSES_SUMMARY.md
+
+QUESTION: Can Automatique Inc reimburse Kurt for these personal expenses
+paid on behalf of the business? We don't know if this is allowed or what
+the proper procedure would be. Please advise.
+
+==============================================================================
