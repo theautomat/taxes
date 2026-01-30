@@ -1,0 +1,77 @@
+KURT'S PERSONAL EXPENSES - AUTOMATIQUE INC
+SUMMARY FOR ACCOUNTANT
+==============================================================================
+
+Prepared for: Brandon (Accountant)
+Prepared by: Kurt
+Date: January 2025
+
+PURPOSE
+-------
+These are business expenses for Automatique Inc that were paid by Kurt
+personally using Privacy.com virtual cards and Amazon. Per Brandon's guidance,
+both 2024 and 2025 expenses will be applied to the 2025 tax filing.
+
+
+==============================================================================
+EXPENSE TOTALS
+==============================================================================
+
+2024 BUSINESS EXPENSES:                                               $7,477.16
+  Privacy.com (already in company records):         $660.22
+  Privacy.com (additional confirmed):             $6,336.13
+  Amazon (confirmed business items):                $480.81
+
+2025 BUSINESS EXPENSES:                                               $1,534.72
+  Privacy.com (LegalZoom):                          $384.00
+  Amazon (confirmed business items):              $1,150.72
+
+                                                                    -----------
+GRAND TOTAL - ALL BUSINESS EXPENSES:                                  $9,011.88
+==============================================================================
+
+
+EXPENSE CATEGORIES BREAKDOWN
+----------------------------
+
+2024 Categories:
+  Hosting & Infrastructure (Heroku, GCloud, Wasabi)         $2,071.31
+  Developer Tools (Bitrise, GitHub, Sentry)                 $1,094.61
+  AI/ML Tools (Midjourney, ChatGPT, ElevenLabs, etc.)         $920.00
+  Domains (GoDaddy, Google Domains)                           $895.00
+  Marketing & Social (Twitter/X, Mailchimp)                   $483.55
+  Amazon Office Equipment                                     $269.51
+  Google Workspace (already captured)                         $288.22
+  LegalZoom Registered Agent (already captured)               $372.00
+  Other (Slack, Framer, QuickNode, Upwork, misc.)             $998.43
+  Amazon Office Supplies                                       $77.05
+  Amazon Electronics (Prototyping/Development)                 $88.61
+  Amazon Professional Development                              $21.64
+
+2025 Categories:
+  Amazon Office Furniture (Chair, Mat)                        $599.98
+  Amazon Office Equipment (Laptop, Mouse, Keyboard, etc.)     $493.46
+  LegalZoom Registered Agent                                  $384.00
+  Amazon Tax Research Books                                    $57.28
+
+
+DOCUMENTATION
+-------------
+Detailed expense breakdowns are included in:
+  - 2024_BUSINESS_EXPENSES.txt (itemized 2024 expenses)
+  - 2025_BUSINESS_EXPENSES.txt (itemized 2025 expenses)
+
+All expenses have been reviewed and confirmed by Kurt as legitimate
+business expenses for Automatique Inc.
+
+
+NOTES
+-----
+- 2024 Privacy.com expenses marked "already captured" ($660.22) may already
+  be in company records - please verify to avoid double-counting
+- Amazon purchases were reviewed item-by-item; only confirmed business
+  items are included
+- All Privacy.com charges were made via virtual cards linked to Kurt's
+  personal accounts
+
+==============================================================================
