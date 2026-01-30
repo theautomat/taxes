@@ -29,24 +29,24 @@ kurt-expenses/
     └── PRIVACY_COM_REVIEW.txt     <-- 2025 expenses for Kurt to review
 
 
-TOTALS (Partially Confirmed)
-----------------------------
+TOTALS (Fully Confirmed)
+------------------------
 
 2024:
   Already captured:              $660.22
-  CONFIRMED additional:        $5,879.12
-  Still needs review:            $456.01
+  CONFIRMED additional:        $6,336.13
   Amazon (needs breakdown):   ~$8,500.00
                               ----------
-  CONFIRMED 2024 TOTAL:        $6,539.34
-  (+ pending items if approved)
+  CONFIRMED 2024 TOTAL:        $6,996.35
+  (+ any business equipment from Amazon)
 
 2025:
   Already captured:              $384.00
   Additional confirmed:            $0.00
   CONFIRMED 2025 TOTAL:          $384.00
 
-COMBINED CONFIRMED:            $6,923.34
+COMBINED CONFIRMED:            $7,380.35
+(excluding Amazon - needs order history export)
 
 
 WORKFLOW
@@ -62,23 +62,24 @@ WORKFLOW
 IMPACT ON RAMI'S PROFIT SHARE
 -----------------------------
 
-Once Kurt's expenses are confirmed and added:
-- Total expenses for the profit-sharing period will increase
+Kurt's confirmed expenses will be added to company costs:
+- Total expenses for the profit-sharing period will increase by ~$7,380
 - This will reduce the profit
 - Rami's share will be slightly lower
 
-Current profit sharing estimate (before expense review):
+Current profit sharing estimate (before Kurt's expenses):
   Rami's share: ~$24,745
 
-This will decrease once Kurt's ~$6,930 in additional expenses are added.
+After adding Kurt's $7,380 in confirmed expenses, Rami's share will decrease.
+(Additional reduction if Amazon contains business equipment)
 
 
 NEXT STEPS
 ----------
 
-[X] Kurt reviews 2024/PRIVACY_COM_REVIEW.txt (MOSTLY DONE - pending ~$456 in misc items)
-[ ] Kurt reviews 2025/PRIVACY_COM_REVIEW.txt
-[ ] Export Amazon order history to identify business equipment
+[X] Kurt reviews 2024/PRIVACY_COM_REVIEW.txt - COMPLETE ($6,996.35 confirmed)
+[X] Kurt reviews 2025/PRIVACY_COM_REVIEW.txt - COMPLETE ($384.00 confirmed)
+[ ] Export Amazon order history to identify business equipment (~$8,500 to review)
 [ ] Update extracted files with confirmed expenses
 [ ] Recalculate profit sharing
 [ ] Package for accountant

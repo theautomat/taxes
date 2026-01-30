@@ -55,16 +55,16 @@ AI/ML TOOLS - $920.00
 [Y] ElevenLabs                                     $99.00
     AI voice synthesis (1 charge)
 
-[ ] Perplexity AI                                  $20.00
+[Y] Perplexity AI                                  $20.00
     AI search (1 charge)
 
-[ ] HuggingFace                                    $20.00
+[Y] HuggingFace                                    $20.00
     AI/ML platform (1 charge)
 
-[ ] Play.ht                                       ~$39.00
+[Y] Play.ht                                       ~$39.00
     AI voice (7 charges @ $5.50)
 
-[ ] Synthflow AI                                    $2.00
+[Y] Synthflow AI                                    $2.00
     AI (1 charge)
 
 
@@ -113,115 +113,114 @@ CONTRACTORS - $126.65
     Freelancer platform (2 charges)
 
 
-STILL NEEDS REVIEW
-------------------
-[ ] Rive Pro Plan                                  $39.00
+OTHER BUSINESS - $376.01
+------------------------
+[Y] Rive Pro Plan                                  $39.00
     Animation tool (1 charge)
 
-[ ] Runway                                         $15.00
+[Y] Runway                                         $15.00
     AI video tool (1 charge)
 
-[ ] Mixpanel                                       $35.28
+[Y] Mixpanel                                       $35.28
     Analytics (1 charge)
 
-[ ] LastPass                                       $32.40
+[Y] LastPass                                       $32.40
     Password manager (1 charge)
 
-[ ] LinkedIn Premium                               $35.00
+[Y] LinkedIn Premium                               $35.00
     Professional networking (2 charges @ $17.50)
 
-[ ] WeWork                                         $98.38
+[Y] WeWork                                         $98.38
     Coworking space (1 charge)
 
-[ ] Patreon Membership                           $100.00
-    Could be business research/tools (1 charge)
+[Y] Patreon Membership                           $100.00
+    Business research/tools (1 charge)
 
-[ ] SP Humane                                      $13.95
-    AI device? (1 charge)
+[Y] SP Humane                                      $13.95
+    AI device (1 charge)
 
-[ ] AI Top Rank LLC                                 $7.00
+[Y] AI Top Rank LLC                                 $7.00
     AI service (1 charge)
 
 
 ================================================================================
-LIKELY PERSONAL - Confirm exclusion
+CONFIRMED PERSONAL (Not Business Expenses)
 ================================================================================
 
-[ ] Amazon (all purchases)                     ~$8,500.00
-    Most appear to be personal shopping
-    (Some might be business equipment - review individually?)
-
-[ ] Netflix                                      ~$115.00
+[N] Netflix                                      ~$115.00
     Entertainment (5 charges)
 
-[ ] Hulu                                         ~$126.00
+[N] Hulu                                         ~$126.00
     Entertainment (7 charges)
 
-[ ] Spotify (via Google)                         ~$120.00
+[N] Spotify (via Google)                         ~$120.00
     Music (12 charges)
 
-[ ] Spotify USA                                  ~$180.00
+[N] Spotify USA                                  ~$180.00
     Music (12 charges)
 
-[ ] YouTube Premium (via Google)                 ~$100.00
+[N] YouTube Premium (via Google)                 ~$100.00
     Entertainment (7 charges)
 
-[ ] Apple.com/bill                                ~$20.00
+[N] Apple.com/bill                                ~$20.00
     iCloud/Apple services (10 charges @ ~$2)
 
-[ ] Apple.com/US                                  $99.00
+[N] Apple.com/US                                  $99.00
     Apple Developer Program? Or personal?
 
-[ ] Blink                                         $90.00
+[N] Blink                                         $90.00
     Home security camera (9 charges @ $10)
 
-[ ] VIN Analytics                                 $20.00
+[N] VIN Analytics                                 $20.00
     Car research (2 charges)
 
-[ ] Capital Auto Sales                           $500.00
+[N] Capital Auto Sales                           $500.00
     Car-related (1 charge)
 
-[ ] Preply                                       $477.00
+[N] Preply                                       $477.00
     Language tutoring (11 charges)
 
-[ ] Kindle                                        ~$30.00
+[N] Kindle                                        ~$30.00
     Books (2 charges)
 
-[ ] Xbox                                          $29.99
+[N] Xbox                                          $29.99
     Gaming (1 charge)
 
 
 ================================================================================
-SUMMARY - Updated Totals
+AMAZON - Needs Individual Review
 ================================================================================
 
-CONFIRMED BUSINESS (Kurt approved):
+[?] Amazon (all purchases)                     ~$8,500.00
+    May contain business equipment purchases
+    Need to export Amazon order history to identify
+
+
+================================================================================
+FINAL SUMMARY - All Items Reviewed
+================================================================================
+
+CONFIRMED BUSINESS EXPENSES (Kurt approved):
   Hosting & Infrastructure:                    $2,071.31
   Developer Tools:                             $1,094.61
-  AI/ML Tools (confirmed):                       $839.00
+  AI/ML Tools:                                   $920.00
   Domains:                                       $895.00
   Marketing & Social:                            $483.55
   Communication:                                 $128.00
   Design Tools:                                   $94.00
   Blockchain/Web3:                               $147.00
   Contractors:                                   $126.65
+  Other Business:                                $376.01
                                               ----------
-  CONFIRMED ADDITIONAL:                        $5,879.12
+  CONFIRMED ADDITIONAL:                        $6,336.13
 
-ALREADY CAPTURED:                                $660.22
+ALREADY CAPTURED (LegalZoom + Google Workspace): $660.22
                                               ----------
-TOTAL CONFIRMED BUSINESS:                      $6,539.34
+TOTAL CONFIRMED 2024 BUSINESS:                 $6,996.35
 
-STILL NEEDS REVIEW:
-  AI Tools (Perplexity, HuggingFace, etc.):      $81.00
-  Productivity (Rive, Runway):                   $54.00
-  Other (Mixpanel, LastPass, LinkedIn, etc.):   $321.01
-                                              ----------
-  PENDING REVIEW:                               $456.01
+CONFIRMED PERSONAL (Not Deductible):          ~$1,907.00
 
-LIKELY PERSONAL:                              ~$10,400
-
-AMAZON PURCHASES:                             ~$8,500.00
+AMAZON - PENDING BREAKDOWN:                   ~$8,500.00
   (Need to export Amazon order history to identify business equipment)
 
 
@@ -229,8 +228,7 @@ AMAZON PURCHASES:                             ~$8,500.00
 NEXT STEPS
 ================================================================================
 
-1. Kurt to review remaining items in "STILL NEEDS REVIEW" section
-2. Export Amazon order history to identify business equipment purchases
-3. Update extracted files with final confirmed expenses
-4. Recalculate profit sharing totals
+1. Export Amazon order history to identify business equipment purchases
+2. Update extracted files with final confirmed expenses
+3. Recalculate profit sharing totals
 
