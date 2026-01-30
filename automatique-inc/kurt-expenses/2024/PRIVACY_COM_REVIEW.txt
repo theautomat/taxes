@@ -1,0 +1,217 @@
+KURT'S 2024 PRIVACY.COM EXPENSES - FOR REVIEW
+==============================================
+
+Instructions: Review each category below and confirm which expenses
+are legitimate Automatique business expenses.
+
+Mark each line with:
+  [Y] = Yes, business expense
+  [N] = No, personal expense
+  [?] = Need to check
+
+Already captured in generated files:
+- LegalZoom (ECM): $372.00
+- Google Workspace: $288.22
+
+TOTAL ALREADY CAPTURED: $660.22
+
+
+================================================================================
+LIKELY BUSINESS - Please confirm
+================================================================================
+
+HOSTING & INFRASTRUCTURE
+------------------------
+[ ] Heroku (multiple charges)                    ~$1,859.31
+    Various months, cloud hosting for apps
+
+[ ] Google Cloud                                   ~$160.00
+    Cloud services, storage
+
+[ ] Wasabi Technologies                             $52.00
+    Cloud storage (8 charges @ ~$7 each)
+
+
+DEVELOPER TOOLS
+---------------
+[ ] Bitrise Limited                               $846.97
+    CI/CD platform (7 charges)
+
+[ ] GitHub                                        $160.64
+    Code hosting (multiple charges Jan-May)
+
+[ ] Sentry                                         $87.00
+    Error monitoring (3 charges @ $29)
+
+
+AI/ML TOOLS
+-----------
+[ ] Midjourney                                    $540.00
+    AI image generation (9 charges @ $60)
+
+[ ] ChatGPT/OpenAI                               ~$200.00
+    AI subscription (10 charges @ $20)
+
+[ ] ElevenLabs                                     $99.00
+    AI voice synthesis (1 charge)
+
+[ ] Perplexity AI                                  $20.00
+    AI search (1 charge)
+
+[ ] HuggingFace                                    $20.00
+    AI/ML platform (1 charge)
+
+[ ] Play.ht                                       ~$39.00
+    AI voice (7 charges @ $5.50)
+
+[ ] Synthflow AI                                    $2.00
+    AI (1 charge)
+
+
+DOMAINS
+-------
+[ ] GoDaddy                                      ~$680.00
+    Domain registrations (many charges)
+
+[ ] Google Domains                               ~$215.00
+    Domain registrations (many charges)
+
+
+MARKETING & SOCIAL
+------------------
+[ ] Twitter/X Paid Features                      ~$218.00
+    Blue checkmark, features (many charges)
+
+[ ] Twitter Online Ads                           $213.55
+    Advertising (1 charge)
+
+[ ] Mailchimp                                      $52.00
+    Email marketing (4 charges @ $13)
+
+
+COMMUNICATION
+-------------
+[ ] Slack                                        ~$128.00
+    Team communication (6 charges)
+
+
+DESIGN TOOLS
+------------
+[ ] Framer                                        ~$94.00
+    Design/prototyping (10 charges)
+
+
+BLOCKCHAIN/WEB3
+---------------
+[ ] QuickNode                                    $147.00
+    Blockchain node service (3 charges @ $49)
+
+
+PRODUCTIVITY
+------------
+[ ] Rive Pro Plan                                  $39.00
+    Animation tool (1 charge)
+
+[ ] Runway                                         $15.00
+    AI video tool (1 charge)
+
+
+CONTRACTORS
+-----------
+[ ] Upwork                                       $126.65
+    Freelancer platform (2 charges)
+
+
+OTHER POTENTIALLY BUSINESS
+--------------------------
+[ ] Mixpanel                                       $35.28
+    Analytics (1 charge)
+
+[ ] LastPass                                       $32.40
+    Password manager (1 charge)
+
+[ ] LinkedIn Premium                               $35.00
+    Professional networking (2 charges @ $17.50)
+
+[ ] WeWork                                         $98.38
+    Coworking space (1 charge)
+
+[ ] Patreon Membership                           $100.00
+    Could be business research/tools (1 charge)
+
+[ ] SP Humane                                      $13.95
+    AI device? (1 charge)
+
+[ ] AI Top Rank LLC                                 $7.00
+    AI service (1 charge)
+
+
+================================================================================
+LIKELY PERSONAL - Confirm exclusion
+================================================================================
+
+[ ] Amazon (all purchases)                     ~$8,500.00
+    Most appear to be personal shopping
+    (Some might be business equipment - review individually?)
+
+[ ] Netflix                                      ~$115.00
+    Entertainment (5 charges)
+
+[ ] Hulu                                         ~$126.00
+    Entertainment (7 charges)
+
+[ ] Spotify (via Google)                         ~$120.00
+    Music (12 charges)
+
+[ ] Spotify USA                                  ~$180.00
+    Music (12 charges)
+
+[ ] YouTube Premium (via Google)                 ~$100.00
+    Entertainment (7 charges)
+
+[ ] Apple.com/bill                                ~$20.00
+    iCloud/Apple services (10 charges @ ~$2)
+
+[ ] Apple.com/US                                  $99.00
+    Apple Developer Program? Or personal?
+
+[ ] Blink                                         $90.00
+    Home security camera (9 charges @ $10)
+
+[ ] VIN Analytics                                 $20.00
+    Car research (2 charges)
+
+[ ] Capital Auto Sales                           $500.00
+    Car-related (1 charge)
+
+[ ] Preply                                       $477.00
+    Language tutoring (11 charges)
+
+[ ] Kindle                                        ~$30.00
+    Books (2 charges)
+
+[ ] Xbox                                          $29.99
+    Gaming (1 charge)
+
+
+================================================================================
+SUMMARY - Estimated Totals
+================================================================================
+
+LIKELY BUSINESS (pending your review):         ~$5,886
+ALREADY CAPTURED:                                $660
+                                              --------
+POTENTIAL TOTAL BUSINESS:                      ~$6,546
+
+LIKELY PERSONAL:                              ~$10,400
+
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Go through each category above
+2. Mark [Y], [N], or [?] for each item
+3. For Amazon, let me know if you want to review individual purchases
+4. Once confirmed, I'll update the extracted files and recalculate totals
+

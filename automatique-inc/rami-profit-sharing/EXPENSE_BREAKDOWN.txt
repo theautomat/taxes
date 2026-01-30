@@ -1,0 +1,232 @@
+EXPENSE BREAKDOWN - RAMI PROFIT SHARING PERIOD
+==============================================
+
+Period: June 14, 2024 (date of Rami's $20k contribution) through December 31, 2025
+
+
+SUMMARY
+-------
+
+This document breaks down all business expenses during the profit sharing period.
+The key question: which expenses should be allocated to which project?
+
+Most expenses are general business overhead (hosting, tools, subscriptions) that
+support ALL projects, not just SUO TECH or BlendFi specifically.
+
+
+================================================================================
+2024 EXPENSES (June 14 - December 31, 2024)
+================================================================================
+
+MERCURY ACCOUNT - $5,171.20 (confirmed business expenses)
+---------------------------------------------------------
+
+Date        Vendor              Amount      Category           Project-Specific?
+----------  ------------------  ----------  -----------------  -----------------
+2024-07-09  PARO MARKETPLACE    -$3,449.60  Contractor         Unclear*
+2024-09-10  Bitrise Limited       -$210.00  CI/CD Platform     General
+2024-09-17  OpenAI                 -$10.00  AI Tools           General
+2024-09-25  OpenAI                 -$50.00  AI Tools           General
+2024-10-10  Bitrise Limited       -$210.00  CI/CD Platform     General
+2024-10-19  Heroku                 -$79.00  Hosting            General
+2024-10-19  Google Cloud            -$0.53  Cloud              General
+2024-11-02  Google Cloud            -$0.54  Cloud              General
+2024-11-05  Google Workspace       -$48.00  Email/Docs         General
+2024-11-10  Bitrise Limited       -$210.00  CI/CD Platform     General
+2024-11-12  Heroku                 -$87.87  Hosting            General
+2024-11-12  Notion                 -$66.00  Productivity       General
+2024-11-16  OpenAI                -$100.00  AI Tools           General
+2024-11-16  Slack                  -$12.41  Communication      General
+2024-11-21  Notion                 -$66.00  Productivity       General
+2024-12-02  Google Cloud            -$0.52  Cloud              General
+2024-12-02  Google Workspace       -$24.00  Email/Docs         General
+2024-12-09  OpenAI                -$200.00  AI Tools           General
+2024-12-10  Bitrise Limited       -$210.00  CI/CD Platform     General
+2024-12-10  Heroku                 -$92.73  Hosting            General
+2024-12-13  Notion                 -$44.00  Productivity       General
+                                ----------
+            MERCURY 2024 TOTAL  -$5,171.20
+
+*PARO MARKETPLACE ($3,449.60): This was a freelancer platform charge. Need to
+clarify what project this contractor work was for.
+
+
+PRIVACY.COM (Personal cards) - Needs Review
+-------------------------------------------
+
+Privacy.com transactions from June 14 - Dec 31, 2024 contain a mix of:
+- Business expenses (hosting, domains, tools)
+- Personal expenses (Amazon shopping, Netflix, Spotify, etc.)
+
+The 2024 accountant package estimated ~$2,700 in business expenses from
+Privacy.com for this period, but this needs detailed review to separate
+business from personal.
+
+CONFIRMED BUSINESS items from Privacy.com (Jun 14 - Dec 31, 2024):
+- Bitrise Limited: ~$600 (CI/CD)
+- Heroku: ~$500 (hosting)
+- GoDaddy: ~$300 (domains)
+- Google Workspace/Cloud: ~$200 (email, cloud)
+- Slack: ~$50 (communication)
+- LegalZoom: ~$128 (legal)
+- Framer: ~$40 (design)
+- Sentry: ~$60 (error monitoring)
+- Midjourney: ~$180 (AI tools - business use?)
+- ChatGPT: ~$60 (AI tools)
+- Twitter/X paid: ~$50 (marketing)
+- Other misc: ~$100
+
+Estimated business portion: ~$2,300-$2,700
+
+
+================================================================================
+2025 EXPENSES (January 1 - December 31, 2025)
+================================================================================
+
+MERCURY ACCOUNT - $14,205.50 (confirmed business expenses)
+----------------------------------------------------------
+
+By Category:
+
+AI/ML Tools - $2,725.80
+  - OpenAI: ~$1,200
+  - Anthropic: ~$900
+  - Cursor: ~$600 (AI code editor - variable usage)
+  - Other AI (Meshy, ElevenLabs, Codeium, OpenRouter, Suno): ~$125
+
+Developer Tools - $2,217.22
+  - Cursor: ~$1,500 (high usage months)
+  - GitHub: ~$300
+  - Bitrise: ~$420 (CI/CD - canceled mid-year, got refund)
+
+Contractor - $2,000.00
+  - Sound Strats LLC: $2,000 (Nov 2024) - What project?
+
+Hosting - $863.61
+  - Heroku: all
+
+Design Tools - $584.00
+  - Framer: ~$400
+  - Whimsical: ~$144
+  - Sketch: ~$40
+
+Software - $559.29
+  - Google Workspace: all
+
+Marketing - $533.87
+  - Twitter/X: ~$240
+  - Google Ads: ~$290
+
+Productivity - $473.35
+  - Notion: all
+
+Domains - $413.81
+  - GoDaddy: all
+
+Communication - $271.54
+  - Slack: all
+
+Other - $563.01
+  - Adobe: ~$70
+  - VPN: ~$20
+  - Suno: ~$30
+  - Lemon Squeezy: ~$30
+  - LastPass: ~$36
+  - Amazon (equipment): ~$975
+  - Stripe: ~$100
+  - Misc: ~$300
+
+Bitrise Refund: +$210.00
+
+MERCURY 2025 TOTAL: $14,205.50
+
+
+PERSONALLY PAID (Kurt) - $624.00
+--------------------------------
+
+Date        Vendor              Amount      Category
+----------  ------------------  ----------  -----------------
+2025        LegalZoom             -$384.00  Registered Agent
+2025        Pablochat (Discord)   -$240.00  Software Service
+                                ----------
+            PERSONAL 2025 TOTAL   -$624.00
+
+
+================================================================================
+EXPENSE ALLOCATION OPTIONS
+================================================================================
+
+The challenge: Most expenses are general overhead, not project-specific.
+
+OPTION 1: Proportional by Revenue (Current Method)
+--------------------------------------------------
+Allocate all expenses proportionally based on each project's share of revenue.
+
+SUO TECH (65.3% of revenue): 65.3% of expenses
+Other (34.7% of revenue): 34.7% of expenses
+
+This assumes all expenses equally support all revenue, which may not be accurate.
+
+
+OPTION 2: Direct + Overhead Allocation
+--------------------------------------
+1. Identify project-specific expenses (if any)
+2. Remaining expenses = general overhead
+3. Allocate overhead proportionally by revenue
+
+Project-specific candidates:
+- PARO MARKETPLACE ($3,449.60): Need to know which project
+- Sound Strats LLC ($2,000): Need to know which project
+- Specific hosting costs if apps are separated
+
+Everything else is general overhead.
+
+
+OPTION 3: Identify Project-Specific Apps/Services
+-------------------------------------------------
+If SUO TECH and BlendFi have separate:
+- Heroku apps
+- GitHub repos
+- Other resources
+
+...then those costs could be directly allocated. But this would require
+detailed analysis of which services support which project.
+
+
+================================================================================
+QUESTIONS TO RESOLVE
+================================================================================
+
+1. PARO MARKETPLACE ($3,449.60 in July 2024)
+   - What project was this contractor work for?
+   - SUO TECH, BlendFi, or general?
+
+2. Sound Strats LLC ($2,000 in Nov 2025)
+   - What project was this contractor work for?
+
+3. Hosting separation
+   - Are there separate Heroku apps for SUO TECH vs BlendFi?
+   - If so, can we identify which costs go to which?
+
+4. Development tools
+   - Bitrise, GitHub, Cursor, etc. - are these used for both projects?
+   - Or primarily one?
+
+5. Personal vs Business in Privacy.com
+   - Many Amazon purchases, Netflix, Spotify, etc.
+   - Need to confirm which are legitimate business expenses
+
+
+================================================================================
+RECOMMENDED APPROACH
+================================================================================
+
+Until we have clarity on project-specific expenses:
+
+1. Use proportional allocation (Option 1) as the default
+2. Document any known project-specific expenses separately
+3. Adjust if/when more information is available
+
+If you have information about which expenses were specifically for SUO TECH
+work vs BlendFi work, we can update the calculation accordingly.
+

@@ -1,0 +1,67 @@
+KURT'S 2025 PRIVACY.COM EXPENSES - FOR REVIEW
+==============================================
+
+Instructions: Review each category below and confirm which expenses
+are legitimate Automatique business expenses.
+
+Mark each line with:
+  [Y] = Yes, business expense
+  [N] = No, personal expense
+  [?] = Need to check
+
+Already captured in generated files:
+- LegalZoom (ECM): $384.00 (12 months @ $32)
+
+TOTAL ALREADY CAPTURED: $384.00
+
+
+================================================================================
+LIKELY BUSINESS - Please confirm
+================================================================================
+
+(2025 Privacy.com has very few transactions compared to 2024)
+
+No additional business expenses found in 2025 Privacy.com data.
+Most expenses in 2025 were paid directly through Mercury.
+
+
+================================================================================
+LIKELY PERSONAL - Confirm exclusion
+================================================================================
+
+[ ] Amazon (various purchases)                 ~$2,600.00
+    Multiple purchases throughout the year
+    (Some might be business equipment - review individually?)
+
+[ ] Blink                                          $10.00
+    Home security camera (1 charge)
+
+[ ] Hinge.co                                     ~$375.00
+    Dating app (6 charges)
+
+
+================================================================================
+SUMMARY - Estimated Totals
+================================================================================
+
+LIKELY BUSINESS (pending your review):              $0
+ALREADY CAPTURED (LegalZoom):                    $384
+                                              --------
+POTENTIAL TOTAL BUSINESS:                        $384
+
+LIKELY PERSONAL:                              ~$2,985
+
+
+================================================================================
+NOTE
+================================================================================
+
+2025 has much less Privacy.com activity because most business expenses
+moved to the Mercury corporate card. The main expense still on Privacy.com
+is LegalZoom for the registered agent service.
+
+The $624 in "personally paid" expenses for 2025 that we already tracked
+came from:
+- LegalZoom: $384 (captured above)
+- Pablochat (Discord): $240 (not in Privacy.com - paid elsewhere?)
+

@@ -1,0 +1,80 @@
+KURT'S PERSONAL EXPENSES FOR AUTOMATIQUE - SUMMARY
+==================================================
+
+For Accountant: Brandon
+Purpose: Kurt paid business expenses from personal accounts.
+         These will be applied to 2025 per accountant guidance.
+
+
+OVERVIEW
+--------
+
+Kurt paid Automatique business expenses using Privacy.com virtual cards
+linked to his personal accounts. These expenses need to be:
+
+1. Reviewed and confirmed as legitimate business expenses
+2. Documented for the accountant
+3. Applied to 2025 taxes (per Brandon's guidance)
+4. Potentially reimbursed to Kurt
+
+
+FOLDER CONTENTS
+---------------
+
+kurt-expenses/
+├── SUMMARY.txt                    <-- You are here
+├── 2024/
+│   └── PRIVACY_COM_REVIEW.txt     <-- 2024 expenses for Kurt to review
+└── 2025/
+    └── PRIVACY_COM_REVIEW.txt     <-- 2025 expenses for Kurt to review
+
+
+ESTIMATED TOTALS (Pending Kurt's Review)
+----------------------------------------
+
+2024:
+  Already captured:              $660.22
+  Additional likely business:  ~$5,886.00
+  POTENTIAL 2024 TOTAL:        ~$6,546.22
+
+2025:
+  Already captured:              $384.00
+  Additional likely business:       $0.00
+  POTENTIAL 2025 TOTAL:          $384.00
+
+COMBINED 2024 + 2025:          ~$6,930.22
+
+
+WORKFLOW
+--------
+
+1. Kurt reviews PRIVACY_COM_REVIEW.txt files in each year folder
+2. Kurt marks each expense as [Y]es, [N]o, or [?]
+3. Claude updates the extracted files with confirmed expenses
+4. Final totals calculated
+5. Package sent to Brandon
+
+
+IMPACT ON RAMI'S PROFIT SHARE
+-----------------------------
+
+Once Kurt's expenses are confirmed and added:
+- Total expenses for the profit-sharing period will increase
+- This will reduce the profit
+- Rami's share will be slightly lower
+
+Current profit sharing estimate (before expense review):
+  Rami's share: ~$24,745
+
+This will decrease once Kurt's ~$6,930 in additional expenses are added.
+
+
+NEXT STEPS
+----------
+
+[ ] Kurt reviews 2024/PRIVACY_COM_REVIEW.txt
+[ ] Kurt reviews 2025/PRIVACY_COM_REVIEW.txt
+[ ] Update extracted files with confirmed expenses
+[ ] Recalculate profit sharing
+[ ] Package for accountant
+
