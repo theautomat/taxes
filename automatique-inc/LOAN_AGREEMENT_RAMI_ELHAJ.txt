@@ -225,6 +225,17 @@ ARTICLE 6: GENERAL PROVISIONS
     the Borrower by virtue of this loan. This is a debt obligation, not
     an equity investment.
 
+6.9 NO PERSONAL GUARANTEE
+    The Lender acknowledges and agrees that this loan is made solely to
+    Automatique Inc, a Delaware corporation, and NOT to any individual
+    personally. Kurt Braget is signing this Agreement solely in his
+    capacity as Chief Executive Officer of the Company, and not in any
+    personal capacity. The Lender's recourse for repayment is limited
+    exclusively to the assets of Automatique Inc. Under no circumstances
+    shall Kurt Braget or any other officer, director, or shareholder of
+    the Company be personally liable for the repayment of this loan or
+    any obligations arising under this Agreement.
+
 
 ================================================================================
 ARTICLE 7: TAX ACKNOWLEDGMENTS
@@ -256,11 +267,15 @@ Effective Date first written above.
 BORROWER:
 
 Automatique Inc
+(signing in corporate capacity only, not personally)
 
 
 _____________________________________________
-Kurt Braget
-Chief Executive Officer
+By: Kurt Braget
+Title: Chief Executive Officer
+(Signing solely as authorized representative of Automatique Inc,
+not in any individual or personal capacity)
+
 Date: _______________________________________
 
 
