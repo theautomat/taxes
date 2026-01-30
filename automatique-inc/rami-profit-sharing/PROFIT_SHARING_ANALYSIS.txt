@@ -10,7 +10,7 @@ ASSUMPTIONS
 -----------
 - Profit sharing begins on date of Rami's capital contribution (June 14, 2024)
 - All calculations are based on PROFIT (revenue minus expenses), not revenue
-- SUO TECH INC revenue: 50% profit share
+- SUO TECH INC / Bloom revenue: 50% profit share
 - All other revenue (BlendFi, Stripe, etc.): 15% profit share
 
 
@@ -22,28 +22,24 @@ All 2024 client revenue ($12,100) came in February-April, before June 14.
 
 2025: All revenue falls within the profit-sharing period.
 
-By client:
 
-  Client                              Amount
-  ----------------------------------  ----------
-  BlendFi (Auto Routing)              $50,000.00
-  BlendFi (1/BLENDFI INC)             $30,000.00
-  SUO TECH INC                         $7,500.00
-  Stripe payouts                          $580.04
-  Google payout                             $0.19
-  Gusto (verification)                      $0.01
-                                      ----------
-  TOTAL REVENUE                       $88,080.24
+SUO TECH INC / BLOOM TRANSACTIONS (50% tier)
+---------------------------------------------
 
+"Auto Routing" payments are from SUO TECH/Bloom (confirmed by client).
+"SUO TECH INC" labeled payment is also from this client.
 
-SUO TECH INC TRANSACTION (50% tier)
-------------------------------------
-
-  Date        Client         Amount      Description
-  ----------  -------------  ----------  -----------
-  2025-08-18  SUO TECH INC   $7,500.00   Software development
-
-  SUO TECH TOTAL:            $7,500.00
+  Date        Label in Mercury   Amount
+  ----------  -----------------  ----------
+  2025-02-27  Auto Routing       $10,000.00
+  2025-03-04  Auto Routing        $5,000.00
+  2025-03-14  Auto Routing        $7,000.00
+  2025-04-17  Auto Routing        $8,000.00
+  2025-05-14  Auto Routing        $5,000.00
+  2025-07-08  Auto Routing       $15,000.00
+  2025-08-18  SUO TECH INC        $7,500.00
+                                 ----------
+  SUO TECH TOTAL:                $57,500.00
 
 
 ALL OTHER REVENUE (15% tier)
@@ -51,12 +47,6 @@ ALL OTHER REVENUE (15% tier)
 
   Date        Client              Amount
   ----------  ------------------  ----------
-  2025-02-27  Auto Routing        $10,000.00
-  2025-03-04  Auto Routing         $5,000.00
-  2025-03-14  Auto Routing         $7,000.00
-  2025-04-17  Auto Routing         $8,000.00
-  2025-05-14  Auto Routing         $5,000.00
-  2025-07-08  Auto Routing        $15,000.00
   2025-08-15  1/BLENDFI INC        $5,000.00
   2025-10-29  1/BLENDFI INC       $10,000.00
   2025-11-13  1/BLENDFI INC        $5,000.00
@@ -72,7 +62,7 @@ ALL OTHER REVENUE (15% tier)
   2025-12-24  Stripe                  $18.98
   2025-03-07  Gusto                    $0.01
               ------------------  ----------
-              OTHER TOTAL        $80,580.24
+              OTHER TOTAL        $30,580.24
 
 
 REVENUE SUMMARY BY TIER
@@ -80,8 +70,8 @@ REVENUE SUMMARY BY TIER
 
   Tier                Revenue       % of Total
   ------------------  ----------    ----------
-  SUO TECH (50%)       $7,500.00       8.5%
-  Other (15%)         $80,580.24      91.5%
+  SUO TECH (50%)      $57,500.00      65.3%
+  Other (15%)         $30,580.24      34.7%
                       ----------
   TOTAL               $88,080.24     100.0%
 
@@ -102,15 +92,15 @@ PROFIT CALCULATION BY TIER
 
 Expenses allocated proportionally by revenue share:
 
-  SUO TECH expenses (8.5%):           ~$1,929.69
-  Other expenses (91.5%):            ~$20,772.51
+  SUO TECH expenses (65.3%):        ~$14,820.34
+  Other expenses (34.7%):            ~$7,881.86
 
 Profit by tier:
 
   Tier          Revenue       Expenses      Profit
   ------------  ----------    ----------    ----------
-  SUO TECH       $7,500.00    ~$1,929.69    ~$5,570.31
-  Other         $80,580.24   ~$20,772.51   ~$59,807.73
+  SUO TECH      $57,500.00   ~$14,820.34   ~$42,679.66
+  Other         $30,580.24    ~$7,881.86   ~$22,698.38
                 ----------    ----------    ----------
   TOTAL         $88,080.24   ~$22,702.20   ~$65,378.04
 
@@ -118,10 +108,10 @@ Profit by tier:
 RAMI'S PROFIT SHARE
 --------------------
 
-  SUO TECH profit:     ~$5,570.31  x  50%  =  ~$2,785.16
-  Other profit:       ~$59,807.73  x  15%  =  ~$8,971.16
-                                            ----------
-  RAMI'S TOTAL SHARE:                       ~$11,756.32
+  SUO TECH profit:    ~$42,679.66  x  50%  =  ~$21,339.83
+  Other profit:       ~$22,698.38  x  15%  =   ~$3,404.76
+                                             ----------
+  RAMI'S TOTAL SHARE:                        ~$24,744.59
 
 
 COMPARISON SCENARIOS
@@ -129,9 +119,9 @@ COMPARISON SCENARIOS
 
   Scenario                              Rami's Share
   ------------------------------------  ------------
-  Actual (SUO TECH 50%, other 15%)       ~$11,756
-  If flat 15% on everything               ~$9,807
-  If flat 50% on everything              ~$32,689
+  Actual (SUO TECH 50%, other 15%)        ~$24,745
+  If flat 15% on everything                ~$9,807
+  If flat 50% on everything               ~$32,689
 
 
 NOTES
@@ -152,5 +142,11 @@ NOTES
    payments, etc.) has tax implications. This should be discussed with
    Brandon before making any payments.
 
-5. SUO TECH INC was a single payment of $7,500 on August 18, 2025.
-   If additional SUO TECH payments come in, they would also be at 50%.
+5. "Auto Routing" is a Mercury payment feature name, not the client name.
+   These payments are confirmed to be from SUO TECH/Bloom based on client
+   knowledge (Mercury does not capture the originating company name for
+   Auto Routing payments).
+
+6. BlendFi payments appear directly labeled as "1/BLENDFI INC" in Mercury
+   starting August 2025, totaling $30,000.
+
