@@ -41,7 +41,7 @@ OpenRouter (AI Routing Service)                                        $35.80
   2025-02-28  Subscription                             $25.00
   2025-12-25  Subscription                             $10.80
 
-Suno (AI Music Generation)                                             $40.00
+Suno (AI Music - product testing/evaluation)                           $40.00
   2025-03-30  Subscription                             $10.00
   2025-04-30  Subscription                             $10.00
   2025-05-30  Subscription                             $10.00
@@ -195,7 +195,7 @@ Subtotal Other Software & Services:                                   $252.39
 EQUIPMENT & SUPPLIES
 ==============================================================================
 
-Amazon                                                                $975.43
+Amazon (Business Equipment - likely laptop)                           $975.43
   2025-10-10  Equipment/supplies                      $975.43
 
                                                                    ----------

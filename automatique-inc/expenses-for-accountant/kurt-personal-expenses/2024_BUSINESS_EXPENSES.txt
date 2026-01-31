@@ -68,10 +68,10 @@ OTHER BUSINESS                                                       $376.01
   Runway (AI video tool)                                    $15.00
   Mixpanel (analytics)                                      $35.28
   LastPass (password manager)                               $32.40
-  LinkedIn Premium (professional networking)                $35.00
+  LinkedIn Premium (sales & investor outreach)              $35.00
   WeWork (coworking space)                                  $98.38
-  Patreon Membership (business research)                   $100.00
-  SP Humane (AI device)                                     $13.95
+  Patreon (artist community for contractor sourcing)       $100.00
+  Humane AI Pin (AI product testing/evaluation)             $13.95
   AI Top Rank LLC (AI service)                               $7.00
 
                                                                    ---------
@@ -87,7 +87,7 @@ OFFICE EQUIPMENT                                                     $269.51
   2024-01-03  Tablet Stand for Desk                          $59.98
   2024-03-12  Ring Light for Zoom Meetings                   $35.99
   2024-03-27  Projector Wall Mount                            $9.99
-  2024-04-09  Oladance Headphones (app testing)             $149.99
+  2024-04-09  Oladance Open-Ear Headphones (audio app testing) $149.99
   2024-09-08  Power Cord                                      $6.09
   2024-09-08  DisplayPort Cable                               $7.49
 
