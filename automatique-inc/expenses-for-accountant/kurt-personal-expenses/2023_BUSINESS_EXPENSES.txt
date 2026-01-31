@@ -2,11 +2,22 @@ KURT'S PERSONAL EXPENSES - AUTOMATIQUE INC BUSINESS DEDUCTIONS
 2023 TAX YEAR
 ==============================================================================
 
-These expenses were paid by Kurt personally from his Wells Fargo checking
-account via Zelle.
+These expenses were paid by Kurt personally using Privacy.com virtual cards
+and Wells Fargo (Zelle transfers). All expenses are from May 8, 2023 onwards
+(post-incorporation date of May 7, 2023).
 
 ==============================================================================
-CONTRACTOR PAYMENTS (via Popstand)
+INCORPORATION COSTS (Privacy.com)
+==============================================================================
+
+Stripe Atlas (Delaware C-Corp Incorporation)                          $500.00
+
+                                                                   ----------
+Subtotal Incorporation:                                               $500.00
+
+
+==============================================================================
+CONTRACTOR PAYMENTS (Wells Fargo - Zelle)
 ==============================================================================
 
 Payments to developer "Pablo" for app development work, paid via Zelle
@@ -18,19 +29,97 @@ to Popstand (company where Kurt is cofounder):
   2023-08-25  Zelle to Popstand - Pablo Dev                    $2,000.00
   2023-09-12  Zelle to Popstand - Pablo                        $2,000.00
                                                               ----------
-TOTAL 2023 CONTRACTOR PAYMENTS:                               $10,000.00
+Subtotal Contractor Payments:                                     $10,000.00
+
+
+==============================================================================
+PRIVACY.COM EXPENSES - SOFTWARE & SERVICES
+==============================================================================
+
+DEVELOPER TOOLS & HOSTING                                          $2,411.12
+  GitHub (code repository)                             $259.72
+  Heroku (app hosting)                               $1,103.58
+  Sentry (error tracking/logging)                      $174.00
+  Bitrise (mobile app CI/CD)                           $523.30
+  Quicknode (blockchain API)                           $343.00
+  Google Cloud (cloud computing)                         $0.53
+  Wasabi (cloud storage)                                 $6.99
+
+AI & MACHINE LEARNING TOOLS                                        $1,747.97
+  ElevenLabs (voice AI for Pablo app)                  $959.97
+  Midjourney (marketing content generation)            $428.00
+  ChatGPT (coding assistance)                          $320.00
+  OpenAI API (AI API usage)                             $20.00
+  OpenRouter (AI routing)                               $20.00
+
+DOMAINS & MARKETING                                                $1,206.42
+  Google Domains (domain registrations)              $1,035.40
+  Twitter/X (developer API access)                     $132.02
+  Mailchimp (email marketing)                           $39.00
+
+LEGAL & BUSINESS SERVICES                                            $125.28
+  ECM/LegalZoom (registered agent services)            $125.28
+
+                                                                   ----------
+Subtotal Privacy.com Software & Services:                          $5,490.79
+
+
+==============================================================================
+AMAZON EXPENSES - 2023
+==============================================================================
+
+OFFICE EQUIPMENT & SUPPLIES                                            $61.48
+  2023-05-12  USB C SD Card Reader 3-in-1                  $12.99
+  2023-08-06  USB C Charger 45W PD GaN                      $8.50
+  2023-08-10  S23 Ultra Stylus Pen (mobile dev)            $39.99
+
+                                                                   ----------
+Subtotal Amazon 2023:                                                  $61.48
+
+
+==============================================================================
+2023 TOTALS
+==============================================================================
+
+Incorporation (Stripe Atlas):                                         $500.00
+Contractor Payments (Zelle):                                       $10,000.00
+Privacy.com (Software & Services):                                  $5,490.79
+Amazon (Office Equipment & Supplies):                                  $61.48
+                                                                   ----------
+TOTAL 2023 BUSINESS EXPENSES:                                      $16,052.27
 
 ==============================================================================
 
-NOTE FOR ACCOUNTANT (Brandon):
-------------------------------
-There are additional 2023 business expenses paid by Kurt personally via
-Privacy.com (software subscriptions, hosting, AI tools, domains, etc.)
-totaling approximately $5,500. These are documented separately in:
-  2023/generated-files/2023_EXPENSES_SUMMARY.md
+SOURCE DOCUMENTS
+----------------
+- Privacy.com Statement 2023-01-01 - 2023-12-31.csv
+- Wells Fargo bank statements (May-December 2023)
 
-QUESTION: Can Automatique Inc reimburse Kurt for these personal expenses
-paid on behalf of the business? We don't know if this is allowed or what
-the proper procedure would be. Please advise.
+NOTES
+-----
+1. All expenses are post-incorporation (May 8, 2023 onwards)
+
+2. Privacy.com transactions appear in Wells Fargo as "Pwp" prefixed entries -
+   these are NOT double-counted (Privacy.com is the source of truth)
+
+3. Contractor payments went through Popstand to pay developer "Pablo" for
+   app development work on the Pablo app owned by Automatique Inc
+
+4. All software/hosting expenses directly supported the Pablo app development
+
+5. Amazon purchases were reviewed item-by-item; only confirmed business items
+   are included
+
+
+PRE-INCORPORATION ITEMS (FOR BRANDON'S REVIEW)
+----------------------------------------------
+The following items were purchased before incorporation (May 7, 2023) but were
+used for Automatique business. Please advise if these can be deducted:
+
+  2023-02-12  Seagate 1TB External Hard Drive             $49.99
+  2023-03-04  Learn Three.js Book (professional dev)      $44.99
+  2023-05-05  Screen Cleaner Spray                        $19.97
+                                                         -------
+  Total pre-incorporation:                               $114.95
 
 ==============================================================================
