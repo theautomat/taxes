@@ -296,9 +296,11 @@ The following confirms receipt of the loan principal:
 Date:        June 14, 2024
 Amount:      $20,000.00 USD
 From:        RAMI A ELHAJ
-To:          Automatique Inc (Mercury Account ending in 7968)
+To:          Automatique Inc (Mercury Business Checking)
 Type:        Wire Transfer
-Reference:   Capital contribution (reclassified as loan per this Agreement)
+
+Note: This wire transfer, originally provided as operating capital, is hereby
+formalized as a loan pursuant to this Agreement.
 
 
 ================================================================================
