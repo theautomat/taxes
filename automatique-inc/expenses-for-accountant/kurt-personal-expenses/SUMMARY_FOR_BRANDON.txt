@@ -4,7 +4,10 @@ SUMMARY FOR ACCOUNTANT
 
 Prepared for: Brandon (Accountant)
 Prepared by: Kurt
-Date: January 2025
+Date: January 2026
+
+NOTE: See ACCOUNTANT_SUMMARY_JAN2026.txt for the complete consolidated
+summary including 2023 expenses. This file covers 2024-2025 only.
 
 PURPOSE
 -------
@@ -17,9 +20,9 @@ both 2024 and 2025 expenses will be applied to the 2025 tax filing.
 EXPENSE TOTALS
 ==============================================================================
 
-2024 BUSINESS EXPENSES:                                               $7,477.16
+2024 BUSINESS EXPENSES:                                               $7,463.21
   Privacy.com (already in company records):         $660.22
-  Privacy.com (additional confirmed):             $6,336.13
+  Privacy.com (additional confirmed):             $6,322.18
   Amazon (confirmed business items):                $480.81
 
 2025 BUSINESS EXPENSES:                                               $1,534.72
@@ -27,7 +30,7 @@ EXPENSE TOTALS
   Amazon (confirmed business items):              $1,150.72
 
                                                                     -----------
-GRAND TOTAL - ALL BUSINESS EXPENSES:                                  $9,011.88
+GRAND TOTAL - 2024 & 2025 BUSINESS EXPENSES:                         $8,997.93
 ==============================================================================
 
 
@@ -40,12 +43,12 @@ EXPENSE CATEGORIES BREAKDOWN
   AI/ML Tools (Midjourney, ChatGPT, ElevenLabs, etc.)         $920.00
   Domains (GoDaddy, Google Domains)                           $895.00
   Marketing & Social (Twitter/X, Mailchimp)                   $483.55
-  Amazon Office Equipment                                     $269.51
+  Amazon Office Equipment                                     $293.52
   Google Workspace (already captured)                         $288.22
   LegalZoom Registered Agent (already captured)               $372.00
-  Other (Slack, Framer, QuickNode, Upwork, misc.)             $998.43
+  Other (Slack, Framer, QuickNode, Upwork, misc.)             $984.48
   Amazon Office Supplies                                       $77.05
-  Amazon Electronics (Prototyping/Development)                 $88.61
+  Amazon Electronics (Prototyping/Development)                 $88.60
   Amazon Professional Development                              $21.64
 
 2025 Categories:

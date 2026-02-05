@@ -12,7 +12,7 @@ in May 2024 after the account was funded.
 CONTRACTOR PAYMENTS
 ==============================================================================
 
-George (International Contractor)                                   $8,103.31
+George (International Contractor)                                   $8,105.31
   2024-05-02  Wire Payment                             $106.78
   2024-05-10  Wire Payment                           $1,343.08
   2024-05-16  Wire Payment                           $1,352.45
@@ -36,7 +36,7 @@ PARO MARKETPLACE (Freelancer Platform)                              $3,449.60
   2024-07-09  Freelancer payment                    $3,449.60
 
                                                                    ----------
-Subtotal Contractor Payments:                                      $11,633.81
+Subtotal Contractor Payments:                                      $11,635.81
 
 
 ==============================================================================
@@ -109,13 +109,13 @@ Subtotal Productivity & Collaboration:                                $260.41
 2024 MERCURY EXPENSE TOTALS
 ==============================================================================
 
-Contractor Payments:                                               $11,633.81
+Contractor Payments:                                               $11,635.81
 Hosting & Infrastructure:                                             $261.19
 Developer Tools:                                                      $840.00
 AI/ML Services:                                                       $360.00
 Productivity & Collaboration:                                         $260.41
                                                                    ----------
-TOTAL 2024 MERCURY EXPENSES:                                       $13,355.41
+TOTAL 2024 MERCURY EXPENSES:                                       $13,357.41
 
 ==============================================================================
 

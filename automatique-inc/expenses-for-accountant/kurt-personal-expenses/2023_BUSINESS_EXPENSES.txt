@@ -45,8 +45,9 @@ DEVELOPER TOOLS & HOSTING                                          $2,411.12
   Google Cloud (cloud computing)                         $0.53
   Wasabi (cloud storage)                                 $6.99
 
-AI & MACHINE LEARNING TOOLS                                        $1,747.97
+AI & MACHINE LEARNING TOOLS                                        $2,511.60
   ElevenLabs (voice AI for Pablo app)                  $959.97
+  Humane AI Pin (AI hardware - product evaluation)     $763.63
   Midjourney (marketing content generation)            $428.00
   ChatGPT (coding assistance)                          $320.00
   OpenAI API (AI API usage)                             $20.00
@@ -61,7 +62,7 @@ LEGAL & BUSINESS SERVICES                                            $125.28
   ECM/LegalZoom (registered agent services)            $125.28
 
                                                                    ----------
-Subtotal Privacy.com Software & Services:                          $5,490.79
+Subtotal Privacy.com Software & Services:                          $6,254.42
 
 
 ==============================================================================
@@ -83,10 +84,10 @@ Subtotal Amazon 2023:                                                  $61.48
 
 Incorporation (Stripe Atlas):                                         $500.00
 Contractor Payments (Zelle):                                       $10,000.00
-Privacy.com (Software & Services):                                  $5,490.79
+Privacy.com (Software & Services):                                  $6,254.42
 Amazon (Office Equipment & Supplies):                                  $61.48
                                                                    ----------
-TOTAL 2023 BUSINESS EXPENSES:                                      $16,052.27
+TOTAL 2023 BUSINESS EXPENSES:                                      $16,815.90
 
 ==============================================================================
 

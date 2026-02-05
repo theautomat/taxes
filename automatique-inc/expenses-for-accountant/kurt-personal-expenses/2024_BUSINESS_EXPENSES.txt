@@ -63,7 +63,7 @@ BLOCKCHAIN/WEB3                                                      $147.00
 CONTRACTORS                                                          $126.65
   Upwork (freelancer platform)                             $126.65
 
-OTHER BUSINESS                                                       $376.01
+OTHER BUSINESS                                                       $362.06
   Rive Pro Plan (animation tool)                            $39.00
   Runway (AI video tool)                                    $15.00
   Mixpanel (analytics)                                      $35.28
@@ -71,18 +71,20 @@ OTHER BUSINESS                                                       $376.01
   LinkedIn Premium (sales & investor outreach)              $35.00
   WeWork (coworking space)                                  $98.38
   Patreon (artist community for contractor sourcing)       $100.00
-  Humane AI Pin (AI product testing/evaluation)             $13.95
   AI Top Rank LLC (AI service)                               $7.00
 
+NOTE: Humane AI Pin $13.95 REFUND received 2024-03-14 (partial return
+of $763.63 purchase in 2023). This reduces 2024 expenses by $13.95.
+
                                                                    ---------
-Subtotal Additional Privacy.com:                                   $6,336.13
+Subtotal Additional Privacy.com:                                   $6,322.18
 
 
 ==============================================================================
 AMAZON EXPENSES - 2024
 ==============================================================================
 
-OFFICE EQUIPMENT                                                     $269.51
+OFFICE EQUIPMENT                                                     $293.52
   2024-01-02  iPhone/iPad Fast Charger 3-Pack                $23.99
   2024-01-03  Tablet Stand for Desk                          $59.98
   2024-03-12  Ring Light for Zoom Meetings                   $35.99
@@ -96,7 +98,7 @@ OFFICE SUPPLIES                                                       $77.05
   2024-07-27  File Folders (25-pack)                         $12.04
   2024-07-27  File Cabinet with Lock                         $59.99
 
-ELECTRONICS (PROTOTYPING/DEVELOPMENT)                                $88.61
+ELECTRONICS (PROTOTYPING/DEVELOPMENT)                                $88.60
   2024-11-20  Digital Multimeter                             $13.74
   2024-12-12  Push Button Switches                            $5.99
   2024-12-12  Motor Driver Module                            $14.88
@@ -114,9 +116,9 @@ Subtotal Amazon 2024:                                                $480.81
 ==============================================================================
 
 Privacy.com (already captured):                                      $660.22
-Privacy.com (additional confirmed):                                $6,336.13
+Privacy.com (additional confirmed):                                $6,322.18
 Amazon (confirmed):                                                  $480.81
                                                                    ---------
-TOTAL 2024 BUSINESS EXPENSES:                                      $7,477.16
+TOTAL 2024 BUSINESS EXPENSES:                                      $7,463.21
 
 ==============================================================================

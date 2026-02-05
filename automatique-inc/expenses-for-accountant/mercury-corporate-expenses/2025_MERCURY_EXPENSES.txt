@@ -12,7 +12,7 @@ AI/ML SERVICES & TOOLS
 OpenAI                                                              $2,260.00
   Monthly subscriptions throughout 2025
 
-Cursor (AI Code Editor)                                             $2,084.47
+Cursor (AI Code Editor)                                             $2,093.52
   Multiple monthly subscriptions and usage charges
 
 Anthropic                                                             $920.00
@@ -41,7 +41,7 @@ OpenRouter (AI Routing Service)                                        $35.80
   2025-02-28  Subscription                             $25.00
   2025-12-25  Subscription                             $10.80
 
-Suno (AI Music - product testing/evaluation)                           $40.00
+Suno (AI Music - sound design for applications)                        $40.00
   2025-03-30  Subscription                             $10.00
   2025-04-30  Subscription                             $10.00
   2025-05-30  Subscription                             $10.00
@@ -59,7 +59,7 @@ Runway (AI Video Tool)                                                 $15.00
   2025-03-04  Subscription                             $15.00
 
                                                                    ----------
-Subtotal AI/ML Services:                                            $5,536.27
+Subtotal AI/ML Services:                                            $5,545.32
 
 
 ==============================================================================
@@ -80,50 +80,51 @@ Subtotal Hosting & Infrastructure:                                    $989.03
 DEVELOPER TOOLS
 ==============================================================================
 
-Bitrise Limited (CI/CD Platform)                                    $1,149.00
-  Monthly subscriptions (includes Dec refund adjustment)
+Bitrise Limited (CI/CD Platform)                                    $1,359.00
+  6 monthly charges at $210 (Jan-Jun) + $99 Dec charge
+  Net of $210 refund on Dec 6
 
-GitHub (Code Hosting)                                                 $274.65
+GitHub (Code Hosting)                                                 $276.65
   Monthly subscriptions throughout 2025
 
                                                                    ----------
-Subtotal Developer Tools:                                           $1,423.65
+Subtotal Developer Tools:                                           $1,635.65
 
 
 ==============================================================================
 PRODUCTIVITY & COLLABORATION
 ==============================================================================
 
-Google Workspace (Business Email/Docs)                                $578.76
+Google Workspace (Business Email/Docs)                                $506.76
   Monthly subscriptions throughout 2025
 
 Notion                                                                $473.35
   Monthly subscriptions throughout 2025
 
-Slack                                                                 $248.21
+Slack                                                                 $266.50
   Monthly subscriptions throughout 2025
 
                                                                    ----------
-Subtotal Productivity & Collaboration:                              $1,300.32
+Subtotal Productivity & Collaboration:                              $1,246.61
 
 
 ==============================================================================
 DESIGN TOOLS
 ==============================================================================
 
-Framer                                                                $320.00
+Framer                                                                $360.00
   2025-03-17: $40  2025-05-06: $40  2025-06-06: $40
   2025-07-06: $40  2025-08-06: $40  2025-09-06: $40
-  2025-10-06: $40  2025-11-06: $40
+  2025-10-06: $40  2025-11-06: $40  2025-12-06: $40
 
-Whimsical                                                              $84.00
-  Monthly subscriptions ($12/month)
+Whimsical                                                              $96.00
+  Monthly subscriptions ($12/month, 8 months)
 
 Sketch.com                                                            $120.00
   2025-06-26  Annual subscription                     $120.00
 
                                                                    ----------
-Subtotal Design Tools:                                                $524.00
+Subtotal Design Tools:                                                $576.00
 
 
 ==============================================================================
@@ -148,11 +149,11 @@ Subtotal Domains & Web Services:                                      $414.80
 MARKETING & ADVERTISING
 ==============================================================================
 
-Twitter/X                                                             $272.00
+Twitter/X                                                             $280.00
   2025-02-22: $40  2025-03-22: $40  2025-04-22: $40
   2025-05-22: $40  2025-05-29: $8   2025-06-22: $40
   2025-07-10: $8   2025-07-22: $40  2025-08-10: $8
-  2025-09-10: $8
+  2025-09-10: $8   2025-10-10: $8
 
 Google Ads                                                            $290.27
   2025-08-15  Ad spend                               $129.98
@@ -161,7 +162,7 @@ Google Ads                                                            $290.27
   2025-12-05  Ad spend                                $44.40
 
                                                                    ----------
-Subtotal Marketing & Advertising:                                     $562.27
+Subtotal Marketing & Advertising:                                     $570.27
 
 
 ==============================================================================
@@ -195,7 +196,7 @@ Subtotal Other Software & Services:                                   $252.39
 EQUIPMENT & SUPPLIES
 ==============================================================================
 
-Amazon (Business Equipment - likely laptop)                           $975.43
+Amazon (Windows laptop for testing Windows applications)              $975.43
   2025-10-10  Equipment/supplies                      $975.43
 
                                                                    ----------
@@ -217,17 +218,17 @@ Subtotal Contractor Payments:                                       $2,000.00
 2025 MERCURY EXPENSE TOTALS
 ==============================================================================
 
-AI/ML Services & Tools:                                             $5,536.27
+AI/ML Services & Tools:                                             $5,545.32
 Hosting & Infrastructure:                                             $989.03
-Developer Tools:                                                    $1,423.65
-Productivity & Collaboration:                                       $1,300.32
-Design Tools:                                                         $524.00
+Developer Tools:                                                    $1,635.65
+Productivity & Collaboration:                                       $1,246.61
+Design Tools:                                                         $576.00
 Domains & Web Services:                                               $414.80
-Marketing & Advertising:                                              $562.27
+Marketing & Advertising:                                              $570.27
 Other Software & Services:                                            $252.39
 Equipment & Supplies:                                                 $975.43
 Contractor Payments:                                                $2,000.00
                                                                    ----------
-TOTAL 2025 MERCURY EXPENSES:                                       $13,978.16
+TOTAL 2025 MERCURY EXPENSES:                                       $14,205.50
 
 ==============================================================================

@@ -16,11 +16,11 @@ EXECUTIVE SUMMARY
 
 TOTAL BUSINESS EXPENSES BY YEAR:
 
-  2023:    $16,052.27   (Kurt's personal payments only - pre-Mercury)
-  2024:    $20,832.57   (Kurt's personal: $7,477.16 + Mercury: $13,355.41)
-  2025:    $15,512.88   (Kurt's personal: $1,534.72 + Mercury: $13,978.16)
+  2023:    $16,815.90   (Kurt's personal payments only - pre-Mercury)
+  2024:    $20,820.62   (Kurt's personal: $7,463.21 + Mercury: $13,357.41)
+  2025:    $15,740.22   (Kurt's personal: $1,534.72 + Mercury: $14,205.50)
            ----------
-  TOTAL:   $52,397.72
+  TOTAL:   $53,376.74
 
 
 ================================================================================
@@ -34,22 +34,22 @@ These expenses were paid by Kurt personally using Privacy.com virtual cards,
 Amazon, and Wells Fargo (Zelle). Per Brandon's guidance, a payable should be
 recorded in each year, with IRS AFR interest added when reimbursed.
 
-  2023 Total:                                              $16,052.27
+  2023 Total:                                              $16,815.90
     Incorporation (Stripe Atlas):              $500.00
     Contractor Payments (Zelle to Popstand): $10,000.00
-    Privacy.com (Software & Services):        $5,490.79
+    Privacy.com (Software & Services):        $6,254.42
     Amazon (Office Equipment):                   $61.48
 
-  2024 Total:                                               $7,477.16
+  2024 Total:                                               $7,463.21
     Privacy.com (already in records):          $660.22
-    Privacy.com (additional):                $6,336.13
+    Privacy.com (additional):                $6,322.18
     Amazon (confirmed business):               $480.81
 
   2025 Total:                                               $1,534.72
     Privacy.com (LegalZoom):                   $384.00
     Amazon (confirmed business):             $1,150.72
 
-  SUBTOTAL KURT'S PERSONAL:                                $25,064.15
+  SUBTOTAL KURT'S PERSONAL:                                $25,813.83
 
 
 MERCURY CORPORATE EXPENSES (Company Card)
@@ -58,26 +58,26 @@ MERCURY CORPORATE EXPENSES (Company Card)
 These expenses were paid through Automatique Inc's Mercury business
 checking account using the corporate debit card.
 
-  2024 Total:                                              $13,355.41
-    Contractor Payments:                    $11,633.81
+  2024 Total:                                              $13,357.41
+    Contractor Payments:                    $11,635.81
     Hosting & Infrastructure:                  $261.19
     Developer Tools:                           $840.00
     AI/ML Services:                            $360.00
     Productivity & Collaboration:              $260.41
 
-  2025 Total:                                              $13,978.16
-    AI/ML Services & Tools:                  $5,536.27
+  2025 Total:                                              $14,205.50
+    AI/ML Services & Tools:                  $5,545.32
     Hosting & Infrastructure:                  $989.03
-    Developer Tools:                         $1,423.65
-    Productivity & Collaboration:            $1,300.32
-    Design Tools:                              $524.00
+    Developer Tools:                         $1,635.65
+    Productivity & Collaboration:            $1,246.61
+    Design Tools:                              $576.00
     Domains & Web Services:                    $414.80
-    Marketing & Advertising:                   $562.27
+    Marketing & Advertising:                   $570.27
     Other Software & Services:                 $252.39
     Equipment & Supplies:                      $975.43
     Contractor Payments:                     $2,000.00
 
-  SUBTOTAL MERCURY CORPORATE:                              $27,333.57
+  SUBTOTAL MERCURY CORPORATE:                              $27,562.91
 
 
 ================================================================================
@@ -94,11 +94,11 @@ CONTRACTOR PAYMENTS                                         $10,000.00
   Payments to developer for app development work
   (5 payments of $2,000 via Zelle to Popstand, Jul-Sep 2023)
 
-SOFTWARE & SERVICES (Privacy.com)                            $5,490.79
+SOFTWARE & SERVICES (Privacy.com)                            $6,254.42
   Developer Tools & Hosting:                   $2,411.12
     GitHub, Heroku, Sentry, Bitrise, QuickNode, GCloud, Wasabi
-  AI/ML Tools:                                 $1,747.97
-    ElevenLabs, Midjourney, ChatGPT, OpenAI API, OpenRouter
+  AI/ML Tools:                                 $2,511.60
+    ElevenLabs, Humane AI Pin, Midjourney, ChatGPT, OpenAI API, OpenRouter
   Domains & Marketing:                         $1,206.42
     Google Domains, Twitter/X API, Mailchimp
   Legal & Business:                              $125.28
@@ -107,28 +107,29 @@ SOFTWARE & SERVICES (Privacy.com)                            $5,490.79
 AMAZON (Office Equipment)                                       $61.48
   USB C SD Card Reader, USB C Charger, S23 Ultra Stylus Pen
 
-2023 TOTAL:                                                $16,052.27
+2023 TOTAL:                                                $16,815.90
 
 
 ================================================================================
 2024 DETAILED BREAKDOWN
 ================================================================================
 
-KURT'S PERSONAL EXPENSES                                     $7,477.16
+KURT'S PERSONAL EXPENSES                                     $7,463.21
   Privacy.com (may already be in records):       $660.22
     LegalZoom, Google Workspace
-  Privacy.com (additional):                    $6,336.13
+  Privacy.com (additional):                    $6,322.18
     Hosting (Heroku, GCloud, Wasabi)
     Developer Tools (Bitrise, GitHub, Sentry)
     AI/ML Tools (Midjourney, ChatGPT, ElevenLabs, etc.)
     Domains (GoDaddy, Google Domains)
     Marketing (Twitter/X, Mailchimp)
     Other (Slack, Framer, QuickNode, Upwork, WeWork, etc.)
+    Note: Humane AI Pin $13.95 refund received (original $763.63 purchase in 2023)
   Amazon (confirmed business):                   $480.81
     Office equipment, supplies, electronics for prototyping
 
-MERCURY CORPORATE EXPENSES                                  $13,355.41
-  Contractor Payments:                        $11,633.81
+MERCURY CORPORATE EXPENSES                                  $13,357.41
+  Contractor Payments:                        $11,635.81
     George (international contractor) + wire fees
     PARO Marketplace (freelancer platform)
   Hosting & Infrastructure:                      $261.19
@@ -140,7 +141,7 @@ MERCURY CORPORATE EXPENSES                                  $13,355.41
   Productivity & Collaboration:                  $260.41
     Notion, Google Workspace, Slack
 
-2024 TOTAL:                                                $20,832.57
+2024 TOTAL:                                                $20,820.62
 
 
 ================================================================================
@@ -155,30 +156,30 @@ KURT'S PERSONAL EXPENSES                                     $1,534.72
     Office equipment (laptop, mouse, keyboard, power strip)
     Tax research books
 
-MERCURY CORPORATE EXPENSES                                  $13,978.16
-  AI/ML Services & Tools:                      $5,536.27
+MERCURY CORPORATE EXPENSES                                  $14,205.50
+  AI/ML Services & Tools:                      $5,545.32
     OpenAI, Cursor, Anthropic, Midjourney, Codeium,
     ElevenLabs, OpenRouter, Suno, Wispr, Meshy, Runway
   Hosting & Infrastructure:                      $989.03
     Heroku, Google Cloud
-  Developer Tools:                             $1,423.65
+  Developer Tools:                             $1,635.65
     Bitrise, GitHub
-  Productivity & Collaboration:                $1,300.32
+  Productivity & Collaboration:                $1,246.61
     Google Workspace, Notion, Slack
-  Design Tools:                                  $524.00
+  Design Tools:                                  $576.00
     Framer, Whimsical, Sketch
   Domains & Web Services:                        $414.80
     GoDaddy domain registrations
-  Marketing & Advertising:                       $562.27
+  Marketing & Advertising:                       $570.27
     Twitter/X, Google Ads
   Other Software & Services:                     $252.39
     Adobe, LastPass, Lemon Squeezy, Stripe, VPN, Agora.io
   Equipment & Supplies:                          $975.43
-    Amazon (business equipment)
+    Amazon (Windows laptop for testing)
   Contractor Payments:                         $2,000.00
     Sound Strats LLC
 
-2025 TOTAL:                                                $15,512.88
+2025 TOTAL:                                                $15,740.22
 
 
 ================================================================================
@@ -195,8 +196,8 @@ NOTES FOR ACCOUNTANT
    - Screen Cleaner Spray ($19.97)
    Please advise if these can be deducted.
 
-3. AMAZON OVERLAP: The $975.43 Amazon charge on Mercury (Oct 2025) should be
-   verified against Kurt's personal Amazon purchases to avoid overlap.
+3. AMAZON ON MERCURY: The $975.43 Amazon charge on Mercury (Oct 2025) is a
+   Windows laptop purchased for testing Windows applications the company builds.
 
 4. ALL EXPENSES VERIFIED: Every Amazon purchase was reviewed item-by-item.
    Only confirmed business items are included. No personal purchases.
@@ -207,7 +208,7 @@ QUESTIONS FOR BRANDON
 ================================================================================
 
 1. REIMBURSEMENT PROCEDURE: Can Automatique Inc reimburse Kurt for business
-   expenses paid personally ($25,064.15 across 2023-2025)? What documentation
+   expenses paid personally ($25,813.83 across 2023-2025)? What documentation
    is needed? What are the tax implications?
 
 2. PAYABLES: You mentioned recording a payable in each year with IRS AFR
@@ -215,6 +216,17 @@ QUESTIONS FOR BRANDON
 
 3. PRE-INCORPORATION: Can the $114.95 in pre-incorporation Amazon purchases
    be deducted as startup costs?
+
+4. 1099/W-8BEN REQUIREMENTS FOR CONTRACTORS:
+   - George (international contractor, paid $8,105.31 via wire in 2024):
+     Do we need a W-8BEN on file? Was there a filing obligation?
+   - Pablo (paid $10,000 via Zelle to Popstand in 2023):
+     Since payments went through Popstand (another company), does
+     Automatique need to file a 1099, or does Popstand handle that?
+   - Sound Strats LLC (paid $2,000 in 2025):
+     Do we need a 1099-NEC for this payment?
+   - What are the penalties if these weren't filed on time, and can
+     they be filed late?
 
 
 ================================================================================
