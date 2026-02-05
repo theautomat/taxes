@@ -199,8 +199,7 @@ NOTES FOR ACCOUNTANT
 3. AMAZON ON MERCURY: The $975.43 Amazon charge on Mercury (Oct 2025) is a
    Windows laptop purchased for testing Windows applications the company builds.
 
-4. ALL EXPENSES VERIFIED: Every Amazon purchase was reviewed item-by-item.
-   Only confirmed business items are included. No personal purchases.
+4. All Amazon purchases are confirmed business items only.
 
 
 ================================================================================
@@ -228,28 +227,5 @@ QUESTIONS FOR BRANDON
    - What are the penalties if these weren't filed on time, and can
      they be filed late?
 
-
-================================================================================
-SUPPORTING DOCUMENTATION
-================================================================================
-
-Detailed expense files are included in this folder:
-
-expenses-for-accountant/
-├── ACCOUNTANT_SUMMARY_JAN2026.txt    <-- This file
-├── MASTER_SUMMARY.txt                <-- Detailed breakdown with notes
-├── kurt-personal-expenses/
-│   ├── 2023_BUSINESS_EXPENSES.txt
-│   ├── 2024_BUSINESS_EXPENSES.txt
-│   ├── 2025_BUSINESS_EXPENSES.txt
-│   └── SUMMARY_FOR_BRANDON.txt
-└── mercury-corporate-expenses/
-    ├── 2024_MERCURY_EXPENSES.txt
-    └── 2025_MERCURY_EXPENSES.txt
-
-Raw transaction data available upon request:
-- Privacy.com CSV statements (2023, 2024)
-- Amazon purchase CSVs (2023, 2024, 2025)
-- Mercury bank statements (2024, 2025)
 
 ================================================================================

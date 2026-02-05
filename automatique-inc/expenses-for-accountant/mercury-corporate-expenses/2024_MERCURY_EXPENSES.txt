@@ -118,9 +118,3 @@ Productivity & Collaboration:                                         $260.41
 TOTAL 2024 MERCURY EXPENSES:                                       $13,357.41
 
 ==============================================================================
-
-Note: Excludes the $2,500 ACH payment to Maxima on 2024-05-10 which appears
-to be a refund of the $2,500 revenue received on 2024-02-22 from Studio
-Maxima LLC.
-
-==============================================================================

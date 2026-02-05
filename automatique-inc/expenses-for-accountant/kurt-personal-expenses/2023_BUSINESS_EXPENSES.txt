@@ -91,25 +91,12 @@ TOTAL 2023 BUSINESS EXPENSES:                                      $16,815.90
 
 ==============================================================================
 
-SOURCE DOCUMENTS
-----------------
-- Privacy.com Statement 2023-01-01 - 2023-12-31.csv
-- Wells Fargo bank statements (May-December 2023)
-
 NOTES
 -----
 1. All expenses are post-incorporation (May 8, 2023 onwards)
 
-2. Privacy.com transactions appear in Wells Fargo as "Pwp" prefixed entries -
-   these are NOT double-counted (Privacy.com is the source of truth)
-
-3. Contractor payments went through Popstand to pay developer "Pablo" for
-   app development work on the Pablo app owned by Automatique Inc
-
-4. All software/hosting expenses directly supported the Pablo app development
-
-5. Amazon purchases were reviewed item-by-item; only confirmed business items
-   are included
+2. Contractor payments went to developer "Pablo" for app development,
+   paid via Zelle through Popstand (related company)
 
 
 PRE-INCORPORATION ITEMS (FOR BRANDON'S REVIEW)
