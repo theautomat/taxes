@@ -8,13 +8,13 @@ Wells Fargo statements are monthly PDF documents containing checking account tra
 
 ## Source Document Location
 
-**PDF Location:** `source-documents/Tax - Finance Documents/2022 Tax Info/Well Fargo Statements/`
+**PDF Location:** `personal/2022/source-documents/Tax - Finance Documents/2022 Tax Info/Well Fargo Statements/`
 
 **Naming Pattern:** `MMDDYY WellsFargo.pdf` (e.g., `043022 WellsFargo.pdf` for April 30, 2022)
 
 ## Output Format
 
-**Destination:** `generated-files/extracted/YYYY-MM_wells-fargo_checking.csv`
+**Destination:** `personal/2022/generated-files/extracted/YYYY-MM_wells-fargo_checking.csv`
 
 **Standard CSV Schema:**
 ```csv
@@ -209,7 +209,7 @@ For each month (January - December 2022):
 
 1. **Pre-extraction**
    - Mark month as "In Progress" in `docs/WELLS_FARGO_EXTRACTION_TRACKING.md`
-   - Open source PDF: `source-documents/Tax - Finance Documents/2022 Tax Info/Well Fargo Statements/MMDDYY WellsFargo.pdf`
+   - Open source PDF: `personal/2022/source-documents/Tax - Finance Documents/2022 Tax Info/Well Fargo Statements/MMDDYY WellsFargo.pdf`
 
 2. **Extraction**
    - Use AI vision to read PDF
@@ -218,7 +218,7 @@ For each month (January - December 2022):
    - Run verification checklist
 
 3. **Save Output**
-   - Save to: `generated-files/extracted/YYYY-MM_wells-fargo_checking.csv`
+   - Save to: `personal/2022/generated-files/extracted/YYYY-MM_wells-fargo_checking.csv`
    - Commit to git with message: `feat: Re-extract Wells Fargo YYYY-MM statement with improved accuracy`
 
 4. **Human Review**

@@ -6,27 +6,32 @@ A system for converting unstructured financial documents (PDFs, receipts, statem
 
 ```
 taxes/
-├── source-documents/           # Original unorganized source files (NOT versioned, synced with Google Drive)
-├── generated-files/            # All generated/processed files (versioned in git)
-│   ├── extracted/              # Stage 1: Raw CSV extractions from source documents
-│   │   ├── wells-fargo/        # Wells Fargo checking statements (organized by source)
-│   │   ├── privacy-com/        # Privacy.com virtual card transactions
-│   │   ├── nft-genius/         # Payroll/income data
-│   │   ├── popstand/           # Popstand income data
-│   │   └── amazon/             # Amazon purchases (work in progress)
-│   ├── merged/                 # Stage 2: Combined data with duplicates
-│   │   └── archive/            # Previous merged files (auto-archived by scripts)
-│   ├── merged-deduped/         # Stage 2.5: Deduplicated transactions
-│   │   └── archive/            # Previous deduped files (auto-archived by scripts)
-│   ├── archived/               # Manual archives of superseded extractions
-│   └── final/                  # Stage 3: Clean, categorized, deduplicated data for accountant
-├── scripts/                    # Processing and conversion scripts
-├── docs/                       # Documentation files
-│   ├── SOURCE_TRACKING.md      # Tracks which source documents have been processed
-│   ├── DEDUPLICATION.md        # Strategy for handling duplicate transactions
-│   └── CATEGORIES.md           # Reference guide for categorization
-├── CLAUDE.md                   # Instructions for AI assistant
-└── README.md                   # This file (project overview)
+├── personal/                       # Personal tax data organized by year
+│   ├── 2022/
+│   │   ├── source-documents/       # Original unorganized source files (NOT versioned, synced with Google Drive)
+│   │   └── generated-files/        # All generated/processed files (versioned in git)
+│   │       ├── extracted/          # Stage 1: Raw CSV extractions from source documents
+│   │       │   ├── wells-fargo/    # Wells Fargo checking statements (organized by source)
+│   │       │   ├── privacy-com/    # Privacy.com virtual card transactions
+│   │       │   ├── nft-genius/     # Payroll/income data
+│   │       │   ├── popstand/       # Popstand income data
+│   │       │   └── amazon/         # Amazon purchases (work in progress)
+│   │       ├── merged/             # Stage 2: Combined data with duplicates
+│   │       │   └── archive/        # Previous merged files (auto-archived by scripts)
+│   │       ├── merged-deduped/     # Stage 2.5: Deduplicated transactions
+│   │       │   └── archive/        # Previous deduped files (auto-archived by scripts)
+│   │       ├── archived/           # Manual archives of superseded extractions
+│   │       └── final/              # Stage 3: Clean, categorized, deduplicated data for accountant
+│   └── 2023/
+│       ├── source-documents/       # 2023 source documents
+│       └── generated-files/        # 2023 generated files
+├── scripts/                        # Processing and conversion scripts
+├── docs/                           # Documentation files
+│   ├── SOURCE_TRACKING.md          # Tracks which source documents have been processed
+│   ├── DEDUPLICATION.md            # Strategy for handling duplicate transactions
+│   └── CATEGORIES.md               # Reference guide for categorization
+├── CLAUDE.md                       # Instructions for AI assistant
+└── README.md                       # This file (project overview)
 ```
 
 ## Setup on New Machine
@@ -37,14 +42,14 @@ taxes/
    cd taxes
    ```
 
-2. Create the `source-documents` folder:
+2. Create the source documents folders:
    ```bash
-   mkdir source-documents
+   mkdir -p personal/2022/source-documents personal/2023/source-documents
    ```
 
 3. Download source documents from Google Drive:
    - Location: [To be specified - update this with your Google Drive folder path]
-   - Download all PDFs and documents to `source-documents/` folder
+   - Download all PDFs and documents to the appropriate `personal/<year>/source-documents/` folder
 
 4. Ready to process documents!
 
@@ -52,11 +57,11 @@ taxes/
 
 ### Stage 1: Collection (Source Documents)
 - Collect financial documents in Google Drive
-- Download to `source-documents/` folder locally
+- Download to `personal/<year>/source-documents/` folder locally
 - Track documents in `docs/SOURCE_TRACKING.md`
 
 ### Stage 2: Extraction (Current Phase)
-- Convert all source documents to standardized CSV → save to `generated-files/extracted/`
+- Convert all source documents to standardized CSV → save to `personal/<year>/generated-files/extracted/`
 - Sources: PDFs, existing CSVs, receipt images, screenshots, etc.
 - Focus: Get data into consistent format quickly, no categorization
 - One CSV per source document (regardless of original format)
@@ -64,11 +69,11 @@ taxes/
 - Update `docs/SOURCE_TRACKING.md` when complete
 
 ### Stage 3: Processing (Future Phase)
-- Combine all extracted CSVs → `generated-files/merged/`
+- Combine all extracted CSVs → `personal/<year>/generated-files/merged/`
 - Deduplicate transactions across sources (see `docs/DEDUPLICATION.md`)
 - Categorize for tax purposes (see `docs/CATEGORIES.md`)
 - Filter to tax-relevant transactions only
-- Save final clean data to `generated-files/final/` for accountant
+- Save final clean data to `personal/<year>/generated-files/final/` for accountant
 
 ## File Naming Convention
 
@@ -117,13 +122,13 @@ The system automatically and manually archives files to keep working directories
 
 ### Automatic Archives
 Pipeline scripts automatically archive previous outputs before generating new files:
-- `merged/archive/` - Previous merged CSV files (archived by `merge_all_csvs.py`)
-- `merged-deduped/archive/` - Previous deduped CSVs, logs, and review files (archived by `deduplicate_transactions.py`)
+- `personal/<year>/generated-files/merged/archive/` - Previous merged CSV files (archived by `merge_all_csvs.py`)
+- `personal/<year>/generated-files/merged-deduped/archive/` - Previous deduped CSVs, logs, and review files (archived by `deduplicate_transactions.py`)
 
 **Purpose:** Keep only the latest file visible in working directories while preserving full history.
 
 ### Manual Archives
-`generated-files/archived/` contains superseded extractions that have been replaced with improved versions.
+`personal/<year>/generated-files/archived/` contains superseded extractions that have been replaced with improved versions.
 
 **Purpose:**
 - Performance comparison (e.g., comparing extraction accuracy)
@@ -133,7 +138,7 @@ Pipeline scripts automatically archive previous outputs before generating new fi
 
 **Organization:** Archives are organized by date and reason (e.g., `2025-10-14_pre-reextraction/`), with each containing a README explaining what was archived and why.
 
-**Important:** Scripts never access archived files - they are reference-only. All active processing uses current files in `extracted/`, `merged/`, and `merged-deduped/`.
+**Important:** Scripts never access archived files - they are reference-only. All active processing uses current files in `personal/<year>/generated-files/extracted/`, `merged/`, and `merged-deduped/`.
 
 ## Version Control
 

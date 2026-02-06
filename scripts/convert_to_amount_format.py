@@ -100,12 +100,12 @@ def convert_csv(input_file, output_file=None):
 
 
 def main():
-    """Convert all CSVs in generated-files/ directories."""
+    """Convert all CSVs in personal/2022/generated-files/ directories."""
     base_dir = Path(__file__).parent.parent
 
     directories = [
-        base_dir / 'generated-files' / 'extracted',
-        base_dir / 'generated-files' / 'merged'
+        base_dir / 'personal' / '2022' / 'generated-files' / 'extracted',
+        base_dir / 'personal' / '2022' / 'generated-files' / 'merged'
     ]
 
     total_converted = 0

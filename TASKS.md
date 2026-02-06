@@ -7,7 +7,7 @@ This document tracks ongoing improvements and fixes for the taxes project docume
 ### Documentation Consistency Issues
 
 - [ ] **Clarify stage numbering** - Decide on 3 or 4 stages and be consistent across all documentation
-- [x] **Create placeholder directories** - `generated-files/final/` exists (empty, ready for final processed data)
+- [x] **Create placeholder directories** - `personal/2022/generated-files/final/` exists (empty, ready for final processed data)
 - [ ] **Remove hardcoded paths** - Replace `/Users/beau/Projects/taxes` with relative paths or placeholders in CLAUDE.md
 
 ### Income Reconciliation
@@ -31,7 +31,7 @@ This document tracks ongoing improvements and fixes for the taxes project docume
 - [x] **Wells Fargo 2022 extraction** - All 12 months extracted to CSV
   - 2,024 transactions extracted
   - Merged and deduplicated
-  - Output: `generated-files/extracted/wells-fargo/`, `generated-files/merged-deduped/2022_deduped_2025-10-16_162510.csv`
+  - Output: `personal/2022/generated-files/extracted/wells-fargo/`, `personal/2022/generated-files/merged-deduped/2022_deduped_2025-10-16_162510.csv`
 - [x] **Standardize CSV format** - Migrated from Deposits/Withdrawals to single Amount column (negative for expenses, positive for income)
   - Converted all 16 existing CSV files (14 extracted + 2 merged)
   - Updated all conversion scripts (fix_wells_fargo_schema.py, convert_privacy_com_to_standard_csv.py, merge_all_csvs.py)

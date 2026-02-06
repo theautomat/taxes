@@ -11,7 +11,7 @@ from datetime import datetime
 
 def find_wells_fargo_csvs(base_path):
     """Find all Wells Fargo CSV files in the extracted directory."""
-    pattern = os.path.join(base_path, "generated-files/extracted/wells-fargo/*.csv")
+    pattern = os.path.join(base_path, "personal/2022/generated-files/extracted/wells-fargo/*.csv")
     files = sorted(glob.glob(pattern))
     return files
 
@@ -92,7 +92,7 @@ def main():
     total = calculate_total(ikea_transactions)
 
     # Write to output file
-    output_path = os.path.join(base_path, "generated-files/extracted/ikea/2022_ikea_office-expenses.csv")
+    output_path = os.path.join(base_path, "personal/2022/generated-files/extracted/ikea/2022_ikea_office-expenses.csv")
     write_ikea_csv(ikea_transactions, output_path)
 
     # Summary

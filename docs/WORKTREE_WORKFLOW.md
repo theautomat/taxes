@@ -158,7 +158,7 @@ Terminal 2: cd ../taxes-hotfix → fix bug immediately
 ├── taxes/                          # Main repository (any branch)
 │   ├── .git/                      # Shared Git database
 │   ├── scripts/
-│   ├── generated-files/
+│   ├── personal/
 │   └── docs/
 │
 ├── taxes-feat-extraction/         # Worktree 1

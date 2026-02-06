@@ -9,7 +9,7 @@ Privacy.com statements and Wells Fargo bank statements. The same transaction
 appears twice because Privacy.com records it on the charge date, while Wells
 Fargo records it on the posting date (typically 1-3 days later).
 
-See generated-files/merged-deduped/DEDUPLICATION_RULES.md for detailed rules.
+See personal/2022/generated-files/merged-deduped/DEDUPLICATION_RULES.md for detailed rules.
 """
 
 import csv
@@ -388,8 +388,8 @@ def main():
     """Main entry point."""
     # Setup paths
     repo_root = Path(__file__).parent.parent
-    merged_dir = repo_root / 'generated-files' / 'merged'
-    output_dir = repo_root / 'generated-files' / 'merged-deduped'
+    merged_dir = repo_root / 'personal' / '2022' / 'generated-files' / 'merged'
+    output_dir = repo_root / 'personal' / '2022' / 'generated-files' / 'merged-deduped'
     archive_dir = output_dir / 'archive'
 
     # Create output and archive directories
@@ -415,7 +415,7 @@ def main():
     # Find most recent merged file
     merged_files = sorted(merged_dir.glob('*_merged_*.csv'))
     if not merged_files:
-        print("ERROR: No merged CSV files found in generated-files/merged/")
+        print("ERROR: No merged CSV files found in personal/2022/generated-files/merged/")
         sys.exit(1)
 
     input_file = merged_files[-1]

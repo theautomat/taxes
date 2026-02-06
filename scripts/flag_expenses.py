@@ -6,7 +6,7 @@ Usage:
     python scripts/flag_expenses.py <input_csv> [output_csv]
 
 Example:
-    python scripts/flag_expenses.py generated-files/merged/merged_2022.csv generated-files/expenses/flagged_expenses.csv
+    python scripts/flag_expenses.py personal/2022/generated-files/merged/merged_2022.csv personal/2022/generated-files/expenses/flagged_expenses.csv
 """
 
 import csv
@@ -218,7 +218,7 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python scripts/flag_expenses.py <input_csv> [output_csv]")
         print("\nExample:")
-        print("  python scripts/flag_expenses.py generated-files/merged/merged_2022.csv generated-files/expenses/flagged_expenses.csv")
+        print("  python scripts/flag_expenses.py personal/2022/generated-files/merged/merged_2022.csv personal/2022/generated-files/expenses/flagged_expenses.csv")
         sys.exit(1)
 
     input_csv = sys.argv[1]
@@ -228,7 +228,7 @@ def main():
     if len(sys.argv) >= 3:
         output_csv = sys.argv[2]
     else:
-        output_csv = f"generated-files/expenses/flagged_expenses_{timestamp}.csv"
+        output_csv = f"personal/2022/generated-files/expenses/flagged_expenses_{timestamp}.csv"
 
     # Log file path (same name as output CSV but .log extension)
     log_file = Path(output_csv).with_suffix('.log')
@@ -236,7 +236,7 @@ def main():
     # Patterns file path (relative to script)
     script_dir = Path(__file__).parent
     # Use whitelist by default for high-precision flagging
-    patterns_file = script_dir.parent / "generated-files/expenses/expense_patterns_whitelist.json"
+    patterns_file = script_dir.parent / "personal/2022/generated-files/expenses/expense_patterns_whitelist.json"
 
     if not Path(input_csv).exists():
         print(f"Error: Input file not found: {input_csv}")

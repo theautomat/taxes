@@ -8,7 +8,7 @@ This document tracks the progress of re-extracting all 12 Wells Fargo 2022 month
 **Start Date:** 2025-10-14
 **Completion Date:** 2025-10-16
 **Process Document:** `docs/WELLS_FARGO_EXTRACTION_PROCESS.md`
-**Archive Location:** `generated-files/archived/2025-10-14_pre-reextraction/`
+**Archive Location:** `personal/2022/generated-files/archived/2025-10-14_pre-reextraction/`
 
 ## Extraction Status
 
@@ -48,9 +48,9 @@ This document tracks the progress of re-extracting all 12 Wells Fargo 2022 month
 
 ## Output Files
 
-- **Extracted CSVs:** `generated-files/extracted/wells-fargo/2022-*_wells-fargo_checking.csv`
-- **Merged file:** `generated-files/merged/2022_all-transactions_merged_2025-10-15.csv`
-- **Deduplicated file:** `generated-files/merged-deduped/2022_deduped_2025-10-16_162510.csv`
+- **Extracted CSVs:** `personal/2022/generated-files/extracted/wells-fargo/2022-*_wells-fargo_checking.csv`
+- **Merged file:** `personal/2022/generated-files/merged/2022_all-transactions_merged_2025-10-15.csv`
+- **Deduplicated file:** `personal/2022/generated-files/merged-deduped/2022_deduped_2025-10-16_162510.csv`
 
 ---
 

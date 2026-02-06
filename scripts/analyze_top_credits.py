@@ -94,7 +94,7 @@ def analyze_top_credits(pattern, top_n=10, year=None):
 
 if __name__ == "__main__":
     # Default: analyze Wells Fargo 2022 files
-    pattern = "generated-files/extracted/2022-*_wells-fargo_*.csv"
+    pattern = "personal/2022/generated-files/extracted/2022-*_wells-fargo_*.csv"
     top_n = 10
     year = "2022"
 

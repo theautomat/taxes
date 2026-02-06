@@ -29,59 +29,62 @@ You are an accounting assistant helping to organize and process financial docume
 
 **S-Corp Concern:** Popstand paid no W-2 wages to owner (all distributions) - potential IRS reasonable compensation issue
 
-**Detailed Profile:** See `generated-files/deductions/2022_TAXPAYER_FINANCIAL_PROFILE.md` for comprehensive tax research and deduction opportunities
+**Detailed Profile:** See `personal/2022/generated-files/deductions/2022-taxpayer-financial-profile.md` for comprehensive tax research and deduction opportunities
 
 ## Project Structure
 
-### Current Setup
+### Repository Layout
+```
+taxes/
+├── personal/
+│   ├── <year>/
+│   │   ├── source-documents/   (wells-fargo/, coinbase/, etc.)
+│   │   └── generated-files/    (extracted/, merged/, final/, deductions/)
+│   └── shared/                 (property-taxes/, estate-probate/)
+├── automatique-inc/            (S-Corp tax files)
+├── scripts/
+├── docs/
+└── CLAUDE.md, README.md, TASKS.md
+```
+
 - Repository name: `taxes`
 - Working directory: `/Users/beau/Projects/taxes`
+- Each tax year lives under `personal/<year>/`
+- Active years: 2020, 2021, 2022, 2023, 2024 (2022 is most complete)
 
-### Three-Stage Pipeline
+### Four-Stage Pipeline
+
+All paths below are relative to `personal/<year>/`.
 
 **Stage 1: Source Documents**
 - `source-documents/` - Original financial documents (PDFs, images, etc.)
-  - Versioned in git (for sync across multiple machines)
-  - Track which documents have been processed in `docs/SOURCE_TRACKING.md`
+  - Organized by institution (e.g., `wells-fargo/`, `coinbase/`)
+  - Track processing status in `docs/SOURCE_TRACKING.md`
 
-**Stage 2: Generated Files - Extraction**
-- `generated-files/extracted/` - Raw data converted to standardized CSV format
-  - Versioned in git
+**Stage 2: Extraction**
+- `generated-files/extracted/` - Raw data converted to standardized CSV
+  - One CSV per source document, format: `YYYY-MM_source_type.csv`
   - Pure data extraction - no categorization yet
-  - One CSV per source document (regardless of original format)
-  - Format: `YYYY-MM_source_type.csv`
-  - Sources can be: PDFs, existing CSVs, images of receipts, screenshots, etc.
-  - Purpose: Get all financial data into consistent CSV format quickly
 
-**Stage 3: Generated Files - Merged**
+**Stage 3: Merged**
 - `generated-files/merged/` - Combined data from all extracted files
-  - Versioned in git
   - Contains duplicates (deduplication happens in final stage)
-  - Sorted by date
-  - Timestamped files for tracking different merge runs
-  - Purpose: Single file containing all transactions for review
+  - Sorted by date, timestamped files for tracking merge runs
 
-**Stage 4: Generated Files - Final**
-- `generated-files/final/` - Processed, categorized, deduplicated data ready for accountant
-  - Versioned in git
-  - Transactions deduplicated across sources
-  - Business/Personal classification added
-  - Tax categories assigned
+**Stage 4: Final**
+- `generated-files/final/` - Deduplicated, categorized data ready for accountant
+  - Business/Personal classification, tax categories assigned
   - Only tax-relevant transactions included
-  - Purpose: Clean data ready for tax preparation
 
 ### Workflow
 1. Source documents collected and stored in Google Drive
-2. Download documents to `source-documents/`
-3. **Extract:** Convert source documents to standardized CSV → save to `generated-files/extracted/`
-   - PDFs → extract transaction tables
-   - Existing CSVs → reformat to standard columns if needed
-   - Receipt images → extract date, merchant, amount
-   - Any financial data → standardized CSV format
+2. Download documents to `personal/<year>/source-documents/`
+3. **Extract:** Convert source documents to standardized CSV → save to `personal/<year>/generated-files/extracted/`
+   - PDFs, CSVs, receipt images → standardized CSV format
 4. Update `docs/SOURCE_TRACKING.md` to mark document as processed
 5. Commit extracted data to git
-6. **Merge:** (Later phase) Combine all extracted CSVs → save to `generated-files/merged/`
-7. **Process:** (Later phase) Deduplicate, categorize → save to `generated-files/final/`
+6. **Merge:** Combine all extracted CSVs → save to `personal/<year>/generated-files/merged/`
+7. **Process:** Deduplicate, categorize → save to `personal/<year>/generated-files/final/`
 8. **Deliver:** Final data to accountant
 
 **Current Phase:** Stage 2 (Extraction) - Focus on getting all source documents into standardized CSV format
@@ -219,7 +222,7 @@ git status          # Verify push succeeded
 
 ### What NOT to Commit
 - **Claude Code local settings** - `.claude/settings.local.json` is user-specific and should be gitignored
-- **Source documents** - Already gitignored, never commit PDFs or sensitive financial documents
+- **Source documents** - PDFs and financial documents are tracked in git for sync across machines
 - **Temporary files** - Any `.tmp`, `.swp`, or cache files
 
 ## Git Worktrees for Parallel Development
@@ -249,8 +252,8 @@ git worktree remove ../taxes-feat-name
 
 ## Setup on New Machine
 1. Clone repository
-2. Create `source-documents/` folder (will be empty due to gitignore)
-3. Download latest documents from Google Drive to `source-documents/`
+2. Create `personal/<year>/source-documents/` folders as needed
+3. Download documents from Google Drive to appropriate year folders
 4. Ready to process documents
 
 ## Conversation History Management
@@ -286,6 +289,6 @@ claude-conversations/
 
 ## Google Drive Sync
 - Source documents location: [To be specified by user]
-- Download all PDFs and documents to `source-documents/` folder
+- Download documents to `personal/<year>/source-documents/` (organized by tax year)
 - Keep Google Drive as source of truth for original documents
 - No need to organize files in Drive - just store them safely
