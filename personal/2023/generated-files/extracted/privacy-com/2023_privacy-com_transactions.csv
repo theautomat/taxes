@@ -1,0 +1,607 @@
+Date,Description,Amount,Balance,Type,Category,Source,Notes
+2023-01-01,Pwp QUICKNODE API,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-01-03,Pwp Amazon.com*PF3GH3F63,-65.51,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-04,Pwp Amazon Tips*134X89AE3,-5.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-07,Pwp DNH*GODADDY.COM,-37.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-01-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-01-09,Pwp HEROKU DEC-77230759,-254.10,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-01-09,Pwp HEROKU DEC-77296150,-97.10,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-01-09,Pwp AMZN Mktp US*1U0Y28QB3,-91.15,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-11,Pwp Amazon.com*O47H305K3,-186.35,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-12,Pwp Amazon Tips*U38AU79Q3,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-15,Pwp DNH*GODADDY.COM,-20.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-01-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-01-20,Pwp DNH*GODADDY.COM,-40.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-01-21,Pwp DNH*GODADDY.COM,-37.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-01-23,Pwp QUICKNODE API,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-01-23,Pwp Amazon.com*WB5LF1LX3,-63.64,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-24,Pwp AMZN Mktp US*AJ1Q864D3,-6.38,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-24,Pwp AMZN Mktp US*RP2ZR7963,-48.01,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-25,Pwp AMAZON.COM*AV1KV9X53 AMZN,-93.06,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-25,Pwp AMAZON.COM*LI3LM5IL3 AMZN,-21.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-25,Pwp Amazon Tips*WZ4QN5M73,-5.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-25,Pwp AMZN Mktp US*F18KL40B3,-11.32,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-25,Pwp Amazon.com*2R5GE5JI3,-79.41,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-25,Pwp AMZN MKTP US*5D2DA2YM3 AM,-75.06,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-26,Pwp Amazon Tips*TG7RF67B3,-5.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-27,Pwp Amazon.com*AF0KH2ZQ3,-115.88,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-28,Pwp Amazon Tips*CS67262L3,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-28,Pwp DNH*GODADDY.COM,-817.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-01-31,Pwp Amazon.com*218BZ1YX3,-161.86,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-01-31,Pwp GITHUB,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3191
+2023-02-01,Pwp Amazon Tips*6D5AJ9XU3,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-02,Pwp Amazon.com*W35177843,-51.72,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-03,Pwp AMZN MKTP US*883WU9WN3 AM,-9.11,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-03,Pwp Amazon.com*B06CI7G03,-52.62,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-03,Pwp Amazon.com*IN36A6CU3,-155.56,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-03,Pwp AMZN Mktp US*815P630D3,-108.41,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-03,Pwp Amazon.com*B31GQ7443,-37.80,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-04,Pwp Amazon Tips*0D6N83783,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-05,Pwp GOOGLE*DOMAINS,-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-02-05,Pwp AMZN Mktp US*1R15M8MS3,-80.37,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-05,Pwp AMZN Mktp US*RU7R365Z3,-63.81,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-06,Pwp AMZN Mktp US*DH5BJ10W3,-53.60,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-02-08,Pwp HEROKU JAN-78488495,-107.78,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-02-08,Pwp Amazon.com*HE18A4O60,-101.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-08,Pwp HEROKU JAN-78425161,-221.84,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-02-08,Pwp AMAZON.COM AMZN.COM/BILL,0.02,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-09,Pwp Amazon Tips*IU2F13GD3,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-11,Pwp AMZN Mktp US*HE1P02VO0,-6.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-11,Pwp AMZN Mktp US*8F60V4523,-12.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-11,Pwp Amazon.com*SR7EQ48F3,-41.53,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-12,Pwp AMAZON.COM*H94IT5US2 AMZN,-53.61,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-14,Pwp AMZ*Birddogs,-289.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-14,Pwp AMZN Mktp US*HE3MX4GU1,-96.50,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-14,Pwp AMZN Mktp US*HE2697GL1,-83.48,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-14,Pwp AMZN Mktp US*HE81S0E21,-19.78,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-02-17,Pwp DNH*GODADDY.COM,-20.36,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-02-18,Pwp Amazon.com*HP0XZ3H60,-26.80,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-20,Pwp DNH*GODADDY.COM,-5.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-02-26,Pwp AMZN Mktp US*HD0PG84T1,-155.51,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-28,Pwp AMZN Mktp US*HD63018M1,-72.91,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-02-28,Pwp GITHUB,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3191
+2023-03-05,Pwp Amazon.com*H59RB4TA1,-48.25,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-05,Pwp QUICKNODE API,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-03-06,Pwp AMZN Mktp US*HG5US0OV0,-53.61,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-08,Pwp Netflix,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-03-09,Pwp WWW.MAKE.COM,-108.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9379
+2023-03-09,Pwp HEROKU FEB-79511446,-121.66,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-03-09,Pwp HEROKU FEB-79573683,-111.10,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-03-11,Pwp AMZN Mktp US*HG36671S2,-85.53,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-12,Pwp AMZN Mktp US*HC5FG1CR2,-177.97,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-12,Pwp AMZN Mktp US*HG7P95YS0,-102.83,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-12,Pwp AMZN Mktp US*HC17I6E60,-44.06,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-13,Pwp Amazon.com*HG67719S1,-96.47,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-03-17,Pwp AMZN Mktp US*HC83U8I10,-11.14,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-22,Pwp Amazon.com*H763J82N0,-171.59,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-22,Pwp AMZN Mktp US*HC3EE3IE2,-6.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-22,Pwp AMAZON.COM*H79SR9CY2 AMZN,-41.82,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-23,Pwp AMZN Mktp US*H75QL2FS2,-9.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-23,Pwp AMZN Mktp US*H73V03X21,-141.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-24,Pwp GOOGLE*DOMAINS,-36.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-03-26,Pwp AMZN MKTP US*H75IL1K91 AM,-114.42,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-26,Pwp AMZN MKTP US*H71ZO9GQ2 AM,-5.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-26,Pwp AMZN Mktp US*HY4FP0AI0,-3.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-26,Pwp AMZN Mktp US*H75ZH8BO2,-85.53,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-26,Pwp AMZN MKTP US*H75L75MY2 AM,-3.88,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-03-28,Pwp GOOGLE*DOMAINS,-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-03-31,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3191
+2023-04-02,Pwp GOOGLE*DOMAINS,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-04-02,Pwp Amazon.com*HS8RL4340,-202.01,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-03,Pwp AMAZON.COM*HY0X609T2 AMZN,-38.58,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-03,Pwp Amazon Tips*HS3YA01D0,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-04,Pwp AMZN Mktp US*HS3JN9452,-108.02,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-04,Pwp AMZN Mktp US*HS9NX3Q90,-117.96,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-05,Pwp AMZN Mktp US*HS8WP0LX2,-62.08,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-05,Pwp AMAZON.COM*HS55I4111 AMZN,-193.04,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-05,Pwp Amazon.com*HS8S48UF0,-256.32,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-05,Pwp AMZN Mktp US*HS4EW03X2,-13.89,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-06,Pwp AMZN MKTP US*HS64513P2 AM,-18.11,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-06,Pwp AMZN MKTP US*HJ5BS3B60 AM,-59.85,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-06,Pwp GOOGLE*DOMAINS,-14.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-04-06,Pwp AMZN Mktp US*HS3QK7IE0,-15.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-07,Pwp AMZN Mktp US*HJ7C68FM1,-589.88,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-07,Pwp AMZN Mktp US*HJ5JC44X0,-87.91,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-08,Pwp AMAZON.COM*HS9UA5271 AMZN,-31.83,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-08,Pwp AMZN Mktp US*HJ7K26PC0,-34.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-08,Pwp AMZN MKTP US*HJ49N2L20 AM,-37.51,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-04-08,Pwp Amazon.com*HS56592C2,-513.73,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-09,Pwp AMZN Mktp US*HS47K4K22,-364.64,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-09,Pwp AMAZON.COM*HJ6I92CS1 AMZN,-33.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-10,Pwp HEROKU MAR-80620728,-53.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-04-10,Pwp HEROKU MAR-80682357,-111.08,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-04-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-17,Pwp AMZN MKTP US*HV8VR9341 AM,-75.27,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-04-20,Pwp AMZN Mktp US*HV7OG7DU2,-21.41,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-20,Pwp AMAZON.COM*HV5BI8SG1 AMZN,-8.75,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-20,Pwp AMZN Mktp US*HV7X042Z1,-191.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-21,Pwp Amazon Tips*HF8PH2LH0,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-22,Pwp AMZN Mktp US*HF4HG6NT0,-496.19,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-22,Pwp AMZN Mktp US*HF6681FQ1,-175.85,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-24,Pwp AMZN Mktp US*HF8JP1ZS2,-91.10,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-25,Pwp AMZN MKTP US*HF6ET58F0 AM,-19.28,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-25,Pwp AMZN Mktp US*HF3EW31F1,-179.58,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-28,Pwp AMZN Mktp US,42.85,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-04-30,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3191
+2023-04-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-04-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-05-03,Pwp Twitter Dev Platform,-99.37,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1179
+2023-05-03,Pwp OPENAI,-15.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4730
+2023-05-04,Pwp DNH*GODADDY.COM,-59.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-05-05,Pwp AMZN Mktp US*6X5HT4L13,-21.42,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-06,Pwp STRIPE ATLAS,-500.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5394
+2023-05-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-05-11,Pwp HEROKU APR-81754867,-53.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-05-11,Pwp HEROKU APR-81816220,-111.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-05-12,Pwp AMZN Mktp US*IB6385DH3,-13.93,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-14,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0026
+2023-05-15,Pwp THREADBEAST,-160.86,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0563
+2023-05-15,Pwp AMZN Mktp US*CK8QF30S3,-42.77,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-15,Pwp AMZN Mktp US*PU9O698M3,-77.84,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-15,Pwp AMZN Mktp US*VV1842WF3,-330.74,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-17,Pwp AMZN Mktp US*PV0K34OX3,-34.53,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-17,Pwp AMZN Mktp US*K87V74DJ3,-9.64,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-17,Pwp DNH*GODADDY.COM,-75.15,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-05-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-05-18,Pwp AMZN Mktp US*O14351TP3,-38.58,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-18,Pwp AMZN Mktp US*YE6NI7LE3,-53.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-18,Pwp GOOGLE*DOMAINS,-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-05-19,Pwp AMZN Digital*KG3RL32C3,-69.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-20,Pwp AMZN Mktp US*UP6134473,-25.73,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-23,Pwp Amazon.com*2R91287F3,-109.32,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-24,Pwp Amazon Tips*UV3XR5FB3,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-24,Pwp AMZN Mktp US*9U82M69S3,-67.82,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-26,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9184
+2023-05-26,Pwp Amazon.com*DX5XV9203,-100.39,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-27,Pwp AMZ*Skybrook E-Comme,-79.90,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-27,Pwp Amazon Tips*XB2BC9D03,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-27,Pwp AMAZON.COM*AH5J49NW3 AMZN,-23.87,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-28,Pwp AMAZON.COM*UY8NG5Z53 AMZN,-33.14,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-28,Pwp CIRCLEBOOM PRO MONTHLY,-34.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3740
+2023-05-29,Pwp GOOGLE*DOMAINS,-52.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-05-29,Pwp Amazon.com*8N5LE8U03,-68.73,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-05-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-05-30,Pwp Amazon Tips*6N9R17Y83,-5.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-31,Pwp AMAZON.COM*S51152G63 AMZN,-49.32,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-31,Pwp AMZN Mktp US*M13ET4FY3,-23.58,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-05-31,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3191
+2023-05-31,Pwp AMZN Mktp US*BX1GU3D13,-8.57,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-01,Pwp QUICKNODE,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-06-01,Pwp AMZN Mktp US*RA0T18S83,-23.58,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-01,Pwp Amazon.com*7R5KG9U63,-24.66,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-01,Pwp AMZN Mktp US*VS9DE04V3,-347.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-01,Pwp AMAZON.COM*M75593H43 AMZN,-21.50,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-01,Pwp AMZN Mktp US*EC12Z5UE3,-33.25,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-05,Pwp MIDJOURNEY INC.,-60.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0011
+2023-06-05,Pwp Amazon.com*W75AR3XM3,-182.97,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-05,Pwp AMZN Mktp US*LF25W9JA3,-31.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-05,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8282
+2023-06-05,Pwp AMZN Mktp US*T88441Q92,-209.14,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-05,Pwp AMZN Mktp US*WU2JD5L53,-66.48,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-06,Pwp Amazon Tips*WY9NM04D3,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-06,Pwp AMZN Mktp US*PF0YQ3HZ3,-13.93,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-07,Pwp HEROKU MAY-82977089,-74.51,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-06-07,Pwp HEROKU MAY-82911546,-53.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-06-07,Pwp AMZN Mktp US*CA1LZ1423,-62.73,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-08,Pwp AMZN Mktp US*0A0ZC3P53,-23.58,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-06-08,Pwp DNH*GODADDY.COM,-39.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-06-09,Pwp Audible*735FP90S3,-15.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-10,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4768
+2023-06-11,Pwp Google Domains,-12.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-06-12,Pwp AMAZON.COM*ZU97H0LH3 AMZN,-8.86,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-12,Pwp GOOGLE*DOMAINS,-30.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-06-13,"Pwp GITHUB, INC.",-4.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-06-13,"Pwp GITHUB, INC.",-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-06-13,Pwp Amazon.com*IS2QL4DX3,-182.32,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-13,"Pwp GITHUB, INC.",-3.87,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-06-14,Pwp Amazon Tips*BU1U19HJ3,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-14,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0026
+2023-06-15,Pwp THREADBEAST,-160.88,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0563
+2023-06-16,"Pwp GITHUB, INC.",-3.46,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-06-16,Pwp Amazon.com*2R29E4UL3,-51.47,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-06-17,Pwp Amazon.com*VN0LG19V3,-179.85,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-18,Pwp Amazon.com,179.85,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-20,Pwp AMZN Mktp US*DJ8YF55N3,-656.33,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-20,Pwp AMAZON.COM*TS3CR4TM3 AMZN,-129.48,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-21,Pwp Twitter Online Ads,-100.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0056
+2023-06-22,Pwp AMZN Mktp US*893WK7L63,-23.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-22,Pwp AMZN Mktp US*186XW9B73,-23.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-23,Pwp AMZN Mktp US,53.40,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-25,Pwp ZENLEDGER,-149.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2477
+2023-06-25,Pwp COINLEDGER-INC,-99.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5861
+2023-06-26,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9184
+2023-06-26,Pwp QUICKEN INC,-50.33,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3614
+2023-06-26,Pwp Amazon.com*2C22N76Y3,-248.06,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-27,Pwp IPIC* PASADENA,-46.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2149
+2023-06-27,Pwp INTUIT *QBooks Online,-25.50,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5782
+2023-06-27,Pwp Amazon Tips*U72DQ1PQ3,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-28,Pwp BJS RESTAURANTS 423,-294.16,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4374
+2023-06-28,Pwp ZENLEDGER,149.00,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 2477
+2023-06-28,Pwp IPIC* PASADENA,-46.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2149
+2023-06-30,Pwp Amazon.com*111J07DM3,-59.58,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-06-30,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3191
+2023-06-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-06-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-06-30,Pwp SLICE*AMECIPIZZAPASTA,-50.31,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0967
+2023-07-01,Pwp QUICKNODE,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-07-01,Pwp AMZN MKTP US*TI8YW1B50 AM,-70.27,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-01,Pwp AMZN Mktp US*R36A91OT3,-22.02,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-01,Pwp Amazon Tips*TU3SK9NF3,-5.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-02,Pwp Amazon.com*NC0DV5BI3,-73.94,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-02,Pwp AMZN Mktp US*EK1KI78R3,-9.91,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-02,Pwp Amazon.com*7525E76T3,-75.11,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-02,Pwp Amazon.com*OW8J76BZ3,-30.41,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-03,Pwp Amazon.com*AQ23B5RT3,-107.24,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-03,Pwp Amazon.com*HB0LZ7YY3,-106.93,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-03,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 7159
+2023-07-04,Pwp Amazon Tips*5A6FU1ZX3,-5.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-05,Pwp MIDJOURNEY INC.,-60.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0011
+2023-07-05,Pwp AMZN Mktp US*AI8SQ8A13,-21.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-05,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8282
+2023-07-05,Pwp AMZN Mktp US*4D85O4YA3,-10.71,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-08,Pwp AMAZON.COM*WT0YG0ZI3 AMZN,-79.89,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-07-10,Pwp DELAWARE CORP & TAX WEB,-235.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 7826
+2023-07-10,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4768
+2023-07-10,Pwp HEROKU JUN-84091964,-45.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-07-10,Pwp HEROKU JUN-84031442,-53.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-07-10,Pwp HEROKU* JUN-84273862,-13.69,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6174
+2023-07-11,Pwp Spectrum,-94.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0683
+2023-07-12,Pwp GOOGLE*DOMAINS,-14.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-07-14,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0026
+2023-07-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-07-17,Pwp BITRISE LIMITED,-35.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0442
+2023-07-18,Pwp AMAZON.COM*FL3WO4VI3 AMZN,-13.90,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-18,Pwp AMZN Mktp US*CT6PA32O3,-19.15,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-18,Pwp Google Play,-25.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1589
+2023-07-18,Pwp AMZN Mktp US*Y93SO0ZF3,-83.61,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-20,Pwp Amazon.com*A09HW2IP3,-184.14,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-21,Pwp Amazon Tips*JZ85Q5K33,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-22,Pwp ELEVENLABS.IO,-99.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4975
+2023-07-22,"Pwp ECM, A LEGALZOOM CO.",-9.28,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4496
+2023-07-25,Pwp BACTRACK V* TRIAL OVER,-99.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 7390
+2023-07-25,Pwp INTUIT *QBooks Online,-15.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 7774
+2023-07-26,"Pwp GITHUB, INC.",-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-07-26,Pwp SHERWIN WILLIAMS ECOMMER,-58.39,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9821
+2023-07-27,Pwp INTUIT *QBooks Online,-25.50,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5782
+2023-07-30,Pwp GOOGLE*DOMAINS,-36.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-07-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-07-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-07-31,Pwp AMZN Mktp US*TH7ZJ05W2,-16.03,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-31,Pwp AMZN Mktp US*TH9751592,-16.03,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-07-31,Pwp IN *WITHERSPOON INDUSTRIE,-105.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1713
+2023-07-31,Pwp SANTA CLARA VALLEY DIS,-47.80,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9523
+2023-07-31,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3191
+2023-07-31,Pwp SENTRY,-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9649
+2023-08-01,Pwp GOOGLE *CLOUD STBXBW,-0.06,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1589
+2023-08-01,Pwp BROWSERSTACK.COM,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2278
+2023-08-02,Pwp GOOGLE *GoTo Group Inc,-35.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0521
+2023-08-04,Pwp RUNWAYML TEAMS PLAN,-35.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4346
+2023-08-05,Pwp MIDJOURNEY INC.,-60.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0011
+2023-08-05,Pwp QUICKNODE,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-08-05,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8282
+2023-08-05,Pwp Amazon.com*TA5Z47TT0,-204.79,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-08-06,Pwp AMZN Mktp US*TA1R67M62,-9.12,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-08-06,Pwp AMZN Mktp US*TA94R0T91,-15.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-08-07,Pwp Amazon Tips*TA43391P0,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-08-07,Pwp HEROKU* JUL-85214336,-53.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-08-07,Pwp HEROKU* JUL-84550595,-64.87,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6174
+2023-08-07,Pwp HEROKU* JUL-85271463,-45.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-08-08,Pwp Netflix,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-08-09,"Pwp GITHUB, INC.",-0.39,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-08-09,Pwp GOOGLE *KITXOO,-3.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0521
+2023-08-10,Pwp IPIC* PASADENA,-46.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8089
+2023-08-10,Pwp DNH*GODADDY.COM,-17.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-08-10,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4768
+2023-08-11,Pwp AMZN Mktp US*TO8F92T52,-42.89,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-08-11,Pwp GOOGLE*DOMAINS,-14.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-08-11,Pwp GOOGLE *Domains,-12.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0521
+2023-08-12,Pwp GOOGLE *Domains,-430.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6315
+2023-08-12,Pwp Printful Inc. 94402996,-117.52,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4210
+2023-08-12,Pwp IPIC* PASADENA,-46.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8089
+2023-08-13,Pwp GOOGLE*DOMAINS,-40.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-08-14,Pwp GOOGLE *R Vijgen,-2.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0521
+2023-08-14,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0026
+2023-08-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-08-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-08-17,Pwp BITRISE LIMITED,-35.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0442
+2023-08-19,Pwp DNH*GODADDY.COM,-39.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-08-20,Pwp APPLE.COM/BILL,-4.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9201
+2023-08-20,"Pwp GITHUB, INC.",-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-08-20,Pwp FIGMA MONTHLY RENEWAL,-15.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4127
+2023-08-21,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-08-21,Pwp RIVE.APP,-21.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0638
+2023-08-22,Pwp ELEVENLABS.IO,-99.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4975
+2023-08-22,Pwp Audible*TQ42O8VT1,-37.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-08-23,Pwp APPLE.COM/BILL,-3.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9201
+2023-08-23,Pwp APPLE.COM/US,-99.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9201
+2023-08-24,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-08-24,Pwp BITRISE LIMITED,-99.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1121
+2023-08-25,Pwp INTUIT *QBooks Online,-15.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 7774
+2023-08-25,Pwp BITRISE LIMITED,-43.08,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0442
+2023-08-25,Pwp BITRISE LIMITED,-31.08,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0442
+2023-08-27,Pwp Mailchimp,-13.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2854
+2023-08-27,Pwp GOOGLE*DOMAINS,-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-08-27,Pwp INTUIT *QBooks Online,-25.50,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5782
+2023-08-27,Pwp DNH*GODADDY.COM,-39.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-08-27,Pwp FRAMER.COM,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8983
+2023-08-28,Pwp Printful Inc. 95156352,-53.38,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4210
+2023-08-29,Pwp APPLE.COM/BILL,-1.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9201
+2023-08-29,Pwp MIDJOURNEY INC.,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0011
+2023-08-29,Pwp HOTELSCOM7264337737300,-860.18,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8028
+2023-08-30,Pwp CITY OF FILLMORE,-337.13,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1258
+2023-08-30,Pwp CITY OF FILLMORE,-90.57,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1258
+2023-08-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-08-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-08-31,Pwp SENTRY,-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9649
+2023-09-01,Pwp QUICKNODE,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-09-01,"Pwp ECM, A LEGALZOOM CO.",-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4496
+2023-09-01,Pwp GOOGLE *CLOUD 8VLF5X,-0.16,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1589
+2023-09-04,Pwp Amazon.com*TL5EQ9MC0,-120.82,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-04,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-09-05,Pwp MIDJOURNEY INC.,-60.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0011
+2023-09-05,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8282
+2023-09-05,Pwp Amazon Tips*TL7A05782,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-05,Pwp Amazon.com*TL3TN8D20,-90.16,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-07,Pwp Amazon Tips*TL6BU0BO1,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-07,Pwp HEROKU* AUG-86384837,-53.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-09-07,Pwp HEROKU* AUG-86444925,-45.11,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-09-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-09-10,Pwp AMZN Mktp US*TL2RG8WV1,-21.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-10,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4768
+2023-09-11,Pwp GOOGLE*DOMAINS,-14.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-09-12,"Pwp GITHUB, INC.",-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-09-13,Pwp BACTRACK VIEW PLUS,-99.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 7390
+2023-09-14,Pwp DNH*GODADDY.COM,-49.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-09-14,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0026
+2023-09-15,Pwp GOOGLE*DOMAINS,-42.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-09-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-09-19,Pwp Upwork -621531612REF,-21.65,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0489
+2023-09-21,Pwp 4TE*CULLIGAN OF VENTURA C,-235.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1743
+2023-09-21,Pwp SP USWALLDECOR,-193.05,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1683
+2023-09-21,Pwp AMAZON.COM*TX93J5M61,-7.81,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-21,Pwp GOOGLE*DOMAINS,-26.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-09-21,Pwp IN *WITHERSPOON INDUSTRIE,-105.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8743
+2023-09-23,Pwp AMZN Mktp US*T17HL17H2,-355.18,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-24,Pwp ELEVENLABS.IO,-227.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4975
+2023-09-25,Pwp INTUIT *QBooks Online,-15.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 7774
+2023-09-25,Pwp BITRISE LIMITED,-69.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1121
+2023-09-26,Pwp BACTRACK VIEW PLUS,-99.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 7390
+2023-09-27,Pwp AMZN Mktp US*T14SS21S1,-21.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-27,Pwp AMZN Mktp US*T15EV3P01,-64.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-09-27,Pwp FRAMER.COM,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8983
+2023-09-28,Pwp APPLE.COM/BILL,-1.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9201
+2023-09-30,Pwp SENTRY,-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9649
+2023-09-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-09-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-10-01,Pwp QUICKNODE,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-10-01,Pwp Google CLOUD LR3MM9,-0.08,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1589
+2023-10-01,"Pwp ECM, A LEGALZOOM CO.",-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4496
+2023-10-02,Pwp AMZN Mktp US*T95YC8XG0,-227.25,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-02,Pwp AMZN Mktp US*T91VX77M2,-7.39,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-02,Pwp AMZN Mktp US*T90GA8PZ0,-37.52,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-02,Pwp AMZN Mktp US*T93J46P10,-9.64,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-02,Pwp GOOGLE*DOMAINS,-12.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-10-02,Pwp AMZN Mktp US*T91FZ8CZ1,-73.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-02,Pwp Amazon.com*T93LL2O21,-20.25,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-02,Pwp AMZN Mktp US*T99BX1RR2,-10.71,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-02,Pwp AMZN Mktp US*T12AP0Y31,-20.36,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-03,Pwp Amazon.com*T97IW8461,-190.86,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-04,Pwp Amazon.com*T91GU1TP1,-82.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-05,Pwp MIDJOURNEY INC.,-60.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0011
+2023-10-05,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8282
+2023-10-05,Pwp Amazon Tips*T97N51YY0,-5.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-05,Pwp GOOGLE*DOMAINS,-12.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-10-06,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-10-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-10-09,Pwp MICROSOFT#G030031068,-0.13,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5922
+2023-10-09,Pwp HEROKU* SEP-87552403,-53.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-10-09,Pwp HEROKU* SEP-87606231,-45.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0800
+2023-10-09,Pwp HEROKU* AUG-85715649,-58.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6174
+2023-10-09,Pwp HEROKU* SEP-86912300,-66.65,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6174
+2023-10-10,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4768
+2023-10-11,Pwp AMAZON.COM*TE5034Y90,-15.19,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-11,Pwp AMZN Mktp US*TE61U7Y02,-28.90,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-11,Pwp GOOGLE*DOMAINS,-14.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-10-12,"Pwp GITHUB, INC.",-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-10-12,Pwp AMZN Mktp US*TE87P2DD1,-42.89,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-13,Pwp DNH*GODADDY.COM,-20.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-10-13,Pwp AMZN Mktp US*TP1G975G0,-42.35,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-14,Pwp AMZN Mktp US*TP99D41S2,-75.06,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-14,Pwp AMZN Mktp US*TP6PR0HD0,-34.31,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-15,Pwp GOOGLE*DOMAINS,-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-10-15,Pwp DNH*GODADDY.COM,-44.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-10-15,Pwp Amazon.com*TP4ZF33W1,-214.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-16,Pwp AMZN Mktp US*TP1V05JK1,-218.79,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-16,Pwp Amazon.com*TP0YR88L2,-49.11,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-17,Pwp DNH*GODADDY.COM,-54.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-10-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-10-17,Pwp AMZN Mktp US*TD2GJ5NN0,-30.02,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-18,Pwp Amazon.com*TP4VB1HE1,-82.25,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-19,Pwp AMZN MKTP US*ZF4CX2FJ3,-52.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-19,Pwp AMZN MKTP US*TP6NE2KY1,-53.19,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-20,Pwp AMZN MKTP US*5J6ZU92N3,-27.86,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-21,Pwp AMZN Mktp US*TD8E07OZ1,-23.57,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-22,Pwp Amazon.com*HQ9ZQ6BB3,-108.46,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-22,Pwp AMZN Mktp US*LH9577DM3,-96.50,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-22,Pwp AMZN Mktp US*039B58S53,-119.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-22,Pwp AMZN Mktp US*TD82E8NN1,-12.86,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-23,Pwp Amazon Tips*W85BY27M3,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-23,Pwp AMZN Mktp US*Z38I53YS3,-9.64,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-24,Pwp AMZN Mktp US*TL1DU2KM3,-112.61,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-25,Pwp Amazon.com*KT3W39SQ3,-4.28,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-25,Pwp GOOGLE*DOMAINS,-36.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-10-25,Pwp BITRISE LIMITED,-69.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1121
+2023-10-26,Pwp IN *WITHERSPOON INDUSTRIE,-180.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 8743
+2023-10-27,Pwp AMZN Mktp US*JM04C9RP3,-22.30,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-27,Pwp AMZN Mktp US*FF18J5BM3,-6.42,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-27,Pwp AMZN Mktp US*DR25U8BA3,-42.08,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-28,Pwp APPLE.COM/BILL,-1.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9201
+2023-10-30,Pwp GOOGLE*DOMAINS,-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-10-30,Pwp DNH*GODADDY.COM,-64.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-10-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-10-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-10-31,Pwp SENTRY,-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9649
+2023-10-31,Pwp Amazon.com*SZ6P51Y73,-61.20,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-31,Pwp AMZN Mktp US*GA9K22LL3,-64.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-31,Pwp AMZN Mktp US*VV46A2GF3,-14.96,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-10-31,Pwp AMZN MKTP US*KB7182TC3,-5.33,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-01,Pwp QUICKNODE,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-11-01,Pwp AMZN Mktp US*SB21B1K23,-40.50,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-01,Pwp Google CLOUD NBW7J4,-0.37,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1589
+2023-11-01,"Pwp ECM, A LEGALZOOM CO.",-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4496
+2023-11-01,Pwp ELEVENLABS.IO,-99.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4975
+2023-11-02,Pwp AMZN Mktp US,355.18,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-02,Pwp AMZN Mktp US,20.00,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-03,Pwp Amazon web services,-1.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2568
+2023-11-03,Pwp SANTA CLARA VALLEY DIS,-99.38,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9523
+2023-11-05,Pwp MIDJOURNEY INC.,-60.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0011
+2023-11-05,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-11-05,Pwp AMZN MKTP US*TG8EV1J71,-30.66,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-05,Pwp AMZN Mktp US*QY7E58QL3,-31.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-06,Pwp AMZN MKTP US*226Q54UV3,-11.79,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-07,Pwp CITY OF FILLMORE,-116.51,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1258
+2023-11-07,Pwp CITY OF FILLMORE,-338.66,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1258
+2023-11-08,Pwp AMZN Mktp US*XE5PY4BE3,-24.12,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-08,Pwp Netflix.com,-15.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5017
+2023-11-08,Pwp HEROKU* OCT-88114973,-65.85,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6174
+2023-11-09,Pwp Amazon.com*LF8Q91VB3,-129.30,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-09,Pwp Microsoft#G032447564,-1.22,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5922
+2023-11-09,"Pwp OPENROUTER, LLC",-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0460
+2023-11-10,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4768
+2023-11-11,Pwp GOOGLE *Domains,-14.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-11-12,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-11-12,"Pwp GITHUB, INC.",-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-11-13,Pwp AMZN Mktp US*HZ2DK84C3,-13.93,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-13,Pwp AMZN Mktp US*XH2388LI3,-13.93,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-13,Pwp Amazon.com*4Y7RC4CO3,-67.71,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-14,Pwp AMZN Mktp US*5T5GA67U3,-340.86,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-14,Pwp AMZN Mktp US*ZO9EP8G03,-9.22,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-14,Pwp AMZN Mktp US*ZT2CV6JD3,-26.80,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-16,Pwp Amazon.com*326WX13L3,-22.97,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-16,Pwp AMAZON.COM*ZW6KU9A73,-5.67,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-16,Pwp AMZN Mktp US*R68ZM74Z3,-19.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-16,Pwp AMZN Mktp US*H98DZ13V3,-22.47,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-16,Pwp DNH*GODADDY.COM,-76.97,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-11-16,Pwp AMZN Mktp US*N504L6OA3,-77.21,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-16,Pwp Amazon.com*ZU0H52VV3,-34.84,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-16,Pwp AMZN Mktp US*TB6AE9W43,-309.82,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-17,Pwp Amazon.com*M18G728P3,-105.51,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-17,Pwp AMZN Mktp US*DW8CZ5PK3,-10.70,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-11-17,Pwp SP HUMANE,-763.63,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 3677
+2023-11-18,Pwp AMAZON.COM*HK6MG8BC3,-26.54,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-18,Pwp AMAZON.COM*MB12B6ZD3,-58.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-18,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-11-18,Pwp Amazon Tips*FW7GY1XA3,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-20,Pwp AMAZON.COM,58.98,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-21,Pwp AMAZON.COM*ZP9WG8KO3,-48.25,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-21,Pwp TWITTER PAID FEATURES,-6.02,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4768
+2023-11-23,Pwp ELEVENLABS.IO,-282.16,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4975
+2023-11-25,Pwp GOOGLE *Domains,-12.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-11-25,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4888
+2023-11-26,Pwp Amazon.com*UL8SC48T3,-116.90,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-26,Pwp Amazon.com*7G7YQ0W43,-13.22,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-26,Pwp OPENAI,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6497
+2023-11-26,Pwp OPENAI,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6497
+2023-11-26,Pwp Amazon Prime*QZ4193H13,-149.08,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-27,Pwp Amazon.com*RI8RC15P3,-84.20,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-27,Pwp AMZN Mktp US*CS0YO1WI3,-20.45,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-27,Pwp Mailchimp,-13.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2854
+2023-11-28,Pwp AMZN Mktp US*1Z10Y93F3,-48.64,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-28,Pwp APPLE.COM/BILL,-1.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9201
+2023-11-28,Pwp AMZN Mktp US*LB2F872N3,-39.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-11-30,Pwp BITRISE LIMITED,-71.07,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1121
+2023-11-30,Pwp SENTRY,-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9649
+2023-11-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-11-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-11-30,Pwp AMZN Mktp US*RG6K86363,-10.71,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-01,Pwp QUICKNODE,-49.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5262
+2023-12-01,"Pwp ECM, A LEGALZOOM CO.",-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4496
+2023-12-02,Pwp GOOGLE *Warpcast,-12.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0521
+2023-12-02,Pwp Amazon web services,-2.29,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2568
+2023-12-02,Pwp AMAZON.COM*TJ81N1ZA1,-32.18,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-04,Pwp AMAZON.COM*7H4W06HH3,-193.04,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-04,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-12-04,Pwp WASABI TECHNOLOGIES,-6.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6261
+2023-12-05,Pwp MIDJOURNEY INC.,-60.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0011
+2023-12-05,Pwp GOOGLE*DOMAINS,-12.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-12-07,Pwp AMZN Mktp US*W73D48HQ3,-30.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-07,Pwp HEROKU* NOV-89309967,-60.30,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 6174
+2023-12-08,Pwp Amazon.com*KF2EC3AZ3,-214.41,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-09,Pwp Microsoft#G034234210,-2.06,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5922
+2023-12-09,Pwp AMZN MKTP US*7311A40W3,-53.57,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-09,Pwp Amazon Tips*DG5HU17S3,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-10,Pwp Amazon.com*XZ4RS2OO3,-41.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-10,Pwp AMZN MKTP US*KK1AV8863,-99.59,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-10,Pwp AMZN Mktp US*0P2V99H03,-174.81,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-10,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-12-10,Pwp Amazon.com*KT8AA4583,-95.74,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-10,Pwp TWITTER PAID FEATURES,-16.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4768
+2023-12-10,Pwp AMZN Mktp US*VP4IZ3FE3,-185.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-11,Pwp DNH*GODADDY.COM,-26.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-12-11,Pwp GOOGLE*DOMAINS,-14.40,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-12-11,Pwp Amazon Tips*KJ3BH8VX3,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-12,Pwp AMZN MKTP US*9A8K49W53,-22.50,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-12,Pwp Amazon.com*PI21A6DM3,-13.38,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-12,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-12-12,"Pwp GITHUB, INC.",-24.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5755
+2023-12-12,Pwp AMZN Mktp US*YH0JS1SP3,-246.32,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-13,Pwp AMZN Mktp US*6M92V3EN3,-82.22,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-13,Pwp AMZN Mktp US*A16KF0FZ3,-24.66,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-13,Pwp AMZN Mktp US*645JS2S53,-21.34,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-13,Pwp AMZN Mktp US*772P82QQ3,-25.58,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-13,Pwp AMZN MKTP US*X93I44W63,-42.88,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-14,Pwp AMZN Mktp US*LR4GF5WX3,-22.51,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-14,Pwp TARGET.COM  *,-342.19,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0680
+2023-12-14,Pwp TARGET.COM  *,-63.90,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0680
+2023-12-14,Pwp GOOGLE *CLOUD 3K53w9,-0.31,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1589
+2023-12-14,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-12-14,Pwp AMAZON.COM*K014F3EX3,-112.60,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-15,Pwp AMZN Mktp US*J73BK1F03,-47.98,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-15,Pwp TARGET.COM  *,63.90,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0680
+2023-12-15,Pwp TARGET.COM  *,342.19,,Credit,,privacy-com-statement-2023.csv,Privacy.com card ending 0680
+2023-12-15,Pwp AMZN MKTP US*WO0D56ZH3,-21.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-15,Pwp AMZN Mktp US*WC01E1MB3,-214.49,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-16,Pwp AMZN Mktp US*5L3DI2SL3,-49.32,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-16,Pwp Blink,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-17,Pwp DNH*GODADDY.COM,-11.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-12-18,Pwp HEROKU* NOV-89955482,-45.15,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2167
+2023-12-18,Pwp HEROKU* OCT-88826887,-45.09,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2167
+2023-12-18,Pwp AMZN Mktp US*B24CL8LK3,-73.52,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-19,Pwp Amazon.com*XM3QC3TV3,-159.14,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-19,Pwp GOOGLE*DOMAINS,-72.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1193
+2023-12-19,Pwp AMZN Mktp US*417UR1RZ3,-21.44,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-20,Pwp Amazon Tips*I49MB1013,-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-20,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-12-20,Pwp Amazon.com*YH6GD63S3,-138.52,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-21,Pwp AMZN Mktp US*K340B8W13,-39.32,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-22,Pwp ELEVENLABS.IO,-153.47,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4975
+2023-12-22,Pwp Amazon Tips*0V66G4EB3,-7.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
+2023-12-25,"Pwp GITHUB, INC.",-10.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 4888
+2023-12-25,Pwp BITRISE LIMITED,-71.07,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1121
+2023-12-27,Pwp Mailchimp,-13.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 2854
+2023-12-28,Pwp GOOGLE *Spotify,-10.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0521
+2023-12-28,Pwp APPLE.COM/BILL,-1.99,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9201
+2023-12-30,Pwp TWITTER PAID FEATURES,-8.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 5685
+2023-12-30,Pwp CHATGPT SUBSCRIPTION,-20.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0027
+2023-12-31,Pwp SENTRY,-29.00,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 9649
+2023-12-31,Pwp DNH*GODADDY.COM,-22.17,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 1035
+2023-12-31,Pwp Amazon.com*TK3543OW0,-93.64,,Debit,,privacy-com-statement-2023.csv,Privacy.com card ending 0062
