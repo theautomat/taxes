@@ -1,0 +1,27 @@
+Date,Description,Amount,Type,Source,Notes
+2023-01-13,Gusto Pay 563596 230113 6Semjtcndug Kurt Braget,9813.61,Payroll,2023-01-31-wells-fargo.pdf,Final Gusto-processed paycheck; provider transition to Paychex
+2023-01-17,Gusto Pay 576921 230117 6Semjtcrilp Kurt Braget,27238.05,Gusto Transition,2023-01-31-wells-fargo.pdf,Large Gusto payment during provider transition; likely final reimbursement batch
+2023-01-31,"Nft Genius Inc Payroll 00904000000948x Braget, Kurtis M",10781.38,Payroll,2023-01-31-wells-fargo.pdf,First Paychex-processed paycheck
+2023-02-01,Gusto Pay 883835 230201 6Semjtg9Cfl Kurt Braget,1250.00,Gusto Transition,2023-02-28-wells-fargo.pdf,Final Gusto cleanup payment; likely HRA reimbursement
+2023-02-15,"Nft Genius Inc Payroll 01133600043708x Braget, Kurtis M",10670.26,Payroll,2023-02-28-wells-fargo.pdf,
+2023-02-28,"Nft Genius Inc Payroll 01271500002618x Braget, Kurtis M",10670.28,Payroll,2023-02-28-wells-fargo.pdf,
+2023-03-15,"Nft Genius Inc Payroll 01495500016587x Braget, Kurtis M",10670.27,Payroll,2023-03-31-wells-fargo.pdf,
+2023-03-31,"Nft Genius Inc Payroll 01707700004277x Braget, Kurtis M",10670.26,Payroll,2023-03-31-wells-fargo.pdf,
+2023-04-14,"Nft Genius Inc Payroll 01886700012724x Braget, Kurtis M",11187.73,Payroll,2023-04-30-wells-fargo.pdf,Slight increase from Feb-Mar baseline
+2023-04-28,"Nft Genius Inc Payroll 02066100002014x Braget, Kurtis M",21453.60,Payroll,2023-04-30-wells-fargo.pdf,Unusually large; likely includes reimbursement batch
+2023-05-15,"Nft Genius Inc Payroll 02266100003261x Braget, Kurtis M",18124.27,Payroll,2023-05-31-wells-fargo.pdf,Above baseline; likely includes reimbursements
+2023-05-31,"Nft Genius Inc Payroll 02457100002969x Braget, Kurtis M",15471.80,Payroll,2023-05-31-wells-fargo.pdf,Above baseline; likely includes reimbursements
+2023-06-15,"Nft Genius Inc Payroll 02652800000208x Braget, Kurtis M",10945.27,Payroll,2023-06-30-wells-fargo.pdf,Near Feb-Mar baseline
+2023-06-30,"Nft Genius Inc Payroll 02860000010637x Braget, Kurtis M",8040.26,Payroll,2023-06-30-wells-fargo.pdf,First drop below baseline
+2023-07-14,"Nft Genius Inc Payroll 03026600017907x Braget, Kurtis M",11240.26,Payroll,2023-07-31-wells-fargo.pdf,
+2023-07-31,"Nft Genius Inc Payroll 03213800021594x Braget, Kurtis M",9640.26,Payroll,2023-07-31-wells-fargo.pdf,
+2023-08-15,"Nft Genius Inc Payroll 03413000024885x Braget, Kurtis M",2112.33,Payroll,2023-08-31-wells-fargo.pdf,Sharp drop - salary reduction or large deduction change?
+2023-08-31,"Nft Genius Inc Payroll 03704800011793x Braget, Kurtis M",5512.32,Payroll,2023-08-31-wells-fargo.pdf,
+2023-09-15,"Nft Genius Inc Payroll 03909400015676x Braget, Kurtis M",3812.33,Payroll,2023-09-30-wells-fargo.pdf,
+2023-09-29,"Nft Genius Inc Payroll 04093100005674x Braget, Kurtis M",3516.12,Payroll,2023-09-30-wells-fargo.pdf,
+2023-10-13,"Nft Genius Inc Payroll 04263800011893x Braget, Kurtis M",8286.18,Payroll,2023-10-31-wells-fargo.pdf,Bump up; may include reimbursement
+2023-10-31,"Nft Genius Inc Payroll 04471200015664x Braget, Kurtis M",5227.82,Payroll,2023-10-31-wells-fargo.pdf,
+2023-11-15,"Nft Genius Inc Payroll 04670100026836x Braget, Kurtis M",5227.83,Payroll,2023-11-30-wells-fargo.pdf,Stabilized at new level
+2023-11-30,"Nft Genius Inc Payroll 04821800006578x Braget, Kurtis M",5227.82,Payroll,2023-11-30-wells-fargo.pdf,Stabilized at new level
+2023-12-15,"Nft Genius Inc Payroll 05064600004943x Braget, Kurtis M",3507.69,Payroll,2023-12-31-wells-fargo.pdf,Final drop
+2023-12-29,"Nft Genius Inc Payroll 05256600052008x Braget, Kurtis M",3515.09,Payroll,2023-12-31-wells-fargo.pdf,Final paycheck of 2023
