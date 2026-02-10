@@ -1,0 +1,25 @@
+Category,Vendor/Description,Amount,Payment Source,Notes
+Contractor Payments,George (international contractor),8105.31,Mercury,+ wire fees
+Contractor Payments,PARO Marketplace (freelancer platform),3449.60,Mercury,+ fees
+Software & Services,Hosting (Heroku GCloud Wasabi),,Personal (Privacy.com),Part of $6322.18 total
+Software & Services,Developer Tools (Bitrise GitHub Sentry),,Personal (Privacy.com),Part of $6322.18 total
+Software & Services,AI/ML Tools (Midjourney ChatGPT ElevenLabs etc),,Personal (Privacy.com),Part of $6322.18 total
+Software & Services,Domains (GoDaddy Google Domains),,Personal (Privacy.com),Part of $6322.18 total
+Software & Services,Marketing (Twitter/X Mailchimp),,Personal (Privacy.com),Part of $6322.18 total
+Software & Services,Other (Slack Framer QuickNode Upwork WeWork etc),,Personal (Privacy.com),Part of $6322.18 total
+Software & Services,Humane AI Pin refund,-13.95,Personal (Privacy.com),Original $763.63 purchase in 2023
+Software & Services,Software & Services subtotal,6322.18,Personal (Privacy.com),
+Software (may be duplicate),LegalZoom,288.22,Personal (Privacy.com),Verify not double-counted
+Software (may be duplicate),Google Workspace,372.00,Personal (Privacy.com),Verify not double-counted
+Developer Tools,Bitrise (CI/CD),840.00,Mercury,
+AI/ML Services,OpenAI,360.00,Mercury,
+Amazon,Office equipment and supplies,480.81,Personal (Amazon),Electronics for prototyping
+Productivity & Collaboration,Notion,176.00,Mercury,
+Productivity & Collaboration,Google Workspace,72.00,Mercury,
+Productivity & Collaboration,Slack,12.41,Mercury,
+Hosting & Infrastructure,Heroku,259.60,Mercury,
+Hosting & Infrastructure,Google Cloud,1.59,Mercury,
+,,,,
+TOTAL,,20820.62,,
+Mercury subtotal,,13357.41,Mercury,Corporate debit card
+Kurt personal subtotal,,7463.21,Personal,"To be reimbursed ($6,982.40 Privacy.com + $480.81 Amazon)"

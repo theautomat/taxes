@@ -1,0 +1,24 @@
+Year,Date,Client,Amount,Notes
+2024,,KOOP CO. (BlendFi),12100.00,Software development services
+2024,2024-02,Studio Maxima LLC,2500.00,Deposit received
+2024,2024-05,Studio Maxima LLC,-2500.00,Refund issued (difficult client)
+,,2024 Net Revenue,12100.00,
+,,,,
+2025,2025-02-27,Auto Routing,10000.00,Software development
+2025,2025-03-04,Auto Routing,5000.00,Software development
+2025,2025-03-14,Auto Routing,7000.00,Software development
+2025,2025-04-17,Auto Routing,8000.00,Software development
+2025,2025-05-14,Auto Routing,5000.00,Software development
+2025,2025-07-08,Auto Routing,15000.00,Software development
+2025,2025-08-15,1/BLENDFI INC,5000.00,Software development
+2025,2025-08-18,SUO TECH INC,7500.00,Software development
+2025,2025-10-29,1/BLENDFI INC,10000.00,Software development
+2025,2025-11-13,1/BLENDFI INC,5000.00,Software development
+2025,2025-12-01,1/BLENDFI INC,5000.00,Software development
+2025,2025-12-11,1/BLENDFI INC,5000.00,Software development
+,,2025 Client Revenue,87500.00,
+2025,,Stripe payouts,579.78,App revenue
+2025,,Google verification,0.45,Verification deposits
+2025,,Gusto,0.01,Verification
+,,2025 Other Revenue,580.24,
+,,2025 Total Revenue,88080.24,

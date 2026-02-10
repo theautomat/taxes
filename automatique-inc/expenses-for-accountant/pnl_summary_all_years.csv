@@ -1,0 +1,18 @@
+Year,Period,Revenue,Expenses,Net Income (Loss),Cumulative NOL,Notes
+2023,May 7 - Dec 31 (partial),0.00,16815.90,-16815.90,-16815.90,Pre-revenue startup year; all expenses paid personally
+2024,Full Year,12100.00,20820.62,-8720.62,-25536.52,"First revenue ($12,100 from BlendFi); $7,463 personal + $13,357 Mercury"
+2025,Full Year,88080.24,15740.22,72340.02,,"First profitable year; $1,535 personal + $14,206 Mercury"
+,,,,,,
+,TOTALS,100180.24,53376.74,46803.40,,
+,,,,,,
+,C-Corp NOL Application (2025),,,,,"Cumulative NOL of $25,537 offsets 2025 income (80% limit)"
+,2025 Gross Income,,,72340.02,,
+,NOL Deduction (80% limit),,,-25536.52,,min($25537 vs $72340 x 80%)
+,Estimated Taxable Income,,,46803.50,,
+,Estimated Federal Tax (21%),,,9828.74,,
+,,,,,,
+,Kurt Personal Reimbursement,,,,,"Total owed to Kurt for expenses paid personally"
+,2023 Personal Expenses,,,16815.90,,All expenses (no corporate account)
+,2024 Personal Expenses,,,7463.21,,"Privacy.com $6,982.40 + Amazon $480.81"
+,2025 Personal Expenses,,,1534.72,,"Amazon $1,150.72 + Privacy.com $384.00"
+,Total Reimbursement Due,,,25813.83,,Plus IRS AFR interest per Brandon's guidance
