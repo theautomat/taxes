@@ -1,0 +1,89 @@
+# Automatique Inc - 2023 Profit & Loss Statement
+
+**Tax Year:** 2023 (Partial Year: May 7 - December 31, ~8 months)
+**Company:** Automatique, Inc. (Delaware C-Corp)
+**EIN:** 38-4207516
+
+---
+
+## Summary
+
+| | Amount |
+|---|--------|
+| **Total Revenue** | $0.00 |
+| **Total Expenses** | ($16,815.90) |
+| **Net Operating Loss (NOL)** | **($16,815.90)** |
+
+---
+
+## Revenue
+
+| Category | Amount |
+|----------|--------|
+| Client Payments | $0.00 |
+| Product Sales | $0.00 |
+| Other Income | $0.00 |
+| **Total Revenue** | **$0.00** |
+
+---
+
+## Expenses by Category
+
+| Category | Amount | % of Total |
+|----------|--------|------------|
+| **Contractor Payments** | $10,000.00 | 59.5% |
+| Developer Tools & Hosting | $2,411.12 | 14.3% |
+| AI & ML Tools | $2,511.60 | 14.9% |
+| Domains & Marketing | $1,206.42 | 7.2% |
+| Incorporation Costs | $500.00 | 3.0% |
+| Legal Services | $125.28 | 0.7% |
+| Office Equipment | $61.48 | 0.4% |
+| **Total Expenses** | **$16,815.90** | 100% |
+
+### Expense Detail
+
+#### Contractor Payments ($10,000.00)
+- Pablo — app development via Popstand (5 payments of $2,000 via Zelle, Jul-Sep 2023)
+
+#### Developer Tools & Hosting ($2,411.12)
+- GitHub: $259.72
+- Heroku: $1,103.58
+- Sentry: $174.00
+- Bitrise: $523.30
+- QuickNode: $343.00
+- Google Cloud: $0.53
+- Wasabi: $6.99
+
+#### AI & ML Tools ($2,511.60)
+- ChatGPT: $320.00
+- OpenAI API: $20.00
+- Midjourney: $428.00
+- ElevenLabs: $959.97
+- Humane AI Pin: $763.63
+- OpenRouter: $20.00
+
+#### Domains & Marketing ($1,206.42)
+- Google Domains: $1,035.40
+- Twitter/X API: $132.02
+- Mailchimp: $39.00
+
+#### Incorporation Costs ($500.00)
+- Stripe Atlas: $500.00
+
+#### Legal Services ($125.28)
+- LegalZoom (registered agent): $125.28
+
+#### Office Equipment ($61.48)
+- USB C SD Card Reader, USB C Charger, S23 Ultra Stylus Pen (Amazon)
+
+---
+
+## Payment Source Note
+
+**All 2023 expenses were paid from Kurt Braget's personal accounts** (Wells Fargo checking, Privacy.com virtual cards, Amazon). The company had no corporate bank account until 2024.
+
+Per Brandon's guidance, a payable should be recorded in 2023, with IRS AFR interest added when reimbursed.
+
+---
+
+*Generated: 2026-02-07*

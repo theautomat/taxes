@@ -1,20 +1,38 @@
-Subject: Automatique Inc - Complete Business Expenses (2023-2025)
+Subject: Automatique Inc - Complete Financial Package (2023-2025)
 
 Hi Brandon,
 
-Attached is the complete expense package for Automatique Inc covering 2023, 2024, and 2025.
+Here's the complete financial package for Automatique Inc covering 2023, 2024, and 2025.
 
-Summary:
+EXPENSE SUMMARY:
 - 2023: $16,815.90 (all paid personally - pre-Mercury)
 - 2024: $20,820.62 ($7,463.21 personal + $13,357.41 Mercury)
 - 2025: $15,740.22 ($1,534.72 personal + $14,205.50 Mercury)
 - Total: $53,376.74
 
-The zip contains a main summary and itemized breakdowns for each year. Start with ACCOUNTANT_SUMMARY_JAN2026.txt -- it has the full picture plus a few questions for you at the bottom, including:
+P&L SUMMARY:
+- 2023: $0 revenue, ($16,815.90) NOL (partial year, May-Dec)
+- 2024: $12,100 revenue, ($8,721) NOL
+- 2025: $88,080 revenue, $72,340 net income (first profitable year)
+- Cumulative NOL entering 2025: ($25,537)
 
-1. Reimbursement procedure for $25,813.83 in personal expenses
-2. 1099/W-8BEN requirements for our contractors (George, Pablo, Sound Strats)
-3. Whether $114.95 in pre-incorporation purchases qualify as startup costs
+WHAT'S INCLUDED:
+1. ACCOUNTANT_SUMMARY_JAN2026.txt - Master expense summary with questions
+2. 2023_PNL_SUMMARY.md - 2023 P&L (partial year)
+3. 2024_PNL_SUMMARY.md - 2024 P&L
+4. 2025_PNL_SUMMARY.md - 2025 P&L with NOL carryforward analysis
+5. LOAN_AGREEMENT_RAMI_ELHAJ.md - Promissory note for $20k loan from Rami Elhaj (June 2024, 5.12% AFR, repayment Feb-Sep 2026)
+6. kurt-personal-expenses/ - Itemized personal expense breakdowns by year
+7. mercury-corporate-expenses/ - Mercury corporate card expenses (2024-2025)
+
+KEY QUESTIONS FOR YOU:
+1. C-Corp vs S-Corp election - should we file retroactive S-Corp? NOLs would pass through at ~45% vs being trapped at 21%
+2. Reimbursement procedure for $25,813.83 in personal expenses (2023-2025)
+3. 1099/W-8BEN requirements for contractors (Pablo $10k, George $8k intl, Sound Strats $2k)
+4. Delaware franchise tax status for 2023/2024 - any penalties?
+5. CA minimum franchise tax ($800/year) - also overdue
+6. Rami's $20k loan agreement - please review terms and confirm proper treatment
+7. Pre-incorporation expenses ($114.95) - deductible as startup costs?
 
 Let me know if you need the underlying bank statements or transaction CSVs.
 
