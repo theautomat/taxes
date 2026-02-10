@@ -1,212 +1,317 @@
-# PROMISSORY NOTE AND LOAN AGREEMENT
+================================================================================
+PROMISSORY NOTE AND LOAN AGREEMENT
+================================================================================
 
-*Draft for review - not yet signed*
+Draft for review - not yet signed
 
-This Promissory Note and Loan Agreement ("Agreement") is entered into as of January 30, 2026 ("Effective Date").
+This Promissory Note and Loan Agreement ("Agreement") is entered into as of
+January 30, 2026 ("Effective Date").
 
-## BETWEEN:
 
-**BORROWER:** Automatique Inc, a Delaware C-Corporation
+BETWEEN:
+
+BORROWER: Automatique Inc, a Delaware C-Corporation
 Represented by: Kurt Braget, Chief Executive Officer ("Company" or "Borrower")
 
-**AND:**
+AND:
 
-**LENDER:** Rami Elhaj ("Lender")
+LENDER: Rami Elhaj ("Lender")
 
 Collectively referred to as the "Parties."
 
----
 
-## RECITALS
+================================================================================
+RECITALS
+================================================================================
 
-WHEREAS, on or about June 14, 2024, the Lender provided funds to the Borrower in the amount of Twenty Thousand Dollars ($20,000.00 USD) as a loan for the purpose of operating capital to support business operations; and
+WHEREAS, on or about June 14, 2024, the Lender provided funds to the Borrower
+in the amount of Twenty Thousand Dollars ($20,000.00 USD) as a loan for the
+purpose of operating capital to support business operations; and
 
-WHEREAS, at the time of funding, the Parties entered into an oral agreement whereby the Borrower agreed to repay the full amount of the loan to the Lender, and the Parties at all times intended and understood the transfer of funds to constitute a bona fide loan and not a gift, capital contribution, or equity investment; and
+WHEREAS, at the time of funding, the Parties entered into an oral agreement
+whereby the Borrower agreed to repay the full amount of the loan to the Lender,
+and the Parties at all times intended and understood the transfer of funds to
+constitute a bona fide loan and not a gift, capital contribution, or equity
+investment; and
 
-WHEREAS, the delay in reducing the oral agreement to writing was due to the Parties' focus on business operations and does not reflect any uncertainty regarding the nature of the transaction as a bona fide loan; and
+WHEREAS, the delay in reducing the oral agreement to writing was due to the
+Parties' focus on business operations and does not reflect any uncertainty
+regarding the nature of the transaction as a bona fide loan; and
 
-WHEREAS, the Parties now wish to reduce their oral agreement to writing, memorialize the terms of this loan, and establish a formal repayment schedule;
+WHEREAS, the Parties now wish to reduce their oral agreement to writing,
+memorialize the terms of this loan, and establish a formal repayment schedule;
 
-NOW, THEREFORE, in consideration of the mutual covenants and agreements set forth herein, the Parties agree as follows:
+NOW, THEREFORE, in consideration of the mutual covenants and agreements set
+forth herein, the Parties agree as follows:
 
----
 
-## ARTICLE 1: LOAN TERMS
+================================================================================
+ARTICLE 1: LOAN TERMS
+================================================================================
 
-### 1.1 PRINCIPAL AMOUNT
+1.1 PRINCIPAL AMOUNT
 The principal amount of this loan is Twenty Thousand Dollars ($20,000.00 USD).
 
-### 1.2 DATE OF FUNDING
-The Lender transferred the principal amount to the Borrower on June 14, 2024, via wire transfer to the Company's Mercury business checking account.
+1.2 DATE OF FUNDING
+The Lender transferred the principal amount to the Borrower on June 14, 2024,
+via wire transfer to the Company's Mercury business checking account.
 
-### 1.3 PURPOSE OF LOAN
-The loan was made for the express purpose of providing operating capital to support the Company's business operations, including but not limited to software development, contractor payments, hosting, and general operational expenses.
+1.3 PURPOSE OF LOAN
+The loan was made for the express purpose of providing operating capital to
+support the Company's business operations, including but not limited to software
+development, contractor payments, hosting, and general operational expenses.
 
-### 1.4 ACKNOWLEDGMENT OF RECEIPT
-The Borrower acknowledges receipt of the full principal amount on the Date of Funding specified above.
+1.4 ACKNOWLEDGMENT OF RECEIPT
+The Borrower acknowledges receipt of the full principal amount on the Date of
+Funding specified above.
 
----
 
-## ARTICLE 2: REPAYMENT TERMS
+================================================================================
+ARTICLE 2: REPAYMENT TERMS
+================================================================================
 
-### 2.1 REPAYMENT SCHEDULE
-The Borrower agrees to repay the principal amount in eight (8) equal monthly installments of Two Thousand Five Hundred Dollars ($2,500.00 USD) each, plus accrued interest and a share of the Accrued Gap Interest (as defined in Section 3.1), according to the following schedule:
+2.1 REPAYMENT SCHEDULE
+The Borrower agrees to repay the principal amount in eight (8) equal monthly
+installments of Two Thousand Five Hundred Dollars ($2,500.00 USD) each, plus
+accrued interest and a share of the Accrued Gap Interest (as defined in Section
+3.1), according to the following schedule:
 
-| Payment # | Due Date | Principal | Repayment Interest | Gap Interest Share | Total Payment |
-|-----------|----------|-----------|-------------------|-------------------|---------------|
-| 1 | February 28, 2026 | $2,500.00 | $78.68 | $209.00 | $2,787.68 |
-| 2 | March 31, 2026 | $2,500.00 | $76.10 | $209.00 | $2,785.10 |
-| 3 | April 30, 2026 | $2,500.00 | $63.12 | $209.00 | $2,772.12 |
-| 4 | May 31, 2026 | $2,500.00 | $54.36 | $209.00 | $2,763.36 |
-| 5 | June 30, 2026 | $2,500.00 | $42.08 | $209.00 | $2,751.08 |
-| 6 | July 31, 2026 | $2,500.00 | $32.61 | $209.00 | $2,741.61 |
-| 7 | August 31, 2026 | $2,500.00 | $21.75 | $209.00 | $2,730.75 |
-| 8 | September 30, 2026 | $2,500.00 | $10.52 | $209.00 | $2,719.52 |
-| | **TOTAL** | **$20,000.00** | **$379.22** | **$1,672.00** | **$22,051.22** |
+  Pmt#  Due Date            Principal    Repay Int.  Gap Int.    Total
+  ----  ------------------  ----------   ----------  ---------   ----------
+  1     February 28, 2026   $2,500.00    $78.68      $209.00     $2,787.68
+  2     March 31, 2026      $2,500.00    $76.10      $209.00     $2,785.10
+  3     April 30, 2026      $2,500.00    $63.12      $209.00     $2,772.12
+  4     May 31, 2026        $2,500.00    $54.36      $209.00     $2,763.36
+  5     June 30, 2026       $2,500.00    $42.08      $209.00     $2,751.08
+  6     July 31, 2026       $2,500.00    $32.61      $209.00     $2,741.61
+  7     August 31, 2026     $2,500.00    $21.75      $209.00     $2,730.75
+  8     September 30, 2026  $2,500.00    $10.52      $209.00     $2,719.52
+        TOTAL               $20,000.00   $379.22     $1,672.00   $22,051.22
 
-Note: Total interest over the life of the loan is estimated at approximately $2,051.22 ($1,672.00 Accrued Gap Interest from the Date of Funding through the Effective Date, plus approximately $379.22 in repayment-period interest on the declining principal balance). Total estimated payments are approximately $22,051.22.
+Note: Total interest over the life of the loan is estimated at approximately
+$2,051.22 ($1,672.00 Accrued Gap Interest from the Date of Funding through the
+Effective Date, plus approximately $379.22 in repayment-period interest on the
+declining principal balance). Total estimated payments are approximately
+$22,051.22.
 
-### 2.2 UNCONDITIONAL OBLIGATION
-The Borrower's obligation to repay the principal and any accrued interest is absolute and unconditional, regardless of the Company's profitability or financial condition.
+2.2 UNCONDITIONAL OBLIGATION
+The Borrower's obligation to repay the principal and any accrued interest is
+absolute and unconditional, regardless of the Company's profitability or
+financial condition.
 
-### 2.3 PAYMENT METHOD
-Payments shall be made via wire transfer to an account designated by the Lender. The Parties may agree in writing to an alternative payment method.
+2.3 PAYMENT METHOD
+Payments shall be made via wire transfer to an account designated by the Lender.
+The Parties may agree in writing to an alternative payment method.
 
-### 2.4 PREPAYMENT
-The Borrower may prepay any portion of the outstanding principal at any time without penalty.
+2.4 PREPAYMENT
+The Borrower may prepay any portion of the outstanding principal at any time
+without penalty.
 
----
 
-## ARTICLE 3: INTEREST
+================================================================================
+ARTICLE 3: INTEREST
+================================================================================
 
-### 3.1 INTEREST RATE
-This loan shall bear simple interest at a rate of Five and 12/100 Percent (5.12%) per annum, which is equal to the short-term Applicable Federal Rate ("AFR") as published by the Internal Revenue Service for the month of June 2024 (the month in which the loan was funded) (see IRS Revenue Ruling 2024-12). Interest shall accrue on the outstanding principal balance from the Date of Funding (June 14, 2024) until the principal is repaid in full.
+3.1 INTEREST RATE
+This loan shall bear simple interest at a rate of Five and 12/100 Percent
+(5.12%) per annum, which is equal to the short-term Applicable Federal Rate
+("AFR") as published by the Internal Revenue Service for the month of June 2024
+(the month in which the loan was funded) (see IRS Revenue Ruling 2024-12).
+Interest shall accrue on the outstanding principal balance from the Date of
+Funding (June 14, 2024) until the principal is repaid in full.
 
-Interest accrued but unpaid during the period from June 14, 2024 through January 30, 2026 ("Accrued Gap Interest") totals approximately $1,672.00 and is included in the repayment schedule set forth in Section 2.1.
+Interest accrued but unpaid during the period from June 14, 2024 through
+January 30, 2026 ("Accrued Gap Interest") totals approximately $1,672.00 and
+is included in the repayment schedule set forth in Section 2.1.
 
-### 3.2 INTEREST CALCULATION
-Interest shall accrue on the outstanding principal balance using simple interest. Interest shall be calculated as follows:
+3.2 INTEREST CALCULATION
+Interest shall accrue on the outstanding principal balance using simple interest.
+Interest shall be calculated as follows:
 
-Daily Interest = (Outstanding Principal Balance) x (5.12% / 365)
+  Daily Interest = (Outstanding Principal Balance) x (5.12% / 365)
 
 Unpaid interest shall not itself bear interest. No compounding shall apply.
 
-### 3.3 INTEREST PAYMENT
-Accrued interest shall be due and payable monthly along with each scheduled principal payment set forth in Section 2.1. Each monthly payment shall consist of the principal installment of $2,500.00, plus accrued repayment-period interest for that period, plus a pro rata share of the Accrued Gap Interest.
+3.3 INTEREST PAYMENT
+Accrued interest shall be due and payable monthly along with each scheduled
+principal payment set forth in Section 2.1. Each monthly payment shall consist
+of the principal installment of $2,500.00, plus accrued repayment-period
+interest for that period, plus a pro rata share of the Accrued Gap Interest.
 
-### 3.4 DEFAULT INTEREST RATE
-Upon the occurrence of an Event of Default as defined in Section 4.1, the interest rate on any outstanding balance shall increase to Ten Percent (10%) per annum, effective from the date of default until the default is cured or the loan is repaid in full.
+3.4 DEFAULT INTEREST RATE
+Upon the occurrence of an Event of Default as defined in Section 4.1, the
+interest rate on any outstanding balance shall increase to Ten Percent (10%)
+per annum, effective from the date of default until the default is cured or
+the loan is repaid in full.
 
----
 
-## ARTICLE 4: DEFAULT
+================================================================================
+ARTICLE 4: DEFAULT
+================================================================================
 
-### 4.1 EVENTS OF DEFAULT
+4.1 EVENTS OF DEFAULT
 The following shall constitute Events of Default under this Agreement:
 
-(a) Failure to make any scheduled payment within thirty (30) days of its due date;
+(a) Failure to make any scheduled payment within thirty (30) days of its
+    due date;
 
-(b) The Borrower files for bankruptcy, becomes insolvent, or makes an assignment for the benefit of creditors;
+(b) The Borrower files for bankruptcy, becomes insolvent, or makes an
+    assignment for the benefit of creditors;
 
 (c) The Borrower ceases business operations;
 
 (d) Any other material breach of this Agreement.
 
-### 4.2 REMEDIES UPON DEFAULT
+4.2 REMEDIES UPON DEFAULT
 Upon an Event of Default, the Lender may, at their option:
 
-(a) Declare the entire unpaid principal balance, plus any accrued interest, immediately due and payable;
+(a) Declare the entire unpaid principal balance, plus any accrued interest,
+    immediately due and payable;
 
 (b) Pursue any legal remedies available under applicable law.
 
-### 4.3 CURE PERIOD
-For any Event of Default under Section 4.1(d), the Borrower shall have thirty (30) days from written notice of default to cure the breach before the Lender may exercise remedies under Section 4.2. Payment defaults under Section 4.1(a) have a single thirty (30) day grace period built into the definition and are not subject to an additional cure period.
+4.3 CURE PERIOD
+For any Event of Default under Section 4.1(d), the Borrower shall have thirty
+(30) days from written notice of default to cure the breach before the Lender
+may exercise remedies under Section 4.2. Payment defaults under Section 4.1(a)
+have a single thirty (30) day grace period built into the definition and are
+not subject to an additional cure period.
 
----
 
-## ARTICLE 5: REPRESENTATIONS AND WARRANTIES
+================================================================================
+ARTICLE 5: REPRESENTATIONS AND WARRANTIES
+================================================================================
 
-### 5.1 BORROWER REPRESENTATIONS
+5.1 BORROWER REPRESENTATIONS
 The Borrower represents and warrants that:
 
-(a) Automatique Inc is a corporation duly organized and in good standing under the laws of the State of Delaware;
+(a) Automatique Inc is a corporation duly organized and in good standing under
+    the laws of the State of Delaware;
 
-(b) Kurt Braget, as sole director and sole stockholder of the Company, is authorized to execute this Agreement on behalf of the Company, and a written consent of the sole director authorizing this Agreement is attached hereto as Exhibit B;
+(b) Kurt Braget, as sole director and sole stockholder of the Company, is
+    authorized to execute this Agreement on behalf of the Company, and a
+    written consent of the sole director authorizing this Agreement is attached
+    hereto as Exhibit B;
 
 (c) This Agreement constitutes a valid and binding obligation of the Borrower;
 
-(d) The funds were used for legitimate business purposes as described in Section 1.3.
+(d) The funds were used for legitimate business purposes as described in
+    Section 1.3.
 
-### 5.2 LENDER REPRESENTATIONS
+5.2 LENDER REPRESENTATIONS
 The Lender represents and warrants that:
 
 (a) The Lender has the legal capacity to enter into this Agreement;
 
-(b) The funds provided were the Lender's own funds and were not borrowed from any third party for the purpose of making this loan.
+(b) The funds provided were the Lender's own funds and were not borrowed from
+    any third party for the purpose of making this loan.
 
----
 
-## ARTICLE 6: GENERAL PROVISIONS
+================================================================================
+ARTICLE 6: GENERAL PROVISIONS
+================================================================================
 
-### 6.1 ENTIRE AGREEMENT
-This Agreement constitutes the entire agreement between the Parties concerning the subject matter hereof. This Agreement memorializes and supersedes the oral agreement referenced in the Recitals, and supersedes all other prior negotiations, representations, warranties, and agreements between the Parties concerning the subject matter hereof.
+6.1 ENTIRE AGREEMENT
+This Agreement constitutes the entire agreement between the Parties concerning
+the subject matter hereof. This Agreement memorializes and supersedes the oral
+agreement referenced in the Recitals, and supersedes all other prior
+negotiations, representations, warranties, and agreements between the Parties
+concerning the subject matter hereof.
 
-### 6.2 AMENDMENTS
-This Agreement may not be amended or modified except by a written instrument signed by both Parties.
+6.2 AMENDMENTS
+This Agreement may not be amended or modified except by a written instrument
+signed by both Parties.
 
-### 6.3 GOVERNING LAW
-This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles.
+6.3 GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws
+of the State of Delaware, without regard to its conflict of laws principles.
 
-### 6.4 SEVERABILITY
-If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+6.4 SEVERABILITY
+If any provision of this Agreement is held to be invalid or unenforceable, the
+remaining provisions shall continue in full force and effect.
 
-### 6.5 NOTICES
-All notices under this Agreement shall be in writing and shall be deemed delivered when sent via email to the addresses provided by each Party, or when delivered personally or by certified mail.
+6.5 NOTICES
+All notices under this Agreement shall be in writing and shall be deemed
+delivered when sent via email to the addresses provided by each Party, or when
+delivered personally or by certified mail.
 
-### 6.6 WAIVER
-The failure of either Party to enforce any provision of this Agreement shall not constitute a waiver of that Party's right to enforce that provision or any other provision in the future.
+6.6 WAIVER
+The failure of either Party to enforce any provision of this Agreement shall not
+constitute a waiver of that Party's right to enforce that provision or any other
+provision in the future.
 
-### 6.7 ASSIGNMENT
-Neither Party may assign, transfer, or sell this Agreement or any rights or obligations hereunder to any third party. This Agreement is solely between the Parties and shall not be transferable.
+6.7 ASSIGNMENT
+Neither Party may assign, transfer, or sell this Agreement or any rights or
+obligations hereunder to any third party. This Agreement is solely between the
+Parties and shall not be transferable.
 
-### 6.8 NO EQUITY OR OWNERSHIP INTEREST
-This Agreement creates a debtor-creditor relationship only. The Lender shall have no equity interest, ownership stake, or voting rights in the Borrower by virtue of this loan. This is a debt obligation, not an equity investment.
+6.8 NO EQUITY OR OWNERSHIP INTEREST
+This Agreement creates a debtor-creditor relationship only. The Lender shall
+have no equity interest, ownership stake, or voting rights in the Borrower by
+virtue of this loan. This is a debt obligation, not an equity investment.
 
-### 6.9 NO PERSONAL GUARANTEE
-This loan is made solely to Automatique Inc, a Delaware corporation, and not to any individual personally. The Lender's recourse for repayment is limited exclusively to the assets of Automatique Inc. Under no circumstances shall Kurt Braget or any other officer, director, or shareholder of the Company be personally liable for the repayment of this loan or any obligations arising under this Agreement.
+6.9 NO PERSONAL GUARANTEE
+This loan is made solely to Automatique Inc, a Delaware corporation. The
+Lender's recourse for repayment is limited exclusively to the assets of
+Automatique Inc. Under no circumstances shall Kurt Braget or any other officer,
+director, or shareholder of the Company be personally liable for the repayment
+of this loan or any obligations arising under this Agreement.
 
-### 6.10 ATTORNEYS' FEES
-In the event of any dispute arising out of or relating to this Agreement, the prevailing party shall be entitled to recover its reasonable attorneys' fees and costs from the non-prevailing party.
+6.10 ATTORNEYS' FEES
+In the event of any dispute arising out of or relating to this Agreement, the
+prevailing party shall be entitled to recover its reasonable attorneys' fees
+and costs from the non-prevailing party.
 
-### 6.11 FORUM SELECTION
-Any dispute arising out of or relating to this Agreement shall be resolved exclusively in the state or federal courts located in the State of Delaware. Both Parties consent to the personal jurisdiction of such courts.
+6.11 FORUM SELECTION
+Any dispute arising out of or relating to this Agreement shall be resolved
+exclusively in the state or federal courts located in the State of Delaware.
+Both Parties consent to the personal jurisdiction of such courts.
 
-### 6.12 SUCCESSORS AND HEIRS
-This Agreement and the obligations hereunder shall be binding upon and inure to the benefit of the Parties and their respective heirs, executors, administrators, legal representatives, successors, and assigns. In the event of the death or incapacity of the Lender, the Borrower's repayment obligations shall continue and become payable to the Lender's estate or designated heirs.
+6.12 SUCCESSORS AND HEIRS
+This Agreement and the obligations hereunder shall be binding upon and inure to
+the benefit of the Parties and their respective heirs, executors,
+administrators, legal representatives, successors, and assigns. In the event
+of the death or incapacity of the Lender, the Borrower's repayment obligations
+shall continue and become payable to the Lender's estate or designated heirs.
 
-### 6.13 COUNTERPARTS
-This Agreement may be executed in counterparts, each of which shall be deemed an original, and all of which together shall constitute one and the same instrument.
+6.13 COUNTERPARTS
+This Agreement may be executed in counterparts, each of which shall be deemed
+an original, and all of which together shall constitute one and the same
+instrument.
 
----
 
-## ARTICLE 7: TAX ACKNOWLEDGMENTS
+================================================================================
+ARTICLE 7: TAX ACKNOWLEDGMENTS
+================================================================================
 
-### 7.1 ARM'S LENGTH TRANSACTION
-The Parties acknowledge that this loan was made at arm's length and the terms herein reflect a bona fide debtor-creditor relationship. The interest rate equals the Applicable Federal Rate published by the IRS for the month of funding, and the repayment terms are commercially reasonable.
+7.1 ARM'S LENGTH TRANSACTION
+The Parties acknowledge that this loan was made at arm's length and the terms
+herein reflect a bona fide debtor-creditor relationship. The interest rate
+equals the Applicable Federal Rate published by the IRS for the month of
+funding, and the repayment terms are commercially reasonable.
 
-### 7.2 TAX REPORTING
-Each Party is responsible for their own tax reporting obligations arising from this Agreement. The Borrower may deduct interest payments as a business expense to the extent permitted by law. The Lender is responsible for reporting any interest income received. If total interest paid to the Lender exceeds $10 in any calendar year, the Borrower shall file Form 1099-INT reporting the interest paid.
+7.2 TAX REPORTING
+Each Party is responsible for their own tax reporting obligations arising from
+this Agreement. The Borrower may deduct interest payments as a business expense
+to the extent permitted by law. The Lender is responsible for reporting any
+interest income received. If total interest paid to the Lender exceeds $10 in
+any calendar year, the Borrower shall file Form 1099-INT reporting the interest
+paid.
 
-### 7.3 DOCUMENTATION
-The Parties agree to maintain adequate records and documentation of all payments made under this Agreement for tax and accounting purposes.
+7.3 DOCUMENTATION
+The Parties agree to maintain adequate records and documentation of all payments
+made under this Agreement for tax and accounting purposes.
 
----
 
-## SIGNATURES
+================================================================================
+SIGNATURES
+================================================================================
 
-IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date first written above.
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective
+Date first written above.
 
-**BORROWER:**
+
+BORROWER:
 
 Automatique Inc
 
@@ -214,12 +319,13 @@ _____________________________________________
 
 By: Kurt Braget
 Title: Chief Executive Officer
-(Signing solely as authorized representative of Automatique Inc, not in any individual or personal capacity)
+(Signing solely as authorized representative of Automatique Inc, not in any
+individual or personal capacity)
 
 Date: _______________________________________
 
 
-**LENDER:**
+LENDER:
 
 _____________________________________________
 
@@ -227,34 +333,51 @@ Rami Elhaj
 
 Date: _______________________________________
 
----
 
-## EXHIBIT A: WIRE TRANSFER CONFIRMATION
+================================================================================
+EXHIBIT A: WIRE TRANSFER CONFIRMATION
+================================================================================
 
 The following confirms receipt of the loan principal:
 
-| Field | Detail |
-|-------|--------|
-| Date | June 14, 2024 |
-| Amount | $20,000.00 USD |
-| From | RAMI A ELHAJ |
-| To | Automatique Inc (Mercury Business Checking) |
-| Type | Wire Transfer |
+  Field:    Date
+  Detail:   June 14, 2024
 
-Note: This wire transfer, provided as a loan for operating capital, is documented pursuant to this Agreement.
+  Field:    Amount
+  Detail:   $20,000.00 USD
 
----
+  Field:    From
+  Detail:   RAMI A ELHAJ
 
-## EXHIBIT B: WRITTEN CONSENT OF SOLE DIRECTOR
+  Field:    To
+  Detail:   Automatique Inc (Mercury Business Checking)
 
-### WRITTEN CONSENT OF THE SOLE DIRECTOR OF AUTOMATIQUE INC.
-*(A Delaware Corporation)*
+  Field:    Type
+  Detail:   Wire Transfer
 
-In lieu of a formal meeting of the Board of Directors, the undersigned, being the sole director of Automatique Inc., hereby consents to and adopts the following resolution:
+Note: This wire transfer, provided as a loan for operating capital, is
+documented pursuant to this Agreement.
 
-**RESOLVED**, that the Corporation is authorized to enter into that certain Promissory Note and Loan Agreement dated January 30, 2026, with Rami Elhaj, in the principal amount of Twenty Thousand Dollars ($20,000.00 USD), and that Kurt Braget, as Chief Executive Officer, is authorized to execute the Agreement and any related documents on behalf of the Corporation.
 
-This consent shall be filed with the minutes of proceedings of the Board of Directors of the Corporation.
+================================================================================
+EXHIBIT B: WRITTEN CONSENT OF SOLE DIRECTOR
+================================================================================
+
+WRITTEN CONSENT OF THE SOLE DIRECTOR OF AUTOMATIQUE INC.
+(A Delaware Corporation)
+
+In lieu of a formal meeting of the Board of Directors, the undersigned, being
+the sole director of Automatique Inc., hereby consents to and adopts the
+following resolution:
+
+RESOLVED, that the Corporation is authorized to enter into that certain
+Promissory Note and Loan Agreement dated January 30, 2026, with Rami Elhaj,
+in the principal amount of Twenty Thousand Dollars ($20,000.00 USD), and that
+Kurt Braget, as Chief Executive Officer, is authorized to execute the Agreement
+and any related documents on behalf of the Corporation.
+
+This consent shall be filed with the minutes of proceedings of the Board of
+Directors of the Corporation.
 
 _____________________________________________
 
